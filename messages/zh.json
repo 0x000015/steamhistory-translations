@@ -81,7 +81,9 @@
       ],
       "match": {
         "cp=one": "{count}天",
-        "cp=other": "{count}天"
+        "cp=other": "{count}天",
+        "cp=few": "{count}天",
+        "cp=many": "{count}天"
       }
     }
   ],
@@ -116,7 +118,9 @@
       ],
       "match": {
         "cp=one": "{count} ban, {timeAgo} ( {timestamp} )",
-        "cp=other": "{count}禁止， {timeAgo} ( {timestamp} )"
+        "cp=other": "{count}禁止， {timeAgo} ( {timestamp} )",
+        "cp=few": "{count}禁止， {timeAgo} ( {timestamp} )",
+        "cp=many": "{count}禁止， {timeAgo} ( {timestamp} )"
       }
     }
   ],
@@ -131,7 +135,9 @@
       ],
       "match": {
         "cp=one": "{count}禁令",
-        "cp=other": "{count}禁止"
+        "cp=other": "{count}禁止",
+        "cp=few": "{count}禁止",
+        "cp=many": "{count}禁止"
       }
     }
   ],
@@ -150,7 +156,9 @@
       ],
       "match": {
         "cp=one": "{count}禁令",
-        "cp=other": "{count}禁止"
+        "cp=other": "{count}禁止",
+        "cp=few": "{count}禁止",
+        "cp=many": "{count}禁止"
       }
     }
   ],
@@ -167,7 +175,9 @@
       ],
       "match": {
         "cp=one": "{count} ban, {timeAgo} ( {timestamp} )",
-        "cp=other": "{count}禁止， {timeAgo} ( {timestamp} )"
+        "cp=other": "{count}禁止， {timeAgo} ( {timestamp} )",
+        "cp=few": "{count}禁止， {timeAgo} ( {timestamp} )",
+        "cp=many": "{count}禁止， {timeAgo} ( {timestamp} )"
       }
     }
   ],
@@ -182,7 +192,9 @@
       ],
       "match": {
         "cp=one": "{count}禁令",
-        "cp=other": "{count}禁止"
+        "cp=other": "{count}禁止",
+        "cp=few": "{count}禁止",
+        "cp=many": "{count}禁止"
       }
     }
   ],
@@ -253,7 +265,9 @@
       ],
       "match": {
         "cp=one": "找到{count} ”结果",
-        "cp=other": "找到 ' {count} ' 个结果"
+        "cp=other": "找到 ' {count} ' 个结果",
+        "cp=few": "找到 ' {count} ' 个结果",
+        "cp=many": "找到 ' {count} ' 个结果"
       }
     }
   ],
@@ -287,7 +301,9 @@
       ],
       "match": {
         "cp=one": "找到{count}结果（ {time}毫秒）",
-        "cp=other": "找到{count}个结果（ {time}毫秒）"
+        "cp=other": "找到{count}个结果（ {time}毫秒）",
+        "cp=few": "找到{count}个结果（ {time}毫秒）",
+        "cp=many": "找到{count}个结果（ {time}毫秒）"
       }
     }
   ],
@@ -358,7 +374,9 @@
       ],
       "match": {
         "cp=one": "显示{count}已删除的评论",
-        "cp=other": "显示{count}已删除的评论"
+        "cp=other": "显示{count}已删除的评论",
+        "cp=few": "显示{count}已删除的评论",
+        "cp=many": "显示{count}已删除的评论"
       }
     }
   ],
@@ -379,7 +397,9 @@
       ],
       "match": {
         "cp=one": "朋友{count}",
-        "cp=other": "朋友陪伴{count}天"
+        "cp=other": "朋友陪伴{count}天",
+        "cp=few": "朋友陪伴{count}天",
+        "cp=many": "朋友陪伴{count}天"
       }
     }
   ],
@@ -407,7 +427,9 @@
       ],
       "match": {
         "cp=one": "{count}已附证明条目",
-        "cp=other": "{count}已附证明条目"
+        "cp=other": "{count}已附证明条目",
+        "cp=few": "{count}已附证明条目",
+        "cp=many": "{count}已附证明条目"
       }
     }
   ],
@@ -451,7 +473,9 @@
       ],
       "match": {
         "cp=one": "{count}年前",
-        "cp=other": "{count}年前"
+        "cp=other": "{count}年前",
+        "cp=few": "{count}年前",
+        "cp=many": "{count}年前"
       }
     }
   ],
@@ -470,7 +494,9 @@
       ],
       "match": {
         "cp=one": "{count}前",
-        "cp=other": "{count}前"
+        "cp=other": "{count}前",
+        "cp=few": "{count}前",
+        "cp=many": "{count}前"
       }
     }
   ],
@@ -488,7 +514,9 @@
       ],
       "match": {
         "cp=one": "{count}天前",
-        "cp=other": "{count}天前"
+        "cp=other": "{count}天前",
+        "cp=few": "{count}天前",
+        "cp=many": "{count}天前"
       }
     }
   ],
@@ -507,7 +535,9 @@
       ],
       "match": {
         "cp=one": "{count}一小时前",
-        "cp=other": "{count}小时前"
+        "cp=other": "{count}小时前",
+        "cp=few": "{count}小时前",
+        "cp=many": "{count}小时前"
       }
     }
   ],
@@ -526,7 +556,9 @@
       ],
       "match": {
         "cp=one": "{count}分钟前",
-        "cp=other": "{count}分钟前"
+        "cp=other": "{count}分钟前",
+        "cp=few": "{count}分钟前",
+        "cp=many": "{count}分钟前"
       }
     }
   ],
@@ -556,7 +588,19 @@
         "ncp=one, pcp=one": "{name}是一个{privacy}配置文件，其中记录了{nameCount}个名称和{pfpCount}张头像。",
         "ncp=one, pcp=other": "{name}是一个{privacy}配置文件，其中记录了{nameCount}个名称和{pfpCount}张头像。",
         "ncp=other, pcp=one": "{name}是一个{privacy}配置文件，其中记录了{nameCount}个姓名和{pfpCount}张头像。",
-        "ncp=other, pcp=other": "{name}是一个{privacy}配置文件，其中记录了{nameCount}个姓名和{pfpCount}张头像。"
+        "ncp=other, pcp=other": "{name}是一个{privacy}配置文件，其中记录了{nameCount}个姓名和{pfpCount}张头像。",
+        "ncp=one, pcp=few": "{name}是一个{privacy}配置文件，其中记录了{nameCount}个名称和{pfpCount}张头像。",
+        "ncp=one, pcp=many": "{name}是一个{privacy}配置文件，其中记录了{nameCount}个名称和{pfpCount}张头像。",
+        "ncp=few, pcp=one": "{name}是一个{privacy}配置文件，其中记录了{nameCount}个姓名和{pfpCount}张头像。",
+        "ncp=few, pcp=few": "{name}是一个{privacy}配置文件，其中记录了{nameCount}个姓名和{pfpCount}张头像。",
+        "ncp=few, pcp=many": "{name}是一个{privacy}配置文件，其中记录了{nameCount}个姓名和{pfpCount}张头像。",
+        "ncp=few, pcp=other": "{name}是一个{privacy}配置文件，其中记录了{nameCount}个姓名和{pfpCount}张头像。",
+        "ncp=many, pcp=one": "{name}是一个{privacy}配置文件，其中记录了{nameCount}个姓名和{pfpCount}张头像。",
+        "ncp=many, pcp=few": "{name}是一个{privacy}配置文件，其中记录了{nameCount}个姓名和{pfpCount}张头像。",
+        "ncp=many, pcp=many": "{name}是一个{privacy}配置文件，其中记录了{nameCount}个姓名和{pfpCount}张头像。",
+        "ncp=many, pcp=other": "{name}是一个{privacy}配置文件，其中记录了{nameCount}个姓名和{pfpCount}张头像。",
+        "ncp=other, pcp=few": "{name}是一个{privacy}配置文件，其中记录了{nameCount}个姓名和{pfpCount}张头像。",
+        "ncp=other, pcp=many": "{name}是一个{privacy}配置文件，其中记录了{nameCount}个姓名和{pfpCount}张头像。"
       }
     }
   ],
@@ -581,7 +625,9 @@
       ],
       "match": {
         "cp=one": "{count}投票",
-        "cp=other": "{count}票数"
+        "cp=other": "{count}票数",
+        "cp=few": "{count}票数",
+        "cp=many": "{count}票数"
       }
     }
   ],
@@ -807,7 +853,9 @@
       ],
       "match": {
         "cp=one": "（ {count}条目）",
-        "cp=other": "（ {count}个条目）"
+        "cp=other": "（ {count}个条目）",
+        "cp=few": "（ {count}个条目）",
+        "cp=many": "（ {count}个条目）"
       }
     }
   ],
@@ -836,7 +884,9 @@
       ],
       "match": {
         "cp=one": "已选择要移除的{count}项",
-        "cp=other": "已选择{count}个项目进行移除"
+        "cp=other": "已选择{count}个项目进行移除",
+        "cp=few": "已选择{count}个项目进行移除",
+        "cp=many": "已选择{count}个项目进行移除"
       }
     }
   ],
@@ -900,7 +950,9 @@
       ],
       "match": {
         "cp=one": "{count}源",
-        "cp=other": "{count}源"
+        "cp=other": "{count}源",
+        "cp=few": "{count}源",
+        "cp=many": "{count}源"
       }
     }
   ],
@@ -965,7 +1017,9 @@
       ],
       "match": {
         "cp=one": "成员（ {count} ）",
-        "cp=other": "成员（ {count} ）"
+        "cp=other": "成员（ {count} ）",
+        "cp=few": "成员（ {count} ）",
+        "cp=many": "成员（ {count} ）"
       }
     }
   ],
@@ -980,7 +1034,9 @@
       ],
       "match": {
         "cp=one": "注意（ {count} ）",
-        "cp=other": "注释（ {count} ）"
+        "cp=other": "注释（ {count} ）",
+        "cp=few": "注释（ {count} ）",
+        "cp=many": "注释（ {count} ）"
       }
     }
   ],
@@ -995,7 +1051,9 @@
       ],
       "match": {
         "cp=one": "邀请（ {count} ）",
-        "cp=other": "邀请（ {count} ）"
+        "cp=other": "邀请（ {count} ）",
+        "cp=few": "邀请（ {count} ）",
+        "cp=many": "邀请（ {count} ）"
       }
     }
   ],
@@ -1018,7 +1076,9 @@
       ],
       "match": {
         "cp=one": "待处理邀请（ {count} ）",
-        "cp=other": "待处理的邀请（ {count} ）"
+        "cp=other": "待处理的邀请（ {count} ）",
+        "cp=few": "待处理的邀请（ {count} ）",
+        "cp=many": "待处理的邀请（ {count} ）"
       }
     }
   ],
@@ -1097,7 +1157,9 @@
       ],
       "match": {
         "cp=one": "{count}剩余天数",
-        "cp=other": "{count}剩余天数"
+        "cp=other": "{count}剩余天数",
+        "cp=few": "{count}剩余天数",
+        "cp=many": "{count}剩余天数"
       }
     }
   ],
