@@ -81,7 +81,9 @@
       ],
       "match": {
         "cp=one": "{count} día",
-        "cp=other": "{count} días"
+        "cp=other": "{count} días",
+        "cp=few": "{count} días",
+        "cp=many": "{count} días"
       }
     }
   ],
@@ -116,7 +118,9 @@
       ],
       "match": {
         "cp=one": "{count} ban, {timeAgo} ( {timestamp} )",
-        "cp=other": "{count} prohibiciones, {timeAgo} ( {timestamp} )"
+        "cp=other": "{count} prohibiciones, {timeAgo} ( {timestamp} )",
+        "cp=few": "{count} prohibiciones, {timeAgo} ( {timestamp} )",
+        "cp=many": "{count} prohibiciones, {timeAgo} ( {timestamp} )"
       }
     }
   ],
@@ -131,7 +135,9 @@
       ],
       "match": {
         "cp=one": "{count} ban",
-        "cp=other": "{count} prohibiciones"
+        "cp=other": "{count} prohibiciones",
+        "cp=few": "{count} prohibiciones",
+        "cp=many": "{count} prohibiciones"
       }
     }
   ],
@@ -150,7 +156,9 @@
       ],
       "match": {
         "cp=one": "{count} ban",
-        "cp=other": "{count} prohibiciones"
+        "cp=other": "{count} prohibiciones",
+        "cp=few": "{count} prohibiciones",
+        "cp=many": "{count} prohibiciones"
       }
     }
   ],
@@ -167,7 +175,9 @@
       ],
       "match": {
         "cp=one": "{count} ban, {timeAgo} ( {timestamp} )",
-        "cp=other": "{count} prohibiciones, {timeAgo} ( {timestamp} )"
+        "cp=other": "{count} prohibiciones, {timeAgo} ( {timestamp} )",
+        "cp=few": "{count} prohibiciones, {timeAgo} ( {timestamp} )",
+        "cp=many": "{count} prohibiciones, {timeAgo} ( {timestamp} )"
       }
     }
   ],
@@ -182,7 +192,9 @@
       ],
       "match": {
         "cp=one": "{count} ban",
-        "cp=other": "{count} prohibiciones"
+        "cp=other": "{count} prohibiciones",
+        "cp=few": "{count} prohibiciones",
+        "cp=many": "{count} prohibiciones"
       }
     }
   ],
@@ -253,7 +265,9 @@
       ],
       "match": {
         "cp=one": "Se encontró el resultado ' {count} ' para",
-        "cp=other": "Se encontraron resultados para ' {count} '"
+        "cp=other": "Se encontraron resultados para ' {count} '",
+        "cp=few": "Se encontraron resultados para ' {count} '",
+        "cp=many": "Se encontraron resultados para ' {count} '"
       }
     }
   ],
@@ -287,7 +301,9 @@
       ],
       "match": {
         "cp=one": "Se encontró el resultado {count} ( {time} ms)",
-        "cp=other": "Se encontraron {count} resultados ( {time} ms)"
+        "cp=other": "Se encontraron {count} resultados ( {time} ms)",
+        "cp=few": "Se encontraron {count} resultados ( {time} ms)",
+        "cp=many": "Se encontraron {count} resultados ( {time} ms)"
       }
     }
   ],
@@ -358,7 +374,9 @@
       ],
       "match": {
         "cp=one": "para mostrar {count} comentario eliminado",
-        "cp=other": "para mostrar {count} comentarios eliminados"
+        "cp=other": "para mostrar {count} comentarios eliminados",
+        "cp=few": "para mostrar {count} comentarios eliminados",
+        "cp=many": "para mostrar {count} comentarios eliminados"
       }
     }
   ],
@@ -379,7 +397,9 @@
       ],
       "match": {
         "cp=one": "Amigos por {count} día",
-        "cp=other": "Amigos por {count} días"
+        "cp=other": "Amigos por {count} días",
+        "cp=few": "Amigos por {count} días",
+        "cp=many": "Amigos por {count} días"
       }
     }
   ],
@@ -407,7 +427,9 @@
       ],
       "match": {
         "cp=one": "{count} Entrada de prueba adjunta",
-        "cp=other": "{count} Entradas de prueba adjuntas"
+        "cp=other": "{count} Entradas de prueba adjuntas",
+        "cp=few": "{count} Entradas de prueba adjuntas",
+        "cp=many": "{count} Entradas de prueba adjuntas"
       }
     }
   ],
@@ -451,7 +473,9 @@
       ],
       "match": {
         "cp=one": "{count} hace un año",
-        "cp=other": "{count} hace años"
+        "cp=other": "{count} hace años",
+        "cp=few": "{count} hace años",
+        "cp=many": "{count} hace años"
       }
     }
   ],
@@ -470,7 +494,9 @@
       ],
       "match": {
         "cp=one": "{count} hace un mes",
-        "cp=other": "{count} hace meses"
+        "cp=other": "{count} hace meses",
+        "cp=few": "{count} hace meses",
+        "cp=many": "{count} hace meses"
       }
     }
   ],
@@ -488,7 +514,9 @@
       ],
       "match": {
         "cp=one": "{count} hace un día",
-        "cp=other": "{count} hace días"
+        "cp=other": "{count} hace días",
+        "cp=few": "{count} hace días",
+        "cp=many": "{count} hace días"
       }
     }
   ],
@@ -507,7 +535,9 @@
       ],
       "match": {
         "cp=one": "{count} hace una hora",
-        "cp=other": "{count} hace horas"
+        "cp=other": "{count} hace horas",
+        "cp=few": "{count} hace horas",
+        "cp=many": "{count} hace horas"
       }
     }
   ],
@@ -526,7 +556,9 @@
       ],
       "match": {
         "cp=one": "{count} hace un minuto",
-        "cp=other": "{count} hace minutos"
+        "cp=other": "{count} hace minutos",
+        "cp=few": "{count} hace minutos",
+        "cp=many": "{count} hace minutos"
       }
     }
   ],
@@ -556,7 +588,19 @@
         "ncp=one, pcp=one": "{name} es un perfil {privacy} con {nameCount} una imagen de perfil registrada {pfpCount}",
         "ncp=one, pcp=other": "{name} es un perfil {privacy} con {nameCount} nombre registrado, {pfpCount} fotos de perfil registradas",
         "ncp=other, pcp=one": "{name} es un perfil {privacy} con {nameCount} nombres registrados y {pfpCount} imagen de perfil registrada",
-        "ncp=other, pcp=other": "{name} es un perfil {privacy} con {nameCount} nombres registrados y {pfpCount} fotos de perfil registradas"
+        "ncp=other, pcp=other": "{name} es un perfil {privacy} con {nameCount} nombres registrados y {pfpCount} fotos de perfil registradas",
+        "ncp=one, pcp=few": "{name} es un perfil {privacy} con {nameCount} nombre registrado, {pfpCount} fotos de perfil registradas",
+        "ncp=one, pcp=many": "{name} es un perfil {privacy} con {nameCount} nombre registrado, {pfpCount} fotos de perfil registradas",
+        "ncp=few, pcp=one": "{name} es un perfil {privacy} con {nameCount} nombres registrados y {pfpCount} imagen de perfil registrada",
+        "ncp=few, pcp=few": "{name} es un perfil {privacy} con {nameCount} nombres registrados y {pfpCount} fotos de perfil registradas",
+        "ncp=few, pcp=many": "{name} es un perfil {privacy} con {nameCount} nombres registrados y {pfpCount} fotos de perfil registradas",
+        "ncp=few, pcp=other": "{name} es un perfil {privacy} con {nameCount} nombres registrados y {pfpCount} fotos de perfil registradas",
+        "ncp=many, pcp=one": "{name} es un perfil {privacy} con {nameCount} nombres registrados y {pfpCount} imagen de perfil registrada",
+        "ncp=many, pcp=few": "{name} es un perfil {privacy} con {nameCount} nombres registrados y {pfpCount} fotos de perfil registradas",
+        "ncp=many, pcp=many": "{name} es un perfil {privacy} con {nameCount} nombres registrados y {pfpCount} fotos de perfil registradas",
+        "ncp=many, pcp=other": "{name} es un perfil {privacy} con {nameCount} nombres registrados y {pfpCount} fotos de perfil registradas",
+        "ncp=other, pcp=few": "{name} es un perfil {privacy} con {nameCount} nombres registrados y {pfpCount} fotos de perfil registradas",
+        "ncp=other, pcp=many": "{name} es un perfil {privacy} con {nameCount} nombres registrados y {pfpCount} fotos de perfil registradas"
       }
     }
   ],
@@ -581,7 +625,9 @@
       ],
       "match": {
         "cp=one": "{count} vote",
-        "cp=other": "{count} votos"
+        "cp=other": "{count} votos",
+        "cp=few": "{count} votos",
+        "cp=many": "{count} votos"
       }
     }
   ],
@@ -807,7 +853,9 @@
       ],
       "match": {
         "cp=one": "( {count} entrada)",
-        "cp=other": "( {count} entradas)"
+        "cp=other": "( {count} entradas)",
+        "cp=few": "( {count} entradas)",
+        "cp=many": "( {count} entradas)"
       }
     }
   ],
@@ -836,7 +884,9 @@
       ],
       "match": {
         "cp=one": "Elemento seleccionado {count} para su eliminación",
-        "cp=other": "Elementos seleccionados {count} para su eliminación"
+        "cp=other": "Elementos seleccionados {count} para su eliminación",
+        "cp=few": "Elementos seleccionados {count} para su eliminación",
+        "cp=many": "Elementos seleccionados {count} para su eliminación"
       }
     }
   ],
@@ -900,7 +950,9 @@
       ],
       "match": {
         "cp=one": "{count} source",
-        "cp=other": "{count} fuentes"
+        "cp=other": "{count} fuentes",
+        "cp=few": "{count} fuentes",
+        "cp=many": "{count} fuentes"
       }
     }
   ],
@@ -965,7 +1017,9 @@
       ],
       "match": {
         "cp=one": "Miembro ( {count} )",
-        "cp=other": "Miembros ( {count} )"
+        "cp=other": "Miembros ( {count} )",
+        "cp=few": "Miembros ( {count} )",
+        "cp=many": "Miembros ( {count} )"
       }
     }
   ],
@@ -980,7 +1034,9 @@
       ],
       "match": {
         "cp=one": "Nota ( {count} )",
-        "cp=other": "Notas ( {count} )"
+        "cp=other": "Notas ( {count} )",
+        "cp=few": "Notas ( {count} )",
+        "cp=many": "Notas ( {count} )"
       }
     }
   ],
@@ -995,7 +1051,9 @@
       ],
       "match": {
         "cp=one": "Invitación ( {count} )",
-        "cp=other": "Invitaciones ( {count} )"
+        "cp=other": "Invitaciones ( {count} )",
+        "cp=few": "Invitaciones ( {count} )",
+        "cp=many": "Invitaciones ( {count} )"
       }
     }
   ],
@@ -1018,7 +1076,9 @@
       ],
       "match": {
         "cp=one": "Invitación pendiente ( {count} )",
-        "cp=other": "Invitaciones pendientes ( {count} )"
+        "cp=other": "Invitaciones pendientes ( {count} )",
+        "cp=few": "Invitaciones pendientes ( {count} )",
+        "cp=many": "Invitaciones pendientes ( {count} )"
       }
     }
   ],
@@ -1097,7 +1157,9 @@
       ],
       "match": {
         "cp=one": "{count} día restante",
-        "cp=other": "{count} días restantes"
+        "cp=other": "{count} días restantes",
+        "cp=few": "{count} días restantes",
+        "cp=many": "{count} días restantes"
       }
     }
   ],

@@ -81,6 +81,8 @@
       ],
       "match": {
         "cp=one": "{count} day",
+        "cp=few": "{count} days",
+        "cp=many": "{count} days",
         "cp=other": "{count} days"
       }
     }
@@ -116,6 +118,8 @@
       ],
       "match": {
         "cp=one": "{count} ban, {timeAgo} ({timestamp})",
+        "cp=few": "{count} bans, {timeAgo} ({timestamp})",
+        "cp=many": "{count} bans, {timeAgo} ({timestamp})",
         "cp=other": "{count} bans, {timeAgo} ({timestamp})"
       }
     }
@@ -131,6 +135,8 @@
       ],
       "match": {
         "cp=one": "{count} ban",
+        "cp=few": "{count} bans",
+        "cp=many": "{count} bans",
         "cp=other": "{count} bans"
       }
     }
@@ -150,6 +156,8 @@
       ],
       "match": {
         "cp=one": "{count} ban",
+        "cp=few": "{count} bans",
+        "cp=many": "{count} bans",
         "cp=other": "{count} bans"
       }
     }
@@ -167,6 +175,8 @@
       ],
       "match": {
         "cp=one": "{count} ban, {timeAgo} ({timestamp})",
+        "cp=few": "{count} bans, {timeAgo} ({timestamp})",
+        "cp=many": "{count} bans, {timeAgo} ({timestamp})",
         "cp=other": "{count} bans, {timeAgo} ({timestamp})"
       }
     }
@@ -182,6 +192,8 @@
       ],
       "match": {
         "cp=one": "{count} ban",
+        "cp=few": "{count} bans",
+        "cp=many": "{count} bans",
         "cp=other": "{count} bans"
       }
     }
@@ -253,6 +265,8 @@
       ],
       "match": {
         "cp=one": "Found '{count}' result for",
+        "cp=few": "Found '{count}' results for",
+        "cp=many": "Found '{count}' results for",
         "cp=other": "Found '{count}' results for"
       }
     }
@@ -287,6 +301,8 @@
       ],
       "match": {
         "cp=one": "Found {count} result ({time}ms)",
+        "cp=few": "Found {count} results ({time}ms)",
+        "cp=many": "Found {count} results ({time}ms)",
         "cp=other": "Found {count} results ({time}ms)"
       }
     }
@@ -358,6 +374,8 @@
       ],
       "match": {
         "cp=one": "to show {count} deleted comment",
+        "cp=few": "to show {count} deleted comments",
+        "cp=many": "to show {count} deleted comments",
         "cp=other": "to show {count} deleted comments"
       }
     }
@@ -379,6 +397,8 @@
       ],
       "match": {
         "cp=one": "Friends for {count} day",
+        "cp=few": "Friends for {count} days",
+        "cp=many": "Friends for {count} days",
         "cp=other": "Friends for {count} days"
       }
     }
@@ -407,6 +427,8 @@
       ],
       "match": {
         "cp=one": "{count} proof entry attached",
+        "cp=few": "{count} proof entries attached",
+        "cp=many": "{count} proof entries attached",
         "cp=other": "{count} proof entries attached"
       }
     }
@@ -451,6 +473,8 @@
       ],
       "match": {
         "cp=one": "{count} year ago",
+        "cp=few": "{count} years ago",
+        "cp=many": "{count} years ago",
         "cp=other": "{count} years ago"
       }
     }
@@ -470,6 +494,8 @@
       ],
       "match": {
         "cp=one": "{count} month ago",
+        "cp=few": "{count} months ago",
+        "cp=many": "{count} months ago",
         "cp=other": "{count} months ago"
       }
     }
@@ -488,6 +514,8 @@
       ],
       "match": {
         "cp=one": "{count} day ago",
+        "cp=few": "{count} days ago",
+        "cp=many": "{count} days ago",
         "cp=other": "{count} days ago"
       }
     }
@@ -507,6 +535,8 @@
       ],
       "match": {
         "cp=one": "{count} hour ago",
+        "cp=few": "{count} hours ago",
+        "cp=many": "{count} hours ago",
         "cp=other": "{count} hours ago"
       }
     }
@@ -526,6 +556,8 @@
       ],
       "match": {
         "cp=one": "{count} minute ago",
+        "cp=few": "{count} minutes ago",
+        "cp=many": "{count} minutes ago",
         "cp=other": "{count} minutes ago"
       }
     }
@@ -554,8 +586,20 @@
       ],
       "match": {
         "ncp=one, pcp=one": "{name} is a {privacy} profile with {nameCount} recorded name, {pfpCount} recorded profile picture",
+        "ncp=one, pcp=few": "{name} is a {privacy} profile with {nameCount} recorded name, {pfpCount} recorded profile pictures",
+        "ncp=one, pcp=many": "{name} is a {privacy} profile with {nameCount} recorded name, {pfpCount} recorded profile pictures",
         "ncp=one, pcp=other": "{name} is a {privacy} profile with {nameCount} recorded name, {pfpCount} recorded profile pictures",
+        "ncp=few, pcp=one": "{name} is a {privacy} profile with {nameCount} recorded names, {pfpCount} recorded profile picture",
+        "ncp=few, pcp=few": "{name} is a {privacy} profile with {nameCount} recorded names, {pfpCount} recorded profile pictures",
+        "ncp=few, pcp=many": "{name} is a {privacy} profile with {nameCount} recorded names, {pfpCount} recorded profile pictures",
+        "ncp=few, pcp=other": "{name} is a {privacy} profile with {nameCount} recorded names, {pfpCount} recorded profile pictures",
+        "ncp=many, pcp=one": "{name} is a {privacy} profile with {nameCount} recorded names, {pfpCount} recorded profile picture",
+        "ncp=many, pcp=few": "{name} is a {privacy} profile with {nameCount} recorded names, {pfpCount} recorded profile pictures",
+        "ncp=many, pcp=many": "{name} is a {privacy} profile with {nameCount} recorded names, {pfpCount} recorded profile pictures",
+        "ncp=many, pcp=other": "{name} is a {privacy} profile with {nameCount} recorded names, {pfpCount} recorded profile pictures",
         "ncp=other, pcp=one": "{name} is a {privacy} profile with {nameCount} recorded names, {pfpCount} recorded profile picture",
+        "ncp=other, pcp=few": "{name} is a {privacy} profile with {nameCount} recorded names, {pfpCount} recorded profile pictures",
+        "ncp=other, pcp=many": "{name} is a {privacy} profile with {nameCount} recorded names, {pfpCount} recorded profile pictures",
         "ncp=other, pcp=other": "{name} is a {privacy} profile with {nameCount} recorded names, {pfpCount} recorded profile pictures"
       }
     }
@@ -581,6 +625,8 @@
       ],
       "match": {
         "cp=one": "{count} vote",
+        "cp=few": "{count} votes",
+        "cp=many": "{count} votes",
         "cp=other": "{count} votes"
       }
     }
@@ -807,6 +853,8 @@
       ],
       "match": {
         "cp=one": "({count} entry)",
+        "cp=few": "({count} entries)",
+        "cp=many": "({count} entries)",
         "cp=other": "({count} entries)"
       }
     }
@@ -836,6 +884,8 @@
       ],
       "match": {
         "cp=one": "Selected {count} item for removal",
+        "cp=few": "Selected {count} items for removal",
+        "cp=many": "Selected {count} items for removal",
         "cp=other": "Selected {count} items for removal"
       }
     }
@@ -900,6 +950,8 @@
       ],
       "match": {
         "cp=one": "{count} source",
+        "cp=few": "{count} sources",
+        "cp=many": "{count} sources",
         "cp=other": "{count} sources"
       }
     }
@@ -965,6 +1017,8 @@
       ],
       "match": {
         "cp=one": "Member ({count})",
+        "cp=few": "Members ({count})",
+        "cp=many": "Members ({count})",
         "cp=other": "Members ({count})"
       }
     }
@@ -980,6 +1034,8 @@
       ],
       "match": {
         "cp=one": "Note ({count})",
+        "cp=few": "Notes ({count})",
+        "cp=many": "Notes ({count})",
         "cp=other": "Notes ({count})"
       }
     }
@@ -995,6 +1051,8 @@
       ],
       "match": {
         "cp=one": "Invitation ({count})",
+        "cp=few": "Invitations ({count})",
+        "cp=many": "Invitations ({count})",
         "cp=other": "Invitations ({count})"
       }
     }
@@ -1018,6 +1076,8 @@
       ],
       "match": {
         "cp=one": "Pending Invite ({count})",
+        "cp=few": "Pending Invites ({count})",
+        "cp=many": "Pending Invites ({count})",
         "cp=other": "Pending Invites ({count})"
       }
     }
@@ -1097,6 +1157,8 @@
       ],
       "match": {
         "cp=one": "{count} day remaining",
+        "cp=few": "{count} days remaining",
+        "cp=many": "{count} days remaining",
         "cp=other": "{count} days remaining"
       }
     }
