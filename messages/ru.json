@@ -192,8 +192,8 @@
       ],
       "match": {
         "cp=one": "Бан {count}",
-        "cp=few": "{count} bans",
-        "cp=many": "{count} bans",
+        "cp=few": "{count} запрещает",
+        "cp=many": "{count} запрещает",
         "cp=other": "{count} запрещает"
       }
     }
@@ -265,8 +265,8 @@
       ],
       "match": {
         "cp=one": "Найден результат ' {count} ' для",
-        "cp=few": "Found '{count}' results for",
-        "cp=many": "Found '{count}' results for",
+        "cp=few": "Найдено '{count}' результатов для",
+        "cp=many": "Найдено '{count}' результатов для",
         "cp=other": "Найдены результаты ' {count} ' для"
       }
     }
@@ -301,8 +301,8 @@
       ],
       "match": {
         "cp=one": "Найден результат {count} ( {time} мс)",
-        "cp=few": "Found {count} results ({time}ms)",
-        "cp=many": "Found {count} results ({time}ms)",
+        "cp=few": "Найдены результаты {count} ({time}ms)",
+        "cp=many": "Найдены результаты {count} ({time}ms)",
         "cp=other": "Найдены результаты {count} ( {time} мс)"
       }
     }
@@ -374,8 +374,8 @@
       ],
       "match": {
         "cp=one": "чтобы показать {count} удаленный комментарий",
-        "cp=few": "to show {count} deleted comments",
-        "cp=many": "to show {count} deleted comments",
+        "cp=few": "чтобы показать {count} удаленных комментариев",
+        "cp=many": "чтобы показать {count} удаленных комментариев",
         "cp=other": "чтобы показать удаленные комментарии {count}"
       }
     }
@@ -586,20 +586,20 @@
       ],
       "match": {
         "ncp=one, pcp=one": "{name} — это профиль с {privacy} содержащий записанное имя, {nameCount} {pfpCount}",
-        "ncp=one, pcp=few": "{name} is a {privacy} profile with {nameCount} recorded name, {pfpCount} recorded profile pictures",
-        "ncp=one, pcp=many": "{name} is a {privacy} profile with {nameCount} recorded name, {pfpCount} recorded profile pictures",
+        "ncp=one, pcp=few": "{name} - это профиль {privacy} с именем {nameCount} записанное имя, {pfpCount} записанные фото профиля",
+        "ncp=one, pcp=many": "{name} - это профиль {privacy} с именем {nameCount} записанное имя, {pfpCount} записанные фото профиля",
         "ncp=one, pcp=other": "{name} — это профиль с {privacy} содержащий записанное имя, {nameCount} {pfpCount}",
-        "ncp=few, pcp=one": "{name} is a {privacy} profile with {nameCount} recorded names, {pfpCount} recorded profile picture",
-        "ncp=few, pcp=few": "{name} is a {privacy} profile with {nameCount} recorded names, {pfpCount} recorded profile pictures",
-        "ncp=few, pcp=many": "{name} is a {privacy} profile with {nameCount} recorded names, {pfpCount} recorded profile pictures",
-        "ncp=few, pcp=other": "{name} is a {privacy} profile with {nameCount} recorded names, {pfpCount} recorded profile pictures",
-        "ncp=many, pcp=one": "{name} is a {privacy} profile with {nameCount} recorded names, {pfpCount} recorded profile picture",
-        "ncp=many, pcp=few": "{name} is a {privacy} profile with {nameCount} recorded names, {pfpCount} recorded profile pictures",
-        "ncp=many, pcp=many": "{name} is a {privacy} profile with {nameCount} recorded names, {pfpCount} recorded profile pictures",
-        "ncp=many, pcp=other": "{name} is a {privacy} profile with {nameCount} recorded names, {pfpCount} recorded profile pictures",
+        "ncp=few, pcp=one": "{name} - это профиль {privacy} с {nameCount} записанными именами, {pfpCount} записанным фото профиля",
+        "ncp=few, pcp=few": "{name} - это профиль {privacy} с {nameCount} записанными именами, {pfpCount} записанными аватарами",
+        "ncp=few, pcp=many": "{name} - это профиль {privacy} с {nameCount} записанными именами, {pfpCount} записанными аватарами",
+        "ncp=few, pcp=other": "{name} - это профиль {privacy} с {nameCount} записанными именами, {pfpCount} записанными аватарами",
+        "ncp=many, pcp=one": "{name} - это профиль {privacy} с {nameCount} записанными именами, {pfpCount} записанным фото профиля",
+        "ncp=many, pcp=few": "{name} - это профиль {privacy} с {nameCount} записанными именами, {pfpCount} записанными аватарами",
+        "ncp=many, pcp=many": "{name} - это профиль {privacy} с {nameCount} записанными именами, {pfpCount} записанными аватарами",
+        "ncp=many, pcp=other": "{name} - это профиль {privacy} с {nameCount} записанными именами, {pfpCount} записанными аватарами",
         "ncp=other, pcp=one": "{name} — это профиль с {privacy} содержащий {nameCount} записанных имен и {pfpCount} записанного изображения профиля.",
-        "ncp=other, pcp=few": "{name} is a {privacy} profile with {nameCount} recorded names, {pfpCount} recorded profile pictures",
-        "ncp=other, pcp=many": "{name} is a {privacy} profile with {nameCount} recorded names, {pfpCount} recorded profile pictures",
+        "ncp=other, pcp=few": "{name} - это профиль {privacy} с {nameCount} записанными именами, {pfpCount} записанными аватарами",
+        "ncp=other, pcp=many": "{name} - это профиль {privacy} с {nameCount} записанными именами, {pfpCount} записанными аватарами",
         "ncp=other, pcp=other": "{name} — это профиль с {privacy} содержащий {nameCount} записанными именами и {pfpCount} записанными фотографиями профиля."
       }
     }
@@ -884,8 +884,8 @@
       ],
       "match": {
         "cp=one": "Выбран элемент {count} для удаления",
-        "cp=few": "Selected {count} items for removal",
-        "cp=many": "Selected {count} items for removal",
+        "cp=few": "Выбранные {count} элементы для удаления",
+        "cp=many": "Выбранные {count} элементы для удаления",
         "cp=other": "Выбраны элементы {count} для удаления"
       }
     }
@@ -950,8 +950,8 @@
       ],
       "match": {
         "cp=one": "{count} источник",
-        "cp=few": "{count} sources",
-        "cp=many": "{count} sources",
+        "cp=few": "Источники {count}",
+        "cp=many": "Источники {count}",
         "cp=other": "{count} источников"
       }
     }
@@ -1017,8 +1017,8 @@
       ],
       "match": {
         "cp=one": "Участник ( {count} )",
-        "cp=few": "Members ({count})",
-        "cp=many": "Members ({count})",
+        "cp=few": "Участники ({count})",
+        "cp=many": "Участники ({count})",
         "cp=other": "Члены ( {count} )"
       }
     }
@@ -1034,8 +1034,8 @@
       ],
       "match": {
         "cp=one": "Примечание ( {count} )",
-        "cp=few": "Notes ({count})",
-        "cp=many": "Notes ({count})",
+        "cp=few": "Заметки ({count})",
+        "cp=many": "Заметки ({count})",
         "cp=other": "Примечания ( {count} )"
       }
     }
@@ -1051,8 +1051,8 @@
       ],
       "match": {
         "cp=one": "Приглашение ( {count} )",
-        "cp=few": "Invitations ({count})",
-        "cp=many": "Invitations ({count})",
+        "cp=few": "Приглашения ({count})",
+        "cp=many": "Приглашения ({count})",
         "cp=other": "Приглашения ( {count} )"
       }
     }
@@ -1076,8 +1076,8 @@
       ],
       "match": {
         "cp=one": "Ожидающее приглашение ( {count} )",
-        "cp=few": "Pending Invites ({count})",
-        "cp=many": "Pending Invites ({count})",
+        "cp=few": "Ожидающие приглашения ({count})",
+        "cp=many": "Ожидающие приглашения ({count})",
         "cp=other": "Ожидающие приглашения ( {count} )"
       }
     }
