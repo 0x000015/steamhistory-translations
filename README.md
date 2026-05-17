@@ -7,7 +7,7 @@ This repository contains the translations for SteamHistory.net
 The localization workflow is powered by Inlang and Paraglide. Contributions are accepted through the following channels:
 
 ### Development Environment
-The recommended way to contribute is through the Sherlock (Inlang) extension for Visual Studio Code:
+Alternatively, you can contribute locally through the Sherlock (Inlang) extension for Visual Studio Code:
 1. Clone the repository.
 
 
