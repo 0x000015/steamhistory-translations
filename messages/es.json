@@ -29,7 +29,7 @@
   "profile_custom_tag_whats_this": "¿Qué es esto?",
   "profile_label_steamid64": "SteamID64:",
   "profile_label_steamid32": "SteamID32:",
-  "profile_label_steamid": "SteamID:",
+  "profile_label_steamid": "Id Steam:",
   "profile_label_community_url": "URL de la comunidad:",
   "profile_label_profile_url": "URL del perfil:",
   "profile_label_created": "Creado:",
@@ -73,17 +73,17 @@
   "profile_ban_duration_days": [
     {
       "declarations": [
-        "input count",
-        "local cp = count: plural"
+        "contador de entradas",
+        "local cp = contador: plural"
       ],
       "selectors": [
         "cp"
       ],
       "match": {
         "cp=one": "{count} día",
-        "cp=other": "{count} días",
         "cp=few": "{count} días",
-        "cp=many": "{count} días"
+        "cp=many": "{count} días",
+        "cp=other": "{count} días"
       }
     }
   ],
@@ -108,36 +108,36 @@
   "profile_vac_bans_detailed": [
     {
       "declarations": [
-        "input count",
+        "contador de entradas",
         "input timeAgo",
-        "input timestamp",
-        "local cp = count: plural"
+        "fecha de entrada",
+        "local cp = contador: plural"
       ],
       "selectors": [
         "cp"
       ],
       "match": {
         "cp=one": "{count} ban, {timeAgo} ( {timestamp} )",
-        "cp=other": "{count} prohibiciones, {timeAgo} ( {timestamp} )",
-        "cp=few": "{count} prohibiciones, {timeAgo} ( {timestamp} )",
-        "cp=many": "{count} prohibiciones, {timeAgo} ( {timestamp} )"
+        "cp=few": "{count} baneos, {timeAgo} ({timestamp})",
+        "cp=many": "{count} baneos, {timeAgo} ({timestamp})",
+        "cp=other": "{count} prohibiciones, {timeAgo} ( {timestamp} )"
       }
     }
   ],
   "profile_vac_bans_simple": [
     {
       "declarations": [
-        "input count",
-        "local cp = count: plural"
+        "contador de entradas",
+        "local cp = contador: plural"
       ],
       "selectors": [
         "cp"
       ],
       "match": {
         "cp=one": "{count} ban",
-        "cp=other": "{count} prohibiciones",
-        "cp=few": "{count} prohibiciones",
-        "cp=many": "{count} prohibiciones"
+        "cp=few": "{count} bans",
+        "cp=many": "{count} bans",
+        "cp=other": "{count} prohibiciones"
       }
     }
   ],
@@ -148,53 +148,53 @@
   "profile_community_bans_total_count": [
     {
       "declarations": [
-        "input count",
-        "local cp = count: plural"
+        "contador de entradas",
+        "local cp = contador: plural"
       ],
       "selectors": [
         "cp"
       ],
       "match": {
         "cp=one": "{count} ban",
-        "cp=other": "{count} prohibiciones",
-        "cp=few": "{count} prohibiciones",
-        "cp=many": "{count} prohibiciones"
+        "cp=few": "{count} bans",
+        "cp=many": "{count} bans",
+        "cp=other": "{count} prohibiciones"
       }
     }
   ],
   "profile_game_bans_detailed": [
     {
       "declarations": [
-        "input count",
+        "contador de entradas",
         "input timeAgo",
-        "input timestamp",
-        "local cp = count: plural"
+        "fecha de entrada",
+        "local cp = contador: plural"
       ],
       "selectors": [
         "cp"
       ],
       "match": {
         "cp=one": "{count} ban, {timeAgo} ( {timestamp} )",
-        "cp=other": "{count} prohibiciones, {timeAgo} ( {timestamp} )",
-        "cp=few": "{count} prohibiciones, {timeAgo} ( {timestamp} )",
-        "cp=many": "{count} prohibiciones, {timeAgo} ( {timestamp} )"
+        "cp=few": "{count} baneos, {timeAgo} ({timestamp})",
+        "cp=many": "{count} baneos, {timeAgo} ({timestamp})",
+        "cp=other": "{count} prohibiciones, {timeAgo} ( {timestamp} )"
       }
     }
   ],
   "profile_game_bans_simple": [
     {
       "declarations": [
-        "input count",
-        "local cp = count: plural"
+        "contador de entradas",
+        "local cp = contador: plural"
       ],
       "selectors": [
         "cp"
       ],
       "match": {
         "cp=one": "{count} ban",
-        "cp=other": "{count} prohibiciones",
-        "cp=few": "{count} prohibiciones",
-        "cp=many": "{count} prohibiciones"
+        "cp=few": "{count} bans",
+        "cp=many": "{count} bans",
+        "cp=other": "{count} prohibiciones"
       }
     }
   ],
@@ -257,17 +257,17 @@
   "search_avatar_found_results": [
     {
       "declarations": [
-        "input count",
-        "local cp = count: plural"
+        "contador de entradas",
+        "local cp = contador: plural"
       ],
       "selectors": [
         "cp"
       ],
       "match": {
         "cp=one": "Se encontró el resultado ' {count} ' para",
-        "cp=other": "Se encontraron resultados para ' {count} '",
-        "cp=few": "Se encontraron resultados para ' {count} '",
-        "cp=many": "Se encontraron resultados para ' {count} '"
+        "cp=few": "Found '{count}' results for",
+        "cp=many": "Found '{count}' results for",
+        "cp=other": "Se encontraron resultados para ' {count} '"
       }
     }
   ],
@@ -292,18 +292,18 @@
   "search_comment_results_found": [
     {
       "declarations": [
-        "input count",
-        "input time",
-        "local cp = count: plural"
+        "contador de entradas",
+        "hora de entrada",
+        "local cp = contador: plural"
       ],
       "selectors": [
         "cp"
       ],
       "match": {
         "cp=one": "Se encontró el resultado {count} ( {time} ms)",
-        "cp=other": "Se encontraron {count} resultados ( {time} ms)",
-        "cp=few": "Se encontraron {count} resultados ( {time} ms)",
-        "cp=many": "Se encontraron {count} resultados ( {time} ms)"
+        "cp=few": "Found {count} results ({time}ms)",
+        "cp=many": "Found {count} results ({time}ms)",
+        "cp=other": "Se encontraron {count} resultados ( {time} ms)"
       }
     }
   ],
@@ -361,22 +361,22 @@
     {
       "declarations": [
         "input ",
-        "input count",
-        "input count, plural, =1 {",
-        "input count, plural, one {",
+        "contador de entradas",
+        "contador de entradas, plural, =1 {",
+        "contador de entradas, plural, uno {",
         "input e",
         "input one {",
         "input s",
-        "local cp = count: plural"
+        "local cp = contador: plural"
       ],
       "selectors": [
         "cp"
       ],
       "match": {
         "cp=one": "para mostrar {count} comentario eliminado",
-        "cp=other": "para mostrar {count} comentarios eliminados",
-        "cp=few": "para mostrar {count} comentarios eliminados",
-        "cp=many": "para mostrar {count} comentarios eliminados"
+        "cp=few": "to show {count} deleted comments",
+        "cp=many": "to show {count} deleted comments",
+        "cp=other": "para mostrar {count} comentarios eliminados"
       }
     }
   ],
@@ -389,17 +389,17 @@
   "profile_history_friends_duration": [
     {
       "declarations": [
-        "input count",
-        "local cp = count: plural"
+        "contador de entradas",
+        "local cp = contador: plural"
       ],
       "selectors": [
         "cp"
       ],
       "match": {
         "cp=one": "Amigos por {count} día",
-        "cp=other": "Amigos por {count} días",
-        "cp=few": "Amigos por {count} días",
-        "cp=many": "Amigos por {count} días"
+        "cp=few": "Friends for {count} days",
+        "cp=many": "Friends for {count} days",
+        "cp=other": "Amigos por {count} días"
       }
     }
   ],
@@ -413,23 +413,23 @@
   "profile_community_bans_proof_entries": [
     {
       "declarations": [
-        "input count",
-        "input count, plural, one {stück",
-        "input count, plural, one {y",
+        "contador de entradas",
+        "contador de entradas, plural, uno {cosas",
+        "contador de entradas, plural, uno {y",
         "input ies",
-        "input one {stück",
-        "input one {y",
-        "input stücke",
-        "local cp = count: plural"
+        "introduce uno {cosas ck",
+        "introduce un {y",
+        "input stücke",
+        "local cp = contador: plural"
       ],
       "selectors": [
         "cp"
       ],
       "match": {
         "cp=one": "{count} Entrada de prueba adjunta",
-        "cp=other": "{count} Entradas de prueba adjuntas",
-        "cp=few": "{count} Entradas de prueba adjuntas",
-        "cp=many": "{count} Entradas de prueba adjuntas"
+        "cp=few": "{count} proof entries attached",
+        "cp=many": "{count} proof entries attached",
+        "cp=other": "{count} Entradas de prueba adjuntas"
       }
     }
   ],
@@ -461,104 +461,104 @@
   "time_ago_years": [
     {
       "declarations": [
-        "input count",
-        "input count, plural, one {",
+        "contador de entradas",
+        "contador de entradas, plural, uno {",
         "input en",
         "input one {",
         "input s",
-        "local cp = count: plural"
+        "local cp = contador: plural"
       ],
       "selectors": [
         "cp"
       ],
       "match": {
         "cp=one": "{count} hace un año",
-        "cp=other": "{count} hace años",
-        "cp=few": "{count} hace años",
-        "cp=many": "{count} hace años"
+        "cp=few": "{count} years ago",
+        "cp=many": "{count} years ago",
+        "cp=other": "{count} hace años"
       }
     }
   ],
   "time_ago_months": [
     {
       "declarations": [
-        "input count",
-        "input count, plural, one {",
+        "contador de entradas",
+        "contador de entradas, plural, uno {",
         "input en",
         "input one {",
         "input s",
-        "local cp = count: plural"
+        "local cp = contador: plural"
       ],
       "selectors": [
         "cp"
       ],
       "match": {
         "cp=one": "{count} hace un mes",
-        "cp=other": "{count} hace meses",
-        "cp=few": "{count} hace meses",
-        "cp=many": "{count} hace meses"
+        "cp=few": "{count} months ago",
+        "cp=many": "{count} months ago",
+        "cp=other": "{count} hace meses"
       }
     }
   ],
   "time_ago_days": [
     {
       "declarations": [
-        "input count",
-        "input count, plural, one {",
+        "contador de entradas",
+        "contador de entradas, plural, uno {",
         "input en",
         "input one {",
-        "local cp = count: plural"
+        "local cp = contador: plural"
       ],
       "selectors": [
         "cp"
       ],
       "match": {
         "cp=one": "{count} hace un día",
-        "cp=other": "{count} hace días",
-        "cp=few": "{count} hace días",
-        "cp=many": "{count} hace días"
+        "cp=few": "{count} days ago",
+        "cp=many": "{count} days ago",
+        "cp=other": "{count} hace días"
       }
     }
   ],
   "time_ago_hours": [
     {
       "declarations": [
-        "input count",
-        "input count, plural, one {",
+        "contador de entradas",
+        "contador de entradas, plural, uno {",
         "input n",
         "input one {",
         "input s",
-        "local cp = count: plural"
+        "local cp = contador: plural"
       ],
       "selectors": [
         "cp"
       ],
       "match": {
         "cp=one": "{count} hace una hora",
-        "cp=other": "{count} hace horas",
-        "cp=few": "{count} hace horas",
-        "cp=many": "{count} hace horas"
+        "cp=few": "{count} hours ago",
+        "cp=many": "{count} hours ago",
+        "cp=other": "{count} hace horas"
       }
     }
   ],
   "time_ago_minutes": [
     {
       "declarations": [
-        "input count",
-        "input count, plural, one {",
+        "contador de entradas",
+        "contador de entradas, plural, uno {",
         "input n",
         "input one {",
         "input s",
-        "local cp = count: plural"
+        "local cp = contador: plural"
       ],
       "selectors": [
         "cp"
       ],
       "match": {
         "cp=one": "{count} hace un minuto",
-        "cp=other": "{count} hace minutos",
-        "cp=few": "{count} hace minutos",
-        "cp=many": "{count} hace minutos"
+        "cp=few": "{count} minutes ago",
+        "cp=many": "{count} minutes ago",
+        "cp=other": "{count} hace minutos"
       }
     }
   ],
@@ -574,11 +574,11 @@
     {
       "declarations": [
         "input name",
-        "input nameCount",
-        "input pfpCount",
-        "input privacy",
+        "entrada nameCount",
+        "entrada pfpCount",
+        "introducir privacidad",
         "local ncp = nameCount: plural",
-        "local pcp = pfpCount: plural"
+        "pcp local = pfpCount: plural"
       ],
       "selectors": [
         "ncp",
@@ -586,21 +586,21 @@
       ],
       "match": {
         "ncp=one, pcp=one": "{name} es un perfil {privacy} con {nameCount} una imagen de perfil registrada {pfpCount}",
+        "ncp=one, pcp=few": "{name} is a {privacy} profile with {nameCount} recorded name, {pfpCount} recorded profile pictures",
+        "ncp=one, pcp=many": "{name} is a {privacy} profile with {nameCount} recorded name, {pfpCount} recorded profile pictures",
         "ncp=one, pcp=other": "{name} es un perfil {privacy} con {nameCount} nombre registrado, {pfpCount} fotos de perfil registradas",
+        "ncp=few, pcp=one": "{name} is a {privacy} profile with {nameCount} recorded names, {pfpCount} recorded profile picture",
+        "ncp=few, pcp=few": "{name} is a {privacy} profile with {nameCount} recorded names, {pfpCount} recorded profile pictures",
+        "ncp=few, pcp=many": "{name} is a {privacy} profile with {nameCount} recorded names, {pfpCount} recorded profile pictures",
+        "ncp=few, pcp=other": "{name} is a {privacy} profile with {nameCount} recorded names, {pfpCount} recorded profile pictures",
+        "ncp=many, pcp=one": "{name} is a {privacy} profile with {nameCount} recorded names, {pfpCount} recorded profile picture",
+        "ncp=many, pcp=few": "{name} is a {privacy} profile with {nameCount} recorded names, {pfpCount} recorded profile pictures",
+        "ncp=many, pcp=many": "{name} is a {privacy} profile with {nameCount} recorded names, {pfpCount} recorded profile pictures",
+        "ncp=many, pcp=other": "{name} is a {privacy} profile with {nameCount} recorded names, {pfpCount} recorded profile pictures",
         "ncp=other, pcp=one": "{name} es un perfil {privacy} con {nameCount} nombres registrados y {pfpCount} imagen de perfil registrada",
-        "ncp=other, pcp=other": "{name} es un perfil {privacy} con {nameCount} nombres registrados y {pfpCount} fotos de perfil registradas",
-        "ncp=one, pcp=few": "{name} es un perfil {privacy} con {nameCount} nombre registrado, {pfpCount} fotos de perfil registradas",
-        "ncp=one, pcp=many": "{name} es un perfil {privacy} con {nameCount} nombre registrado, {pfpCount} fotos de perfil registradas",
-        "ncp=few, pcp=one": "{name} es un perfil {privacy} con {nameCount} nombres registrados y {pfpCount} imagen de perfil registrada",
-        "ncp=few, pcp=few": "{name} es un perfil {privacy} con {nameCount} nombres registrados y {pfpCount} fotos de perfil registradas",
-        "ncp=few, pcp=many": "{name} es un perfil {privacy} con {nameCount} nombres registrados y {pfpCount} fotos de perfil registradas",
-        "ncp=few, pcp=other": "{name} es un perfil {privacy} con {nameCount} nombres registrados y {pfpCount} fotos de perfil registradas",
-        "ncp=many, pcp=one": "{name} es un perfil {privacy} con {nameCount} nombres registrados y {pfpCount} imagen de perfil registrada",
-        "ncp=many, pcp=few": "{name} es un perfil {privacy} con {nameCount} nombres registrados y {pfpCount} fotos de perfil registradas",
-        "ncp=many, pcp=many": "{name} es un perfil {privacy} con {nameCount} nombres registrados y {pfpCount} fotos de perfil registradas",
-        "ncp=many, pcp=other": "{name} es un perfil {privacy} con {nameCount} nombres registrados y {pfpCount} fotos de perfil registradas",
-        "ncp=other, pcp=few": "{name} es un perfil {privacy} con {nameCount} nombres registrados y {pfpCount} fotos de perfil registradas",
-        "ncp=other, pcp=many": "{name} es un perfil {privacy} con {nameCount} nombres registrados y {pfpCount} fotos de perfil registradas"
+        "ncp=other, pcp=few": "{name} is a {privacy} profile with {nameCount} recorded names, {pfpCount} recorded profile pictures",
+        "ncp=other, pcp=many": "{name} is a {privacy} profile with {nameCount} recorded names, {pfpCount} recorded profile pictures",
+        "ncp=other, pcp=other": "{name} es un perfil {privacy} con {nameCount} nombres registrados y {pfpCount} fotos de perfil registradas"
       }
     }
   ],
@@ -617,17 +617,17 @@
   "notification_dock_votes_count": [
     {
       "declarations": [
-        "input count",
-        "local cp = count: plural"
+        "contador de entradas",
+        "local cp = contador: plural"
       ],
       "selectors": [
         "cp"
       ],
       "match": {
-        "cp=one": "{count} vote",
-        "cp=other": "{count} votos",
-        "cp=few": "{count} votos",
-        "cp=many": "{count} votos"
+        "cp=one": "{count} voto",
+        "cp=few": "{count} votes",
+        "cp=many": "{count} votes",
+        "cp=other": "{count} votos"
       }
     }
   ],
@@ -845,17 +845,17 @@
   "data_removal_entries_count": [
     {
       "declarations": [
-        "input count",
-        "local cp = count: plural"
+        "contador de entradas",
+        "local cp = contador: plural"
       ],
       "selectors": [
         "cp"
       ],
       "match": {
         "cp=one": "( {count} entrada)",
-        "cp=other": "( {count} entradas)",
-        "cp=few": "( {count} entradas)",
-        "cp=many": "( {count} entradas)"
+        "cp=few": "({count} entries)",
+        "cp=many": "({count} entries)",
+        "cp=other": "( {count} entradas)"
       }
     }
   ],
@@ -873,20 +873,20 @@
   "data_removal_selected_items": [
     {
       "declarations": [
-        "input count",
-        "input count, plural, one {",
+        "contador de entradas",
+        "contador de entradas, plural, uno {",
         "input e",
         "input one {",
-        "local cp = count: plural"
+        "local cp = contador: plural"
       ],
       "selectors": [
         "cp"
       ],
       "match": {
         "cp=one": "Elemento seleccionado {count} para su eliminación",
-        "cp=other": "Elementos seleccionados {count} para su eliminación",
-        "cp=few": "Elementos seleccionados {count} para su eliminación",
-        "cp=many": "Elementos seleccionados {count} para su eliminación"
+        "cp=few": "Selected {count} items for removal",
+        "cp=many": "Selected {count} items for removal",
+        "cp=other": "Elementos seleccionados {count} para su eliminación"
       }
     }
   ],
@@ -942,17 +942,17 @@
   "sources_count": [
     {
       "declarations": [
-        "input count",
-        "local cp = count: plural"
+        "contador de entradas",
+        "local cp = contador: plural"
       ],
       "selectors": [
         "cp"
       ],
       "match": {
-        "cp=one": "{count} source",
-        "cp=other": "{count} fuentes",
-        "cp=few": "{count} fuentes",
-        "cp=many": "{count} fuentes"
+        "cp=one": "Fuente {count}",
+        "cp=few": "{count} sources",
+        "cp=many": "{count} sources",
+        "cp=other": "{count} fuentes"
       }
     }
   ],
@@ -1009,51 +1009,51 @@
   "team_members_tab": [
     {
       "declarations": [
-        "input count",
-        "local cp = count: plural"
+        "contador de entradas",
+        "local cp = contador: plural"
       ],
       "selectors": [
         "cp"
       ],
       "match": {
         "cp=one": "Miembro ( {count} )",
-        "cp=other": "Miembros ( {count} )",
-        "cp=few": "Miembros ( {count} )",
-        "cp=many": "Miembros ( {count} )"
+        "cp=few": "Members ({count})",
+        "cp=many": "Members ({count})",
+        "cp=other": "Miembros ( {count} )"
       }
     }
   ],
   "team_notes_tab": [
     {
       "declarations": [
-        "input count",
-        "local cp = count: plural"
+        "contador de entradas",
+        "local cp = contador: plural"
       ],
       "selectors": [
         "cp"
       ],
       "match": {
         "cp=one": "Nota ( {count} )",
-        "cp=other": "Notas ( {count} )",
-        "cp=few": "Notas ( {count} )",
-        "cp=many": "Notas ( {count} )"
+        "cp=few": "Notes ({count})",
+        "cp=many": "Notes ({count})",
+        "cp=other": "Notas ( {count} )"
       }
     }
   ],
   "team_invitations_tab": [
     {
       "declarations": [
-        "input count",
-        "local cp = count: plural"
+        "contador de entradas",
+        "local cp = contador: plural"
       ],
       "selectors": [
         "cp"
       ],
       "match": {
         "cp=one": "Invitación ( {count} )",
-        "cp=other": "Invitaciones ( {count} )",
-        "cp=few": "Invitaciones ( {count} )",
-        "cp=many": "Invitaciones ( {count} )"
+        "cp=few": "Invitations ({count})",
+        "cp=many": "Invitations ({count})",
+        "cp=other": "Invitaciones ( {count} )"
       }
     }
   ],
@@ -1068,17 +1068,17 @@
   "team_pending_invites_title": [
     {
       "declarations": [
-        "input count",
-        "local cp = count: plural"
+        "contador de entradas",
+        "local cp = contador: plural"
       ],
       "selectors": [
         "cp"
       ],
       "match": {
         "cp=one": "Invitación pendiente ( {count} )",
-        "cp=other": "Invitaciones pendientes ( {count} )",
-        "cp=few": "Invitaciones pendientes ( {count} )",
-        "cp=many": "Invitaciones pendientes ( {count} )"
+        "cp=few": "Pending Invites ({count})",
+        "cp=many": "Pending Invites ({count})",
+        "cp=other": "Invitaciones pendientes ( {count} )"
       }
     }
   ],
@@ -1149,17 +1149,17 @@
   "account_days_remaining": [
     {
       "declarations": [
-        "input count",
-        "local cp = count: plural"
+        "contador de entradas",
+        "local cp = contador: plural"
       ],
       "selectors": [
         "cp"
       ],
       "match": {
         "cp=one": "{count} día restante",
-        "cp=other": "{count} días restantes",
-        "cp=few": "{count} días restantes",
-        "cp=many": "{count} días restantes"
+        "cp=few": "{count} days remaining",
+        "cp=many": "{count} days remaining",
+        "cp=other": "{count} días restantes"
       }
     }
   ],
@@ -1222,7 +1222,7 @@
   "friendgroups_legend_title": "Leyenda",
   "friendgroups_legend_node_colors": "Colores de los nodos (distancia)",
   "friendgroups_legend_source": "Fuente",
-  "friendgroups_legend_dist": "Dist {count}",
+  "friendgroups_legend_dist": "Distar {count}",
   "friendgroups_legend_dist_plus": "Distrito 5+",
   "friendgroups_legend_edge_styles": "Estilos de borde (Relación)",
   "friendgroups_legend_bfs_tree": "Árbol BFS (ruta de descubrimiento)",
@@ -1317,7 +1317,7 @@
   "teams_confirm_promote": "¿Estás seguro de que quieres promocionar a este miembro?",
   "teams_confirm_demote": "¿Está seguro de que desea degradar a este miembro?",
   "teams_no_invitations": "No hay invitaciones pendientes",
-  "teams_steamid_placeholder": "SteamID64",
+  "teams_steamid_placeholder": "Idioma 64",
   "teams_invite_hint": "Los usuarios invitados deben tener un perfil existente en SteamHistory.net.",
   "teams_pending_invites": "Invitaciones pendientes",
   "teams_cancel_invite": "Cancelar invitación",
