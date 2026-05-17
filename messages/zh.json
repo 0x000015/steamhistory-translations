@@ -1,0 +1,1278 @@
+{
+	"$schema": "https://inlang.com/schema/inlang-message-format",
+	"navbar_search_placeholder": "搜索",
+	"navbar_search_placeholder_full": "搜索（STEAM/32/64/URL）",
+	"navbar_search_error_generic": "搜索过程中发生错误。",
+	"navbar_search_error_not_found": "未找到具有该ID的用户。",
+	"navbar_tools_dropdown": "工具",
+	"navbar_discord_button": "Discord",
+	"navbar_mobile_menu_aria": "打开菜单",
+	"navbar_language_label": "语言",
+	"footer_copyright": "版权所有 © 2025 - SteamHistory.net 保留所有权利",
+	"footer_disclaimer": "SteamHistory.net 并非 Valve Corporation 所有、运营或认可，也不是 Steam 的产品。",
+	"footer_link_supporter": "成为支持者",
+	"footer_link_sources": "来源",
+	"footer_link_faq": "常问问题",
+	"footer_link_privacy": "隐私政策",
+	"footer_link_tos": "服务条款",
+	"footer_link_suggestions": "建议",
+	"nav_alias_search": "别名搜索",
+	"nav_avatar_search": "头像搜索",
+	"nav_url_search": "URL 搜索",
+	"nav_bulk_search": "批量搜索",
+	"nav_api": "API",
+	"nav_supporter_features": "支持者功能",
+	"nav_comment_search": "评论搜索",
+	"profile_official_tooltip": "这是一个官方的SteamHistory相关账号",
+	"profile_official_tag": "官方的",
+	"profile_custom_tag_tooltip": "这是用户自定义的标签；这不是 SteamHistory 官方设置的标签，而是仅限支持者使用的功能。",
+	"profile_custom_tag_whats_this": "这是什么？",
+	"profile_label_steamid64": "SteamID64：",
+	"profile_label_steamid32": "SteamID32：",
+	"profile_label_steamid": "SteamID：",
+	"profile_label_community_url": "社区网址：",
+	"profile_label_profile_url": "个人资料网址：",
+	"profile_label_created": "创建时间：",
+	"profile_label_updated": "更新：",
+	"profile_label_last_checked": "上次检查时间：",
+	"profile_label_last_online": "最后在线时间：",
+	"profile_created_tooltip": "此帐户创建时",
+	"profile_updated_tooltip": "上次我们记录了个人资料的更改",
+	"profile_last_checked_tooltip": "上次我们检查更新时",
+	"profile_last_online_tooltip": "我们上次在Steam上看到这位用户在线。",
+	"profile_estimated_label": "[估计的]",
+	"profile_estimated_tooltip": "此日期是根据用户相邻 SteamID64 的日期估算得出，不能保证完全准确，但应该比较接近。",
+	"profile_na": "不适用",
+	"profile_user_info_divider": "用户信息",
+	"profile_label_status": "地位：",
+	"profile_label_privacy": "隐私：",
+	"profile_label_profile_setup": "个人资料设置：",
+	"profile_label_premium": "优质的：",
+	"profile_ban_info_divider": "禁令信息",
+	"profile_label_vac": "真空：",
+	"profile_label_community": "社区：",
+	"profile_label_game": "游戏：",
+	"profile_label_trade": "贸易：",
+	"profile_label_vac_short": "真空",
+	"profile_label_community_short": "社区",
+	"profile_label_game_short": "游戏",
+	"profile_label_trade_short": "贸易",
+	"profile_label_sb_short": "SB",
+	"profile_label_tf2bd_short": "TF2BD",
+	"profile_ban_status_banned": "被禁",
+	"profile_ban_status_clear": "清除",
+	"profile_ban_status_perm": "永久",
+	"profile_ban_status_temp": "温度",
+	"profile_ban_status_unbanned": "解除禁令",
+	"profile_ban_status_expired": "已到期",
+	"profile_ban_status_unknown": "未知",
+	"profile_ban_no_proof": "没有证据",
+	"profile_ban_unban_reason": "解禁原因：",
+	"profile_ban_unban_date": "解禁日期：",
+	"profile_ban_duration": "期间：",
+	"profile_ban_duration_days": [
+		{
+			"declarations": [
+				"input count",
+				"local cp = count: plural"
+			],
+			"selectors": [
+				"cp"
+			],
+			"match": {
+				"cp=one": "{count}天",
+				"cp=other": "{count}天"
+			}
+		}
+	],
+	"profile_notes_title": "笔记",
+	"profile_notes_tab_team": "团队",
+	"profile_notes_tab_personal": "个人的",
+	"profile_notes_hide": "隐藏",
+	"profile_notes_show": "展示",
+	"profile_notes_personal_placeholder": "添加一条私人备注……",
+	"profile_notes_personal_save": "保存个人笔记",
+	"profile_notes_personal_updated": "个人笔记已更新",
+	"profile_notes_chars_limit": "{count} / {limit}个字符",
+	"profile_notes_team_records": "团队记录",
+	"profile_notes_team_new_note": "+ 新笔记",
+	"profile_notes_team_publish_to": "发布到团队",
+	"profile_notes_team_visibility": "能见度",
+	"profile_notes_team_visibility_private": "私人（仅限员工）",
+	"profile_notes_team_visibility_team": "团队（全体成员）",
+	"profile_notes_team_visibility_public": "公开（成员和关注者）",
+	"profile_notes_team_placeholder": "与团队分享你的观察结果……",
+	"profile_notes_team_post": "发布到团队",
+	"profile_vac_bans_detailed": [
+		{
+			"declarations": [
+				"input count",
+				"input timeAgo",
+				"input timestamp",
+				"local cp = count: plural"
+			],
+			"selectors": [
+				"cp"
+			],
+			"match": {
+				"cp=one": "{count} ban, {timeAgo} ( {timestamp} )",
+				"cp=other": "{count}禁止， {timeAgo} ( {timestamp} )"
+			}
+		}
+	],
+	"profile_vac_bans_simple": [
+		{
+			"declarations": [
+				"input count",
+				"local cp = count: plural"
+			],
+			"selectors": [
+				"cp"
+			],
+			"match": {
+				"cp=one": "{count}禁令",
+				"cp=other": "{count}禁止"
+			}
+		}
+	],
+	"profile_vac_none": "没有VAC封禁记录",
+	"profile_community_bans_detailed": "已禁用{timeAgo} ( {timestamp} )",
+	"profile_community_bans_simple": "被禁",
+	"profile_community_none": "目前没有社区禁令记录",
+	"profile_community_bans_total_count": [
+		{
+			"declarations": [
+				"input count",
+				"local cp = count: plural"
+			],
+			"selectors": [
+				"cp"
+			],
+			"match": {
+				"cp=one": "{count}禁令",
+				"cp=other": "{count}禁止"
+			}
+		}
+	],
+	"profile_game_bans_detailed": [
+		{
+			"declarations": [
+				"input count",
+				"input timeAgo",
+				"input timestamp",
+				"local cp = count: plural"
+			],
+			"selectors": [
+				"cp"
+			],
+			"match": {
+				"cp=one": "{count} ban, {timeAgo} ( {timestamp} )",
+				"cp=other": "{count}禁止， {timeAgo} ( {timestamp} )"
+			}
+		}
+	],
+	"profile_game_bans_simple": [
+		{
+			"declarations": [
+				"input count",
+				"local cp = count: plural"
+			],
+			"selectors": [
+				"cp"
+			],
+			"match": {
+				"cp=one": "{count}禁令",
+				"cp=other": "{count}禁止"
+			}
+		}
+	],
+	"profile_game_none": "目前没有游戏禁赛记录",
+	"profile_economy_bans_detailed": "已禁用{timeAgo} ( {timestamp} )",
+	"profile_economy_bans_simple": "被禁",
+	"profile_economy_none": "目前没有贸易禁令记录",
+	"profile_tools_info_divider": "信息",
+	"profile_tools_unique_views": "独特视角：",
+	"profile_tools_total_views": "总浏览量：",
+	"profile_tools_tools_divider": "工具",
+	"profile_tools_watch_user": "观察用户",
+	"profile_tools_unwatch_user": "取消关注用户",
+	"profile_tools_force_update": "强制更新",
+	"profile_tools_supporter_divider": "支持者",
+	"profile_tools_comment_search": "评论搜索",
+	"profile_tools_watch_tooltip": "接收此用户个人资料更改的通知",
+	"profile_tools_force_update_tooltip": "请求从 Steam 实时更新用户个人资料。",
+	"profile_tools_comment_search_tooltip": "查找特定用户发表的评论",
+	"profile_tools_link_discord": "Discord链接",
+	"profile_tools_link_discord_suffix": " 使用手表功能。",
+	"profile_tools_watch_limit_nearing": "观看次数即将达到上限。成为{supporterLink}可以提高上限。",
+	"profile_tools_watch_limit_reached": "已达到观看次数上限。成为{supporterLink}即可提高观看次数上限。",
+	"profile_tools_update_success_detailed": "更新成功！( {usesLeft} / {maxUses} ) 剩余使用次数",
+	"profile_tools_update_success_simple": "更新成功！",
+	"profile_tools_daily_limit_reached": "已达到每日限额（ {maxUses} / {maxUses} ）",
+	"profile_tools_unlimited_updates_cta": "成为支持者，即可享受无限次更新",
+	"profile_tools_update_failed": "更新失败，请重试。",
+	"profile_tools_recently_updated": "最近已更新。请在{time}中重试。",
+	"profile_tools_unknown_error": "发生未知错误。",
+	"profile_tools_unexpected_error": "发生意外错误： {error}",
+	"profile_tools_update_limit_nearing": "更新次数即将达到上限。成为{supporterLink}即可增加次数。",
+	"profile_tools_login_to_use": "登录以使用评论搜索功能",
+	"profile_tools_supporter_expired": "您的支持者身份已过期。点击此处续订。",
+	"profile_tools_become_supporter_cta": "成为支持者即可使用评论搜索功能",
+	"profile_tools_status_watched": "关注用户",
+	"profile_status_unwatched": "未关注用户",
+	"search_login_title": "请登录",
+	"search_login_description": "您需要登录才能使用此功能。",
+	"search_login_button": "使用 Steam 登录",
+	"search_button": "搜索",
+	"search_no_results": "未找到结果。",
+	"search_rate_limited_title": "利率限制",
+	"search_rate_limited_description": "您执行此操作过于频繁，请稍后再试。",
+	"search_error_title": "错误",
+	"search_copy_error_code": "复制错误代码",
+	"search_alias_title": "别名搜索",
+	"search_alias_description": "搜索别名",
+	"search_alias_label": "别名",
+	"search_exact_match_label": "完全匹配",
+	"search_tf2bd_sourceban_label": "TF2BD/Sourceban 比赛",
+	"search_tf2bd_sourceban_supporter_cta": "成为支持者即可使用 TF2BD/Sourceban 匹配功能",
+	"search_bulk_title": "批量搜索",
+	"search_bulk_description": "列出已提交数据的概况",
+	"search_bulk_identifiers_label": "标识符",
+	"search_bulk_vanity_label": "允许在任何地方进行虚荣匹配",
+	"search_avatar_title": "头像搜索",
+	"search_avatar_description": "搜索历史人物照片",
+	"search_avatar_hash_label": "头像哈希",
+	"search_avatar_found_results": [
+		{
+			"declarations": [
+				"input count",
+				"local cp = count: plural"
+			],
+			"selectors": [
+				"cp"
+			],
+			"match": {
+				"cp=one": "找到{count} ”结果",
+				"cp=other": "找到 ' {count} ' 个结果"
+			}
+		}
+	],
+	"search_url_title": "URL 搜索",
+	"search_url_description": "搜索历史网址",
+	"search_url_label": "URL",
+	"search_comment_title": "评论搜索",
+	"search_comment_description": "通过 SteamID 或文本搜索评论",
+	"search_comment_supporter_only_title": "仅限支持者",
+	"search_comment_supporter_only_description": "此功能仅对支持者开放。",
+	"search_comment_text_label": "评论文本",
+	"search_comment_text_hint": "请使用引号括起原文短语：“steamhistory”“cheating”<br>使用 -word 排除特定词语：“steamhistory” -cheating",
+	"search_comment_exclude_tooltip": "排除此 SteamID 的评论",
+	"search_comment_include_tooltip": "仅包含来自此 SteamID 的评论",
+	"search_comment_exclude_button": "排除",
+	"search_comment_include_button": "包括",
+	"search_comment_exclude_error": "使用“排除”功能时，需要同时提供 SteamID 和评论文本。",
+	"search_comment_deleted_only_label": "仅显示已删除的评论",
+	"search_comment_sort_label": "排序方式：",
+	"search_comment_sort_newest": "最新优先",
+	"search_comment_sort_oldest": "最早的在前",
+	"search_comment_results_found": [
+		{
+			"declarations": [
+				"input count",
+				"input time",
+				"local cp = count: plural"
+			],
+			"selectors": [
+				"cp"
+			],
+			"match": {
+				"cp=one": "找到{count}结果（ {time}毫秒）",
+				"cp=other": "找到{count}个结果（ {time}毫秒）"
+			}
+		}
+	],
+	"search_comment_date_range": "日期范围： {range}",
+	"homepage_title": "SteamHistory.net | Steam个人资料存档",
+	"homepage_description": "SteamHistory 的主要目的是收集 Steam 个人资料的历史和/或当前信息，并将其存储在一个中心位置。",
+	"homepage_button_discord": "加入 Discord",
+	"homepage_button_avatar_metrics": "头像使用指标",
+	"homepage_recently_updated_title": "最近更新的个人资料",
+	"homepage_ban_type_vac": "有 VAC 封禁记录",
+	"homepage_ban_type_game": "有游戏封禁",
+	"homepage_ban_type_tf2bd": "带有 TF2 机器人检测器标记",
+	"homepage_ban_type_sourceban": "带有 SourceBan 标记",
+	"homepage_ban_type_rustwho": "带有 RustWho 标记",
+	"homepage_time_ago_seconds": "{count}几秒前",
+	"homepage_time_ago_minutes": "{count}米前",
+	"homepage_time_ago_hours": "{count}小时前",
+	"homepage_time_ago_days": "{count} d 年前",
+	"profile_status_tooltip": "Steam 上的当前用户状态",
+	"profile_privacy_tooltip": "用户个人资料隐私设置",
+	"profile_setup_tooltip": "指示用户是否已设置社区个人资料。",
+	"profile_premium_tooltip": "指示用户是否拥有高级（付费）Steam 帐户",
+	"profile_impersonator_disclaimer_title": "免责声明",
+	"profile_impersonator_disclaimer_text": "该用户与 SteamHistory 项目<b>没有任何</b>关联，也不是该项目的员工或成员。",
+	"profile_note_title": "笔记",
+	"profile_history_persona_title": "Persona 历史",
+	"profile_history_realname_title": "真实姓名历史",
+	"profile_history_url_title": "URL历史记录",
+	"profile_history_pfp_title": "PFP历史",
+	"profile_history_comments_title": "评论历史记录",
+	"profile_history_friends_title": "朋友历史",
+	"profile_history_total_entries_tooltip": "条目总数： {count}",
+	"profile_history_friend_list_private": "好友列表已设为私密。",
+	"profile_history_friend_list_public": "好友列表是公开的。",
+	"profile_history_friends_last_updated": "好友上次更新时间：",
+	"profile_history_friends_privacy_unknown": "好友列表隐私设置未知，尚未进行检查。",
+	"profile_history_comments_last_updated": "评论最后更新时间： {date}",
+	"profile_history_comments_not_checked": "评论尚未审核",
+	"profile_history_vac_bans_warning": "{percent}好友中被VAC封禁的百分比",
+	"profile_history_community_bans_warning": "{percent} % 的好友被社区封禁",
+	"profile_history_game_bans_warning": "{percent} % 的好友被游戏封禁",
+	"profile_history_sb_bans_warning": "{percent} % 的朋友已被 SourceBans 封禁",
+	"profile_history_tf2bd_bans_warning": "{percent} % 的好友被 TF2BD 封禁",
+	"profile_history_friend_swap_tooltip": "利用公开数据重建用户的好友列表",
+	"profile_history_friend_swap_button": "朋友交换",
+	"profile_history_friend_swap_login_cta": "登录即可使用好友交换功能",
+	"profile_history_friend_swap_supporter_cta": "成为支持者即可使用好友交换功能",
+	"profile_history_filter_label": "筛选：",
+	"profile_history_filter_all": "全部",
+	"profile_history_filter_friends": "朋友们",
+	"profile_history_filter_unfriended": "解除好友",
+	"profile_history_filter_deleted": "已删除",
+	"profile_history_bans_label": "禁令：",
+	"profile_history_show_deleted_count": [
+		{
+			"declarations": [
+				"input ",
+				"input count",
+				"input count, plural, =1 {",
+				"input count, plural, one {",
+				"input e",
+				"input one {",
+				"input s",
+				"local cp = count: plural"
+			],
+			"selectors": [
+				"cp"
+			],
+			"match": {
+				"cp=one": "显示{count}已删除的评论",
+				"cp=other": "显示{count}已删除的评论"
+			}
+		}
+	],
+	"profile_history_view_all_button": "查看全部",
+	"profile_history_hidden_data": "[SH数据已按请求隐藏]",
+	"profile_history_search_persona_tooltip": "搜索具有此角色名称的用户",
+	"profile_history_search_url_tooltip": "搜索使用此 URL 的用户",
+	"profile_history_official_avatar_tooltip": "这是官方的Steam或游戏头像，无法通过这种方式搜索到。",
+	"profile_history_unfriended_label": "[已取消好友{date} ]",
+	"profile_history_friends_duration": [
+		{
+			"declarations": [
+				"input count",
+				"local cp = count: plural"
+			],
+			"selectors": [
+				"cp"
+			],
+			"match": {
+				"cp=one": "朋友{count}",
+				"cp=other": "朋友陪伴{count}天"
+			}
+		}
+	],
+	"profile_history_friends_from": "来自{date}的朋友",
+	"profile_history_friend_since": "自{date}以来一直是朋友",
+	"profile_community_bans_title": "社区禁令",
+	"profile_community_bans_possible_cheater": "可能的作弊者",
+	"profile_community_bans_keywords_label": "关键词： {list}",
+	"profile_community_bans_group_ban_note": "禁止加入群组并不代表存在作弊行为，而是社区的一种立场。",
+	"profile_community_bans_view_on_server": "查看对{server}的禁令",
+	"profile_community_bans_proof_entries": [
+		{
+			"declarations": [
+				"input count",
+				"input count, plural, one {stück",
+				"input count, plural, one {y",
+				"input ies",
+				"input one {stück",
+				"input one {y",
+				"input stücke",
+				"local cp = count: plural"
+			],
+			"selectors": [
+				"cp"
+			],
+			"match": {
+				"cp=one": "{count}已附证明条目",
+				"cp=other": "{count}已附证明条目"
+			}
+		}
+	],
+	"profile_community_bans_recent_badge": "最近的",
+	"profile_community_bans_permanent_badge": "永恒的",
+	"profile_community_bans_temporary_badge": "暂时的",
+	"profile_community_bans_unbanned_badge": "解除禁令",
+	"profile_community_bans_expired_badge": "已到期",
+	"profile_community_bans_table_date": "日期",
+	"profile_community_bans_table_proofs": "证明",
+	"profile_community_bans_table_attributes": "属性",
+	"profile_community_bans_table_name": "姓名",
+	"profile_community_bans_table_reason": "原因",
+	"profile_community_bans_table_status": "地位",
+	"status_offline": "离线",
+	"status_online": "在线的",
+	"status_busy": "忙碌的",
+	"status_away": "离开",
+	"status_snooze": "打盹",
+	"status_unknown": "未知",
+	"privacy_private": "私人的",
+	"privacy_friends": "朋友们",
+	"privacy_public": "民众",
+	"premium_f2p": "免费游戏",
+	"premium_premium": "优质的",
+	"common_true": "真的",
+	"common_false": "错误的",
+	"common_cancel": "取消",
+	"time_ago_years": [
+		{
+			"declarations": [
+				"input count",
+				"input count, plural, one {",
+				"input en",
+				"input one {",
+				"input s",
+				"local cp = count: plural"
+			],
+			"selectors": [
+				"cp"
+			],
+			"match": {
+				"cp=one": "{count}年前",
+				"cp=other": "{count}年前"
+			}
+		}
+	],
+	"time_ago_months": [
+		{
+			"declarations": [
+				"input count",
+				"input count, plural, one {",
+				"input en",
+				"input one {",
+				"input s",
+				"local cp = count: plural"
+			],
+			"selectors": [
+				"cp"
+			],
+			"match": {
+				"cp=one": "{count}前",
+				"cp=other": "{count}前"
+			}
+		}
+	],
+	"time_ago_days": [
+		{
+			"declarations": [
+				"input count",
+				"input count, plural, one {",
+				"input en",
+				"input one {",
+				"local cp = count: plural"
+			],
+			"selectors": [
+				"cp"
+			],
+			"match": {
+				"cp=one": "{count}天前",
+				"cp=other": "{count}天前"
+			}
+		}
+	],
+	"time_ago_hours": [
+		{
+			"declarations": [
+				"input count",
+				"input count, plural, one {",
+				"input n",
+				"input one {",
+				"input s",
+				"local cp = count: plural"
+			],
+			"selectors": [
+				"cp"
+			],
+			"match": {
+				"cp=one": "{count}一小时前",
+				"cp=other": "{count}小时前"
+			}
+		}
+	],
+	"time_ago_minutes": [
+		{
+			"declarations": [
+				"input count",
+				"input count, plural, one {",
+				"input n",
+				"input one {",
+				"input s",
+				"local cp = count: plural"
+			],
+			"selectors": [
+				"cp"
+			],
+			"match": {
+				"cp=one": "{count}分钟前",
+				"cp=other": "{count}分钟前"
+			}
+		}
+	],
+	"time_ago_just_now": "现在",
+	"profile_indexing_title": "索引进行中",
+	"profile_indexing_text": "该用户的个人资料正在被索引，请稍候。",
+	"profile_copy_success": "已复制！",
+	"profile_copy_failure": "复制失败！",
+	"profile_error_load_failed": "用户数据加载失败。该用户资料可能不存在或设置为私密。",
+	"profile_error_backend_connection": "我们连接服务器时遇到问题。请稍后再试。如需实时更新，请加入我们的{discordLink} ！",
+	"profile_error_auth_required": "此用户尚未被索引。请{loginLink}开始索引过程。",
+	"profile_meta_description": [
+		{
+			"declarations": [
+				"input name",
+				"input nameCount",
+				"input pfpCount",
+				"input privacy",
+				"local ncp = nameCount: plural",
+				"local pcp = pfpCount: plural"
+			],
+			"selectors": [
+				"ncp",
+				"pcp"
+			],
+			"match": {
+				"ncp=one, pcp=one": "{name}是一个{privacy}配置文件，其中记录了{nameCount}个名称和{pfpCount}张头像。",
+				"ncp=one, pcp=other": "{name}是一个{privacy}配置文件，其中记录了{nameCount}个名称和{pfpCount}张头像。",
+				"ncp=other, pcp=one": "{name}是一个{privacy}配置文件，其中记录了{nameCount}个姓名和{pfpCount}张头像。",
+				"ncp=other, pcp=other": "{name}是一个{privacy}配置文件，其中记录了{nameCount}个姓名和{pfpCount}张头像。"
+			}
+		}
+	],
+	"notification_dock_wisdom_tab": "智慧",
+	"notification_dock_poll_tab": "轮询",
+	"privacy_s6_l2_1": "广告：",
+	"privacy_s6_l2_2": " 如上所述，NitroPay 等第三方广告商使用 Cookie 来投放个性化广告。如需了解如何选择退出个性化广告，请参阅广告商的隐私政策。",
+	"privacy_s7_title": "7. 数据保留",
+	"privacy_s7_p1": "只要我们收集的公开数据在源平台（例如 Steam）上仍然公开可用，我们就会一直保留这些数据。即使数据从源平台移除，出于历史原因，我们仍可能将其保留在我们的存档中。如果您要求删除您的数据，我们将从我们的活跃数据库中删除它。",
+	"privacy_s7_p2": "出于财务和法律原因，我们需要将支付处理商（Ko-Fi）的交易数据保留一段时间。这些数据将被安全保存，仅用于会计和合规目的。",
+	"privacy_s8_title": "8. 本隐私政策的变更",
+	"privacy_s8_p1": "我们可能会不时更新本隐私政策。任何变更都将发布在本页面上，并更新“最后更新”日期。建议您定期查看本隐私政策以了解任何变更。在此类变更后继续使用本服务即表示您接受新政策。",
+	"tos_title": "服务条款",
+	"tos_header": "SteamHistory.net 服务条款",
+	"tos_last_updated": "最后更新日期：2025年11月2日",
+	"tos_s1_title": "1. 接受条款",
+	"tos_s1_p1": "访问或使用 SteamHistory.net（以下简称“服务”）即表示您同意受本服务条款（以下简称“条款”）的约束。如果您不同意本条款，则不得使用本服务。",
+	"tos_s1_p2": "本服务是一个独立项目，与 Valve Corporation 或 Steam 没有任何关联、认可或任何官方联系。",
+	"tos_s2_title": "2. 服务说明",
+	"tos_s2_p1": "SteamHistory.net 是一项第三方服务，用于存档和展示来自 Steam 平台和其他第三方公共来源（例如 Sourcebans 和 TF2BD）的公开数据。该服务的目的是提供公开用户信息的历史记录，包括与作弊和恶意活动相关的数据。",
+	"tos_s3_title": "3. 用户行为",
+	"tos_s3_p1": "您同意不将本服务用于任何非法或本条款禁止的用途。您同意不：",
+	"tos_s3_l1": "不得以任何可能损害、禁用、超载或削弱服务的方式使用服务。",
+	"tos_s3_l2": "试图未经授权访问服务的任何部分。",
+	"tos_s3_l3": "使用任何自动化系统（包括“机器人”、“蜘蛛”或“离线阅读器”）访问服务，向服务器发送的请求消息数量超过人类使用常规在线网络浏览器在同一时间内合理产生的数量。",
+	"tos_s3_l4": "如果您获得我们 API 的访问权限，则您同意不滥用该 API，包括但不限于超出速率限制、试图对其功能进行逆向工程，或将其用于任何违反本条款或未经明确许可的目的。",
+	"tos_s4_title": "4. 知识产权和内容",
+	"tos_s4_p1": "本服务上显示的所有数据，包括但不限于用户名、头像和评论，均为 Valve Corporation 和/或其各自用户的财产。Steam 名称和徽标是 Valve Corporation 的商标。",
+	"tos_s4_p2": "我们的服务仅供个人非商业用途。您同意不将本服务或其任何部分用于任何商业目的，并遵守Steam用户协议。",
+	"tos_s5_title": "5. 支持者等级和功能",
+	"tos_s5_p1": "我们提供多种可选的支持者级别，让您能够使用更多高级功能。您可以通过一次性捐赠或每月定期订阅成为支持者，订阅费用将通过我们的第三方支付平台（例如 Ko-Fi）处理。成为支持者即表示您同意以下条款：",
+	"tos_s5_l1_1": "特征：",
+	"tos_s5_l1_2": " 支持者可获得以下功能，但不限于：多源搜索（按角色名、真实姓名、URL 和头像哈希值搜索）、评论搜索、查看已删除的评论、好友交换（从公开数据重建私人好友列表）以及个人资料外观自定义。",
+	"tos_s5_l2_1": "付款方式：",
+	"tos_s5_l2_2": "一次性捐款：",
+	"tos_s5_l2_3": " 捐款金额可累积计算。每捐赠 5 美元，您将获得 30 天的支持者权限。例如，单笔捐赠 15 美元即可获得 90 天的权限。",
+	"tos_s5_l2_4": "月度订阅：",
+	"tos_s5_l2_5": " 如果您选择按月订阅，您的款项将每月自动扣除。您可以随时通过支付平台的界面取消订阅。",
+	"tos_s5_l3_1": "不予退款：",
+	"tos_s5_l3_2": " 所有支持者访问权限的付款，无论是通过一次性捐款还是订阅，都是最终的，不可退款。",
+	"tos_s5_l4_1": "拒付：",
+	"tos_s5_l4_2": " 如果在未先联系我们解决付款问题的情况下发起退款，您将被永久禁止使用所有 SteamHistory 服务。",
+	"tos_s6_title": "6. 免责声明和责任限制",
+	"tos_s6_p1": "本服务按“现状”及“现有”方式提供。我们不对所提供数据的准确性、可靠性或完整性作出任何明示或暗示的保证。数据来源于Steam Web API及其他第三方服务，我们对这些来源的任何错误或遗漏概不负责。",
+	"tos_s6_p2": "在任何情况下，SteamHistory.net 或其运营者均不对因您使用本服务而引起的或与之相关的任何间接的、附带的、特殊的、后果性的或惩罚性的损害承担责任。",
+	"tos_s7_title": "7. 数据删除和内容审核",
+	"tos_s7_p1_1": "我们致力于遵守 GDPR 等数据保护法律，并尊重用户的“被遗忘权”。如果您希望从我们的服务中删除您的个人数据，请访问 ",
+	"tos_s7_p1_link": "数据删除页面",
+	"tos_s7_p1_2": " （需要登录），我们将处理您的请求。",
+	"tos_s7_p2": "请注意，我们的服务会显示来自第三方来源（例如 Sourcebans 和 TF2BD）的数据。我们无法控制这些数据，也无法修改或删除这些数据。如需删除此类数据，您必须直接联系相应的第三方服务提供商。",
+	"tos_s7_p3": "此外，作为一项致力于为游戏社区（尤其是恶意活动）维护历史档案的服务，我们保留出于安全和存档目的而保留与此类活动相关的匿名化、非个人数据的权利。这旨在保护本服务及其用户的完整性。任何此类数据保留都将符合适用法律。",
+	"tos_s8_title": "8. 年龄限制",
+	"tos_s8_p1": "本服务仅供年满13周岁的用户使用。使用本服务即表示您声明并保证您已年满13周岁。如果我们发现有用户未满13周岁，我们将采取措施删除其信息并终止其账户。",
+	"tos_s9_title": "9. 争议解决",
+	"tos_s9_p1": "因本条款或您使用本服务而引起的任何争议，均应适用本服务运营方所在地的法律，而不考虑其冲突法条款。您同意接受该司法管辖区法院的专属管辖权。",
+	"tos_s10_title": "10. 隐私",
+	"tos_s10_p1_1": "您的隐私对我们至关重要。请查看我们的隐私政策。 ",
+	"tos_s10_p1_link": "隐私政策",
+	"tos_s10_p1_2": " 了解我们如何收集、使用和保护您的信息。",
+	"tos_s11_title": "11. 本条款的变更",
+	"tos_s11_p1": "我们保留随时修改本条款的权利。任何修改都将发布在本页面上，并更新“最后更新”日期。您在任何此类修改后继续使用本服务即表示您接受新条款。建议您定期查看本条款以了解任何变更。",
+	"tos_s12_title": "12. 联系我们",
+	"tos_s12_p1_1": "如果您对这些条款有任何疑问，请联系我们。 ",
+	"tos_s12_p1_link": "admin@steamhistory.net",
+	"tos_s12_p1_2": "如需提出与数据隐私和删除相关的请求，请访问 ",
+	"tos_s12_p1_link_rem": "数据删除页面",
+	"tos_s12_p1_3": " （需要登录）",
+	"supporter_title": "成为支持者",
+	"supporter_subtitle": "支持 SteamHistory.net，解锁专属功能，提升您的游戏体验",
+	"supporter_features_title": "支持者功能",
+	"supporter_f1_title": "评论搜索",
+	"supporter_f1_desc": "查找由特定 SteamID 发表或包含特定词语的评论",
+	"supporter_f2_title": "已删除的评论",
+	"supporter_f2_desc": "能够查看已浏览个人资料中所有已删除的评论",
+	"supporter_f3_title": "朋友交换",
+	"supporter_f3_desc": "即使用户的好友列表设置为私密，也可以查看该用户的好友。",
+	"supporter_f4_title": "个人资料定制",
+	"supporter_f4_desc": "允许您以多种方式自定义您的 SH 个人资料，纯粹是外观上的更改。",
+	"supporter_f5_title": "无广告体验",
+	"supporter_f5_desc": "登录后网站不显示任何广告",
+	"supporter_f6_title": "Discord 访问权限",
+	"supporter_f6_desc": "可通过测试人员和支持者频道提前使用/讨论正在开发中的功能",
+	"supporter_f7_title": "强制更新和冷却时间变更",
+	"supporter_f7_desc": "10次/天 → 无限次 | 12小时 → 30分钟",
+	"supporter_f8_title": "观看限制",
+	"supporter_f8_desc": "6 位用户 → 32 位用户",
+	"supporter_how_to_title": "如何成为支持者",
+	"supporter_kofi_desc": "您可以通过 Ko-Fi 直接支持我们，可以选择一次性捐款或每月会员。",
+	"supporter_kofi_widget_label": "使用下方的小部件或：",
+	"supporter_kofi_direct_link": "直接链接",
+	"supporter_pricing_terms_title": "定价及条款",
+	"supporter_pricing_info_title": "定价信息",
+	"supporter_min_amount": "最低金额：每月 5 美元",
+	"supporter_duration_calc": "持续时间计算：每捐赠 5 美元 = 30 天的支持者身份",
+	"supporter_bucket_system": "捐款桶系统：捐款金额累积，直至达到 5 美元的增量。",
+	"supporter_bucket_ex1": "示例 1：捐款 15 美元 = 90 天（3 个月）的支持者身份",
+	"supporter_bucket_ex2": "例2：先捐赠3美元，之后再捐赠2美元，30天后总额达到5美元即可。",
+	"supporter_account_linking_title": "账户关联",
+	"supporter_linking_p1": "通过 Ko-Fi 捐赠后，您将收到一封包含交易 ID 的电子邮件。",
+	"supporter_linking_p2": "请通过以下方式关联您的支持者身份：",
+	"supporter_linking_li1_1": "去你的 ",
+	"supporter_linking_li1_link": "账户页面",
+	"supporter_linking_li1_2": "",
+	"supporter_linking_li2": "输入您的 Ko-Fi 邮箱和交易 ID",
+	"supporter_linking_li3": "您的支持者功能将立即激活",
+	"search_alias_used": "使用了别名",
+	"search_avatar_used": "使用了此头像",
+	"search_comment_commented_on": "评论",
+	"search_url_used": "使用了该网址",
+	"search_result_deleted": "【已删除】",
+	"search_result_created": "创建时间： ",
+	"search_alias_placeholder": "例如阿尔弗雷德",
+	"search_url_placeholder": "例如 https://steamcommunity.com/id/xyzxyz 或 xyzxyz",
+	"search_avatar_placeholder": "例如 4ac560d3b4f25656f092c218d7570d12dcdaeabc",
+	"search_comment_steamid_placeholder": "例如 76561198000000000（可选）",
+	"search_comment_text_placeholder": "关键词或短语（可选）",
+	"search_bulk_identifiers_placeholder": "每行输入一个标识符（例如 SteamID64、自定义 URL 等）。",
+	"data_removal_persona_title": "历史人物姓名",
+	"data_removal_realname_title": "历史真实姓名",
+	"data_removal_url_title": "历史概况网址",
+	"data_removal_pfp_title": "历史人物简介照片",
+	"data_removal_entries_count": [
+		{
+			"declarations": [
+				"input count",
+				"local cp = count: plural"
+			],
+			"selectors": [
+				"cp"
+			],
+			"match": {
+				"cp=one": "（ {count}条目）",
+				"cp=other": "（ {count}个条目）"
+			}
+		}
+	],
+	"data_removal_current_name": "当前姓名",
+	"data_removal_current_name_warning": "此条目无法删除，因为它与您当前的显示名称过于相似。",
+	"data_removal_persona_placeholder": "请解释一下您为什么想要删除这个角色名称……",
+	"data_removal_realname_placeholder": "请解释一下您为什么希望删除这个真实姓名……",
+	"data_removal_url_placeholder": "请解释一下您为什么想要删除这个网址……",
+	"data_removal_pfp_placeholder": "请解释一下您为什么想删除这张头像……",
+	"data_removal_duplicate_reason": "检测到重复原因",
+	"data_removal_overall_reason_title": "总体原因",
+	"data_removal_overall_reason_desc": "请简要说明您希望删除这些数据条目的原因。这将有助于我们的管理员更好地理解您的请求。",
+	"data_removal_overall_placeholder": "请解释一下您为什么想要删除这些数据……",
+	"data_removal_submit_title": "提交请求",
+	"data_removal_selected_items": [
+		{
+			"declarations": [
+				"input count",
+				"input count, plural, one {",
+				"input e",
+				"input one {",
+				"local cp = count: plural"
+			],
+			"selectors": [
+				"cp"
+			],
+			"match": {
+				"cp=one": "已选择要移除的{count}项",
+				"cp=other": "已选择{count}个项目进行移除"
+			}
+		}
+	],
+	"data_removal_duplicate_error": "请为每条数据录入提供唯一理由，不允许重复。",
+	"data_removal_min_words_error": "请确保所有理由均满足最低{count}个字的要求。",
+	"data_removal_confirm_title": "确认提交",
+	"data_removal_confirm_p1": "提交此申请即表示您确认：",
+	"data_removal_confirm_li1": "您的请求符合上述“重要信息”部分中定义的个人身份信息 (PII) 准则。",
+	"data_removal_confirm_li2": "您已完整阅读“重要信息”部分。",
+	"data_removal_agree_button": "我同意",
+	"data_removal_word_count": "{count} / {min}个单词",
+	"pagination_prev": "上一页",
+	"pagination_next": "下一个",
+	"pagination_go_to_page": "跳转到页面：",
+	"pagination_of": "的",
+	"pagination_show": "展示",
+	"pagination_per_page": "每页",
+	"usermenu_account_title": "帐户",
+	"usermenu_profile": "轮廓",
+	"usermenu_my_teams": "我的团队",
+	"usermenu_settings": "设置",
+	"usermenu_data_removal": "数据删除",
+	"usermenu_logout": "注销",
+	"suggestion_title": "提交建议",
+	"suggestion_success": "谢谢你的建议！",
+	"suggestion_description": "请分享您的想法和反馈，帮助我们改进SteamHistory。",
+	"suggestion_placeholder": "请在此处分享您的建议或反馈……",
+	"suggestion_submitting": "正在提交……",
+	"suggestion_submit": "提交建议",
+	"beta_popup_title": "欢迎来到全新的Steam历史！",
+	"beta_popup_p1": "此次重新设计目前处于测试阶段。如果您遇到任何错误或有任何反馈，请在我们的[此处插入链接]报告。",
+	"beta_popup_discord_link": "Discord 服务器",
+	"beta_popup_p2": "您也可以在右上角的导航栏中找到 Discord 链接。",
+	"beta_popup_button": "知道了！",
+	"turnstile_title": "需要验证",
+	"turnstile_verifying": "正在核实……",
+	"turnstile_button": "验证并继续",
+	"search_alias_submit": "搜索别名",
+	"search_avatar_submit": "搜索头像",
+	"search_bulk_submit": "批量搜索",
+	"search_url_submit": "搜索网址",
+	"search_comment_submit": "搜索评论",
+	"search_supporter_only_title": "支持者功能",
+	"search_supporter_only_description": "此功能仅限支持者使用。请支持本项目以获取访问权限。",
+	"search_supporter_only_button": "成为支持者",
+	"search_supporter_expired_description": "您的支持者身份已过期。请续订您的支持者身份以继续使用此功能。",
+	"search_supporter_expired_button": "续签支持",
+	"search_results_count": "找到 ' {count} ' 结果",
+	"sources_title": "来源",
+	"sources_meta_description": "查看 Steam History 用于收集 Steam 帐户数据的所有来源，包括 SourceBans、RustWho 和 TF2BD 列表。",
+	"sources_header": "数据来源",
+	"sources_description": "Steam History 从多个来源收集数据，提供关于 Steam 帐户的全面信息。以下是我们数据库使用的所有数据来源。",
+	"sources_count": [
+		{
+			"declarations": [
+				"input count",
+				"local cp = count: plural"
+			],
+			"selectors": [
+				"cp"
+			],
+			"match": {
+				"cp=one": "{count}源",
+				"cp=other": "{count}源"
+			}
+		}
+	],
+	"teams_vanity_label": "自定义网址",
+	"teams_vanity_placeholder": "成功者",
+	"teams_vanity_hint": "团队简介的专属短链接。",
+	"teams_description_label": "描述",
+	"teams_description_placeholder": "这个团队的重点是什么？",
+	"teams_private_label": "私人团队",
+	"teams_private_hint": "仅限受邀成员访问。",
+	"teams_discard_button": "丢弃",
+	"teams_no_teams_found": "未找到任何队伍",
+	"teams_create_first": "创建你的第一个团队",
+	"teams_no_matches": "没有找到匹配项“ {query}",
+	"teams_created_label": "创建",
+	"teams_joined_label": "加入",
+	"team_back_to_my_teams": "返回我的团队",
+	"team_unfollow": "取消关注",
+	"team_follow": "跟随",
+	"team_edit_team": "编辑团队",
+	"team_delete_team": "删除团队",
+	"team_delete_confirm": "您确定要删除此团队吗？这将移除所有成员。",
+	"team_control_panel": "团队控制面板",
+	"team_name_change_warning": "更改名称会立即释放旧名称。",
+	"team_vanity_readonly_hint": "自定义网址创建后无法更改。",
+	"team_save_settings": "保存设置",
+	"team_about": "关于{name}",
+	"team_no_summary": "未提供摘要。",
+	"team_members_tab": [
+		{
+			"declarations": [
+				"input count",
+				"local cp = count: plural"
+			],
+			"selectors": [
+				"cp"
+			],
+			"match": {
+				"cp=one": "成员（ {count} ）",
+				"cp=other": "成员（ {count} ）"
+			}
+		}
+	],
+	"team_notes_tab": [
+		{
+			"declarations": [
+				"input count",
+				"local cp = count: plural"
+			],
+			"selectors": [
+				"cp"
+			],
+			"match": {
+				"cp=one": "注意（ {count} ）",
+				"cp=other": "注释（ {count} ）"
+			}
+		}
+	],
+	"team_invitations_tab": [
+		{
+			"declarations": [
+				"input count",
+				"local cp = count: plural"
+			],
+			"selectors": [
+				"cp"
+			],
+			"match": {
+				"cp=one": "邀请（ {count} ）",
+				"cp=other": "邀请（ {count} ）"
+			}
+		}
+	],
+	"team_members_title": "成员",
+	"team_member_joined": "已连接{date}",
+	"team_remove_member_tooltip": "移除成员",
+	"team_remove_member_confirm": "您确定要将此成员从团队中移除吗？",
+	"team_notes_title": "团队笔记",
+	"team_manage_invitations": "管理邀请",
+	"team_invite_member_title": "邀请新成员",
+	"team_invite_member_hint": "受邀用户必须拥有 SteamHistory.net 个人资料。",
+	"team_pending_invites_title": [
+		{
+			"declarations": [
+				"input count",
+				"local cp = count: plural"
+			],
+			"selectors": [
+				"cp"
+			],
+			"match": {
+				"cp=one": "待处理邀请（ {count} ）",
+				"cp=other": "待处理的邀请（ {count} ）"
+			}
+		}
+	],
+	"team_no_pending_invites": "没有待处理的邀请。",
+	"team_overview_title": "团队概览",
+	"team_founded": "创立",
+	"team_total_members": "总成员数",
+	"team_staff_count": "职员",
+	"team_your_membership": "您的会员资格",
+	"team_privacy_mode": "隐私模式",
+	"team_privacy_hidden": "隐",
+	"team_privacy_visible": "可见的",
+	"team_your_rank": "你的排名",
+	"team_show_membership": "显示会员资格",
+	"team_hide_membership": "隐藏会员资格",
+	"team_membership_hidden_hint": "您的会员信息已隐藏。您不会出现在非员工的公开会员列表中。",
+	"team_membership_visible_hint": "您的成员身份是公开的。任何人都可以看到您是团队的一员。",
+	"team_resignation": "辞职",
+	"team_leave_group": "离开群组",
+	"team_leave_confirm": "您确定要离开{name}吗？",
+	"team_owner_leave_hint": "所有者无法离开自己的球队。您必须删除球队才能辞职。",
+	"friendgroups_form_title": "好友群组可视化",
+	"friendgroups_form_description": "从特定用户开始探索好友网络",
+	"friendgroups_form_steamid_label": "起始 Steam ID",
+	"friendgroups_form_steamid_placeholder": "输入Steam ID（例如，76561198000000000）",
+	"friendgroups_form_depth_label": "最大深度",
+	"friendgroups_form_submit": "生成图表",
+	"friendgroups_stats_title": "网络统计",
+	"friendgroups_stats_total_users": "用户总数：",
+	"friendgroups_stats_total_connections": "连接总数：",
+	"friendgroups_stats_avg_connections": "平均连接数：",
+	"friendgroups_stats_max_distance": "最大距离：",
+	"friendgroups_disabled_prod": "此功能在生产环境中已禁用。",
+	"account_settings_title": "账户设置",
+	"account_refresh_button": "刷新帐户（上次检查{time} ）",
+	"account_customization_title": "个人资料定制",
+	"account_live_preview": "现场预览",
+	"account_preview_hint": "预览您的个人资料显示效果",
+	"account_border_tab": "边界",
+	"account_tag_tab": "标签",
+	"account_shadow_tab": "阴影",
+	"account_saving": "保存...",
+	"account_saved": "已保存！",
+	"account_border_type_label": "边框类型",
+	"account_border_color_label": "边框颜色{index}",
+	"account_tag_text_label": "标签文本",
+	"account_tag_text_placeholder": "请输入标签文本...",
+	"account_tag_color_label": "标签颜色",
+	"account_blur_label": "模糊",
+	"account_spread_label": "传播",
+	"account_x_offset_label": "水平偏移",
+	"account_y_offset_label": "垂直偏移",
+	"account_shadow_color_label": "阴影颜色",
+	"account_reset_button": "重置为默认值",
+	"account_reset_confirm": "您确定要将设置重置为默认值吗？",
+	"account_supporter_expired_title": "支持者身份已过期",
+	"account_supporter_expired_desc": "您的支持者权益已过期。请续订以继续自定义您的个人资料。",
+	"account_become_supporter_title": "成为支持者",
+	"account_become_supporter_desc": "成为支持者，即可解锁个人资料自定义和其他专属功能。",
+	"account_support_cta": "支持Steam历史",
+	"account_status_active": "积极的",
+	"account_status_expired": "已到期",
+	"account_status_inactive": "非活跃状态",
+	"account_email_label": "电子邮件：",
+	"account_not_linked": "未链接",
+	"account_start_date_label": "开始日期：",
+	"account_end_date_label": "结束日期：",
+	"account_days_remaining": [
+		{
+			"declarations": [
+				"input count",
+				"local cp = count: plural"
+			],
+			"selectors": [
+				"cp"
+			],
+			"match": {
+				"cp=one": "{count}剩余天数",
+				"cp=other": "{count}剩余天数"
+			}
+		}
+	],
+	"account_total_given_label": "总捐赠额：",
+	"account_link_kofi_title": "链接 Ko-Fi 账号",
+	"account_link_kofi_desc": "在 Ko-fi 上捐款后，您将收到一封包含交易 ID 的电子邮件。请在下方输入您的详细信息以关联您的支持者身份。",
+	"account_kofi_email_label": "Ko-Fi 电子邮件",
+	"account_kofi_id_label": "Ko-Fi 交易 ID",
+	"account_kofi_link_button": "链接 Ko-Fi 账号",
+	"account_watched_users_title": "关注用户",
+	"account_watch_limit_reached_tooltip": "观看次数已达上限！您必须成为赞助者才能观看更多用户。",
+	"account_watch_limit_nearing_tooltip": "观看人数即将达到上限。点击成为支持者，即可将观看人数上限提升至 32 人。",
+	"account_unwatch_tooltip": "取消关注",
+	"account_no_watched_users": "您目前没有关注任何用户。",
+	"account_search_to_watch": "搜索用户并开始查看其个人资料。",
+	"account_user_notes_title": "用户笔记",
+	"account_remove_note_tooltip": "移除备注",
+	"account_no_notes": "您尚未向用户添加任何备注。",
+	"account_visit_to_add_note": "访问用户个人资料页面，添加个人备注。",
+	"account_api_key_title": "API密钥管理",
+	"account_revoke_confirm": "您确定要撤销您的 API 密钥吗？此操作不可逆，并且会破坏所有使用该密钥的应用程序。",
+	"account_revoke_button": "撤销 API 密钥",
+	"account_no_api_key": "未生成API密钥。",
+	"account_generate_api_key": "生成 API 密钥",
+	"account_discord_title": "Discord 集成",
+	"account_discord_connected": "已连接",
+	"account_discord_success": "已成功连接到Discord！",
+	"account_discord_linked_title": "Discord账号已关联",
+	"account_discord_role_hint": "注意：Discord 服务器可能需要大约 5 分钟才能应用“已验证”角色。",
+	"account_discord_disconnect_button": "断开 Discord 连接",
+	"account_discord_link_title": "关联您的 Discord 帐户",
+	"account_discord_link_desc": "将您的 Discord 账号关联到：",
+	"account_discord_link_li1": "在 Discord 中获得“已验证”角色即可获得媒体权限",
+	"account_discord_link_li2": "使用“关注用户”功能，即可通过 Discord 直接接收个人资料变更通知。",
+	"account_discord_link_button": "链接 Discord 账号",
+	"community_ban_attr_suspicious": "可疑的",
+	"community_ban_attr_cheater": "骗子",
+	"community_ban_attr_exploiter": "剥削者",
+	"community_ban_attr_racist": "种族主义的",
+	"status_private_member": "私人会员",
+	"friendgroups_title": "朋友网络",
+	"friendgroups_search_placeholder": "按姓名或ID搜索……",
+	"friendgroups_controls_title": "控制与过滤器",
+	"friendgroups_view_controls": "视图控件",
+	"friendgroups_zoom_in": "放大",
+	"friendgroups_zoom_out": "缩小",
+	"friendgroups_reset_view": "重置视图",
+	"friendgroups_show_labels": "显示标签",
+	"friendgroups_hide_labels": "隐藏标签",
+	"friendgroups_distance_filter": "距离滤波器",
+	"friendgroups_all_distances": "所有距离",
+	"friendgroups_source_only": "仅供参考",
+	"friendgroups_min_connections": "最小连接数： {count}",
+	"friendgroups_edge_types": "边缘类型和用户",
+	"friendgroups_bfs_tree": "广度优先搜索树",
+	"friendgroups_direct_source": "直接来源",
+	"friendgroups_same_distance": "相同距离",
+	"friendgroups_cross_distance": "交叉距离",
+	"friendgroups_unfriended_users": "已取消好友的用户",
+	"friendgroups_legend_title": "传奇",
+	"friendgroups_legend_node_colors": "节点颜色（距离）",
+	"friendgroups_legend_source": "来源",
+	"friendgroups_legend_dist": "分布{count}",
+	"friendgroups_legend_dist_plus": "5岁以上",
+	"friendgroups_legend_edge_styles": "边缘样式（关系）",
+	"friendgroups_legend_bfs_tree": "BFS树（发现路径）",
+	"friendgroups_legend_direct": "直接来自源头",
+	"friendgroups_legend_same_level": "相同距离水平",
+	"friendgroups_legend_shortcut": "跨距离捷径",
+	"friendgroups_legend_unfriended_edge": "已取消好友关系（过去的联系）",
+	"friendgroups_legend_special_styles": "特殊款式",
+	"friendgroups_legend_has_avatar": "拥有阿凡达",
+	"friendgroups_legend_unfriended_user": "已取消好友的用户",
+	"friendgroups_form_desc": "从特定用户开始探索好友网络",
+	"friendgroups_start_id_label": "起始 Steam ID",
+	"friendgroups_start_id_placeholder": "输入Steam ID（例如，76561198000000000）",
+	"friendgroups_max_depth_label": "最大深度",
+	"friendgroups_generate_button": "生成图表",
+	"friendgroups_node_info_close": "关闭",
+	"friendgroups_node_info_view_profile": "查看个人资料",
+	"friendgroups_node_info_status_current": "现在的朋友",
+	"friendgroups_node_info_status_unfriended": "解除好友",
+	"account_saved_button": "已保存！",
+	"account_renew_button": "续签支持",
+	"account_border_solid": "坚硬的",
+	"account_border_dotted": "点状",
+	"account_border_dashed": "虚线",
+	"account_border_double": "双倍的",
+	"account_border_groove": "槽",
+	"account_border_ridge": "岭",
+	"account_border_inset": "插图",
+	"account_border_outset": "开端",
+	"account_border_gradient": "坡度",
+	"history_title": "历史{type}用于{name} ( {steamID64} )",
+	"history_back_to_profile": "返回{name}的个人资料",
+	"history_no_data": "没有该用户的数据。",
+	"history_error_not_found": "未找到",
+	"history_type_persona": "人格面具",
+	"history_type_realname": "真实姓名",
+	"history_type_url": "URL",
+	"history_type_pfp": "PFP",
+	"history_type_comments": "评论",
+	"history_type_friends": "朋友们",
+	"history_type_data": "数据",
+	"history_meta_title": "SteamHistory.net | {name} | {steamID64} | Historic {type}",
+	"history_meta_description": "在 SteamHistory.net 上查看{type}的历史{name}",
+	"teams_accept_button": "接受",
+	"teams_decline_button": "衰退",
+	"teams_create_title": "创建新团队",
+	"teams_create_first_button": "创建你的第一个团队",
+	"teams_rank_owner": "所有者",
+	"teams_rank_admin": "行政",
+	"teams_rank_moderator": "主持人",
+	"teams_rank_member": "成员",
+	"teams_private_badge": "私人的",
+	"privacy_meta_description": "SteamHistory.net 隐私政策。了解我们如何收集、使用和保护您的数据。",
+	"tos_meta_description": "SteamHistory.net 服务条款。",
+	"login_required_title": "需要登录",
+	"login_required_header": "需要身份验证",
+	"login_required_desc": "您必须登录才能访问此页面。",
+	"login_required_button": "使用 Steam 登录",
+	"teams_back_to_my_teams": "返回我的团队",
+	"teams_edit_settings": "编辑设置",
+	"teams_invite_members": "邀请会员",
+	"teams_members_tab": "成员",
+	"teams_notes_tab": "笔记",
+	"teams_invitations_tab": "邀请函",
+	"teams_search_members": "搜索成员...",
+	"teams_save_settings": "保存设置",
+	"teams_team_notes": "团队笔记",
+	"teams_manage_invitations": "管理邀请",
+	"teams_send_invitation": "发送邀请",
+	"teams_team_overview": "团队概览",
+	"teams_total_members": "总成员数",
+	"teams_your_membership": "您的会员资格",
+	"teams_privacy_mode": "隐私模式",
+	"teams_your_rank": "你的排名",
+	"teams_kick_member": "踢会员",
+	"teams_promote_admin": "晋升为管理员",
+	"teams_promote_moderator": "晋升为版主",
+	"teams_demote_member": "降级为会员",
+	"teams_confirm_kick": "你确定要踢出这个成员吗？",
+	"teams_confirm_promote": "您确定要晋升这位会员吗？",
+	"teams_confirm_demote": "您确定要降级该成员吗？",
+	"teams_no_invitations": "没有待处理的邀请",
+	"teams_steamid_placeholder": "SteamID64",
+	"teams_invite_hint": "受邀用户必须拥有 SteamHistory.net 个人资料。",
+	"teams_pending_invites": "待处理的邀请",
+	"teams_cancel_invite": "取消邀请",
+	"teams_follow": "跟随",
+	"teams_unfollow": "取消关注",
+	"teams_edit_team": "编辑团队",
+	"teams_delete_team": "删除团队",
+	"teams_confirm_delete": "您确定要删除此团队吗？此操作不可逆。",
+	"teams_founded": "创立",
+	"teams_staff_count": "职员",
+	"teams_hidden": "隐",
+	"teams_visible": "可见的",
+	"teams_show_membership": "显示会员资格",
+	"teams_hide_membership": "隐藏会员资格",
+	"teams_membership_hidden_hint": "您的会员信息已隐藏。您不会出现在非员工的公开会员列表中。",
+	"teams_membership_public_hint": "您的成员身份是公开的。任何人都可以看到您是团队的一员。",
+	"teams_resignation": "辞职",
+	"teams_leave_team": "离开团队",
+	"teams_confirm_leave": "你确定要离开这支球队吗？",
+	"notification_dock_vote_label": "投票！",
+	"notification_dock_minimize_tooltip": "点击最小化",
+	"notification_dock_expand_tooltip": "点击展开",
+	"notification_dock_proverbs_title": "箴言",
+	"notification_dock_refresh_tooltip": "刷新",
+	"notification_dock_minimize_button_tooltip": "最小化",
+	"notification_dock_your_answer_label": "您的答案",
+	"notification_dock_submit_button": "提交",
+	"notification_dock_votes_count": [
+		{
+			"declarations": [
+				"input count",
+				"local cp = count: plural"
+			],
+			"selectors": [
+				"cp"
+			],
+			"match": {
+				"cp=one": "{count}投票",
+				"cp=other": "{count}票数"
+			}
+		}
+	],
+	"notification_dock_you_voted": "你投了票。",
+	"notification_dock_signin_to_vote": "使用 Steam 登录进行投票！",
+	"notification_dock_poll_disclaimer": "民意调查用于收集社区的想法和意见，而不是作为最终决定。",
+	"faq_title": "常见问题解答",
+	"faq_q1_title": "如何使用SteamHistory？",
+	"faq_q1_p1": "SteamHistory 是一款用于追踪 Steam 用户个人资料历史记录的工具。您可以搜索任何 Steam 用户，查看其过往用户名、头像、好友和评论。",
+	"faq_q1_p2": "只需使用主页上的搜索栏，即可通过 SteamID64、个人资料 URL 或自定义 URL 查找用户。",
+	"faq_q2_title": "使用Steam登录安全吗？",
+	"faq_q2_p1": "是的，使用 Steam 登录是安全的。我们采用的是 Steam 实现的 OpenID，这是一种标准且安全的身份验证系统。",
+	"faq_q2_p2": "当您选择使用 Steam 登录时，系统会将您重定向到 Steam 官方社区网站以输入您的凭据。SteamHistory.net 绝不会查看或存储您的密码。",
+	"faq_q2_p3": "成功登录 Steam 网站后，Steam 会安全地向我们发送您唯一的 64 位 SteamID，我们使用该 ID 来识别您的帐户。此过程可确保您的登录信息保持私密和安全。",
+	"faq_q2_p4_1": "您可以在官方网站上阅读更多关于 Steam 如何处理第三方身份验证的信息。 ",
+	"faq_q2_p4_link": "Steamworks 文档中关于基于 Web 浏览器的身份验证",
+	"faq_q2_p4_2": "。",
+	"faq_q3_title": "我如何才能成为支持者？",
+	"faq_q3_p1_1": "您可以通过 Ko-Fi 或访问我们的网站交易 TF2 物品来成为支持者。 ",
+	"faq_q3_p1_link": "支持者页面",
+	"faq_q3_p1_2": "支持者可享受个人资料定制等专属功能。",
+	"faq_q3_p2": "一次性捐款和会员资格均可为支持者提供专属福利。对于一次性捐款，支持者身份的有效期计算方式如下：",
+	"faq_q3_formula": "月数 = 捐款金额 ÷ 5",
+	"faq_q3_p3_1": "任何剩余金额将作为信用额度存储，并用于未来的捐款。例如，捐赠 13 美元可获得 ",
+	"faq_q3_p3_2": " 2个月 ",
+	"faq_q3_p3_3": " 具有支持者身份， ",
+	"faq_q3_p3_4": " 3美元信用额度 ",
+	"faq_q3_p3_5": " 结转。如果同一用户之后再次捐赠 2 美元，则信用额度将再累积 5 美元，从而授予 ",
+	"faq_q3_p3_6": " 还有一个月",
+	"faq_q3_p3_7": "。",
+	"faq_q4_title": "如何将我在 Ko-Fi 上的支持者身份关联起来？",
+	"faq_q4_p1": "在 Ko-fi 上捐赠后，您将收到来自 steamhistory.net 的电子邮件，其中包含交易 ID。",
+	"faq_q4_p2_1": "去你的 ",
+	"faq_q4_p2_link": "账户页面",
+	"faq_q4_p2_2": " 并将收到电子邮件的电子邮件地址和交易 ID 输入到提供的字段中，以关联您的支持者身份。",
+	"faq_q5_title": "Sourcebans是什么？",
+	"faq_q5_p1": "SourceBans++ 是一个由社区驱动的管理员、封禁和通信管理系统，适用于运行在 Source 引擎上的游戏服务器。它允许服务器管理员管理服务器网络中的封禁和通信。",
+	"faq_q5_p2": "我们使用这些数据为《军团要塞2》、《盖瑞模组》、《CS:GO》、《CS2》和《反恐精英：起源》等游戏的用户个人资料提供更多背景信息。",
+	"faq_q5_p3_1": "您可以在这里找到更多信息 ",
+	"faq_q5_p3_link": "SourceBans++ GitHub 页面",
+	"faq_q5_p3_2": "。",
+	"faq_q6_title": "TF2机器人检测器[TF2BD]是什么？",
+	"faq_q6_p1_1": "TF2 Bot Detector 是一款能够自动检测并帮助玩家在《军团要塞2》休闲比赛中投票踢出作弊者和机器人的工具。虽然原项目已存档，但社区维护的一个分支版本仍然可用。 ",
+	"faq_q6_p1_link": "这个 GitHub 仓库",
+	"faq_q6_p1_2": "。",
+	"faq_get_started": "入门",
+	"faq_q7_title": "第三方数据是如何使用的？",
+	"faq_q7_p1": "我们使用来自 SourceBans 和 TF2 Bot Detector 等第三方来源的数据，以提供更全面、更丰富的用户体验。这些数据会显示在用户个人资料中，帮助您更好地了解玩家的历史记录和社区地位。",
+	"faq_q7_p2": "例如，您可以直接在用户的 SteamHistory 个人资料中查看该用户在集成 SourceBans 的服务器上是否有任何有效的封禁记录。",
+	"faq_q8_title": "什么是“API”工具？我该如何使用它？",
+	"faq_q8_p1": "SteamHistory API 目前提供了一个接口，用于检索我们记录的单个用户或用户列表的所有 SourceBans 数据。这对于希望将我们的数据集成到他们自己的应用程序中的开发者非常有用。",
+	"faq_q8_p2_1": "这是 surepy 开发的 TF2 Bot Detector 的一个社区维护分支，可在以下网址获取： ",
+	"faq_q8_p2_link": "这个 GitHub 仓库",
+	"faq_q8_p2_2": "利用了这一特性。",
+	"privacy_title": "隐私政策",
+	"privacy_header": "SteamHistory.net 隐私政策",
+	"privacy_last_updated": "最后更新日期：2025年11月2日",
+	"privacy_s1_title": "1. 引言",
+	"privacy_s1_p1": "欢迎访问 SteamHistory.net。我们致力于保护您的隐私，并以透明的方式处理您的数据。本隐私政策解释了我们会收集哪些信息、如何使用这些信息以及您享有哪些相关权利。",
+	"privacy_s1_p2": "本服务是一个独立项目，与 Valve Corporation 或 Steam 没有任何关联、认可或任何官方联系。",
+	"privacy_s2_title": "2. 我们收集的信息",
+	"privacy_s2_p1": "我们的服务会存档来自 Steam 平台和其他第三方来源的公开信息，以提供全面的历史记录。我们收集和展示的数据包括：",
+	"privacy_s2_l1_1": "来自 Steam API：",
+	"privacy_s2_l1_2": " 您的公开 Steam 个人资料信息，包括您的 SteamID、角色名称（当前和历史名称）、真实姓名（如果公开）、头像（当前和历史头像）、公开评论、好友列表和官方封禁信息（VAC、游戏和社区封禁）。",
+	"privacy_s2_l2_1": "来自第三方服务：",
+	"privacy_s2_l2_2": " 我们还会从 Sourcebans 和 TF2BD（Team Fortress 2 Bot Detector）等第三方服务收集封禁信息，以提供有关用户行为的更多背景信息，特别是关于作弊和恶意活动的信息。",
+	"privacy_s2_l3_1": "来自已登录用户的信息：",
+	"privacy_s2_l3_2": " 如果您通过 Steam 登录我们的服务，我们会收集并存储提供账户专属功能所需的信息。这些信息包括您的 SteamID（用于管理您的会话）、您的“关注用户”列表以及您的支持者状态。",
+	"privacy_s2_l4_1": "用户生成内容：",
+	"privacy_s2_l4_2": " 登录后，您可以选择在用户个人资料中添加私人备注。这些备注存储在我们的服务器上，仅您本人可见，不会与其他用户或第三方共享。",
+	"privacy_s2_p2": "我们不会从您的 Steam 帐户收集任何非公开信息，例如您的密码或电子邮件地址。支持者身份的财务交易由我们的支付处理商 Ko-Fi 处理。当您成为支持者时，我们会从 Ko-Fi 收到以下信息：您的姓名、您用于交易的电子邮件地址、捐赠金额以及唯一的交易 ID。我们仅使用这些信息来验证您的付款、在您的 SteamHistory 帐户中授予支持者特权以及用于内部财务记录。我们不会接收或存储您的信用卡信息或其他敏感的支付详情。",
+	"privacy_s3_title": "3. 我们如何使用您的信息",
+	"privacy_s3_p1": "我们收集的信息用于以下用途：",
+	"privacy_s3_l1": "为用户提供可供查看的Steam公开个人资料数据的历史存档。",
+	"privacy_s3_l2": "管理您的用户帐户，包括提供仅限支持者使用的功能以及管理您的关注用户列表。",
+	"privacy_s3_l3_1": "好友互换功能：",
+	"privacy_s3_l3_2": " 我们利用公开的好友列表来重构可能设为私密的好友列表。例如，如果用户 A 的好友列表设为私密，但用户 B（其好友列表公开）是用户 A 的好友，我们就可以推断用户 A 与用户 B 是好友。通过汇总来自多个公开个人资料的信息，我们可以更全面地了解用户的联系人关系。",
+	"privacy_s3_p2": "我们处理这些数据的法律依据是我们运营综合性档案和研究服务的合法权益。",
+	"privacy_s4_title": "4. 数据共享和第三方",
+	"privacy_s4_p1": "我们不会出售您的个人数据。但是，在以下情况下，我们可能会共享信息：",
+	"privacy_s4_l1_1": "支付处理商：",
+	"privacy_s4_l1_2": " 我们会与 Ko-Fi 等第三方支付处理商共享信息，以便管理支持者的付款。我们仅共享完成交易所需的必要信息，您的付款详情将由支付处理商直接处理。",
+	"privacy_s4_l2_1": "广告：",
+	"privacy_s4_l2_2_pre": " 当您访问我们的网站时，我们可能会使用第三方广告公司（例如 NitroPay）来投放广告。这些公司可能会使用 Cookie 和网络信标来收集您访问本网站和其他网站的信息，以便向您提供您可能感兴趣的商品和服务广告。有关 NitroPay 如何处理隐私的更多信息，请参阅他们的隐私政策。 ",
+	"privacy_s4_l2_2_link": "隐私政策",
+	"privacy_s4_l2_2_post": "。",
+	"privacy_s5_title": "5. 您的权利和数据控制",
+	"privacy_s5_p1": "虽然 SteamHistory.net 不在欧盟境内，也没有专门针对欧盟居民，但我们会尊重所有用户的数据删除请求，无论他们的地理位置如何。",
+	"privacy_s5_p2_1": "被遗忘权（删除权）：",
+	"privacy_s5_p2_2_pre": " 如果您希望从我们的服务中删除您的个人数据，请访问 ",
+	"privacy_s5_p2_2_link": "数据删除页面",
+	"privacy_s5_p2_2_post": " （需要登录）。为确保我们处理的是账户合法所有者的请求，我们可能需要您验证身份。最简单的方法是通过 Steam 登录 SteamHistory.net，这将确认您对该账户的所有权。对于欧盟居民，此验证流程符合 GDPR 第 12 条第 6 款的规定。",
+	"privacy_s5_p3": "请注意，此删除流程仅适用于存储在 SteamHistory.net 服务器上的数据。我们无法控制 Sourcebans 或 TF2BD 等第三方服务所持有的数据。您必须直接联系这些服务，请求从其平台上删除您的数据。",
+	"privacy_s5_p4": "此外，根据我们的服务条款，为了服务及其社区的安全和保护，我们可能会保留与恶意活动相关的非个人数据。",
+	"privacy_s6_title": "6. Cookie政策",
+	"privacy_s6_p1": "我们的网站使用 Cookie。Cookie 是放置在您设备上的小型文本文件，旨在帮助网站提供更佳的用户体验。我们使用 Cookie 的目的包括：",
+	"privacy_s6_l1_1": "主要功能：",
+	"privacy_s6_l1_2": " 例如保持您的登录状态。",
+	"sources_never_updated": "从未更新",
+	"sources_last_updated": "最后更新时间： {time}",
+	"api_title": "API 文档",
+	"api_meta_description": "SteamHistory.net 的 API 文档",
+	"api_your_key": "您的 API 密钥",
+	"api_no_key": "您尚未生成 API 密钥。",
+	"api_manage_key": "您可以在{settingsLink}页面中管理您的 API 密钥。",
+	"api_endpoints": "终点",
+	"api_fields_title": "包含以下字段：",
+	"api_example_data": "示例数据：",
+	"api_copy": "复制",
+	"api_copied": "已复制！",
+	"api_hide": "隐藏",
+	"api_show": "展示",
+	"teams_title": "我的团队",
+	"teams_search_placeholder": "搜救队……",
+	"teams_create_button": "创建团队",
+	"teams_pending_invitations": "待处理的邀请",
+	"teams_invited_by": "受邀",
+	"teams_accept": "接受",
+	"teams_decline": "衰退",
+	"teams_create_new_title": "创建新团队",
+	"teams_name_label": "团队名称",
+	"teams_name_placeholder": "例如：成就者",
+	"teams_name_hint": "你们团队的主要名称。",
+	"friendgroups_node_info_distance": "距离",
+	"friendgroups_node_info_distance_unit": "酒花",
+	"friendgroups_node_info_connections": "连接",
+	"friendgroups_node_info_connections_unit": "朋友们",
+	"friendgroups_node_info_source_user": "来源用户",
+	"friendgroups_mobile_tip": "提示：点击节点可查看详细信息和连接",
+	"friendgroups_unfriended_at": "已解除好友关系{date}",
+	"friendgroups_disabled_production": "此功能在生产环境中已禁用。",
+	"account_copy_button": "复制",
+	"account_copied_button": "已复制！",
+	"account_save_button": "节省",
+	"account_saving_button": "保存..."
+}
