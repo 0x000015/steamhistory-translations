@@ -192,8 +192,8 @@
       ],
       "match": {
         "cp=one": "{count} banu",
-        "cp=few": "{count} bans",
-        "cp=many": "{count} bans",
+        "cp=few": "{count} banów",
+        "cp=many": "{count} banów",
         "cp=other": "{count} bany"
       }
     }
@@ -265,8 +265,8 @@
       ],
       "match": {
         "cp=one": "Znaleziono wynik „ {count} ” dla",
-        "cp=few": "Found '{count}' results for",
-        "cp=many": "Found '{count}' results for",
+        "cp=few": "Znaleziono '{count}' wyniki dla",
+        "cp=many": "Znaleziono '{count}' wyniki dla",
         "cp=other": "Znaleziono ' {count} ' wyników dla"
       }
     }
@@ -301,8 +301,8 @@
       ],
       "match": {
         "cp=one": "Znaleziono wynik {count} ( {time} ms)",
-        "cp=few": "Found {count} results ({time}ms)",
-        "cp=many": "Found {count} results ({time}ms)",
+        "cp=few": "Znaleziono wyniki {count} ({time}ms)",
+        "cp=many": "Znaleziono wyniki {count} ({time}ms)",
         "cp=other": "Znaleziono {count} wyników ( {time} ms)"
       }
     }
@@ -374,8 +374,8 @@
       ],
       "match": {
         "cp=one": "aby wyświetlić {count} usunięty komentarz",
-        "cp=few": "to show {count} deleted comments",
-        "cp=many": "to show {count} deleted comments",
+        "cp=few": "aby pokazać usunięte komentarze {count}",
+        "cp=many": "aby pokazać usunięte komentarze {count}",
         "cp=other": "aby wyświetlić usunięte komentarze {count}"
       }
     }
@@ -494,8 +494,8 @@
       ],
       "match": {
         "cp=one": "{count} miesiąc temu",
-        "cp=few": "{count} months ago",
-        "cp=many": "{count} months ago",
+        "cp=few": "{count} miesięcy temu",
+        "cp=many": "{count} miesięcy temu",
         "cp=other": "{count} miesięcy temu"
       }
     }
@@ -535,8 +535,8 @@
       ],
       "match": {
         "cp=one": "{count} godzinę temu",
-        "cp=few": "{count} hours ago",
-        "cp=many": "{count} hours ago",
+        "cp=few": "{count} godzin temu",
+        "cp=many": "{count} godzin temu",
         "cp=other": "{count} godzin temu"
       }
     }
@@ -586,20 +586,20 @@
       ],
       "match": {
         "ncp=one, pcp=one": "{name} to {privacy} z zarejestrowaną {nameCount} zarejestrowanym zdjęciem profilowym {pfpCount}",
-        "ncp=one, pcp=few": "{name} is a {privacy} profile with {nameCount} recorded name, {pfpCount} recorded profile pictures",
-        "ncp=one, pcp=many": "{name} is a {privacy} profile with {nameCount} recorded name, {pfpCount} recorded profile pictures",
+        "ncp=one, pcp=few": "{name} jest profilem {privacy} o zarejestrowanej nazwie {nameCount} , nagrane zdjęcia profilowe {pfpCount}",
+        "ncp=one, pcp=many": "{name} jest profilem {privacy} o zarejestrowanej nazwie {nameCount} , nagrane zdjęcia profilowe {pfpCount}",
         "ncp=one, pcp=other": "{name} to profil {privacy} z zarejestrowanym {nameCount} zarejestrowanymi zdjęciami profilowymi {pfpCount}",
-        "ncp=few, pcp=one": "{name} is a {privacy} profile with {nameCount} recorded names, {pfpCount} recorded profile picture",
-        "ncp=few, pcp=few": "{name} is a {privacy} profile with {nameCount} recorded names, {pfpCount} recorded profile pictures",
-        "ncp=few, pcp=many": "{name} is a {privacy} profile with {nameCount} recorded names, {pfpCount} recorded profile pictures",
-        "ncp=few, pcp=other": "{name} is a {privacy} profile with {nameCount} recorded names, {pfpCount} recorded profile pictures",
-        "ncp=many, pcp=one": "{name} is a {privacy} profile with {nameCount} recorded names, {pfpCount} recorded profile picture",
-        "ncp=many, pcp=few": "{name} is a {privacy} profile with {nameCount} recorded names, {pfpCount} recorded profile pictures",
-        "ncp=many, pcp=many": "{name} is a {privacy} profile with {nameCount} recorded names, {pfpCount} recorded profile pictures",
-        "ncp=many, pcp=other": "{name} is a {privacy} profile with {nameCount} recorded names, {pfpCount} recorded profile pictures",
+        "ncp=few, pcp=one": "{name} jest profilem {privacy} z nagrywanymi nazwami {nameCount} , nagrywanym obrazem profilowym {pfpCount}",
+        "ncp=few, pcp=few": "{name} jest profilem {privacy} z nagranymi nazwami {nameCount} , nagranymi zdjęciami profilowymi {pfpCount}",
+        "ncp=few, pcp=many": "{name} jest profilem {privacy} z nagranymi nazwami {nameCount} , nagranymi zdjęciami profilowymi {pfpCount}",
+        "ncp=few, pcp=other": "{name} jest profilem {privacy} z nagranymi nazwami {nameCount} , nagranymi zdjęciami profilowymi {pfpCount}",
+        "ncp=many, pcp=one": "{name} jest profilem {privacy} z nagrywanymi nazwami {nameCount} , nagrywanym obrazem profilowym {pfpCount}",
+        "ncp=many, pcp=few": "{name} jest profilem {privacy} z nagranymi nazwami {nameCount} , nagranymi zdjęciami profilowymi {pfpCount}",
+        "ncp=many, pcp=many": "{name} jest profilem {privacy} z nagranymi nazwami {nameCount} , nagranymi zdjęciami profilowymi {pfpCount}",
+        "ncp=many, pcp=other": "{name} jest profilem {privacy} z nagranymi nazwami {nameCount} , nagranymi zdjęciami profilowymi {pfpCount}",
         "ncp=other, pcp=one": "{name} to {privacy} z {nameCount} zarejestrowanymi nazwami, {pfpCount} zarejestrowanym zdjęciem profilowym",
-        "ncp=other, pcp=few": "{name} is a {privacy} profile with {nameCount} recorded names, {pfpCount} recorded profile pictures",
-        "ncp=other, pcp=many": "{name} is a {privacy} profile with {nameCount} recorded names, {pfpCount} recorded profile pictures",
+        "ncp=other, pcp=few": "{name} jest profilem {privacy} z nagranymi nazwami {nameCount} , nagranymi zdjęciami profilowymi {pfpCount}",
+        "ncp=other, pcp=many": "{name} jest profilem {privacy} z nagranymi nazwami {nameCount} , nagranymi zdjęciami profilowymi {pfpCount}",
         "ncp=other, pcp=other": "{name} to {privacy} z {nameCount} zarejestrowanymi nazwami, {pfpCount} zarejestrowanymi zdjęciami profilowymi"
       }
     }
@@ -625,8 +625,8 @@
       ],
       "match": {
         "cp=one": "{count} głos",
-        "cp=few": "{count} votes",
-        "cp=many": "{count} votes",
+        "cp=few": "{count} głosów",
+        "cp=many": "{count} głosów",
         "cp=other": "{count} głosów"
       }
     }
@@ -853,8 +853,8 @@
       ],
       "match": {
         "cp=one": "( {count} )",
-        "cp=few": "({count} entries)",
-        "cp=many": "({count} entries)",
+        "cp=few": "({count} wpisów)",
+        "cp=many": "({count} wpisów)",
         "cp=other": "( {count} wpisów)"
       }
     }
@@ -884,8 +884,8 @@
       ],
       "match": {
         "cp=one": "Wybrano element {count} do usunięcia",
-        "cp=few": "Selected {count} items for removal",
-        "cp=many": "Selected {count} items for removal",
+        "cp=few": "Wybrane elementy {count} do usunięcia",
+        "cp=many": "Wybrane elementy {count} do usunięcia",
         "cp=other": "Wybrano {count} elementów do usunięcia"
       }
     }
@@ -950,8 +950,8 @@
       ],
       "match": {
         "cp=one": "{count} źródło",
-        "cp=few": "{count} sources",
-        "cp=many": "{count} sources",
+        "cp=few": "Źródła {count}",
+        "cp=many": "Źródła {count}",
         "cp=other": "{count} źródła"
       }
     }
@@ -1017,8 +1017,8 @@
       ],
       "match": {
         "cp=one": "Członek ( {count} )",
-        "cp=few": "Members ({count})",
-        "cp=many": "Members ({count})",
+        "cp=few": "Członkowie ({count})",
+        "cp=many": "Członkowie ({count})",
         "cp=other": "Członkowie ( {count} )"
       }
     }
@@ -1034,8 +1034,8 @@
       ],
       "match": {
         "cp=one": "Uwaga ( {count} )",
-        "cp=few": "Notes ({count})",
-        "cp=many": "Notes ({count})",
+        "cp=few": "Notatki ({count})",
+        "cp=many": "Notatki ({count})",
         "cp=other": "Notatki ( {count} )"
       }
     }
@@ -1051,8 +1051,8 @@
       ],
       "match": {
         "cp=one": "Zaproszenie ( {count} )",
-        "cp=few": "Invitations ({count})",
-        "cp=many": "Invitations ({count})",
+        "cp=few": "Zaproszenia ({count})",
+        "cp=many": "Zaproszenia ({count})",
         "cp=other": "Zaproszenia ( {count} )"
       }
     }
@@ -1076,8 +1076,8 @@
       ],
       "match": {
         "cp=one": "Oczekujące zaproszenie ( {count} )",
-        "cp=few": "Pending Invites ({count})",
-        "cp=many": "Pending Invites ({count})",
+        "cp=few": "Oczekujące zaproszenia ({count})",
+        "cp=many": "Oczekujące zaproszenia ({count})",
         "cp=other": "Oczekujące zaproszenia ( {count} )"
       }
     }
