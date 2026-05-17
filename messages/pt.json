@@ -1,1278 +1,1278 @@
 {
-	"$schema": "https://inlang.com/schema/inlang-message-format",
-	"navbar_search_placeholder": "Procurar",
-	"navbar_search_placeholder_full": "Pesquisar (STEAM/32/64/URL)",
-	"navbar_search_error_generic": "Ocorreu um erro durante a pesquisa.",
-	"navbar_search_error_not_found": "Nenhum usuário encontrado com esse ID.",
-	"navbar_tools_dropdown": "Ferramentas",
-	"navbar_discord_button": "Discórdia",
-	"navbar_mobile_menu_aria": "Abrir menu",
-	"navbar_language_label": "Linguagem",
-	"footer_copyright": "Copyright © 2025 - Todos os direitos reservados por SteamHistory.net",
-	"footer_disclaimer": "O SteamHistory.net não é propriedade da Valve Corporation, não é operado por ela, nem é endossado por ela, e também não é um produto do Steam.",
-	"footer_link_supporter": "Torne-se um apoiador",
-	"footer_link_sources": "Fontes",
-	"footer_link_faq": "Perguntas frequentes",
-	"footer_link_privacy": "política de Privacidade",
-	"footer_link_tos": "Termos de Serviço",
-	"footer_link_suggestions": "Sugestões",
-	"nav_alias_search": "Pesquisa de Alias",
-	"nav_avatar_search": "Busca de Avatar",
-	"nav_url_search": "Pesquisa de URL",
-	"nav_bulk_search": "Pesquisa em massa",
-	"nav_api": "API",
-	"nav_supporter_features": "Recursos para apoiadores",
-	"nav_comment_search": "Pesquisa de comentários",
-	"profile_official_tooltip": "Esta é uma conta oficial relacionada ao SteamHistory.",
-	"profile_official_tag": "Oficial",
-	"profile_custom_tag_tooltip": "Esta é uma etiqueta personalizada definida pelo usuário; não é uma etiqueta oficial do SteamHistory e é um recurso exclusivo para apoiadores.",
-	"profile_custom_tag_whats_this": "O que é isto?",
-	"profile_label_steamid64": "SteamID64:",
-	"profile_label_steamid32": "SteamID32:",
-	"profile_label_steamid": "ID do Steam:",
-	"profile_label_community_url": "URL da comunidade:",
-	"profile_label_profile_url": "URL do perfil:",
-	"profile_label_created": "Criado:",
-	"profile_label_updated": "Atualizado:",
-	"profile_label_last_checked": "Última verificação:",
-	"profile_label_last_online": "Última vez online:",
-	"profile_created_tooltip": "Quando esta conta foi criada",
-	"profile_updated_tooltip": "A última vez que registramos uma alteração no perfil foi...",
-	"profile_last_checked_tooltip": "Última vez que verificamos se havia atualizações",
-	"profile_last_online_tooltip": "A última vez que vimos o usuário online foi no Steam.",
-	"profile_estimated_label": "[Estimado]",
-	"profile_estimated_tooltip": "Esta data é uma estimativa baseada nos SteamID64 vizinhos do usuário e não há garantia de sua precisão, mas deve ser relativamente próxima.",
-	"profile_na": "N / D",
-	"profile_user_info_divider": "Informações do usuário",
-	"profile_label_status": "Status:",
-	"profile_label_privacy": "Privacidade:",
-	"profile_label_profile_setup": "Configuração do perfil:",
-	"profile_label_premium": "Premium:",
-	"profile_ban_info_divider": "Informações sobre banimentos",
-	"profile_label_vac": "VAC:",
-	"profile_label_community": "Comunidade:",
-	"profile_label_game": "Jogo:",
-	"profile_label_trade": "Troca:",
-	"profile_label_vac_short": "VAC",
-	"profile_label_community_short": "Comunidade",
-	"profile_label_game_short": "Jogo",
-	"profile_label_trade_short": "Troca",
-	"profile_label_sb_short": "SB",
-	"profile_label_tf2bd_short": "TF2BD",
-	"profile_ban_status_banned": "Proibido",
-	"profile_ban_status_clear": "Claro",
-	"profile_ban_status_perm": "Permanente",
-	"profile_ban_status_temp": "Temp",
-	"profile_ban_status_unbanned": "Desbanido",
-	"profile_ban_status_expired": "Expirado",
-	"profile_ban_status_unknown": "Desconhecido",
-	"profile_ban_no_proof": "Sem provas",
-	"profile_ban_unban_reason": "Razão para cancelar o banimento:",
-	"profile_ban_unban_date": "Data de desbloqueio:",
-	"profile_ban_duration": "Duração:",
-	"profile_ban_duration_days": [
-		{
-			"declarations": [
-				"input count",
-				"local cp = count: plural"
-			],
-			"selectors": [
-				"cp"
-			],
-			"match": {
-				"cp=one": "{count} dia",
-				"cp=other": "{count} dias"
-			}
-		}
-	],
-	"profile_notes_title": "Notas",
-	"profile_notes_tab_team": "Equipe",
-	"profile_notes_tab_personal": "Pessoal",
-	"profile_notes_hide": "Esconder",
-	"profile_notes_show": "Mostrar",
-	"profile_notes_personal_placeholder": "Adicione uma nota pessoal...",
-	"profile_notes_personal_save": "Salvar nota pessoal",
-	"profile_notes_personal_updated": "Nota pessoal atualizada",
-	"profile_notes_chars_limit": "{count} / {limit} caracteres",
-	"profile_notes_team_records": "Recordes da equipe",
-	"profile_notes_team_new_note": "+ Nova Nota",
-	"profile_notes_team_publish_to": "Publicar para a equipe",
-	"profile_notes_team_visibility": "Visibilidade",
-	"profile_notes_team_visibility_private": "Privado (Somente para funcionários)",
-	"profile_notes_team_visibility_team": "Equipe (Todos os membros)",
-	"profile_notes_team_visibility_public": "Público (Membros e Seguidores)",
-	"profile_notes_team_placeholder": "Compartilhe uma observação com sua equipe...",
-	"profile_notes_team_post": "Publicar na equipe",
-	"profile_vac_bans_detailed": [
-		{
-			"declarations": [
-				"input count",
-				"input timeAgo",
-				"input timestamp",
-				"local cp = count: plural"
-			],
-			"selectors": [
-				"cp"
-			],
-			"match": {
-				"cp=one": "{count} ban, {timeAgo} ( {timestamp} )",
-				"cp=other": "{count} bans, {timeAgo} ( {timestamp} )"
-			}
-		}
-	],
-	"profile_vac_bans_simple": [
-		{
-			"declarations": [
-				"input count",
-				"local cp = count: plural"
-			],
-			"selectors": [
-				"cp"
-			],
-			"match": {
-				"cp=one": "{count} banimento",
-				"cp=other": "{count} proibições"
-			}
-		}
-	],
-	"profile_vac_none": "Não há registros de banimentos do VAC.",
-	"profile_community_bans_detailed": "Banido {timeAgo} ( {timestamp} )",
-	"profile_community_bans_simple": "Proibido",
-	"profile_community_none": "Não há registros de proibições comunitárias.",
-	"profile_community_bans_total_count": [
-		{
-			"declarations": [
-				"input count",
-				"local cp = count: plural"
-			],
-			"selectors": [
-				"cp"
-			],
-			"match": {
-				"cp=one": "{count} banimento",
-				"cp=other": "{count} proibições"
-			}
-		}
-	],
-	"profile_game_bans_detailed": [
-		{
-			"declarations": [
-				"input count",
-				"input timeAgo",
-				"input timestamp",
-				"local cp = count: plural"
-			],
-			"selectors": [
-				"cp"
-			],
-			"match": {
-				"cp=one": "{count} ban, {timeAgo} ( {timestamp} )",
-				"cp=other": "{count} bans, {timeAgo} ( {timestamp} )"
-			}
-		}
-	],
-	"profile_game_bans_simple": [
-		{
-			"declarations": [
-				"input count",
-				"local cp = count: plural"
-			],
-			"selectors": [
-				"cp"
-			],
-			"match": {
-				"cp=one": "{count} banimento",
-				"cp=other": "{count} proibições"
-			}
-		}
-	],
-	"profile_game_none": "Não há registros de banimentos de jogos.",
-	"profile_economy_bans_detailed": "Banido {timeAgo} ( {timestamp} )",
-	"profile_economy_bans_simple": "Proibido",
-	"profile_economy_none": "Não há registro de proibições comerciais.",
-	"profile_tools_info_divider": "Informações",
-	"profile_tools_unique_views": "Vistas únicas:",
-	"profile_tools_total_views": "Total de visualizações:",
-	"profile_tools_tools_divider": "Ferramentas",
-	"profile_tools_watch_user": "Usuário do Watch",
-	"profile_tools_unwatch_user": "Deixar de seguir usuário",
-	"profile_tools_force_update": "Atualização forçada",
-	"profile_tools_supporter_divider": "Apoiador",
-	"profile_tools_comment_search": "Pesquisa de comentários",
-	"profile_tools_watch_tooltip": "Receba notificações sobre alterações no perfil deste usuário.",
-	"profile_tools_force_update_tooltip": "Solicite uma atualização em tempo real do perfil do usuário no Steam.",
-	"profile_tools_comment_search_tooltip": "Pesquise comentários feitos por um determinado usuário.",
-	"profile_tools_link_discord": "Link do Discord",
-	"profile_tools_link_discord_suffix": " Para usar o recurso Watch.",
-	"profile_tools_watch_limit_nearing": "O limite de observação está se aproximando. Torne-se um {supporterLink} para aumentar o limite.",
-	"profile_tools_watch_limit_reached": "O limite de visualizações foi atingido. Torne-se um {supporterLink} para aumentar o limite.",
-	"profile_tools_update_success_detailed": "Atualização concluída com sucesso! ( {usesLeft} / {maxUses} ) usa os restantes",
-	"profile_tools_update_success_simple": "Atualização concluída com sucesso!",
-	"profile_tools_daily_limit_reached": "Limite diário atingido ( {maxUses} / {maxUses} )",
-	"profile_tools_unlimited_updates_cta": "Torne-se um apoiador para receber atualizações ilimitadas.",
-	"profile_tools_update_failed": "A atualização falhou. Tente novamente.",
-	"profile_tools_recently_updated": "Atualizado recentemente. Tente novamente em {time}",
-	"profile_tools_unknown_error": "Ocorreu um erro desconhecido.",
-	"profile_tools_unexpected_error": "Ocorreu um erro inesperado: {error}",
-	"profile_tools_update_limit_nearing": "O limite de atualizações está se aproximando. Torne-se um {supporterLink} para aumentar.",
-	"profile_tools_login_to_use": "Faça login para usar a Busca de Comentários",
-	"profile_tools_supporter_expired": "Seu status de apoiador expirou. Clique aqui para renová-lo.",
-	"profile_tools_become_supporter_cta": "Torne-se um apoiador para usar a Busca de Comentários.",
-	"profile_tools_status_watched": "Usuário observado",
-	"profile_status_unwatched": "Usuário não monitorado",
-	"search_login_title": "Faça login",
-	"search_login_description": "Você precisa estar conectado para usar este recurso.",
-	"search_login_button": "Faça login com o Steam.",
-	"search_button": "Procurar",
-	"search_no_results": "Nenhum resultado encontrado.",
-	"search_rate_limited_title": "Taxa limitada",
-	"search_rate_limited_description": "Você está realizando esta ação com muita frequência. Por favor, tente novamente mais tarde.",
-	"search_error_title": "Erro",
-	"search_copy_error_code": "Código de erro de cópia",
-	"search_alias_title": "Pesquisa de Alias",
-	"search_alias_description": "Pesquisar por aliases",
-	"search_alias_label": "Alias",
-	"search_exact_match_label": "Correspondência exata",
-	"search_tf2bd_sourceban_label": "Partida TF2BD/Sourceban",
-	"search_tf2bd_sourceban_supporter_cta": "Torne-se um apoiador para usar o TF2BD/Sourceban Matching.",
-	"search_bulk_title": "Pesquisa em massa",
-	"search_bulk_description": "Lista os perfis dos dados submetidos.",
-	"search_bulk_identifiers_label": "Identificadores",
-	"search_bulk_vanity_label": "Permitir fósforos personalizados em qualquer lugar",
-	"search_avatar_title": "Busca de Avatar",
-	"search_avatar_description": "Pesquise fotos de perfil históricas.",
-	"search_avatar_hash_label": "Avatar Hash",
-	"search_avatar_found_results": [
-		{
-			"declarations": [
-				"input count",
-				"local cp = count: plural"
-			],
-			"selectors": [
-				"cp"
-			],
-			"match": {
-				"cp=one": "Encontrado resultado ' {count} ' para",
-				"cp=other": "Resultados encontrados para ' {count} '."
-			}
-		}
-	],
-	"search_url_title": "Pesquisa de URL",
-	"search_url_description": "Pesquisar URLs históricos",
-	"search_url_label": "URL",
-	"search_comment_title": "Pesquisa de comentários",
-	"search_comment_description": "Procure comentários por SteamID ou texto.",
-	"search_comment_supporter_only_title": "Apenas para apoiadores",
-	"search_comment_supporter_only_description": "Essa funcionalidade está disponível apenas para apoiadores.",
-	"search_comment_text_label": "Texto do comentário",
-	"search_comment_text_hint": "Use aspas para frases exatas: \"steamhistory\" \"cheating\"<br> Use -word para excluir termos: \"steamhistory\" -cheating",
-	"search_comment_exclude_tooltip": "Excluir comentários deste SteamID",
-	"search_comment_include_tooltip": "Inclua apenas comentários deste SteamID",
-	"search_comment_exclude_button": "Excluir",
-	"search_comment_include_button": "Incluir",
-	"search_comment_exclude_error": "Tanto o SteamID quanto o texto do comentário são necessários para usar a opção Excluir.",
-	"search_comment_deleted_only_label": "Mostrar apenas os comentários excluídos",
-	"search_comment_sort_label": "Ordenar por:",
-	"search_comment_sort_newest": "Mais recentes primeiro",
-	"search_comment_sort_oldest": "Mais antigo primeiro",
-	"search_comment_results_found": [
-		{
-			"declarations": [
-				"input count",
-				"input time",
-				"local cp = count: plural"
-			],
-			"selectors": [
-				"cp"
-			],
-			"match": {
-				"cp=one": "Encontrado {count} resultado ( {time} ms)",
-				"cp=other": "Encontrados {count} resultados ( {time} ms)"
-			}
-		}
-	],
-	"search_comment_date_range": "Intervalo de datas: {range}",
-	"homepage_title": "SteamHistory.net | Arquivo de perfis do Steam",
-	"homepage_description": "O objetivo principal do SteamHistory é coletar e armazenar as informações históricas e/ou atuais de um perfil do Steam em um local centralizado.",
-	"homepage_button_discord": "Entre no Discord",
-	"homepage_button_avatar_metrics": "Métricas de utilização de avatares",
-	"homepage_recently_updated_title": "Perfis atualizados recentemente",
-	"homepage_ban_type_vac": "Possui banimento(s) do VAC",
-	"homepage_ban_type_game": "Possui banimento(s) de jogos",
-	"homepage_ban_type_tf2bd": "Possui marca(s) do Detector de Bots do TF2",
-	"homepage_ban_type_sourceban": "Possui marca(s) SourceBan",
-	"homepage_ban_type_rustwho": "Possui marca(s) RustWho",
-	"homepage_time_ago_seconds": "{count} s atrás",
-	"homepage_time_ago_minutes": "{count} m atrás",
-	"homepage_time_ago_hours": "{count} h atrás",
-	"homepage_time_ago_days": "{count} d ago",
-	"profile_status_tooltip": "Status atual do usuário no Steam",
-	"profile_privacy_tooltip": "Configurações de privacidade do perfil do usuário",
-	"profile_setup_tooltip": "Indica se o usuário possui um perfil na comunidade.",
-	"profile_premium_tooltip": "Indica se o usuário possui uma conta Steam premium (paga).",
-	"profile_impersonator_disclaimer_title": "Isenção de responsabilidade",
-	"profile_impersonator_disclaimer_text": "Este usuário <b>não</b> está associado ao projeto SteamHistory, não trabalha para ele e não faz parte dele.",
-	"profile_note_title": "Observação",
-	"profile_history_persona_title": "História da Persona",
-	"profile_history_realname_title": "Histórico do nome verdadeiro",
-	"profile_history_url_title": "Histórico de URLs",
-	"profile_history_pfp_title": "Histórico do PFP",
-	"profile_history_comments_title": "Histórico de comentários",
-	"profile_history_friends_title": "História dos Amigos",
-	"profile_history_total_entries_tooltip": "Número total de entradas: {count}",
-	"profile_history_friend_list_private": "A lista de amigos é privada.",
-	"profile_history_friend_list_public": "A lista de amigos é pública.",
-	"profile_history_friends_last_updated": "Última atualização dos amigos:",
-	"profile_history_friends_privacy_unknown": "A privacidade da lista de amigos é desconhecida e ainda não foi verificada.",
-	"profile_history_comments_last_updated": "Última atualização dos comentários: {date}",
-	"profile_history_comments_not_checked": "Os comentários ainda não foram verificados.",
-	"profile_history_vac_bans_warning": "{percent} % de amigos têm banimentos do VAC",
-	"profile_history_community_bans_warning": "{percent} % de amigos têm banimentos da comunidade",
-	"profile_history_game_bans_warning": "{percent} % de amigos têm banimentos de jogos",
-	"profile_history_sb_bans_warning": "{percent} % de amigos têm SourceBans",
-	"profile_history_tf2bd_bans_warning": "{percent} % de amigos têm banimentos no TF2BD",
-	"profile_history_friend_swap_tooltip": "Reconstrua a lista de amigos de um usuário usando dados públicos.",
-	"profile_history_friend_swap_button": "Troca de Amigos",
-	"profile_history_friend_swap_login_cta": "Faça login para usar a Troca de Amigos",
-	"profile_history_friend_swap_supporter_cta": "Torne-se um apoiador para usar a Troca de Amigos.",
-	"profile_history_filter_label": "Filtro:",
-	"profile_history_filter_all": "Todos",
-	"profile_history_filter_friends": "Amigos",
-	"profile_history_filter_unfriended": "Excluir da lista de amigos",
-	"profile_history_filter_deleted": "Excluído",
-	"profile_history_bans_label": "Proibições:",
-	"profile_history_show_deleted_count": [
-		{
-			"declarations": [
-				"input ",
-				"input count",
-				"input count, plural, =1 {",
-				"input count, plural, one {",
-				"input e",
-				"input one {",
-				"input s",
-				"local cp = count: plural"
-			],
-			"selectors": [
-				"cp"
-			],
-			"match": {
-				"cp=one": "para mostrar {count} comentário excluído",
-				"cp=other": "para mostrar {count} comentários excluídos"
-			}
-		}
-	],
-	"profile_history_view_all_button": "Ver tudo",
-	"profile_history_hidden_data": "[Dados SH ocultos a pedido]",
-	"profile_history_search_persona_tooltip": "Pesquise usuários com este nome de usuário.",
-	"profile_history_search_url_tooltip": "Pesquise usuários com este URL",
-	"profile_history_official_avatar_tooltip": "Este é um avatar oficial do Steam ou do jogo e não pode ser encontrado por meio de buscas.",
-	"profile_history_unfriended_label": "[UNFRIENDED {date} ]",
-	"profile_history_friends_duration": [
-		{
-			"declarations": [
-				"input count",
-				"local cp = count: plural"
-			],
-			"selectors": [
-				"cp"
-			],
-			"match": {
-				"cp=one": "Amigos para {count} dia",
-				"cp=other": "Amigos por {count} dias"
-			}
-		}
-	],
-	"profile_history_friends_from": "Amigos de {date}",
-	"profile_history_friend_since": "Amigo desde {date}",
-	"profile_community_bans_title": "Proibições da comunidade",
-	"profile_community_bans_possible_cheater": "Possível trapaceiro",
-	"profile_community_bans_keywords_label": "Palavras-chave: {list}",
-	"profile_community_bans_group_ban_note": "A proibição de participação em grupos não é uma prova direta de trapaça, mas sim uma posição da comunidade.",
-	"profile_community_bans_view_on_server": "Ver proibições em {server}",
-	"profile_community_bans_proof_entries": [
-		{
-			"declarations": [
-				"input count",
-				"input count, plural, one {stück",
-				"input count, plural, one {y",
-				"input ies",
-				"input one {stück",
-				"input one {y",
-				"input stücke",
-				"local cp = count: plural"
-			],
-			"selectors": [
-				"cp"
-			],
-			"match": {
-				"cp=one": "{count} entrada de prova anexada",
-				"cp=other": "{count} entradas de prova anexadas"
-			}
-		}
-	],
-	"profile_community_bans_recent_badge": "Recente",
-	"profile_community_bans_permanent_badge": "Permanente",
-	"profile_community_bans_temporary_badge": "Temporário",
-	"profile_community_bans_unbanned_badge": "Desbloqueado",
-	"profile_community_bans_expired_badge": "Expirado",
-	"profile_community_bans_table_date": "Data",
-	"profile_community_bans_table_proofs": "Provas",
-	"profile_community_bans_table_attributes": "Atributos",
-	"profile_community_bans_table_name": "Nome",
-	"profile_community_bans_table_reason": "Razão",
-	"profile_community_bans_table_status": "Status",
-	"status_offline": "Offline",
-	"status_online": "On-line",
-	"status_busy": "Ocupado",
-	"status_away": "Ausente",
-	"status_snooze": "Soneca",
-	"status_unknown": "DESCONHECIDO",
-	"privacy_private": "Privado",
-	"privacy_friends": "Amigos",
-	"privacy_public": "Público",
-	"premium_f2p": "Gratuito para jogar",
-	"premium_premium": "Premium",
-	"common_true": "Verdadeiro",
-	"common_false": "Falso",
-	"common_cancel": "Cancelar",
-	"time_ago_years": [
-		{
-			"declarations": [
-				"input count",
-				"input count, plural, one {",
-				"input en",
-				"input one {",
-				"input s",
-				"local cp = count: plural"
-			],
-			"selectors": [
-				"cp"
-			],
-			"match": {
-				"cp=one": "{count} ano atrás",
-				"cp=other": "{count} anos atrás"
-			}
-		}
-	],
-	"time_ago_months": [
-		{
-			"declarations": [
-				"input count",
-				"input count, plural, one {",
-				"input en",
-				"input one {",
-				"input s",
-				"local cp = count: plural"
-			],
-			"selectors": [
-				"cp"
-			],
-			"match": {
-				"cp=one": "{count} mês atrás",
-				"cp=other": "{count} meses atrás"
-			}
-		}
-	],
-	"time_ago_days": [
-		{
-			"declarations": [
-				"input count",
-				"input count, plural, one {",
-				"input en",
-				"input one {",
-				"local cp = count: plural"
-			],
-			"selectors": [
-				"cp"
-			],
-			"match": {
-				"cp=one": "{count} dia atrás",
-				"cp=other": "{count} dias atrás"
-			}
-		}
-	],
-	"time_ago_hours": [
-		{
-			"declarations": [
-				"input count",
-				"input count, plural, one {",
-				"input n",
-				"input one {",
-				"input s",
-				"local cp = count: plural"
-			],
-			"selectors": [
-				"cp"
-			],
-			"match": {
-				"cp=one": "{count} hora atrás",
-				"cp=other": "{count} horas atrás"
-			}
-		}
-	],
-	"time_ago_minutes": [
-		{
-			"declarations": [
-				"input count",
-				"input count, plural, one {",
-				"input n",
-				"input one {",
-				"input s",
-				"local cp = count: plural"
-			],
-			"selectors": [
-				"cp"
-			],
-			"match": {
-				"cp=one": "{count} minuto atrás",
-				"cp=other": "{count} minutos atrás"
-			}
-		}
-	],
-	"time_ago_just_now": "Agora mesmo",
-	"profile_indexing_title": "Indexação em andamento",
-	"profile_indexing_text": "O perfil deste usuário está sendo indexado. Aguarde um momento.",
-	"profile_copy_success": "Copiado!",
-	"profile_copy_failure": "Falha ao copiar!",
-	"profile_error_load_failed": "Falha ao carregar os dados do usuário. O perfil pode não existir ou ser privado.",
-	"profile_error_backend_connection": "Estamos com problemas para conectar aos nossos servidores. Tente novamente mais tarde. Para atualizações em tempo real, junte-se ao nosso {discordLink} !",
-	"profile_error_auth_required": "Este usuário não está indexado. Por favor {loginLink} para iniciar o processo de indexação.",
-	"profile_meta_description": [
-		{
-			"declarations": [
-				"input name",
-				"input nameCount",
-				"input pfpCount",
-				"input privacy",
-				"local ncp = nameCount: plural",
-				"local pcp = pfpCount: plural"
-			],
-			"selectors": [
-				"ncp",
-				"pcp"
-			],
-			"match": {
-				"ncp=one, pcp=one": "{name} é um perfil {privacy} com {nameCount} nome registrado e {pfpCount} foto de perfil registrada.",
-				"ncp=one, pcp=other": "{name} é um perfil {privacy} com {nameCount} nome registrado e {pfpCount} fotos de perfil registradas.",
-				"ncp=other, pcp=one": "{name} é um perfil {privacy} com {nameCount} nomes registrados e {pfpCount} fotos de perfil registradas.",
-				"ncp=other, pcp=other": "{name} é um perfil {privacy} com {nameCount} nomes registrados e {pfpCount} fotos de perfil registradas."
-			}
-		}
-	],
-	"notification_dock_wisdom_tab": "Sabedoria",
-	"notification_dock_poll_tab": "Enquete",
-	"privacy_s6_l2_1": "Anúncio:",
-	"privacy_s6_l2_2": " Conforme mencionado acima, anunciantes terceirizados como a NitroPay usam cookies para exibir anúncios personalizados. Para obter informações sobre como desativar a publicidade personalizada, consulte a política de privacidade do anunciante.",
-	"privacy_s7_title": "7. Retenção de Dados",
-	"privacy_s7_p1": "Conservamos os dados públicos que coletamos enquanto eles permanecerem publicamente disponíveis nas plataformas de origem (por exemplo, Steam). Se os dados forem removidos da fonte, eles ainda poderão ser mantidos em nossos arquivos para fins históricos. Se você solicitar a remoção de seus dados, nós os excluiremos de nossos bancos de dados ativos.",
-	"privacy_s7_p2": "Por razões financeiras e legais, somos obrigados a reter os dados transacionais do nosso processador de pagamentos (Ko-Fi) por um período específico. Esses dados são mantidos em segurança e utilizados apenas para fins contábeis e de conformidade.",
-	"privacy_s8_title": "8. Alterações a esta Política de Privacidade",
-	"privacy_s8_p1": "Podemos atualizar esta Política de Privacidade periodicamente. Quaisquer alterações serão publicadas nesta página com a data de \"Última Atualização\" atualizada. Recomendamos que você revise esta Política de Privacidade periodicamente para verificar se houve alterações. O uso contínuo do serviço após tais alterações constitui sua aceitação da nova política.",
-	"tos_title": "Termos de Serviço",
-	"tos_header": "Termos de Serviço do SteamHistory.net",
-	"tos_last_updated": "Última atualização: 2 de novembro de 2025",
-	"tos_s1_title": "1. Aceitação dos Termos",
-	"tos_s1_p1": "Ao acessar ou usar o SteamHistory.net (o \"Serviço\"), você concorda em ficar vinculado a estes Termos de Serviço (\"Termos\"). Se você não concordar com estes Termos, não poderá usar o Serviço.",
-	"tos_s1_p2": "Este serviço é um projeto independente e não é afiliado, endossado ou de qualquer forma oficialmente conectado à Valve Corporation ou ao Steam.",
-	"tos_s2_title": "2. Descrição do Serviço",
-	"tos_s2_p1": "SteamHistory.net é um serviço de terceiros que arquiva e exibe dados publicamente disponíveis da plataforma Steam e de outras fontes públicas de terceiros (como Sourcebans e TF2BD). O objetivo do serviço é fornecer um registro histórico de informações públicas de usuários, incluindo dados relacionados a trapaças e atividades maliciosas.",
-	"tos_s3_title": "3. Conduta do Usuário",
-	"tos_s3_p1": "Você concorda em não usar o Serviço para qualquer finalidade ilegal ou proibida por estes Termos. Você concorda em não:",
-	"tos_s3_l1": "Utilizar o Serviço de qualquer forma que possa danificá-lo, desativá-lo, sobrecarregá-lo ou prejudicá-lo.",
-	"tos_s3_l2": "Tentativa de obter acesso não autorizado a qualquer parte do Serviço.",
-	"tos_s3_l3": "Utilizar qualquer sistema automatizado, incluindo \"bots\", \"spiders\" ou \"leitores offline\", para acessar o Serviço de maneira que envie mais mensagens de solicitação aos servidores do que um humano poderia razoavelmente produzir no mesmo período usando um navegador web convencional.",
-	"tos_s3_l4": "Ao receber acesso à nossa API, você concorda em não utilizá-la indevidamente, incluindo, entre outros, exceder os limites de taxa, tentar realizar engenharia reversa de sua funcionalidade ou usá-la para qualquer finalidade que viole estes Termos ou que não seja expressamente permitida.",
-	"tos_s4_title": "4. Propriedade Intelectual e Conteúdo",
-	"tos_s4_p1": "Todos os dados exibidos no Serviço, incluindo, entre outros, nomes de usuário, avatares e comentários, são propriedade da Valve Corporation e/ou de seus respectivos usuários. O nome e o logotipo do Steam são marcas registradas da Valve Corporation.",
-	"tos_s4_p2": "Nosso Serviço destina-se exclusivamente ao uso pessoal e não comercial. Você concorda em não explorar o Serviço ou qualquer parte dele para fins comerciais, de acordo com o Contrato de Assinatura do Steam.",
-	"tos_s5_title": "5. Níveis e recursos de apoio",
-	"tos_s5_p1": "Oferecemos níveis de apoio opcionais que dão acesso a recursos adicionais. Você pode se tornar um apoiador por meio de uma doação única ou uma assinatura mensal recorrente, gerenciada por nosso processador de pagamentos terceirizado (por exemplo, Ko-Fi). Ao se tornar um apoiador, você concorda com os seguintes termos:",
-	"tos_s5_l1_1": "Características:",
-	"tos_s5_l1_2": " Os apoiadores têm acesso a recursos que incluem, entre outros: Busca Multiorigem (buscando por nome de perfil, nome real, URL e AvatarHash), Busca de Comentários, visualização de comentários excluídos, Troca de Amigos (reconstruindo uma lista de amigos privada a partir de dados públicos) e personalizações cosméticas de perfil.",
-	"tos_s5_l2_1": "Opções de pagamento:",
-	"tos_s5_l2_2": "Doações únicas:",
-	"tos_s5_l2_3": " As doações são cumulativas. Para cada US$ 5 doados, você receberá 30 dias de acesso exclusivo para apoiadores. Por exemplo, uma única doação de US$ 15 garante 90 dias de acesso.",
-	"tos_s5_l2_4": "Assinaturas mensais:",
-	"tos_s5_l2_5": " Se optar por uma assinatura mensal, o seu pagamento será processado automaticamente todos os meses. Pode cancelar a sua assinatura a qualquer momento através da interface do processador de pagamentos.",
-	"tos_s5_l3_1": "Sem reembolso:",
-	"tos_s5_l3_2": " Todos os pagamentos referentes ao acesso de apoiadores, sejam doações únicas ou assinaturas, são definitivos e não reembolsáveis.",
-	"tos_s5_l4_1": "Estornos:",
-	"tos_s5_l4_2": " Iniciar um processo de estorno sem antes entrar em contato conosco para resolver um problema de pagamento resultará em banimento permanente de todos os serviços do SteamHistory.",
-	"tos_s6_title": "6. Isenções de responsabilidade e limitação de responsabilidade",
-	"tos_s6_p1": "O Serviço é fornecido \"TAL COMO ESTÁ\" e \"CONFORME DISPONÍVEL\". Não oferecemos garantias, expressas ou implícitas, quanto à precisão, confiabilidade ou integridade dos dados fornecidos. Os dados são provenientes da API Web do Steam e de outros serviços de terceiros, e não nos responsabilizamos por quaisquer erros ou omissões dessas fontes.",
-	"tos_s6_p2": "Em hipótese alguma a SteamHistory.net ou seus operadores serão responsáveis por quaisquer danos indiretos, incidentais, especiais, consequenciais ou punitivos decorrentes ou relacionados ao seu uso do Serviço.",
-	"tos_s7_title": "7. Remoção de dados e moderação de conteúdo",
-	"tos_s7_p1_1": "Estamos comprometidos em cumprir as leis de proteção de dados, como o GDPR, e em respeitar o \"direito ao esquecimento\" de nossos usuários. Se desejar solicitar a remoção de seus dados pessoais de nosso Serviço, visite [link para a página de solicitação de remoção]. ",
-	"tos_s7_p1_link": "página de remoção de dados",
-	"tos_s7_p1_2": " (É necessário fazer login) e processaremos sua solicitação.",
-	"tos_s7_p2": "Observe que nosso Serviço exibe dados de fontes terceirizadas, como Sourcebans e TF2BD. Não controlamos esses dados e não podemos modificá-los ou removê-los. Para solicitar a remoção desses dados, você deve entrar em contato diretamente com o respectivo serviço terceirizado.",
-	"tos_s7_p3": "Além disso, como um serviço dedicado a manter um arquivo histórico para benefício da comunidade de jogos, especialmente no que diz respeito a atividades maliciosas, reservamo-nos o direito de reter dados anonimizados e não pessoais relacionados a tais atividades para fins de segurança e arquivamento. Isso visa proteger a integridade do Serviço e de seus usuários. Qualquer retenção desse tipo será feita em conformidade com as leis aplicáveis.",
-	"tos_s8_title": "8. Restrição de idade",
-	"tos_s8_p1": "O Serviço destina-se a usuários com pelo menos 13 anos de idade. Ao usar o Serviço, você declara e garante que tem pelo menos 13 anos de idade. Se tomarmos conhecimento de que um usuário tem menos de 13 anos, tomaremos medidas para remover suas informações e encerrar sua conta.",
-	"tos_s9_title": "9. Resolução de Conflitos",
-	"tos_s9_p1": "Quaisquer disputas decorrentes ou relacionadas a estes Termos ou ao seu uso do Serviço serão regidas pelas leis da jurisdição em que os operadores do Serviço estão sediados, independentemente de suas disposições sobre conflito de leis. Você concorda em se submeter à jurisdição pessoal e exclusiva dos tribunais localizados nessa jurisdição.",
-	"tos_s10_title": "10. Privacidade",
-	"tos_s10_p1_1": "Sua privacidade é importante para nós. Por favor, revise nossa política de privacidade. ",
-	"tos_s10_p1_link": "política de Privacidade",
-	"tos_s10_p1_2": " Para entender como coletamos, usamos e protegemos suas informações.",
-	"tos_s11_title": "11. Alterações a estes Termos",
-	"tos_s11_p1": "Reservamo-nos o direito de modificar estes Termos a qualquer momento. Quaisquer alterações serão publicadas nesta página com uma data de \"Última Atualização\" atualizada. O uso continuado do Serviço após quaisquer alterações constitui sua aceitação dos novos Termos. Recomendamos que você revise estes Termos periodicamente para verificar se houve alterações.",
-	"tos_s12_title": "12. Entre em contato conosco",
-	"tos_s12_p1_1": "Se você tiver alguma dúvida sobre estes Termos, entre em contato conosco pelo endereço: ",
-	"tos_s12_p1_link": "admin@steamhistory.net",
-	"tos_s12_p1_2": "Para solicitações relacionadas à privacidade e remoção de dados, visite [link para o site]. ",
-	"tos_s12_p1_link_rem": "página de remoção de dados",
-	"tos_s12_p1_3": " (É necessário fazer login).",
-	"supporter_title": "Torne-se um apoiador",
-	"supporter_subtitle": "Apoie o SteamHistory.net e desbloqueie recursos exclusivos para aprimorar sua experiência.",
-	"supporter_features_title": "Recursos para apoiadores",
-	"supporter_f1_title": "Pesquisa de comentários",
-	"supporter_f1_desc": "Encontre comentários feitos por um SteamID específico ou que contenham palavras específicas.",
-	"supporter_f2_title": "Comentários excluídos",
-	"supporter_f2_desc": "Possibilidade de visualizar todos os comentários excluídos em um perfil visualizado.",
-	"supporter_f3_title": "Troca de amigos",
-	"supporter_f3_desc": "Veja os amigos de um usuário mesmo que a lista de amigos dele seja privada.",
-	"supporter_f4_title": "Personalização de perfil",
-	"supporter_f4_desc": "Permite personalizar seu perfil SH de diversas maneiras, puramente estéticas.",
-	"supporter_f5_title": "Experiência sem anúncios",
-	"supporter_f5_desc": "Não serão exibidos anúncios no site enquanto você estiver conectado.",
-	"supporter_f6_title": "Acesso ao Discord",
-	"supporter_f6_desc": "Acesso ao canal de testadores e apoiadores para uso antecipado/discussão de recursos em desenvolvimento.",
-	"supporter_f7_title": "Atualizações forçadas e alterações no tempo de espera",
-	"supporter_f7_desc": "10/dia → Ilimitado | 12 horas → 30 minutos",
-	"supporter_f8_title": "Limite de visualização",
-	"supporter_f8_desc": "6 usuários → 32 usuários",
-	"supporter_how_to_title": "Como se tornar um apoiador",
-	"supporter_kofi_desc": "Apoie-nos diretamente pelo Ko-Fi com doações únicas ou assinaturas mensais.",
-	"supporter_kofi_widget_label": "Utilize o widget abaixo ou:",
-	"supporter_kofi_direct_link": "Link direto",
-	"supporter_pricing_terms_title": "Preços e Condições",
-	"supporter_pricing_info_title": "Informações sobre preços",
-	"supporter_min_amount": "Valor mínimo: US$ 5 por mês",
-	"supporter_duration_calc": "Cálculo da duração: Cada US$ 5 doados = 30 dias de status de apoiador",
-	"supporter_bucket_system": "Sistema de Doações: As doações se acumulam até atingirem incrementos de $5.",
-	"supporter_bucket_ex1": "Exemplo 1: Doar US$ 15 = 90 dias (3 meses) de status de apoiador",
-	"supporter_bucket_ex2": "Exemplo 2: Doe $3, depois $2 = 30 dias, quando o total atingir $5.",
-	"supporter_account_linking_title": "Vinculação de contas",
-	"supporter_linking_p1": "Após fazer uma doação pelo Ko-Fi, você receberá um e-mail com o ID da transação.",
-	"supporter_linking_p2": "Vincule seu status de apoiador por:",
-	"supporter_linking_li1_1": "Indo para o seu ",
-	"supporter_linking_li1_link": "página da conta",
-	"supporter_linking_li1_2": "",
-	"supporter_linking_li2": "Insira seu e-mail do Ko-Fi e o ID da transação.",
-	"supporter_linking_li3": "Seus recursos de apoiador serão ativados imediatamente.",
-	"search_alias_used": "usou o pseudônimo",
-	"search_avatar_used": "usou este avatar",
-	"search_comment_commented_on": "comentou sobre",
-	"search_url_used": "usou o URL",
-	"search_result_deleted": "[EXCLUÍDO]",
-	"search_result_created": "Criado: ",
-	"search_alias_placeholder": "por exemplo, Alfredo",
-	"search_url_placeholder": "Exemplo: https://steamcommunity.com/id/xyzxyz ou xyzxyz",
-	"search_avatar_placeholder": "eg 4ac560d3b4f25656f092c218d7570d12dcdaeabc",
-	"search_comment_steamid_placeholder": "Exemplo: 76561198000000000 (opcional)",
-	"search_comment_text_placeholder": "Palavras-chave ou frases (opcional)",
-	"search_bulk_identifiers_placeholder": "Insira um identificador por linha (SteamID64, URL personalizada, etc.)",
-	"data_removal_persona_title": "Nomes de Personagens Históricos",
-	"data_removal_realname_title": "Nomes reais históricos",
-	"data_removal_url_title": "URLs de perfis históricos",
-	"data_removal_pfp_title": "Fotos de perfil históricas",
-	"data_removal_entries_count": [
-		{
-			"declarations": [
-				"input count",
-				"local cp = count: plural"
-			],
-			"selectors": [
-				"cp"
-			],
-			"match": {
-				"cp=one": "( {count} entrada)",
-				"cp=other": "( {count} entradas)"
-			}
-		}
-	],
-	"data_removal_current_name": "Nome atual",
-	"data_removal_current_name_warning": "Esta entrada não pode ser removida porque é muito semelhante ao seu nome de exibição atual.",
-	"data_removal_persona_placeholder": "Por favor, explique por que você deseja que esse nome de usuário seja removido...",
-	"data_removal_realname_placeholder": "Por favor, explique por que você deseja que este nome verdadeiro seja removido...",
-	"data_removal_url_placeholder": "Por favor, explique por que você deseja que este URL seja removido...",
-	"data_removal_pfp_placeholder": "Por favor, explique por que você deseja que esta foto de perfil seja removida...",
-	"data_removal_duplicate_reason": "Motivo duplicado detectado",
-	"data_removal_overall_reason_title": "Motivo geral",
-	"data_removal_overall_reason_desc": "Por favor, forneça uma explicação geral sobre o motivo pelo qual deseja que esses dados sejam removidos. Isso ajudará nossos administradores a entender melhor sua solicitação.",
-	"data_removal_overall_placeholder": "Explique por que você deseja que esses dados sejam removidos...",
-	"data_removal_submit_title": "Enviar solicitação",
-	"data_removal_selected_items": [
-		{
-			"declarations": [
-				"input count",
-				"input count, plural, one {",
-				"input e",
-				"input one {",
-				"local cp = count: plural"
-			],
-			"selectors": [
-				"cp"
-			],
-			"match": {
-				"cp=one": "Item selecionado {count} para remoção",
-				"cp=other": "Itens selecionados {count} para remoção"
-			}
-		}
-	],
-	"data_removal_duplicate_error": "Por favor, forneça justificativas únicas para cada entrada de dados. Justificativas duplicadas não são permitidas.",
-	"data_removal_min_words_error": "Certifique-se de que todos os motivos atendam ao requisito mínimo {count} palavras.",
-	"data_removal_confirm_title": "Confirmar envio",
-	"data_removal_confirm_p1": "Ao enviar esta solicitação, você confirma que:",
-	"data_removal_confirm_li1": "Sua solicitação segue as diretrizes de Informações Pessoais Identificáveis (PII) definidas na seção Informações Importantes acima.",
-	"data_removal_confirm_li2": "Você leu a seção Informações Importantes na íntegra.",
-	"data_removal_agree_button": "Concordo",
-	"data_removal_word_count": "{count} / {min} palavras",
-	"pagination_prev": "Anterior",
-	"pagination_next": "Próximo",
-	"pagination_go_to_page": "Acesse a página:",
-	"pagination_of": "de",
-	"pagination_show": "Mostrar",
-	"pagination_per_page": "por página",
-	"usermenu_account_title": "Conta",
-	"usermenu_profile": "Perfil",
-	"usermenu_my_teams": "Minhas equipes",
-	"usermenu_settings": "Configurações",
-	"usermenu_data_removal": "Remoção de dados",
-	"usermenu_logout": "Sair",
-	"suggestion_title": "Enviar uma sugestão",
-	"suggestion_success": "Obrigado pela sua sugestão!",
-	"suggestion_description": "Ajude-nos a melhorar o SteamHistory compartilhando suas ideias e comentários.",
-	"suggestion_placeholder": "Compartilhe sua sugestão ou feedback aqui...",
-	"suggestion_submitting": "Enviando...",
-	"suggestion_submit": "Enviar sugestão",
-	"beta_popup_title": "Bem-vindo à Nova História do Steam!",
-	"beta_popup_p1": "Esta reformulação está atualmente em versão beta. Se encontrar algum erro ou tiver algum comentário, por favor, reporte-o em nosso [link para o canal/plataforma de comunicação].",
-	"beta_popup_discord_link": "Servidor do Discord",
-	"beta_popup_p2": "Você também pode encontrar o link do Discord na barra de navegação no canto superior direito.",
-	"beta_popup_button": "Entendi!",
-	"turnstile_title": "Verificação necessária",
-	"turnstile_verifying": "Verificando...",
-	"turnstile_button": "Verificar e continuar",
-	"search_alias_submit": "Aliases de pesquisa",
-	"search_avatar_submit": "Pesquisar avatares",
-	"search_bulk_submit": "Pesquisa em massa",
-	"search_url_submit": "URLs de pesquisa",
-	"search_comment_submit": "Pesquisar comentários",
-	"search_supporter_only_title": "Recurso de apoiador",
-	"search_supporter_only_description": "Este recurso é exclusivo para apoiadores. Apoie o projeto para obter acesso.",
-	"search_supporter_only_button": "Torne-se um apoiador",
-	"search_supporter_expired_description": "Seu status de apoiador expirou. Renove seu apoio para continuar usando este recurso.",
-	"search_supporter_expired_button": "Renovar o suporte",
-	"search_results_count": "Resultados encontrados em ' {count} '",
-	"sources_title": "Fontes",
-	"sources_meta_description": "Veja todas as fontes que o Steam History usa para coletar dados sobre contas do Steam, incluindo SourceBans, RustWho e listas do TF2BD.",
-	"sources_header": "Fontes de dados",
-	"sources_description": "O Steam History coleta dados de diversas fontes para fornecer informações completas sobre contas Steam. Abaixo estão todas as fontes que utilizamos para nosso banco de dados.",
-	"sources_count": [
-		{
-			"declarations": [
-				"input count",
-				"local cp = count: plural"
-			],
-			"selectors": [
-				"cp"
-			],
-			"match": {
-				"cp=one": "{count} fonte",
-				"cp=other": "{count} fontes"
-			}
-		}
-	],
-	"teams_vanity_label": "URL personalizada",
-	"teams_vanity_placeholder": "realizadores",
-	"teams_vanity_hint": "Um link curto e exclusivo para o perfil da sua equipe.",
-	"teams_description_label": "Descrição",
-	"teams_description_placeholder": "Qual é o foco desta equipe?",
-	"teams_private_label": "Equipe Privada",
-	"teams_private_hint": "Restringir o acesso apenas a membros convidados.",
-	"teams_discard_button": "Descartar",
-	"teams_no_teams_found": "Nenhuma equipe encontrada",
-	"teams_create_first": "Crie sua primeira equipe",
-	"teams_no_matches": "Não foram encontradas correspondências para \" {query} \"",
-	"teams_created_label": "Criado",
-	"teams_joined_label": "Ingressou",
-	"team_back_to_my_teams": "Voltar para Minhas Equipes",
-	"team_unfollow": "Deixar de seguir",
-	"team_follow": "Seguir",
-	"team_edit_team": "Equipe de edição",
-	"team_delete_team": "Excluir equipe",
-	"team_delete_confirm": "Tem certeza de que deseja excluir esta equipe? Isso removerá todos os membros.",
-	"team_control_panel": "Painel de Controle da Equipe",
-	"team_name_change_warning": "Alterar o nome libera o nome antigo imediatamente.",
-	"team_vanity_readonly_hint": "URLs personalizadas não podem ser alteradas após a criação.",
-	"team_save_settings": "Salvar configurações",
-	"team_about": "Sobre {name}",
-	"team_no_summary": "Nenhum resumo foi fornecido.",
-	"team_members_tab": [
-		{
-			"declarations": [
-				"input count",
-				"local cp = count: plural"
-			],
-			"selectors": [
-				"cp"
-			],
-			"match": {
-				"cp=one": "Membro ( {count} )",
-				"cp=other": "Membros ( {count} )"
-			}
-		}
-	],
-	"team_notes_tab": [
-		{
-			"declarations": [
-				"input count",
-				"local cp = count: plural"
-			],
-			"selectors": [
-				"cp"
-			],
-			"match": {
-				"cp=one": "Nota ( {count} )",
-				"cp=other": "Notas ( {count} )"
-			}
-		}
-	],
-	"team_invitations_tab": [
-		{
-			"declarations": [
-				"input count",
-				"local cp = count: plural"
-			],
-			"selectors": [
-				"cp"
-			],
-			"match": {
-				"cp=one": "Convite ( {count} )",
-				"cp=other": "Convites ( {count} )"
-			}
-		}
-	],
-	"team_members_title": "Membros",
-	"team_member_joined": "Unidos {date}",
-	"team_remove_member_tooltip": "Remover membro",
-	"team_remove_member_confirm": "Tem certeza de que deseja remover este membro da equipe?",
-	"team_notes_title": "Notas da equipe",
-	"team_manage_invitations": "Gerenciar convites",
-	"team_invite_member_title": "Convidar novo membro",
-	"team_invite_member_hint": "Os usuários convidados devem possuir um perfil existente no SteamHistory.net.",
-	"team_pending_invites_title": [
-		{
-			"declarations": [
-				"input count",
-				"local cp = count: plural"
-			],
-			"selectors": [
-				"cp"
-			],
-			"match": {
-				"cp=one": "Convite pendente ( {count} )",
-				"cp=other": "Convites Pendentes ( {count} )"
-			}
-		}
-	],
-	"team_no_pending_invites": "Não há convites pendentes.",
-	"team_overview_title": "Visão geral da equipe",
-	"team_founded": "Fundada",
-	"team_total_members": "Total de membros",
-	"team_staff_count": "Funcionários",
-	"team_your_membership": "Sua assinatura",
-	"team_privacy_mode": "Modo de privacidade",
-	"team_privacy_hidden": "Escondido",
-	"team_privacy_visible": "Visível",
-	"team_your_rank": "Sua classificação",
-	"team_show_membership": "Mostrar associação",
-	"team_hide_membership": "Ocultar associação",
-	"team_membership_hidden_hint": "Sua inscrição está oculta. Você não aparecerá nas listas públicas de membros que não fazem parte da equipe.",
-	"team_membership_visible_hint": "Sua participação é pública. Qualquer pessoa pode ver que você faz parte desta equipe.",
-	"team_resignation": "Renúncia",
-	"team_leave_group": "Sair do grupo",
-	"team_leave_confirm": "Tem certeza de que deseja sair de {name} ?",
-	"team_owner_leave_hint": "Os proprietários não podem sair da própria equipe. Você precisa excluir a equipe para renunciar.",
-	"friendgroups_form_title": "Visualização de Grupos de Amigos",
-	"friendgroups_form_description": "Explore redes de amigos a partir de um usuário específico.",
-	"friendgroups_form_steamid_label": "ID Steam inicial",
-	"friendgroups_form_steamid_placeholder": "Insira o ID do Steam (ex: 76561198000000000)",
-	"friendgroups_form_depth_label": "Profundidade máxima",
-	"friendgroups_form_submit": "Gerar gráfico",
-	"friendgroups_stats_title": "Estatísticas de rede",
-	"friendgroups_stats_total_users": "Total de usuários:",
-	"friendgroups_stats_total_connections": "Conexões totais:",
-	"friendgroups_stats_avg_connections": "Conexões médias:",
-	"friendgroups_stats_max_distance": "Distância máxima:",
-	"friendgroups_disabled_prod": "Essa funcionalidade está desativada em produção.",
-	"account_settings_title": "Configurações de Conta",
-	"account_refresh_button": "Atualizar conta (última verificação {time} )",
-	"account_customization_title": "Personalização de perfil",
-	"account_live_preview": "PRÉVIA AO VIVO",
-	"account_preview_hint": "Pré-visualização de como seu perfil aparecerá.",
-	"account_border_tab": "Fronteira",
-	"account_tag_tab": "Marcação",
-	"account_shadow_tab": "Sombra",
-	"account_saving": "Salvando...",
-	"account_saved": "Salvo!",
-	"account_border_type_label": "Tipo de borda",
-	"account_border_color_label": "Cor da borda {index}",
-	"account_tag_text_label": "Texto da etiqueta",
-	"account_tag_text_placeholder": "Digite o texto da etiqueta...",
-	"account_tag_color_label": "Cor da etiqueta",
-	"account_blur_label": "Borrão",
-	"account_spread_label": "Espalhar",
-	"account_x_offset_label": "Deslocamento horizontal",
-	"account_y_offset_label": "Deslocamento vertical",
-	"account_shadow_color_label": "Cor da Sombra",
-	"account_reset_button": "Restaurar padrões de fábrica",
-	"account_reset_confirm": "Tem certeza de que deseja restaurar as configurações para o padrão?",
-	"account_supporter_expired_title": "Status de apoiador expirado",
-	"account_supporter_expired_desc": "Seus benefícios de apoiador expiraram. Renove para continuar personalizando seu perfil.",
-	"account_become_supporter_title": "Torne-se um apoiador",
-	"account_become_supporter_desc": "Desbloqueie a personalização do perfil e outros recursos exclusivos tornando-se um apoiador.",
-	"account_support_cta": "Apoie o SteamHistory",
-	"account_status_active": "Ativo",
-	"account_status_expired": "Expirado",
-	"account_status_inactive": "Inativo",
-	"account_email_label": "E-mail:",
-	"account_not_linked": "Não vinculado",
-	"account_start_date_label": "Data de início:",
-	"account_end_date_label": "Data de término:",
-	"account_days_remaining": [
-		{
-			"declarations": [
-				"input count",
-				"local cp = count: plural"
-			],
-			"selectors": [
-				"cp"
-			],
-			"match": {
-				"cp=one": "{count} dias restantes",
-				"cp=other": "{count} dias restantes"
-			}
-		}
-	],
-	"account_total_given_label": "Total fornecido:",
-	"account_link_kofi_title": "Link para a conta Ko-Fi",
-	"account_link_kofi_desc": "Após fazer uma doação no Ko-fi, você receberá um e-mail com um ID de transação. Insira seus dados abaixo para vincular seu status de apoiador.",
-	"account_kofi_email_label": "E-mail do Ko-Fi",
-	"account_kofi_id_label": "ID da transação Ko-Fi",
-	"account_kofi_link_button": "Link para a conta Ko-Fi",
-	"account_watched_users_title": "Usuários observados",
-	"account_watch_limit_reached_tooltip": "Limite de visualizações atingido! Você precisa se tornar um apoiador para assistir a mais usuários.",
-	"account_watch_limit_nearing_tooltip": "O limite de visualizações está se aproximando. Clique para se tornar um apoiador e aumentar seu limite para 32 usuários.",
-	"account_unwatch_tooltip": "Deixar de assistir",
-	"account_no_watched_users": "Você não está seguindo nenhum usuário no momento.",
-	"account_search_to_watch": "Procure um usuário para começar a visualizar o perfil dele.",
-	"account_user_notes_title": "Notas do usuário",
-	"account_remove_note_tooltip": "Remover nota",
-	"account_no_notes": "Você ainda não adicionou nenhuma nota aos usuários.",
-	"account_visit_to_add_note": "Acesse o perfil de um usuário para adicionar notas pessoais.",
-	"account_api_key_title": "Gerenciamento de chaves de API",
-	"account_revoke_confirm": "Tem certeza de que deseja revogar sua chave de API? Essa ação é irreversível e deixará de funcionar em qualquer aplicativo que a utilize.",
-	"account_revoke_button": "Revogar chave de API",
-	"account_no_api_key": "Nenhuma chave de API foi gerada.",
-	"account_generate_api_key": "Gerar chave de API",
-	"account_discord_title": "Integração com o Discord",
-	"account_discord_connected": "Conectado",
-	"account_discord_success": "Conexão com o Discord estabelecida com sucesso!",
-	"account_discord_linked_title": "Conta do Discord vinculada",
-	"account_discord_role_hint": "Observação: Pode levar cerca de 5 minutos para que o status de Verificado seja aplicado no servidor do Discord.",
-	"account_discord_disconnect_button": "Desconectar do Discord",
-	"account_discord_link_title": "Vincule sua conta do Discord",
-	"account_discord_link_desc": "Compartilhe sua conta do Discord com:",
-	"account_discord_link_li1": "Obtenha o cargo de Verificado no Discord para permissões de mídia.",
-	"account_discord_link_li2": "Use a função \"Seguir Usuário\" e receba notificações diretamente pelo Discord sobre alterações em um perfil.",
-	"account_discord_link_button": "Link para a conta do Discord",
-	"community_ban_attr_suspicious": "Suspeito",
-	"community_ban_attr_cheater": "Trapaceiro",
-	"community_ban_attr_exploiter": "Explorador",
-	"community_ban_attr_racist": "Racista",
-	"status_private_member": "Membro Privado",
-	"friendgroups_title": "Rede de Amigos",
-	"friendgroups_search_placeholder": "Pesquisar por nome ou ID...",
-	"friendgroups_controls_title": "Controles e Filtros",
-	"friendgroups_view_controls": "Controles de visualização",
-	"friendgroups_zoom_in": "Ampliar",
-	"friendgroups_zoom_out": "Diminuir o zoom",
-	"friendgroups_reset_view": "Redefinir visualização",
-	"friendgroups_show_labels": "Mostrar rótulos",
-	"friendgroups_hide_labels": "Ocultar rótulos",
-	"friendgroups_distance_filter": "Filtro de distância",
-	"friendgroups_all_distances": "Todas as distâncias",
-	"friendgroups_source_only": "Somente fonte",
-	"friendgroups_min_connections": "Conexões mínimas: {count}",
-	"friendgroups_edge_types": "Tipos de borda e usuários",
-	"friendgroups_bfs_tree": "Árvore BFS",
-	"friendgroups_direct_source": "Fonte direta",
-	"friendgroups_same_distance": "Mesma distância",
-	"friendgroups_cross_distance": "Distância transversal",
-	"friendgroups_unfriended_users": "Usuários removidos da lista de amigos",
-	"friendgroups_legend_title": "Lenda",
-	"friendgroups_legend_node_colors": "Cores dos nós (distância)",
-	"friendgroups_legend_source": "Fonte",
-	"friendgroups_legend_dist": "Dist {count}",
-	"friendgroups_legend_dist_plus": "Distrito 5+",
-	"friendgroups_legend_edge_styles": "Estilos de borda (relacionamento)",
-	"friendgroups_legend_bfs_tree": "Árvore BFS (caminho de descoberta)",
-	"friendgroups_legend_direct": "Diretamente da fonte",
-	"friendgroups_legend_same_level": "Mesmo nível de distância",
-	"friendgroups_legend_shortcut": "Atalho de distância transversal",
-	"friendgroups_legend_unfriended_edge": "Removido da lista de amigos (conexão anterior)",
-	"friendgroups_legend_special_styles": "Estilos Especiais",
-	"friendgroups_legend_has_avatar": "Possui Avatar",
-	"friendgroups_legend_unfriended_user": "Usuário removido da lista de amigos",
-	"friendgroups_form_desc": "Explore redes de amigos a partir de um usuário específico.",
-	"friendgroups_start_id_label": "ID Steam inicial",
-	"friendgroups_start_id_placeholder": "Insira o ID do Steam (ex: 76561198000000000)",
-	"friendgroups_max_depth_label": "Profundidade máxima",
-	"friendgroups_generate_button": "Gerar gráfico",
-	"friendgroups_node_info_close": "Fechar",
-	"friendgroups_node_info_view_profile": "Ver perfil",
-	"friendgroups_node_info_status_current": "Amigo atual",
-	"friendgroups_node_info_status_unfriended": "Excluir da lista de amigos",
-	"account_saved_button": "Salvo!",
-	"account_renew_button": "Renovar o suporte",
-	"account_border_solid": "Sólido",
-	"account_border_dotted": "Pontilhado",
-	"account_border_dashed": "tracejado",
-	"account_border_double": "Dobro",
-	"account_border_groove": "Sulco",
-	"account_border_ridge": "Cume",
-	"account_border_inset": "Inserir",
-	"account_border_outset": "Início",
-	"account_border_gradient": "Gradiente",
-	"history_title": "Histórico {type} para {name} ( {steamID64} )",
-	"history_back_to_profile": "Voltar ao perfil de {name}",
-	"history_no_data": "Não há dados disponíveis para este usuário.",
-	"history_error_not_found": "Não encontrado",
-	"history_type_persona": "Persona",
-	"history_type_realname": "Nome verdadeiro",
-	"history_type_url": "URL",
-	"history_type_pfp": "PFP",
-	"history_type_comments": "Comentários",
-	"history_type_friends": "Amigos",
-	"history_type_data": "Dados",
-	"history_meta_title": "SteamHistory.net | {name} | {steamID64} | Histórico {type}",
-	"history_meta_description": "Visualizando o histórico {type} para {name} em SteamHistory.net",
-	"teams_accept_button": "Aceitar",
-	"teams_decline_button": "Declínio",
-	"teams_create_title": "Criar nova equipe",
-	"teams_create_first_button": "Crie sua primeira equipe",
-	"teams_rank_owner": "Proprietário",
-	"teams_rank_admin": "Administrador",
-	"teams_rank_moderator": "Moderador",
-	"teams_rank_member": "Membro",
-	"teams_private_badge": "Privado",
-	"privacy_meta_description": "Política de Privacidade do SteamHistory.net. Saiba como coletamos, usamos e protegemos seus dados.",
-	"tos_meta_description": "Termos de Serviço do SteamHistory.net.",
-	"login_required_title": "É necessário fazer login.",
-	"login_required_header": "Autenticação necessária",
-	"login_required_desc": "Você precisa estar conectado para acessar esta página.",
-	"login_required_button": "Faça login com o Steam.",
-	"teams_back_to_my_teams": "Voltar para Minhas Equipes",
-	"teams_edit_settings": "Editar configurações",
-	"teams_invite_members": "Convidar membros",
-	"teams_members_tab": "Membros",
-	"teams_notes_tab": "Notas",
-	"teams_invitations_tab": "Convites",
-	"teams_search_members": "Pesquisar membros...",
-	"teams_save_settings": "Salvar configurações",
-	"teams_team_notes": "Notas da equipe",
-	"teams_manage_invitations": "Gerenciar convites",
-	"teams_send_invitation": "Enviar convite",
-	"teams_team_overview": "Visão geral da equipe",
-	"teams_total_members": "Total de membros",
-	"teams_your_membership": "Sua assinatura",
-	"teams_privacy_mode": "Modo de privacidade",
-	"teams_your_rank": "Sua classificação",
-	"teams_kick_member": "Membro de chute",
-	"teams_promote_admin": "Promover para Administrador",
-	"teams_promote_moderator": "Promover a Moderador",
-	"teams_demote_member": "Rebaixar para Membro",
-	"teams_confirm_kick": "Tem certeza de que deseja expulsar este membro?",
-	"teams_confirm_promote": "Tem certeza de que deseja promover este membro?",
-	"teams_confirm_demote": "Tem certeza de que deseja rebaixar este membro?",
-	"teams_no_invitations": "Não há convites pendentes.",
-	"teams_steamid_placeholder": "SteamID64",
-	"teams_invite_hint": "Os usuários convidados devem possuir um perfil existente no SteamHistory.net.",
-	"teams_pending_invites": "Convites pendentes",
-	"teams_cancel_invite": "Cancelar convite",
-	"teams_follow": "Seguir",
-	"teams_unfollow": "Deixar de seguir",
-	"teams_edit_team": "Equipe de edição",
-	"teams_delete_team": "Excluir equipe",
-	"teams_confirm_delete": "Tem certeza de que deseja excluir esta equipe? Esta ação é irreversível.",
-	"teams_founded": "Fundada",
-	"teams_staff_count": "Funcionários",
-	"teams_hidden": "Escondido",
-	"teams_visible": "Visível",
-	"teams_show_membership": "Mostrar associação",
-	"teams_hide_membership": "Ocultar associação",
-	"teams_membership_hidden_hint": "Sua inscrição está oculta. Você não aparecerá nas listas públicas de membros que não fazem parte da equipe.",
-	"teams_membership_public_hint": "Sua participação é pública. Qualquer pessoa pode ver que você faz parte desta equipe.",
-	"teams_resignation": "Renúncia",
-	"teams_leave_team": "Sair da equipe",
-	"teams_confirm_leave": "Tem certeza de que deseja deixar esta equipe?",
-	"notification_dock_vote_label": "Voto!",
-	"notification_dock_minimize_tooltip": "Clique para minimizar",
-	"notification_dock_expand_tooltip": "Clique para expandir",
-	"notification_dock_proverbs_title": "Provérbios",
-	"notification_dock_refresh_tooltip": "Atualizar",
-	"notification_dock_minimize_button_tooltip": "Minimizar",
-	"notification_dock_your_answer_label": "Sua Resposta",
-	"notification_dock_submit_button": "Enviar",
-	"notification_dock_votes_count": [
-		{
-			"declarations": [
-				"input count",
-				"local cp = count: plural"
-			],
-			"selectors": [
-				"cp"
-			],
-			"match": {
-				"cp=one": "{count} voto",
-				"cp=other": "{count} votos"
-			}
-		}
-	],
-	"notification_dock_you_voted": "Você votou",
-	"notification_dock_signin_to_vote": "Inicie sessão com a sua conta Steam para votar!",
-	"notification_dock_poll_disclaimer": "As pesquisas de opinião são usadas para coletar pensamentos e opiniões da comunidade, não para decisões finais.",
-	"faq_title": "Perguntas frequentes",
-	"faq_q1_title": "Como faço para usar o SteamHistory?",
-	"faq_q1_p1": "SteamHistory é uma ferramenta para rastrear o histórico de perfis do Steam. Você pode pesquisar qualquer usuário do Steam para visualizar seus nomes de usuário, fotos de perfil, amigos e comentários anteriores.",
-	"faq_q1_p2": "Basta usar a barra de pesquisa na página inicial para procurar um usuário pelo seu SteamID64, URL do perfil ou URL personalizada.",
-	"faq_q2_title": "É seguro fazer login com o Steam?",
-	"faq_q2_p1": "Sim, fazer login com o Steam é seguro. Usamos a implementação do OpenID do Steam, um sistema de autenticação padrão e seguro.",
-	"faq_q2_p2": "Ao optar por iniciar sessão com o Steam, você será redirecionado para o site oficial da Comunidade Steam para inserir suas credenciais. O SteamHistory.net nunca vê ou armazena sua senha.",
-	"faq_q2_p3": "Após você fazer login com sucesso no site da Steam, a Steam nos envia, de forma segura, apenas o seu SteamID exclusivo de 64 bits, que usamos para identificar sua conta. Esse processo garante que seus dados de login permaneçam privados e seguros.",
-	"faq_q2_p4_1": "Você pode ler mais sobre como o Steam lida com a autenticação de terceiros no documento oficial. ",
-	"faq_q2_p4_link": "Documentação do Steamworks sobre autenticação baseada em navegador web",
-	"faq_q2_p4_2": ".",
-	"faq_q3_title": "Como faço para me tornar um apoiador?",
-	"faq_q3_p1_1": "Você pode se tornar um apoiador usando o Ko-Fi ou trocando itens do TF2 visitando nosso site. ",
-	"faq_q3_p1_link": "Página de apoiadores",
-	"faq_q3_p1_2": "Os apoiadores têm acesso a recursos exclusivos, como a personalização de perfil.",
-	"faq_q3_p2": "Tanto as doações únicas quanto as adesões concedem benefícios aos apoiadores. Para doações únicas, a duração do status de apoiador é calculada da seguinte forma:",
-	"faq_q3_formula": "meses = valor doado ÷ 5",
-	"faq_q3_p3_1": "Qualquer valor restante é armazenado como crédito e aplicado a doações futuras. Por exemplo, doar US$ 13 proporciona ",
-	"faq_q3_p3_2": " 2 meses ",
-	"faq_q3_p3_3": " de status de apoiador, com ",
-	"faq_q3_p3_4": " Crédito de $3 ",
-	"faq_q3_p3_5": " transferido. Se o mesmo usuário doar mais US$ 2 posteriormente, o crédito completa mais US$ 5, concedendo ",
-	"faq_q3_p3_6": " Mais um mês",
-	"faq_q3_p3_7": ".",
-	"faq_q4_title": "Como faço para vincular meu status de apoiador do Ko-Fi?",
-	"faq_q4_p1": "Após fazer uma doação no Ko-fi, você receberá um e-mail do steamhistory.net com um ID de transação.",
-	"faq_q4_p2_1": "Vá para o seu ",
-	"faq_q4_p2_link": "página da conta",
-	"faq_q4_p2_2": " Insira o endereço de e-mail que recebeu a mensagem e o ID da transação nos campos fornecidos para vincular seu status de apoiador.",
-	"faq_q5_title": "O que é Sourcebans?",
-	"faq_q5_p1": "SourceBans++ é um sistema de administração, gerenciamento de banimentos e comunicação para servidores de jogos que utilizam a engine Source, desenvolvido pela comunidade. Ele permite que administradores de servidores gerenciem banimentos e comunicações em uma rede de servidores.",
-	"faq_q5_p2": "Utilizamos esses dados para fornecer contexto adicional aos perfis de usuários de jogos como Team Fortress 2, Garry's Mod, CS:GO, CS2 e Counter-Strike: Source.",
-	"faq_q5_p3_1": "Você pode encontrar mais informações sobre o ",
-	"faq_q5_p3_link": "Página do SourceBans++ no GitHub",
-	"faq_q5_p3_2": ".",
-	"faq_q6_title": "O que é o TF2 Bot Detector [TF2BD]?",
-	"faq_q6_p1_1": "TF2 Bot Detector é uma ferramenta que detecta e ajuda a expulsar automaticamente jogadores trapaceiros e bots em partidas casuais de Team Fortress 2. Embora o projeto original esteja arquivado, uma versão modificada mantida pela comunidade está disponível em [link para o fork]. ",
-	"faq_q6_p1_link": "este repositório do GitHub",
-	"faq_q6_p1_2": ".",
-	"faq_get_started": "Começando",
-	"faq_q7_title": "Como os dados de terceiros são utilizados?",
-	"faq_q7_p1": "Utilizamos dados de terceiros, como SourceBans e TF2 Bot Detector, para proporcionar uma experiência de usuário mais completa e informativa. Esses dados são exibidos nos perfis dos usuários para que você possa entender melhor o histórico e a reputação de cada jogador na comunidade.",
-	"faq_q7_p2": "Por exemplo, você pode ver se um usuário possui alguma suspensão ativa em servidores integrados ao SourceBans diretamente em seu perfil do SteamHistory.",
-	"faq_q8_title": "O que é a ferramenta 'API' e como posso usá-la?",
-	"faq_q8_p1": "A API SteamHistory atualmente fornece um endpoint para recuperar todos os dados do SourceBans que registramos para um usuário ou uma lista de usuários. Isso pode ser útil para desenvolvedores que desejam integrar nossos dados em seus próprios aplicativos.",
-	"faq_q8_p2_1": "Uma versão modificada (fork) do TF2 Bot Detector, mantida pela comunidade e criada por surepy, disponível em ",
-	"faq_q8_p2_link": "este repositório do GitHub",
-	"faq_q8_p2_2": ", faz uso desse recurso.",
-	"privacy_title": "política de Privacidade",
-	"privacy_header": "Política de Privacidade do SteamHistory.net",
-	"privacy_last_updated": "Última atualização: 2 de novembro de 2025",
-	"privacy_s1_title": "1. Introdução",
-	"privacy_s1_p1": "Bem-vindo(a) ao SteamHistory.net. Temos o compromisso de proteger sua privacidade e sermos transparentes sobre como lidamos com seus dados. Esta Política de Privacidade explica quais informações coletamos, como as utilizamos e quais são seus direitos em relação a elas.",
-	"privacy_s1_p2": "Este serviço é um projeto independente e não é afiliado, endossado ou de qualquer forma oficialmente conectado à Valve Corporation ou ao Steam.",
-	"privacy_s2_title": "2. Informações que coletamos",
-	"privacy_s2_p1": "Nosso serviço arquiva informações publicamente disponíveis da plataforma Steam e de outras fontes terceirizadas para fornecer um histórico completo. Os dados que coletamos e exibimos incluem:",
-	"privacy_s2_l1_1": "A partir da API do Steam:",
-	"privacy_s2_l1_2": " As informações do seu perfil público do Steam, incluindo seu SteamID, nome de usuário (atual e histórico), nome real (se público), avatar (atual e histórico), comentários públicos, lista de amigos e informações oficiais sobre banimentos (VAC, de jogos e da comunidade).",
-	"privacy_s2_l2_1": "De serviços de terceiros:",
-	"privacy_s2_l2_2": " Também coletamos informações sobre banimentos de serviços de terceiros, como Sourcebans e TF2BD (Team Fortress 2 Bot Detector), para fornecer contexto adicional sobre o comportamento do usuário, principalmente em relação a trapaças e atividades maliciosas.",
-	"privacy_s2_l3_1": "Informações de usuários conectados:",
-	"privacy_s2_l3_2": " Ao acessar nosso serviço via Steam, coletamos e armazenamos as informações necessárias para fornecer recursos específicos da sua conta. Isso inclui seu SteamID para gerenciar sua sessão, sua lista de \"usuários observados\" e seu status de apoiador.",
-	"privacy_s2_l4_1": "Conteúdo gerado pelo usuário:",
-	"privacy_s2_l4_2": " Ao iniciar sessão, você tem a opção de adicionar notas privadas ao seu perfil de usuário. Essas notas são armazenadas em nossos servidores e são visíveis apenas para você. Elas não são compartilhadas com outros usuários ou terceiros.",
-	"privacy_s2_p2": "Não coletamos nenhuma informação não pública da sua conta Steam, como sua senha ou endereço de e-mail. As transações financeiras para o status de apoiador são processadas pelo nosso processador de pagamentos, Ko-Fi. Quando você se torna um apoiador, recebemos as seguintes informações do Ko-Fi: seu nome, o endereço de e-mail usado na transação, o valor doado e um ID de transação exclusivo. Usamos essas informações exclusivamente para verificar seu pagamento, conceder benefícios de apoiador à sua conta SteamHistory e para fins de registro financeiro interno. Não recebemos nem armazenamos suas informações de cartão de crédito ou outros dados de pagamento confidenciais.",
-	"privacy_s3_title": "3. Como utilizamos suas informações",
-	"privacy_s3_p1": "As informações que coletamos são utilizadas para os seguintes fins:",
-	"privacy_s3_l1": "Fornecer um arquivo histórico de dados de perfis públicos do Steam para que os usuários possam visualizá-los.",
-	"privacy_s3_l2": "Para gerenciar sua conta de usuário, incluindo o acesso a recursos exclusivos para apoiadores e o gerenciamento da sua lista de usuários acompanhados.",
-	"privacy_s3_l3_1": "Funcionalidade de troca de amigos:",
-	"privacy_s3_l3_2": " Utilizamos listas de amigos disponíveis publicamente para reconstruir listas de amigos potencialmente privadas. Por exemplo, se o Usuário A tem uma lista de amigos privada, mas é amigo do Usuário B (que tem uma lista pública), podemos inferir que o Usuário A é amigo do Usuário B. Ao agregar essas informações de diversos perfis públicos, podemos fornecer uma visão mais completa das conexões de um usuário.",
-	"privacy_s3_p2": "Nossa base legal para o processamento desses dados é o nosso legítimo interesse em operar um serviço abrangente de arquivamento e pesquisa.",
-	"privacy_s4_title": "4. Partilha de dados e terceiros",
-	"privacy_s4_p1": "Não vendemos seus dados pessoais. No entanto, podemos compartilhar informações nas seguintes circunstâncias:",
-	"privacy_s4_l1_1": "Processadores de pagamento:",
-	"privacy_s4_l1_2": " Compartilhamos informações com processadores de pagamento terceirizados, como o Ko-Fi, para gerenciar os pagamentos dos nossos apoiadores. Compartilhamos apenas as informações necessárias para concluir a transação, e seus dados de pagamento são tratados diretamente pelo processador.",
-	"privacy_s4_l2_1": "Anúncio:",
-	"privacy_s4_l2_2_pre": " Podemos utilizar empresas de publicidade terceirizadas, como a NitroPay, para exibir anúncios quando você visita nosso site. Essas empresas podem usar cookies e web beacons para coletar informações sobre suas visitas a este e outros sites, a fim de fornecer anúncios sobre produtos e serviços de seu interesse. Para obter mais informações sobre como a NitroPay lida com a privacidade, consulte a política de privacidade deles. ",
-	"privacy_s4_l2_2_link": "política de Privacidade",
-	"privacy_s4_l2_2_post": ".",
-	"privacy_s5_title": "5. Seus direitos e controle de dados",
-	"privacy_s5_p1": "Embora o SteamHistory.net não esteja localizado na União Europeia e não seja direcionado especificamente a residentes da UE, respeitamos todos os pedidos de remoção de dados dos usuários, independentemente de sua localização geográfica.",
-	"privacy_s5_p2_1": "Direito ao apagamento (Direito ao esquecimento):",
-	"privacy_s5_p2_2_pre": " Se desejar solicitar a remoção dos seus dados pessoais do nosso Serviço, visite [link para a página de remoção]. ",
-	"privacy_s5_p2_2_link": "página de remoção de dados",
-	"privacy_s5_p2_2_post": " (É necessário fazer login). Para garantir que estamos processando uma solicitação do proprietário legítimo da conta, podemos solicitar que você verifique sua identidade. A maneira mais simples de fazer isso é acessando o SteamHistory.net pelo Steam, o que confirma a sua propriedade da conta. Para residentes da UE, esse processo de verificação está em conformidade com o Artigo 12, Seção 6 do GDPR.",
-	"privacy_s5_p3": "Observe que este processo de remoção se aplica apenas aos dados armazenados nos servidores do SteamHistory.net. Não temos controle sobre os dados mantidos por serviços de terceiros, como Sourcebans ou TF2BD. Você deve entrar em contato diretamente com esses serviços para solicitar a remoção de seus dados de suas plataformas.",
-	"privacy_s5_p4": "Além disso, conforme descrito em nossos Termos de Serviço, podemos reter dados não pessoais relacionados a atividades maliciosas para a segurança e proteção do serviço e de sua comunidade.",
-	"privacy_s6_title": "6. Política de Cookies",
-	"privacy_s6_p1": "Nosso site utiliza cookies. Cookies são pequenos arquivos de texto que são armazenados no seu computador para ajudar o site a proporcionar uma melhor experiência ao usuário. Utilizamos cookies para:",
-	"privacy_s6_l1_1": "Funções essenciais:",
-	"privacy_s6_l1_2": " Como, por exemplo, manter você conectado.",
-	"sources_never_updated": "Nunca atualizado",
-	"sources_last_updated": "Última atualização: {time}",
-	"api_title": "Documentação da API",
-	"api_meta_description": "Documentação da API para SteamHistory.net",
-	"api_your_key": "Sua chave de API",
-	"api_no_key": "Você ainda não gerou uma chave de API.",
-	"api_manage_key": "Você pode gerenciar sua chave de API na página {settingsLink} .",
-	"api_endpoints": "Pontos finais",
-	"api_fields_title": "Contém os seguintes campos:",
-	"api_example_data": "Dados de exemplo:",
-	"api_copy": "Cópia",
-	"api_copied": "Copiado!",
-	"api_hide": "Esconder",
-	"api_show": "Mostrar",
-	"teams_title": "Minhas equipes",
-	"teams_search_placeholder": "Equipes de busca...",
-	"teams_create_button": "Criar equipe",
-	"teams_pending_invitations": "Convites pendentes",
-	"teams_invited_by": "Convidado por",
-	"teams_accept": "Aceitar",
-	"teams_decline": "Declínio",
-	"teams_create_new_title": "Criar nova equipe",
-	"teams_name_label": "Nome da equipe",
-	"teams_name_placeholder": "Exemplo: Os Conquistadores",
-	"teams_name_hint": "O nome principal do seu grupo.",
-	"friendgroups_node_info_distance": "Distância",
-	"friendgroups_node_info_distance_unit": "lúpulo",
-	"friendgroups_node_info_connections": "Conexões",
-	"friendgroups_node_info_connections_unit": "amigos",
-	"friendgroups_node_info_source_user": "Usuário de origem",
-	"friendgroups_mobile_tip": "Dica: Toque nos nós para visualizar detalhes e conexões.",
-	"friendgroups_unfriended_at": "Desamigado {date}",
-	"friendgroups_disabled_production": "Essa funcionalidade está desativada em produção.",
-	"account_copy_button": "Cópia",
-	"account_copied_button": "Copiado!",
-	"account_save_button": "Salvar",
-	"account_saving_button": "Salvando..."
+  "$schema": "https://inlang.com/schema/inlang-message-format",
+  "navbar_search_placeholder": "Procurar",
+  "navbar_search_placeholder_full": "Pesquisar (STEAM/32/64/URL)",
+  "navbar_search_error_generic": "Ocorreu um erro durante a pesquisa.",
+  "navbar_search_error_not_found": "Nenhum usuário encontrado com esse ID.",
+  "navbar_tools_dropdown": "Ferramentas",
+  "navbar_discord_button": "Discórdia",
+  "navbar_mobile_menu_aria": "Abrir menu",
+  "navbar_language_label": "Linguagem",
+  "footer_copyright": "Copyright © 2025 - Todos os direitos reservados por SteamHistory.net",
+  "footer_disclaimer": "O SteamHistory.net não é propriedade da Valve Corporation, não é operado por ela, nem é endossado por ela, e também não é um produto do Steam.",
+  "footer_link_supporter": "Torne-se um apoiador",
+  "footer_link_sources": "Fontes",
+  "footer_link_faq": "Perguntas frequentes",
+  "footer_link_privacy": "política de Privacidade",
+  "footer_link_tos": "Termos de Serviço",
+  "footer_link_suggestions": "Sugestões",
+  "nav_alias_search": "Pesquisa de Alias",
+  "nav_avatar_search": "Busca de Avatar",
+  "nav_url_search": "Pesquisa de URL",
+  "nav_bulk_search": "Pesquisa em massa",
+  "nav_api": "API",
+  "nav_supporter_features": "Recursos para apoiadores",
+  "nav_comment_search": "Pesquisa de comentários",
+  "profile_official_tooltip": "Esta é uma conta oficial relacionada ao SteamHistory.",
+  "profile_official_tag": "Oficial",
+  "profile_custom_tag_tooltip": "Esta é uma etiqueta personalizada definida pelo usuário; não é uma etiqueta oficial do SteamHistory e é um recurso exclusivo para apoiadores.",
+  "profile_custom_tag_whats_this": "O que é isto?",
+  "profile_label_steamid64": "SteamID64:",
+  "profile_label_steamid32": "SteamID32:",
+  "profile_label_steamid": "ID do Steam:",
+  "profile_label_community_url": "URL da comunidade:",
+  "profile_label_profile_url": "URL do perfil:",
+  "profile_label_created": "Criado:",
+  "profile_label_updated": "Atualizado:",
+  "profile_label_last_checked": "Última verificação:",
+  "profile_label_last_online": "Última vez online:",
+  "profile_created_tooltip": "Quando esta conta foi criada",
+  "profile_updated_tooltip": "A última vez que registramos uma alteração no perfil foi...",
+  "profile_last_checked_tooltip": "Última vez que verificamos se havia atualizações",
+  "profile_last_online_tooltip": "A última vez que vimos o usuário online foi no Steam.",
+  "profile_estimated_label": "[Estimado]",
+  "profile_estimated_tooltip": "Esta data é uma estimativa baseada nos SteamID64 vizinhos do usuário e não há garantia de sua precisão, mas deve ser relativamente próxima.",
+  "profile_na": "N / D",
+  "profile_user_info_divider": "Informações do usuário",
+  "profile_label_status": "Status:",
+  "profile_label_privacy": "Privacidade:",
+  "profile_label_profile_setup": "Configuração do perfil:",
+  "profile_label_premium": "Premium:",
+  "profile_ban_info_divider": "Informações sobre banimentos",
+  "profile_label_vac": "VAC:",
+  "profile_label_community": "Comunidade:",
+  "profile_label_game": "Jogo:",
+  "profile_label_trade": "Troca:",
+  "profile_label_vac_short": "VAC",
+  "profile_label_community_short": "Comunidade",
+  "profile_label_game_short": "Jogo",
+  "profile_label_trade_short": "Troca",
+  "profile_label_sb_short": "SB",
+  "profile_label_tf2bd_short": "TF2BD",
+  "profile_ban_status_banned": "Proibido",
+  "profile_ban_status_clear": "Claro",
+  "profile_ban_status_perm": "Permanente",
+  "profile_ban_status_temp": "Temp",
+  "profile_ban_status_unbanned": "Desbanido",
+  "profile_ban_status_expired": "Expirado",
+  "profile_ban_status_unknown": "Desconhecido",
+  "profile_ban_no_proof": "Sem provas",
+  "profile_ban_unban_reason": "Razão para cancelar o banimento:",
+  "profile_ban_unban_date": "Data de desbloqueio:",
+  "profile_ban_duration": "Duração:",
+  "profile_ban_duration_days": [
+    {
+      "declarations": [
+        "input count",
+        "local cp = count: plural"
+      ],
+      "selectors": [
+        "cp"
+      ],
+      "match": {
+        "cp=one": "{count} dia",
+        "cp=other": "{count} dias"
+      }
+    }
+  ],
+  "profile_notes_title": "Notas",
+  "profile_notes_tab_team": "Equipe",
+  "profile_notes_tab_personal": "Pessoal",
+  "profile_notes_hide": "Esconder",
+  "profile_notes_show": "Mostrar",
+  "profile_notes_personal_placeholder": "Adicione uma nota pessoal...",
+  "profile_notes_personal_save": "Salvar nota pessoal",
+  "profile_notes_personal_updated": "Nota pessoal atualizada",
+  "profile_notes_chars_limit": "{count} / {limit} caracteres",
+  "profile_notes_team_records": "Recordes da equipe",
+  "profile_notes_team_new_note": "+ Nova Nota",
+  "profile_notes_team_publish_to": "Publicar para a equipe",
+  "profile_notes_team_visibility": "Visibilidade",
+  "profile_notes_team_visibility_private": "Privado (Somente para funcionários)",
+  "profile_notes_team_visibility_team": "Equipe (Todos os membros)",
+  "profile_notes_team_visibility_public": "Público (Membros e Seguidores)",
+  "profile_notes_team_placeholder": "Compartilhe uma observação com sua equipe...",
+  "profile_notes_team_post": "Publicar na equipe",
+  "profile_vac_bans_detailed": [
+    {
+      "declarations": [
+        "input count",
+        "input timeAgo",
+        "input timestamp",
+        "local cp = count: plural"
+      ],
+      "selectors": [
+        "cp"
+      ],
+      "match": {
+        "cp=one": "{count} ban, {timeAgo} ( {timestamp} )",
+        "cp=other": "{count} bans, {timeAgo} ( {timestamp} )"
+      }
+    }
+  ],
+  "profile_vac_bans_simple": [
+    {
+      "declarations": [
+        "input count",
+        "local cp = count: plural"
+      ],
+      "selectors": [
+        "cp"
+      ],
+      "match": {
+        "cp=one": "{count} banimento",
+        "cp=other": "{count} proibições"
+      }
+    }
+  ],
+  "profile_vac_none": "Não há registros de banimentos do VAC.",
+  "profile_community_bans_detailed": "Banido {timeAgo} ( {timestamp} )",
+  "profile_community_bans_simple": "Proibido",
+  "profile_community_none": "Não há registros de proibições comunitárias.",
+  "profile_community_bans_total_count": [
+    {
+      "declarations": [
+        "input count",
+        "local cp = count: plural"
+      ],
+      "selectors": [
+        "cp"
+      ],
+      "match": {
+        "cp=one": "{count} banimento",
+        "cp=other": "{count} proibições"
+      }
+    }
+  ],
+  "profile_game_bans_detailed": [
+    {
+      "declarations": [
+        "input count",
+        "input timeAgo",
+        "input timestamp",
+        "local cp = count: plural"
+      ],
+      "selectors": [
+        "cp"
+      ],
+      "match": {
+        "cp=one": "{count} ban, {timeAgo} ( {timestamp} )",
+        "cp=other": "{count} bans, {timeAgo} ( {timestamp} )"
+      }
+    }
+  ],
+  "profile_game_bans_simple": [
+    {
+      "declarations": [
+        "input count",
+        "local cp = count: plural"
+      ],
+      "selectors": [
+        "cp"
+      ],
+      "match": {
+        "cp=one": "{count} banimento",
+        "cp=other": "{count} proibições"
+      }
+    }
+  ],
+  "profile_game_none": "Não há registros de banimentos de jogos.",
+  "profile_economy_bans_detailed": "Banido {timeAgo} ( {timestamp} )",
+  "profile_economy_bans_simple": "Proibido",
+  "profile_economy_none": "Não há registro de proibições comerciais.",
+  "profile_tools_info_divider": "Informações",
+  "profile_tools_unique_views": "Vistas únicas:",
+  "profile_tools_total_views": "Total de visualizações:",
+  "profile_tools_tools_divider": "Ferramentas",
+  "profile_tools_watch_user": "Usuário do Watch",
+  "profile_tools_unwatch_user": "Deixar de seguir usuário",
+  "profile_tools_force_update": "Atualização forçada",
+  "profile_tools_supporter_divider": "Apoiador",
+  "profile_tools_comment_search": "Pesquisa de comentários",
+  "profile_tools_watch_tooltip": "Receba notificações sobre alterações no perfil deste usuário.",
+  "profile_tools_force_update_tooltip": "Solicite uma atualização em tempo real do perfil do usuário no Steam.",
+  "profile_tools_comment_search_tooltip": "Pesquise comentários feitos por um determinado usuário.",
+  "profile_tools_link_discord": "Link do Discord",
+  "profile_tools_link_discord_suffix": " Para usar o recurso Watch.",
+  "profile_tools_watch_limit_nearing": "O limite de observação está se aproximando. Torne-se um {supporterLink} para aumentar o limite.",
+  "profile_tools_watch_limit_reached": "O limite de visualizações foi atingido. Torne-se um {supporterLink} para aumentar o limite.",
+  "profile_tools_update_success_detailed": "Atualização concluída com sucesso! ( {usesLeft} / {maxUses} ) usa os restantes",
+  "profile_tools_update_success_simple": "Atualização concluída com sucesso!",
+  "profile_tools_daily_limit_reached": "Limite diário atingido ( {maxUses} / {maxUses} )",
+  "profile_tools_unlimited_updates_cta": "Torne-se um apoiador para receber atualizações ilimitadas.",
+  "profile_tools_update_failed": "A atualização falhou. Tente novamente.",
+  "profile_tools_recently_updated": "Atualizado recentemente. Tente novamente em {time}",
+  "profile_tools_unknown_error": "Ocorreu um erro desconhecido.",
+  "profile_tools_unexpected_error": "Ocorreu um erro inesperado: {error}",
+  "profile_tools_update_limit_nearing": "O limite de atualizações está se aproximando. Torne-se um {supporterLink} para aumentar.",
+  "profile_tools_login_to_use": "Faça login para usar a Busca de Comentários",
+  "profile_tools_supporter_expired": "Seu status de apoiador expirou. Clique aqui para renová-lo.",
+  "profile_tools_become_supporter_cta": "Torne-se um apoiador para usar a Busca de Comentários.",
+  "profile_tools_status_watched": "Usuário observado",
+  "profile_status_unwatched": "Usuário não monitorado",
+  "search_login_title": "Faça login",
+  "search_login_description": "Você precisa estar conectado para usar este recurso.",
+  "search_login_button": "Faça login com o Steam.",
+  "search_button": "Procurar",
+  "search_no_results": "Nenhum resultado encontrado.",
+  "search_rate_limited_title": "Taxa limitada",
+  "search_rate_limited_description": "Você está realizando esta ação com muita frequência. Por favor, tente novamente mais tarde.",
+  "search_error_title": "Erro",
+  "search_copy_error_code": "Código de erro de cópia",
+  "search_alias_title": "Pesquisa de Alias",
+  "search_alias_description": "Pesquisar por aliases",
+  "search_alias_label": "Alias",
+  "search_exact_match_label": "Correspondência exata",
+  "search_tf2bd_sourceban_label": "Partida TF2BD/Sourceban",
+  "search_tf2bd_sourceban_supporter_cta": "Torne-se um apoiador para usar o TF2BD/Sourceban Matching.",
+  "search_bulk_title": "Pesquisa em massa",
+  "search_bulk_description": "Lista os perfis dos dados submetidos.",
+  "search_bulk_identifiers_label": "Identificadores",
+  "search_bulk_vanity_label": "Permitir fósforos personalizados em qualquer lugar",
+  "search_avatar_title": "Busca de Avatar",
+  "search_avatar_description": "Pesquise fotos de perfil históricas.",
+  "search_avatar_hash_label": "Avatar Hash",
+  "search_avatar_found_results": [
+    {
+      "declarations": [
+        "input count",
+        "local cp = count: plural"
+      ],
+      "selectors": [
+        "cp"
+      ],
+      "match": {
+        "cp=one": "Encontrado resultado ' {count} ' para",
+        "cp=other": "Resultados encontrados para ' {count} '."
+      }
+    }
+  ],
+  "search_url_title": "Pesquisa de URL",
+  "search_url_description": "Pesquisar URLs históricos",
+  "search_url_label": "URL",
+  "search_comment_title": "Pesquisa de comentários",
+  "search_comment_description": "Procure comentários por SteamID ou texto.",
+  "search_comment_supporter_only_title": "Apenas para apoiadores",
+  "search_comment_supporter_only_description": "Essa funcionalidade está disponível apenas para apoiadores.",
+  "search_comment_text_label": "Texto do comentário",
+  "search_comment_text_hint": "Use aspas para frases exatas: \"steamhistory\" \"cheating\"<br> Use -word para excluir termos: \"steamhistory\" -cheating",
+  "search_comment_exclude_tooltip": "Excluir comentários deste SteamID",
+  "search_comment_include_tooltip": "Inclua apenas comentários deste SteamID",
+  "search_comment_exclude_button": "Excluir",
+  "search_comment_include_button": "Incluir",
+  "search_comment_exclude_error": "Tanto o SteamID quanto o texto do comentário são necessários para usar a opção Excluir.",
+  "search_comment_deleted_only_label": "Mostrar apenas os comentários excluídos",
+  "search_comment_sort_label": "Ordenar por:",
+  "search_comment_sort_newest": "Mais recentes primeiro",
+  "search_comment_sort_oldest": "Mais antigo primeiro",
+  "search_comment_results_found": [
+    {
+      "declarations": [
+        "input count",
+        "input time",
+        "local cp = count: plural"
+      ],
+      "selectors": [
+        "cp"
+      ],
+      "match": {
+        "cp=one": "Encontrado {count} resultado ( {time} ms)",
+        "cp=other": "Encontrados {count} resultados ( {time} ms)"
+      }
+    }
+  ],
+  "search_comment_date_range": "Intervalo de datas: {range}",
+  "homepage_title": "SteamHistory.net | Arquivo de perfis do Steam",
+  "homepage_description": "O objetivo principal do SteamHistory é coletar e armazenar as informações históricas e/ou atuais de um perfil do Steam em um local centralizado.",
+  "homepage_button_discord": "Entre no Discord",
+  "homepage_button_avatar_metrics": "Métricas de utilização de avatares",
+  "homepage_recently_updated_title": "Perfis atualizados recentemente",
+  "homepage_ban_type_vac": "Possui banimento(s) do VAC",
+  "homepage_ban_type_game": "Possui banimento(s) de jogos",
+  "homepage_ban_type_tf2bd": "Possui marca(s) do Detector de Bots do TF2",
+  "homepage_ban_type_sourceban": "Possui marca(s) SourceBan",
+  "homepage_ban_type_rustwho": "Possui marca(s) RustWho",
+  "homepage_time_ago_seconds": "{count} s atrás",
+  "homepage_time_ago_minutes": "{count} m atrás",
+  "homepage_time_ago_hours": "{count} h atrás",
+  "homepage_time_ago_days": "{count} d ago",
+  "profile_status_tooltip": "Status atual do usuário no Steam",
+  "profile_privacy_tooltip": "Configurações de privacidade do perfil do usuário",
+  "profile_setup_tooltip": "Indica se o usuário possui um perfil na comunidade.",
+  "profile_premium_tooltip": "Indica se o usuário possui uma conta Steam premium (paga).",
+  "profile_impersonator_disclaimer_title": "Isenção de responsabilidade",
+  "profile_impersonator_disclaimer_text": "Este usuário <b>não</b> está associado ao projeto SteamHistory, não trabalha para ele e não faz parte dele.",
+  "profile_note_title": "Observação",
+  "profile_history_persona_title": "História da Persona",
+  "profile_history_realname_title": "Histórico do nome verdadeiro",
+  "profile_history_url_title": "Histórico de URLs",
+  "profile_history_pfp_title": "Histórico do PFP",
+  "profile_history_comments_title": "Histórico de comentários",
+  "profile_history_friends_title": "História dos Amigos",
+  "profile_history_total_entries_tooltip": "Número total de entradas: {count}",
+  "profile_history_friend_list_private": "A lista de amigos é privada.",
+  "profile_history_friend_list_public": "A lista de amigos é pública.",
+  "profile_history_friends_last_updated": "Última atualização dos amigos:",
+  "profile_history_friends_privacy_unknown": "A privacidade da lista de amigos é desconhecida e ainda não foi verificada.",
+  "profile_history_comments_last_updated": "Última atualização dos comentários: {date}",
+  "profile_history_comments_not_checked": "Os comentários ainda não foram verificados.",
+  "profile_history_vac_bans_warning": "{percent} % de amigos têm banimentos do VAC",
+  "profile_history_community_bans_warning": "{percent} % de amigos têm banimentos da comunidade",
+  "profile_history_game_bans_warning": "{percent} % de amigos têm banimentos de jogos",
+  "profile_history_sb_bans_warning": "{percent} % de amigos têm SourceBans",
+  "profile_history_tf2bd_bans_warning": "{percent} % de amigos têm banimentos no TF2BD",
+  "profile_history_friend_swap_tooltip": "Reconstrua a lista de amigos de um usuário usando dados públicos.",
+  "profile_history_friend_swap_button": "Troca de Amigos",
+  "profile_history_friend_swap_login_cta": "Faça login para usar a Troca de Amigos",
+  "profile_history_friend_swap_supporter_cta": "Torne-se um apoiador para usar a Troca de Amigos.",
+  "profile_history_filter_label": "Filtro:",
+  "profile_history_filter_all": "Todos",
+  "profile_history_filter_friends": "Amigos",
+  "profile_history_filter_unfriended": "Excluir da lista de amigos",
+  "profile_history_filter_deleted": "Excluído",
+  "profile_history_bans_label": "Proibições:",
+  "profile_history_show_deleted_count": [
+    {
+      "declarations": [
+        "input ",
+        "input count",
+        "input count, plural, =1 {",
+        "input count, plural, one {",
+        "input e",
+        "input one {",
+        "input s",
+        "local cp = count: plural"
+      ],
+      "selectors": [
+        "cp"
+      ],
+      "match": {
+        "cp=one": "para mostrar {count} comentário excluído",
+        "cp=other": "para mostrar {count} comentários excluídos"
+      }
+    }
+  ],
+  "profile_history_view_all_button": "Ver tudo",
+  "profile_history_hidden_data": "[Dados SH ocultos a pedido]",
+  "profile_history_search_persona_tooltip": "Pesquise usuários com este nome de usuário.",
+  "profile_history_search_url_tooltip": "Pesquise usuários com este URL",
+  "profile_history_official_avatar_tooltip": "Este é um avatar oficial do Steam ou do jogo e não pode ser encontrado por meio de buscas.",
+  "profile_history_unfriended_label": "[UNFRIENDED {date} ]",
+  "profile_history_friends_duration": [
+    {
+      "declarations": [
+        "input count",
+        "local cp = count: plural"
+      ],
+      "selectors": [
+        "cp"
+      ],
+      "match": {
+        "cp=one": "Amigos para {count} dia",
+        "cp=other": "Amigos por {count} dias"
+      }
+    }
+  ],
+  "profile_history_friends_from": "Amigos de {date}",
+  "profile_history_friend_since": "Amigo desde {date}",
+  "profile_community_bans_title": "Proibições da comunidade",
+  "profile_community_bans_possible_cheater": "Possível trapaceiro",
+  "profile_community_bans_keywords_label": "Palavras-chave: {list}",
+  "profile_community_bans_group_ban_note": "A proibição de participação em grupos não é uma prova direta de trapaça, mas sim uma posição da comunidade.",
+  "profile_community_bans_view_on_server": "Ver proibições em {server}",
+  "profile_community_bans_proof_entries": [
+    {
+      "declarations": [
+        "input count",
+        "input count, plural, one {stück",
+        "input count, plural, one {y",
+        "input ies",
+        "input one {stück",
+        "input one {y",
+        "input stücke",
+        "local cp = count: plural"
+      ],
+      "selectors": [
+        "cp"
+      ],
+      "match": {
+        "cp=one": "{count} entrada de prova anexada",
+        "cp=other": "{count} entradas de prova anexadas"
+      }
+    }
+  ],
+  "profile_community_bans_recent_badge": "Recente",
+  "profile_community_bans_permanent_badge": "Permanente",
+  "profile_community_bans_temporary_badge": "Temporário",
+  "profile_community_bans_unbanned_badge": "Desbloqueado",
+  "profile_community_bans_expired_badge": "Expirado",
+  "profile_community_bans_table_date": "Data",
+  "profile_community_bans_table_proofs": "Provas",
+  "profile_community_bans_table_attributes": "Atributos",
+  "profile_community_bans_table_name": "Nome",
+  "profile_community_bans_table_reason": "Razão",
+  "profile_community_bans_table_status": "Status",
+  "status_offline": "Offline",
+  "status_online": "On-line",
+  "status_busy": "Ocupado",
+  "status_away": "Ausente",
+  "status_snooze": "Soneca",
+  "status_unknown": "DESCONHECIDO",
+  "privacy_private": "Privado",
+  "privacy_friends": "Amigos",
+  "privacy_public": "Público",
+  "premium_f2p": "Gratuito para jogar",
+  "premium_premium": "Premium",
+  "common_true": "Verdadeiro",
+  "common_false": "Falso",
+  "common_cancel": "Cancelar",
+  "time_ago_years": [
+    {
+      "declarations": [
+        "input count",
+        "input count, plural, one {",
+        "input en",
+        "input one {",
+        "input s",
+        "local cp = count: plural"
+      ],
+      "selectors": [
+        "cp"
+      ],
+      "match": {
+        "cp=one": "{count} ano atrás",
+        "cp=other": "{count} anos atrás"
+      }
+    }
+  ],
+  "time_ago_months": [
+    {
+      "declarations": [
+        "input count",
+        "input count, plural, one {",
+        "input en",
+        "input one {",
+        "input s",
+        "local cp = count: plural"
+      ],
+      "selectors": [
+        "cp"
+      ],
+      "match": {
+        "cp=one": "{count} mês atrás",
+        "cp=other": "{count} meses atrás"
+      }
+    }
+  ],
+  "time_ago_days": [
+    {
+      "declarations": [
+        "input count",
+        "input count, plural, one {",
+        "input en",
+        "input one {",
+        "local cp = count: plural"
+      ],
+      "selectors": [
+        "cp"
+      ],
+      "match": {
+        "cp=one": "{count} dia atrás",
+        "cp=other": "{count} dias atrás"
+      }
+    }
+  ],
+  "time_ago_hours": [
+    {
+      "declarations": [
+        "input count",
+        "input count, plural, one {",
+        "input n",
+        "input one {",
+        "input s",
+        "local cp = count: plural"
+      ],
+      "selectors": [
+        "cp"
+      ],
+      "match": {
+        "cp=one": "{count} hora atrás",
+        "cp=other": "{count} horas atrás"
+      }
+    }
+  ],
+  "time_ago_minutes": [
+    {
+      "declarations": [
+        "input count",
+        "input count, plural, one {",
+        "input n",
+        "input one {",
+        "input s",
+        "local cp = count: plural"
+      ],
+      "selectors": [
+        "cp"
+      ],
+      "match": {
+        "cp=one": "{count} minuto atrás",
+        "cp=other": "{count} minutos atrás"
+      }
+    }
+  ],
+  "time_ago_just_now": "Agora mesmo",
+  "profile_indexing_title": "Indexação em andamento",
+  "profile_indexing_text": "O perfil deste usuário está sendo indexado. Aguarde um momento.",
+  "profile_copy_success": "Copiado!",
+  "profile_copy_failure": "Falha ao copiar!",
+  "profile_error_load_failed": "Falha ao carregar os dados do usuário. O perfil pode não existir ou ser privado.",
+  "profile_error_backend_connection": "Estamos com problemas para conectar aos nossos servidores. Tente novamente mais tarde. Para atualizações em tempo real, junte-se ao nosso {discordLink} !",
+  "profile_error_auth_required": "Este usuário não está indexado. Por favor {loginLink} para iniciar o processo de indexação.",
+  "profile_meta_description": [
+    {
+      "declarations": [
+        "input name",
+        "input nameCount",
+        "input pfpCount",
+        "input privacy",
+        "local ncp = nameCount: plural",
+        "local pcp = pfpCount: plural"
+      ],
+      "selectors": [
+        "ncp",
+        "pcp"
+      ],
+      "match": {
+        "ncp=one, pcp=one": "{name} é um perfil {privacy} com {nameCount} nome registrado e {pfpCount} foto de perfil registrada.",
+        "ncp=one, pcp=other": "{name} é um perfil {privacy} com {nameCount} nome registrado e {pfpCount} fotos de perfil registradas.",
+        "ncp=other, pcp=one": "{name} é um perfil {privacy} com {nameCount} nomes registrados e {pfpCount} fotos de perfil registradas.",
+        "ncp=other, pcp=other": "{name} é um perfil {privacy} com {nameCount} nomes registrados e {pfpCount} fotos de perfil registradas."
+      }
+    }
+  ],
+  "notification_dock_wisdom_tab": "Sabedoria",
+  "notification_dock_poll_tab": "Enquete",
+  "notification_dock_vote_label": "Voto!",
+  "notification_dock_minimize_tooltip": "Clique para minimizar",
+  "notification_dock_expand_tooltip": "Clique para expandir",
+  "notification_dock_proverbs_title": "Provérbios",
+  "notification_dock_refresh_tooltip": "Atualizar",
+  "notification_dock_minimize_button_tooltip": "Minimizar",
+  "notification_dock_your_answer_label": "Sua Resposta",
+  "notification_dock_submit_button": "Enviar",
+  "notification_dock_votes_count": [
+    {
+      "declarations": [
+        "input count",
+        "local cp = count: plural"
+      ],
+      "selectors": [
+        "cp"
+      ],
+      "match": {
+        "cp=one": "{count} voto",
+        "cp=other": "{count} votos"
+      }
+    }
+  ],
+  "notification_dock_you_voted": "Você votou",
+  "notification_dock_signin_to_vote": "Inicie sessão com a sua conta Steam para votar!",
+  "notification_dock_poll_disclaimer": "As pesquisas de opinião são usadas para coletar pensamentos e opiniões da comunidade, não para decisões finais.",
+  "faq_title": "Perguntas frequentes",
+  "faq_q1_title": "Como faço para usar o SteamHistory?",
+  "faq_q1_p1": "SteamHistory é uma ferramenta para rastrear o histórico de perfis do Steam. Você pode pesquisar qualquer usuário do Steam para visualizar seus nomes de usuário, fotos de perfil, amigos e comentários anteriores.",
+  "faq_q1_p2": "Basta usar a barra de pesquisa na página inicial para procurar um usuário pelo seu SteamID64, URL do perfil ou URL personalizada.",
+  "faq_q2_title": "É seguro fazer login com o Steam?",
+  "faq_q2_p1": "Sim, fazer login com o Steam é seguro. Usamos a implementação do OpenID do Steam, um sistema de autenticação padrão e seguro.",
+  "faq_q2_p2": "Ao optar por iniciar sessão com o Steam, você será redirecionado para o site oficial da Comunidade Steam para inserir suas credenciais. O SteamHistory.net nunca vê ou armazena sua senha.",
+  "faq_q2_p3": "Após você fazer login com sucesso no site da Steam, a Steam nos envia, de forma segura, apenas o seu SteamID exclusivo de 64 bits, que usamos para identificar sua conta. Esse processo garante que seus dados de login permaneçam privados e seguros.",
+  "faq_q2_p4_1": "Você pode ler mais sobre como o Steam lida com a autenticação de terceiros no documento oficial. ",
+  "faq_q2_p4_link": "Documentação do Steamworks sobre autenticação baseada em navegador web",
+  "faq_q2_p4_2": ".",
+  "faq_q3_title": "Como faço para me tornar um apoiador?",
+  "faq_q3_p1_1": "Você pode se tornar um apoiador usando o Ko-Fi ou trocando itens do TF2 visitando nosso site. ",
+  "faq_q3_p1_link": "Página de apoiadores",
+  "faq_q3_p1_2": "Os apoiadores têm acesso a recursos exclusivos, como a personalização de perfil.",
+  "faq_q3_p2": "Tanto as doações únicas quanto as adesões concedem benefícios aos apoiadores. Para doações únicas, a duração do status de apoiador é calculada da seguinte forma:",
+  "faq_q3_formula": "meses = valor doado ÷ 5",
+  "faq_q3_p3_1": "Qualquer valor restante é armazenado como crédito e aplicado a doações futuras. Por exemplo, doar US$ 13 proporciona ",
+  "faq_q3_p3_2": " 2 meses ",
+  "faq_q3_p3_3": " de status de apoiador, com ",
+  "faq_q3_p3_4": " Crédito de $3 ",
+  "faq_q3_p3_5": " transferido. Se o mesmo usuário doar mais US$ 2 posteriormente, o crédito completa mais US$ 5, concedendo ",
+  "faq_q3_p3_6": " Mais um mês",
+  "faq_q3_p3_7": ".",
+  "faq_q4_title": "Como faço para vincular meu status de apoiador do Ko-Fi?",
+  "faq_q4_p1": "Após fazer uma doação no Ko-fi, você receberá um e-mail do steamhistory.net com um ID de transação.",
+  "faq_q4_p2_1": "Vá para o seu ",
+  "faq_q4_p2_link": "página da conta",
+  "faq_q4_p2_2": " Insira o endereço de e-mail que recebeu a mensagem e o ID da transação nos campos fornecidos para vincular seu status de apoiador.",
+  "faq_q5_title": "O que é Sourcebans?",
+  "faq_q5_p1": "SourceBans++ é um sistema de administração, gerenciamento de banimentos e comunicação para servidores de jogos que utilizam a engine Source, desenvolvido pela comunidade. Ele permite que administradores de servidores gerenciem banimentos e comunicações em uma rede de servidores.",
+  "faq_q5_p2": "Utilizamos esses dados para fornecer contexto adicional aos perfis de usuários de jogos como Team Fortress 2, Garry's Mod, CS:GO, CS2 e Counter-Strike: Source.",
+  "faq_q5_p3_1": "Você pode encontrar mais informações sobre o ",
+  "faq_q5_p3_link": "Página do SourceBans++ no GitHub",
+  "faq_q5_p3_2": ".",
+  "faq_q6_title": "O que é o TF2 Bot Detector [TF2BD]?",
+  "faq_q6_p1_1": "TF2 Bot Detector é uma ferramenta que detecta e ajuda a expulsar automaticamente jogadores trapaceiros e bots em partidas casuais de Team Fortress 2. Embora o projeto original esteja arquivado, uma versão modificada mantida pela comunidade está disponível em [link para o fork]. ",
+  "faq_q6_p1_link": "este repositório do GitHub",
+  "faq_q6_p1_2": ".",
+  "faq_get_started": "Começando",
+  "faq_q7_title": "Como os dados de terceiros são utilizados?",
+  "faq_q7_p1": "Utilizamos dados de terceiros, como SourceBans e TF2 Bot Detector, para proporcionar uma experiência de usuário mais completa e informativa. Esses dados são exibidos nos perfis dos usuários para que você possa entender melhor o histórico e a reputação de cada jogador na comunidade.",
+  "faq_q7_p2": "Por exemplo, você pode ver se um usuário possui alguma suspensão ativa em servidores integrados ao SourceBans diretamente em seu perfil do SteamHistory.",
+  "faq_q8_title": "O que é a ferramenta 'API' e como posso usá-la?",
+  "faq_q8_p1": "A API SteamHistory atualmente fornece um endpoint para recuperar todos os dados do SourceBans que registramos para um usuário ou uma lista de usuários. Isso pode ser útil para desenvolvedores que desejam integrar nossos dados em seus próprios aplicativos.",
+  "faq_q8_p2_1": "Uma versão modificada (fork) do TF2 Bot Detector, mantida pela comunidade e criada por surepy, disponível em ",
+  "faq_q8_p2_link": "este repositório do GitHub",
+  "faq_q8_p2_2": ", faz uso desse recurso.",
+  "privacy_title": "política de Privacidade",
+  "privacy_header": "Política de Privacidade do SteamHistory.net",
+  "privacy_last_updated": "Última atualização: 2 de novembro de 2025",
+  "privacy_s1_title": "1. Introdução",
+  "privacy_s1_p1": "Bem-vindo(a) ao SteamHistory.net. Temos o compromisso de proteger sua privacidade e sermos transparentes sobre como lidamos com seus dados. Esta Política de Privacidade explica quais informações coletamos, como as utilizamos e quais são seus direitos em relação a elas.",
+  "privacy_s1_p2": "Este serviço é um projeto independente e não é afiliado, endossado ou de qualquer forma oficialmente conectado à Valve Corporation ou ao Steam.",
+  "privacy_s2_title": "2. Informações que coletamos",
+  "privacy_s2_p1": "Nosso serviço arquiva informações publicamente disponíveis da plataforma Steam e de outras fontes terceirizadas para fornecer um histórico completo. Os dados que coletamos e exibimos incluem:",
+  "privacy_s2_l1_1": "A partir da API do Steam:",
+  "privacy_s2_l1_2": " As informações do seu perfil público do Steam, incluindo seu SteamID, nome de usuário (atual e histórico), nome real (se público), avatar (atual e histórico), comentários públicos, lista de amigos e informações oficiais sobre banimentos (VAC, de jogos e da comunidade).",
+  "privacy_s2_l2_1": "De serviços de terceiros:",
+  "privacy_s2_l2_2": " Também coletamos informações sobre banimentos de serviços de terceiros, como Sourcebans e TF2BD (Team Fortress 2 Bot Detector), para fornecer contexto adicional sobre o comportamento do usuário, principalmente em relação a trapaças e atividades maliciosas.",
+  "privacy_s2_l3_1": "Informações de usuários conectados:",
+  "privacy_s2_l3_2": " Ao acessar nosso serviço via Steam, coletamos e armazenamos as informações necessárias para fornecer recursos específicos da sua conta. Isso inclui seu SteamID para gerenciar sua sessão, sua lista de \"usuários observados\" e seu status de apoiador.",
+  "privacy_s2_l4_1": "Conteúdo gerado pelo usuário:",
+  "privacy_s2_l4_2": " Ao iniciar sessão, você tem a opção de adicionar notas privadas ao seu perfil de usuário. Essas notas são armazenadas em nossos servidores e são visíveis apenas para você. Elas não são compartilhadas com outros usuários ou terceiros.",
+  "privacy_s2_p2": "Não coletamos nenhuma informação não pública da sua conta Steam, como sua senha ou endereço de e-mail. As transações financeiras para o status de apoiador são processadas pelo nosso processador de pagamentos, Ko-Fi. Quando você se torna um apoiador, recebemos as seguintes informações do Ko-Fi: seu nome, o endereço de e-mail usado na transação, o valor doado e um ID de transação exclusivo. Usamos essas informações exclusivamente para verificar seu pagamento, conceder benefícios de apoiador à sua conta SteamHistory e para fins de registro financeiro interno. Não recebemos nem armazenamos suas informações de cartão de crédito ou outros dados de pagamento confidenciais.",
+  "privacy_s3_title": "3. Como utilizamos suas informações",
+  "privacy_s3_p1": "As informações que coletamos são utilizadas para os seguintes fins:",
+  "privacy_s3_l1": "Fornecer um arquivo histórico de dados de perfis públicos do Steam para que os usuários possam visualizá-los.",
+  "privacy_s3_l2": "Para gerenciar sua conta de usuário, incluindo o acesso a recursos exclusivos para apoiadores e o gerenciamento da sua lista de usuários acompanhados.",
+  "privacy_s3_l3_1": "Funcionalidade de troca de amigos:",
+  "privacy_s3_l3_2": " Utilizamos listas de amigos disponíveis publicamente para reconstruir listas de amigos potencialmente privadas. Por exemplo, se o Usuário A tem uma lista de amigos privada, mas é amigo do Usuário B (que tem uma lista pública), podemos inferir que o Usuário A é amigo do Usuário B. Ao agregar essas informações de diversos perfis públicos, podemos fornecer uma visão mais completa das conexões de um usuário.",
+  "privacy_s3_p2": "Nossa base legal para o processamento desses dados é o nosso legítimo interesse em operar um serviço abrangente de arquivamento e pesquisa.",
+  "privacy_s4_title": "4. Partilha de dados e terceiros",
+  "privacy_s4_p1": "Não vendemos seus dados pessoais. No entanto, podemos compartilhar informações nas seguintes circunstâncias:",
+  "privacy_s4_l1_1": "Processadores de pagamento:",
+  "privacy_s4_l1_2": " Compartilhamos informações com processadores de pagamento terceirizados, como o Ko-Fi, para gerenciar os pagamentos dos nossos apoiadores. Compartilhamos apenas as informações necessárias para concluir a transação, e seus dados de pagamento são tratados diretamente pelo processador.",
+  "privacy_s4_l2_1": "Anúncio:",
+  "privacy_s4_l2_2_pre": " Podemos utilizar empresas de publicidade terceirizadas, como a NitroPay, para exibir anúncios quando você visita nosso site. Essas empresas podem usar cookies e web beacons para coletar informações sobre suas visitas a este e outros sites, a fim de fornecer anúncios sobre produtos e serviços de seu interesse. Para obter mais informações sobre como a NitroPay lida com a privacidade, consulte a política de privacidade deles. ",
+  "privacy_s4_l2_2_link": "política de Privacidade",
+  "privacy_s4_l2_2_post": ".",
+  "privacy_s5_title": "5. Seus direitos e controle de dados",
+  "privacy_s5_p1": "Embora o SteamHistory.net não esteja localizado na União Europeia e não seja direcionado especificamente a residentes da UE, respeitamos todos os pedidos de remoção de dados dos usuários, independentemente de sua localização geográfica.",
+  "privacy_s5_p2_1": "Direito ao apagamento (Direito ao esquecimento):",
+  "privacy_s5_p2_2_pre": " Se desejar solicitar a remoção dos seus dados pessoais do nosso Serviço, visite [link para a página de remoção]. ",
+  "privacy_s5_p2_2_link": "página de remoção de dados",
+  "privacy_s5_p2_2_post": " (É necessário fazer login). Para garantir que estamos processando uma solicitação do proprietário legítimo da conta, podemos solicitar que você verifique sua identidade. A maneira mais simples de fazer isso é acessando o SteamHistory.net pelo Steam, o que confirma a sua propriedade da conta. Para residentes da UE, esse processo de verificação está em conformidade com o Artigo 12, Seção 6 do GDPR.",
+  "privacy_s5_p3": "Observe que este processo de remoção se aplica apenas aos dados armazenados nos servidores do SteamHistory.net. Não temos controle sobre os dados mantidos por serviços de terceiros, como Sourcebans ou TF2BD. Você deve entrar em contato diretamente com esses serviços para solicitar a remoção de seus dados de suas plataformas.",
+  "privacy_s5_p4": "Além disso, conforme descrito em nossos Termos de Serviço, podemos reter dados não pessoais relacionados a atividades maliciosas para a segurança e proteção do serviço e de sua comunidade.",
+  "privacy_s6_title": "6. Política de Cookies",
+  "privacy_s6_p1": "Nosso site utiliza cookies. Cookies são pequenos arquivos de texto que são armazenados no seu computador para ajudar o site a proporcionar uma melhor experiência ao usuário. Utilizamos cookies para:",
+  "privacy_s6_l1_1": "Funções essenciais:",
+  "privacy_s6_l1_2": " Como, por exemplo, manter você conectado.",
+  "privacy_s6_l2_1": "Anúncio:",
+  "privacy_s6_l2_2": " Conforme mencionado acima, anunciantes terceirizados como a NitroPay usam cookies para exibir anúncios personalizados. Para obter informações sobre como desativar a publicidade personalizada, consulte a política de privacidade do anunciante.",
+  "privacy_s7_title": "7. Retenção de Dados",
+  "privacy_s7_p1": "Conservamos os dados públicos que coletamos enquanto eles permanecerem publicamente disponíveis nas plataformas de origem (por exemplo, Steam). Se os dados forem removidos da fonte, eles ainda poderão ser mantidos em nossos arquivos para fins históricos. Se você solicitar a remoção de seus dados, nós os excluiremos de nossos bancos de dados ativos.",
+  "privacy_s7_p2": "Por razões financeiras e legais, somos obrigados a reter os dados transacionais do nosso processador de pagamentos (Ko-Fi) por um período específico. Esses dados são mantidos em segurança e utilizados apenas para fins contábeis e de conformidade.",
+  "privacy_s8_title": "8. Alterações a esta Política de Privacidade",
+  "privacy_s8_p1": "Podemos atualizar esta Política de Privacidade periodicamente. Quaisquer alterações serão publicadas nesta página com a data de \"Última Atualização\" atualizada. Recomendamos que você revise esta Política de Privacidade periodicamente para verificar se houve alterações. O uso contínuo do serviço após tais alterações constitui sua aceitação da nova política.",
+  "tos_title": "Termos de Serviço",
+  "tos_header": "Termos de Serviço do SteamHistory.net",
+  "tos_last_updated": "Última atualização: 2 de novembro de 2025",
+  "tos_s1_title": "1. Aceitação dos Termos",
+  "tos_s1_p1": "Ao acessar ou usar o SteamHistory.net (o \"Serviço\"), você concorda em ficar vinculado a estes Termos de Serviço (\"Termos\"). Se você não concordar com estes Termos, não poderá usar o Serviço.",
+  "tos_s1_p2": "Este serviço é um projeto independente e não é afiliado, endossado ou de qualquer forma oficialmente conectado à Valve Corporation ou ao Steam.",
+  "tos_s2_title": "2. Descrição do Serviço",
+  "tos_s2_p1": "SteamHistory.net é um serviço de terceiros que arquiva e exibe dados publicamente disponíveis da plataforma Steam e de outras fontes públicas de terceiros (como Sourcebans e TF2BD). O objetivo do serviço é fornecer um registro histórico de informações públicas de usuários, incluindo dados relacionados a trapaças e atividades maliciosas.",
+  "tos_s3_title": "3. Conduta do Usuário",
+  "tos_s3_p1": "Você concorda em não usar o Serviço para qualquer finalidade ilegal ou proibida por estes Termos. Você concorda em não:",
+  "tos_s3_l1": "Utilizar o Serviço de qualquer forma que possa danificá-lo, desativá-lo, sobrecarregá-lo ou prejudicá-lo.",
+  "tos_s3_l2": "Tentativa de obter acesso não autorizado a qualquer parte do Serviço.",
+  "tos_s3_l3": "Utilizar qualquer sistema automatizado, incluindo \"bots\", \"spiders\" ou \"leitores offline\", para acessar o Serviço de maneira que envie mais mensagens de solicitação aos servidores do que um humano poderia razoavelmente produzir no mesmo período usando um navegador web convencional.",
+  "tos_s3_l4": "Ao receber acesso à nossa API, você concorda em não utilizá-la indevidamente, incluindo, entre outros, exceder os limites de taxa, tentar realizar engenharia reversa de sua funcionalidade ou usá-la para qualquer finalidade que viole estes Termos ou que não seja expressamente permitida.",
+  "tos_s4_title": "4. Propriedade Intelectual e Conteúdo",
+  "tos_s4_p1": "Todos os dados exibidos no Serviço, incluindo, entre outros, nomes de usuário, avatares e comentários, são propriedade da Valve Corporation e/ou de seus respectivos usuários. O nome e o logotipo do Steam são marcas registradas da Valve Corporation.",
+  "tos_s4_p2": "Nosso Serviço destina-se exclusivamente ao uso pessoal e não comercial. Você concorda em não explorar o Serviço ou qualquer parte dele para fins comerciais, de acordo com o Contrato de Assinatura do Steam.",
+  "tos_s5_title": "5. Níveis e recursos de apoio",
+  "tos_s5_p1": "Oferecemos níveis de apoio opcionais que dão acesso a recursos adicionais. Você pode se tornar um apoiador por meio de uma doação única ou uma assinatura mensal recorrente, gerenciada por nosso processador de pagamentos terceirizado (por exemplo, Ko-Fi). Ao se tornar um apoiador, você concorda com os seguintes termos:",
+  "tos_s5_l1_1": "Características:",
+  "tos_s5_l1_2": " Os apoiadores têm acesso a recursos que incluem, entre outros: Busca Multiorigem (buscando por nome de perfil, nome real, URL e AvatarHash), Busca de Comentários, visualização de comentários excluídos, Troca de Amigos (reconstruindo uma lista de amigos privada a partir de dados públicos) e personalizações cosméticas de perfil.",
+  "tos_s5_l2_1": "Opções de pagamento:",
+  "tos_s5_l2_2": "Doações únicas:",
+  "tos_s5_l2_3": " As doações são cumulativas. Para cada US$ 5 doados, você receberá 30 dias de acesso exclusivo para apoiadores. Por exemplo, uma única doação de US$ 15 garante 90 dias de acesso.",
+  "tos_s5_l2_4": "Assinaturas mensais:",
+  "tos_s5_l2_5": " Se optar por uma assinatura mensal, o seu pagamento será processado automaticamente todos os meses. Pode cancelar a sua assinatura a qualquer momento através da interface do processador de pagamentos.",
+  "tos_s5_l3_1": "Sem reembolso:",
+  "tos_s5_l3_2": " Todos os pagamentos referentes ao acesso de apoiadores, sejam doações únicas ou assinaturas, são definitivos e não reembolsáveis.",
+  "tos_s5_l4_1": "Estornos:",
+  "tos_s5_l4_2": " Iniciar um processo de estorno sem antes entrar em contato conosco para resolver um problema de pagamento resultará em banimento permanente de todos os serviços do SteamHistory.",
+  "tos_s6_title": "6. Isenções de responsabilidade e limitação de responsabilidade",
+  "tos_s6_p1": "O Serviço é fornecido \"TAL COMO ESTÁ\" e \"CONFORME DISPONÍVEL\". Não oferecemos garantias, expressas ou implícitas, quanto à precisão, confiabilidade ou integridade dos dados fornecidos. Os dados são provenientes da API Web do Steam e de outros serviços de terceiros, e não nos responsabilizamos por quaisquer erros ou omissões dessas fontes.",
+  "tos_s6_p2": "Em hipótese alguma a SteamHistory.net ou seus operadores serão responsáveis por quaisquer danos indiretos, incidentais, especiais, consequenciais ou punitivos decorrentes ou relacionados ao seu uso do Serviço.",
+  "tos_s7_title": "7. Remoção de dados e moderação de conteúdo",
+  "tos_s7_p1_1": "Estamos comprometidos em cumprir as leis de proteção de dados, como o GDPR, e em respeitar o \"direito ao esquecimento\" de nossos usuários. Se desejar solicitar a remoção de seus dados pessoais de nosso Serviço, visite [link para a página de solicitação de remoção]. ",
+  "tos_s7_p1_link": "página de remoção de dados",
+  "tos_s7_p1_2": " (É necessário fazer login) e processaremos sua solicitação.",
+  "tos_s7_p2": "Observe que nosso Serviço exibe dados de fontes terceirizadas, como Sourcebans e TF2BD. Não controlamos esses dados e não podemos modificá-los ou removê-los. Para solicitar a remoção desses dados, você deve entrar em contato diretamente com o respectivo serviço terceirizado.",
+  "tos_s7_p3": "Além disso, como um serviço dedicado a manter um arquivo histórico para benefício da comunidade de jogos, especialmente no que diz respeito a atividades maliciosas, reservamo-nos o direito de reter dados anonimizados e não pessoais relacionados a tais atividades para fins de segurança e arquivamento. Isso visa proteger a integridade do Serviço e de seus usuários. Qualquer retenção desse tipo será feita em conformidade com as leis aplicáveis.",
+  "tos_s8_title": "8. Restrição de idade",
+  "tos_s8_p1": "O Serviço destina-se a usuários com pelo menos 13 anos de idade. Ao usar o Serviço, você declara e garante que tem pelo menos 13 anos de idade. Se tomarmos conhecimento de que um usuário tem menos de 13 anos, tomaremos medidas para remover suas informações e encerrar sua conta.",
+  "tos_s9_title": "9. Resolução de Conflitos",
+  "tos_s9_p1": "Quaisquer disputas decorrentes ou relacionadas a estes Termos ou ao seu uso do Serviço serão regidas pelas leis da jurisdição em que os operadores do Serviço estão sediados, independentemente de suas disposições sobre conflito de leis. Você concorda em se submeter à jurisdição pessoal e exclusiva dos tribunais localizados nessa jurisdição.",
+  "tos_s10_title": "10. Privacidade",
+  "tos_s10_p1_1": "Sua privacidade é importante para nós. Por favor, revise nossa política de privacidade. ",
+  "tos_s10_p1_link": "política de Privacidade",
+  "tos_s10_p1_2": " Para entender como coletamos, usamos e protegemos suas informações.",
+  "tos_s11_title": "11. Alterações a estes Termos",
+  "tos_s11_p1": "Reservamo-nos o direito de modificar estes Termos a qualquer momento. Quaisquer alterações serão publicadas nesta página com uma data de \"Última Atualização\" atualizada. O uso continuado do Serviço após quaisquer alterações constitui sua aceitação dos novos Termos. Recomendamos que você revise estes Termos periodicamente para verificar se houve alterações.",
+  "tos_s12_title": "12. Entre em contato conosco",
+  "tos_s12_p1_1": "Se você tiver alguma dúvida sobre estes Termos, entre em contato conosco pelo endereço: ",
+  "tos_s12_p1_link": "admin@steamhistory.net",
+  "tos_s12_p1_2": "Para solicitações relacionadas à privacidade e remoção de dados, visite [link para o site]. ",
+  "tos_s12_p1_link_rem": "página de remoção de dados",
+  "tos_s12_p1_3": " (É necessário fazer login).",
+  "supporter_title": "Torne-se um apoiador",
+  "supporter_subtitle": "Apoie o SteamHistory.net e desbloqueie recursos exclusivos para aprimorar sua experiência.",
+  "supporter_features_title": "Recursos para apoiadores",
+  "supporter_f1_title": "Pesquisa de comentários",
+  "supporter_f1_desc": "Encontre comentários feitos por um SteamID específico ou que contenham palavras específicas.",
+  "supporter_f2_title": "Comentários excluídos",
+  "supporter_f2_desc": "Possibilidade de visualizar todos os comentários excluídos em um perfil visualizado.",
+  "supporter_f3_title": "Troca de amigos",
+  "supporter_f3_desc": "Veja os amigos de um usuário mesmo que a lista de amigos dele seja privada.",
+  "supporter_f4_title": "Personalização de perfil",
+  "supporter_f4_desc": "Permite personalizar seu perfil SH de diversas maneiras, puramente estéticas.",
+  "supporter_f5_title": "Experiência sem anúncios",
+  "supporter_f5_desc": "Não serão exibidos anúncios no site enquanto você estiver conectado.",
+  "supporter_f6_title": "Acesso ao Discord",
+  "supporter_f6_desc": "Acesso ao canal de testadores e apoiadores para uso antecipado/discussão de recursos em desenvolvimento.",
+  "supporter_f7_title": "Atualizações forçadas e alterações no tempo de espera",
+  "supporter_f7_desc": "10/dia → Ilimitado | 12 horas → 30 minutos",
+  "supporter_f8_title": "Limite de visualização",
+  "supporter_f8_desc": "6 usuários → 32 usuários",
+  "supporter_how_to_title": "Como se tornar um apoiador",
+  "supporter_kofi_desc": "Apoie-nos diretamente pelo Ko-Fi com doações únicas ou assinaturas mensais.",
+  "supporter_kofi_widget_label": "Utilize o widget abaixo ou:",
+  "supporter_kofi_direct_link": "Link direto",
+  "supporter_pricing_terms_title": "Preços e Condições",
+  "supporter_pricing_info_title": "Informações sobre preços",
+  "supporter_min_amount": "Valor mínimo: US$ 5 por mês",
+  "supporter_duration_calc": "Cálculo da duração: Cada US$ 5 doados = 30 dias de status de apoiador",
+  "supporter_bucket_system": "Sistema de Doações: As doações se acumulam até atingirem incrementos de $5.",
+  "supporter_bucket_ex1": "Exemplo 1: Doar US$ 15 = 90 dias (3 meses) de status de apoiador",
+  "supporter_bucket_ex2": "Exemplo 2: Doe $3, depois $2 = 30 dias, quando o total atingir $5.",
+  "supporter_account_linking_title": "Vinculação de contas",
+  "supporter_linking_p1": "Após fazer uma doação pelo Ko-Fi, você receberá um e-mail com o ID da transação.",
+  "supporter_linking_p2": "Vincule seu status de apoiador por:",
+  "supporter_linking_li1_1": "Indo para o seu ",
+  "supporter_linking_li1_link": "página da conta",
+  "supporter_linking_li1_2": "",
+  "supporter_linking_li2": "Insira seu e-mail do Ko-Fi e o ID da transação.",
+  "supporter_linking_li3": "Seus recursos de apoiador serão ativados imediatamente.",
+  "search_alias_used": "usou o pseudônimo",
+  "search_avatar_used": "usou este avatar",
+  "search_comment_commented_on": "comentou sobre",
+  "search_url_used": "usou o URL",
+  "search_result_deleted": "[EXCLUÍDO]",
+  "search_result_created": "Criado: ",
+  "search_alias_placeholder": "por exemplo, Alfredo",
+  "search_url_placeholder": "Exemplo: https://steamcommunity.com/id/xyzxyz ou xyzxyz",
+  "search_avatar_placeholder": "eg 4ac560d3b4f25656f092c218d7570d12dcdaeabc",
+  "search_comment_steamid_placeholder": "Exemplo: 76561198000000000 (opcional)",
+  "search_comment_text_placeholder": "Palavras-chave ou frases (opcional)",
+  "search_bulk_identifiers_placeholder": "Insira um identificador por linha (SteamID64, URL personalizada, etc.)",
+  "data_removal_persona_title": "Nomes de Personagens Históricos",
+  "data_removal_realname_title": "Nomes reais históricos",
+  "data_removal_url_title": "URLs de perfis históricos",
+  "data_removal_pfp_title": "Fotos de perfil históricas",
+  "data_removal_entries_count": [
+    {
+      "declarations": [
+        "input count",
+        "local cp = count: plural"
+      ],
+      "selectors": [
+        "cp"
+      ],
+      "match": {
+        "cp=one": "( {count} entrada)",
+        "cp=other": "( {count} entradas)"
+      }
+    }
+  ],
+  "data_removal_current_name": "Nome atual",
+  "data_removal_current_name_warning": "Esta entrada não pode ser removida porque é muito semelhante ao seu nome de exibição atual.",
+  "data_removal_persona_placeholder": "Por favor, explique por que você deseja que esse nome de usuário seja removido...",
+  "data_removal_realname_placeholder": "Por favor, explique por que você deseja que este nome verdadeiro seja removido...",
+  "data_removal_url_placeholder": "Por favor, explique por que você deseja que este URL seja removido...",
+  "data_removal_pfp_placeholder": "Por favor, explique por que você deseja que esta foto de perfil seja removida...",
+  "data_removal_duplicate_reason": "Motivo duplicado detectado",
+  "data_removal_overall_reason_title": "Motivo geral",
+  "data_removal_overall_reason_desc": "Por favor, forneça uma explicação geral sobre o motivo pelo qual deseja que esses dados sejam removidos. Isso ajudará nossos administradores a entender melhor sua solicitação.",
+  "data_removal_overall_placeholder": "Explique por que você deseja que esses dados sejam removidos...",
+  "data_removal_submit_title": "Enviar solicitação",
+  "data_removal_selected_items": [
+    {
+      "declarations": [
+        "input count",
+        "input count, plural, one {",
+        "input e",
+        "input one {",
+        "local cp = count: plural"
+      ],
+      "selectors": [
+        "cp"
+      ],
+      "match": {
+        "cp=one": "Item selecionado {count} para remoção",
+        "cp=other": "Itens selecionados {count} para remoção"
+      }
+    }
+  ],
+  "data_removal_duplicate_error": "Por favor, forneça justificativas únicas para cada entrada de dados. Justificativas duplicadas não são permitidas.",
+  "data_removal_min_words_error": "Certifique-se de que todos os motivos atendam ao requisito mínimo {count} palavras.",
+  "data_removal_confirm_title": "Confirmar envio",
+  "data_removal_confirm_p1": "Ao enviar esta solicitação, você confirma que:",
+  "data_removal_confirm_li1": "Sua solicitação segue as diretrizes de Informações Pessoais Identificáveis (PII) definidas na seção Informações Importantes acima.",
+  "data_removal_confirm_li2": "Você leu a seção Informações Importantes na íntegra.",
+  "data_removal_agree_button": "Concordo",
+  "data_removal_word_count": "{count} / {min} palavras",
+  "pagination_prev": "Anterior",
+  "pagination_next": "Próximo",
+  "pagination_go_to_page": "Acesse a página:",
+  "pagination_of": "de",
+  "pagination_show": "Mostrar",
+  "pagination_per_page": "por página",
+  "usermenu_account_title": "Conta",
+  "usermenu_profile": "Perfil",
+  "usermenu_my_teams": "Minhas equipes",
+  "usermenu_settings": "Configurações",
+  "usermenu_data_removal": "Remoção de dados",
+  "usermenu_logout": "Sair",
+  "suggestion_title": "Enviar uma sugestão",
+  "suggestion_success": "Obrigado pela sua sugestão!",
+  "suggestion_description": "Ajude-nos a melhorar o SteamHistory compartilhando suas ideias e comentários.",
+  "suggestion_placeholder": "Compartilhe sua sugestão ou feedback aqui...",
+  "suggestion_submitting": "Enviando...",
+  "suggestion_submit": "Enviar sugestão",
+  "beta_popup_title": "Bem-vindo à Nova História do Steam!",
+  "beta_popup_p1": "Esta reformulação está atualmente em versão beta. Se encontrar algum erro ou tiver algum comentário, por favor, reporte-o em nosso [link para o canal/plataforma de comunicação].",
+  "beta_popup_discord_link": "Servidor do Discord",
+  "beta_popup_p2": "Você também pode encontrar o link do Discord na barra de navegação no canto superior direito.",
+  "beta_popup_button": "Entendi!",
+  "turnstile_title": "Verificação necessária",
+  "turnstile_verifying": "Verificando...",
+  "turnstile_button": "Verificar e continuar",
+  "search_alias_submit": "Aliases de pesquisa",
+  "search_avatar_submit": "Pesquisar avatares",
+  "search_bulk_submit": "Pesquisa em massa",
+  "search_url_submit": "URLs de pesquisa",
+  "search_comment_submit": "Pesquisar comentários",
+  "search_supporter_only_title": "Recurso de apoiador",
+  "search_supporter_only_description": "Este recurso é exclusivo para apoiadores. Apoie o projeto para obter acesso.",
+  "search_supporter_only_button": "Torne-se um apoiador",
+  "search_supporter_expired_description": "Seu status de apoiador expirou. Renove seu apoio para continuar usando este recurso.",
+  "search_supporter_expired_button": "Renovar o suporte",
+  "search_results_count": "Resultados encontrados em ' {count} '",
+  "sources_title": "Fontes",
+  "sources_meta_description": "Veja todas as fontes que o Steam History usa para coletar dados sobre contas do Steam, incluindo SourceBans, RustWho e listas do TF2BD.",
+  "sources_header": "Fontes de dados",
+  "sources_description": "O Steam History coleta dados de diversas fontes para fornecer informações completas sobre contas Steam. Abaixo estão todas as fontes que utilizamos para nosso banco de dados.",
+  "sources_count": [
+    {
+      "declarations": [
+        "input count",
+        "local cp = count: plural"
+      ],
+      "selectors": [
+        "cp"
+      ],
+      "match": {
+        "cp=one": "{count} fonte",
+        "cp=other": "{count} fontes"
+      }
+    }
+  ],
+  "sources_never_updated": "Nunca atualizado",
+  "sources_last_updated": "Última atualização: {time}",
+  "api_title": "Documentação da API",
+  "api_meta_description": "Documentação da API para SteamHistory.net",
+  "api_your_key": "Sua chave de API",
+  "api_no_key": "Você ainda não gerou uma chave de API.",
+  "api_manage_key": "Você pode gerenciar sua chave de API na página {settingsLink} .",
+  "api_endpoints": "Pontos finais",
+  "api_fields_title": "Contém os seguintes campos:",
+  "api_example_data": "Dados de exemplo:",
+  "api_copy": "Cópia",
+  "api_copied": "Copiado!",
+  "api_hide": "Esconder",
+  "api_show": "Mostrar",
+  "teams_title": "Minhas equipes",
+  "teams_search_placeholder": "Equipes de busca...",
+  "teams_create_button": "Criar equipe",
+  "teams_pending_invitations": "Convites pendentes",
+  "teams_invited_by": "Convidado por",
+  "teams_accept": "Aceitar",
+  "teams_decline": "Declínio",
+  "teams_create_new_title": "Criar nova equipe",
+  "teams_name_label": "Nome da equipe",
+  "teams_name_placeholder": "Exemplo: Os Conquistadores",
+  "teams_name_hint": "O nome principal do seu grupo.",
+  "teams_vanity_label": "URL personalizada",
+  "teams_vanity_placeholder": "realizadores",
+  "teams_vanity_hint": "Um link curto e exclusivo para o perfil da sua equipe.",
+  "teams_description_label": "Descrição",
+  "teams_description_placeholder": "Qual é o foco desta equipe?",
+  "teams_private_label": "Equipe Privada",
+  "teams_private_hint": "Restringir o acesso apenas a membros convidados.",
+  "teams_discard_button": "Descartar",
+  "teams_no_teams_found": "Nenhuma equipe encontrada",
+  "teams_create_first": "Crie sua primeira equipe",
+  "teams_no_matches": "Não foram encontradas correspondências para \" {query} \"",
+  "teams_created_label": "Criado",
+  "teams_joined_label": "Ingressou",
+  "team_back_to_my_teams": "Voltar para Minhas Equipes",
+  "team_unfollow": "Deixar de seguir",
+  "team_follow": "Seguir",
+  "team_edit_team": "Equipe de edição",
+  "team_delete_team": "Excluir equipe",
+  "team_delete_confirm": "Tem certeza de que deseja excluir esta equipe? Isso removerá todos os membros.",
+  "team_control_panel": "Painel de Controle da Equipe",
+  "team_name_change_warning": "Alterar o nome libera o nome antigo imediatamente.",
+  "team_vanity_readonly_hint": "URLs personalizadas não podem ser alteradas após a criação.",
+  "team_save_settings": "Salvar configurações",
+  "team_about": "Sobre {name}",
+  "team_no_summary": "Nenhum resumo foi fornecido.",
+  "team_members_tab": [
+    {
+      "declarations": [
+        "input count",
+        "local cp = count: plural"
+      ],
+      "selectors": [
+        "cp"
+      ],
+      "match": {
+        "cp=one": "Membro ( {count} )",
+        "cp=other": "Membros ( {count} )"
+      }
+    }
+  ],
+  "team_notes_tab": [
+    {
+      "declarations": [
+        "input count",
+        "local cp = count: plural"
+      ],
+      "selectors": [
+        "cp"
+      ],
+      "match": {
+        "cp=one": "Nota ( {count} )",
+        "cp=other": "Notas ( {count} )"
+      }
+    }
+  ],
+  "team_invitations_tab": [
+    {
+      "declarations": [
+        "input count",
+        "local cp = count: plural"
+      ],
+      "selectors": [
+        "cp"
+      ],
+      "match": {
+        "cp=one": "Convite ( {count} )",
+        "cp=other": "Convites ( {count} )"
+      }
+    }
+  ],
+  "team_members_title": "Membros",
+  "team_member_joined": "Unidos {date}",
+  "team_remove_member_tooltip": "Remover membro",
+  "team_remove_member_confirm": "Tem certeza de que deseja remover este membro da equipe?",
+  "team_notes_title": "Notas da equipe",
+  "team_manage_invitations": "Gerenciar convites",
+  "team_invite_member_title": "Convidar novo membro",
+  "team_invite_member_hint": "Os usuários convidados devem possuir um perfil existente no SteamHistory.net.",
+  "team_pending_invites_title": [
+    {
+      "declarations": [
+        "input count",
+        "local cp = count: plural"
+      ],
+      "selectors": [
+        "cp"
+      ],
+      "match": {
+        "cp=one": "Convite pendente ( {count} )",
+        "cp=other": "Convites Pendentes ( {count} )"
+      }
+    }
+  ],
+  "team_no_pending_invites": "Não há convites pendentes.",
+  "team_overview_title": "Visão geral da equipe",
+  "team_founded": "Fundada",
+  "team_total_members": "Total de membros",
+  "team_staff_count": "Funcionários",
+  "team_your_membership": "Sua assinatura",
+  "team_privacy_mode": "Modo de privacidade",
+  "team_privacy_hidden": "Escondido",
+  "team_privacy_visible": "Visível",
+  "team_your_rank": "Sua classificação",
+  "team_show_membership": "Mostrar associação",
+  "team_hide_membership": "Ocultar associação",
+  "team_membership_hidden_hint": "Sua inscrição está oculta. Você não aparecerá nas listas públicas de membros que não fazem parte da equipe.",
+  "team_membership_visible_hint": "Sua participação é pública. Qualquer pessoa pode ver que você faz parte desta equipe.",
+  "team_resignation": "Renúncia",
+  "team_leave_group": "Sair do grupo",
+  "team_leave_confirm": "Tem certeza de que deseja sair de {name} ?",
+  "team_owner_leave_hint": "Os proprietários não podem sair da própria equipe. Você precisa excluir a equipe para renunciar.",
+  "friendgroups_form_title": "Visualização de Grupos de Amigos",
+  "friendgroups_form_description": "Explore redes de amigos a partir de um usuário específico.",
+  "friendgroups_form_steamid_label": "ID Steam inicial",
+  "friendgroups_form_steamid_placeholder": "Insira o ID do Steam (ex: 76561198000000000)",
+  "friendgroups_form_depth_label": "Profundidade máxima",
+  "friendgroups_form_submit": "Gerar gráfico",
+  "friendgroups_stats_title": "Estatísticas de rede",
+  "friendgroups_stats_total_users": "Total de usuários:",
+  "friendgroups_stats_total_connections": "Conexões totais:",
+  "friendgroups_stats_avg_connections": "Conexões médias:",
+  "friendgroups_stats_max_distance": "Distância máxima:",
+  "friendgroups_disabled_prod": "Essa funcionalidade está desativada em produção.",
+  "account_settings_title": "Configurações de Conta",
+  "account_refresh_button": "Atualizar conta (última verificação {time} )",
+  "account_customization_title": "Personalização de perfil",
+  "account_live_preview": "PRÉVIA AO VIVO",
+  "account_preview_hint": "Pré-visualização de como seu perfil aparecerá.",
+  "account_border_tab": "Fronteira",
+  "account_tag_tab": "Marcação",
+  "account_shadow_tab": "Sombra",
+  "account_saving": "Salvando...",
+  "account_saved": "Salvo!",
+  "account_border_type_label": "Tipo de borda",
+  "account_border_color_label": "Cor da borda {index}",
+  "account_tag_text_label": "Texto da etiqueta",
+  "account_tag_text_placeholder": "Digite o texto da etiqueta...",
+  "account_tag_color_label": "Cor da etiqueta",
+  "account_blur_label": "Borrão",
+  "account_spread_label": "Espalhar",
+  "account_x_offset_label": "Deslocamento horizontal",
+  "account_y_offset_label": "Deslocamento vertical",
+  "account_shadow_color_label": "Cor da Sombra",
+  "account_reset_button": "Restaurar padrões de fábrica",
+  "account_reset_confirm": "Tem certeza de que deseja restaurar as configurações para o padrão?",
+  "account_supporter_expired_title": "Status de apoiador expirado",
+  "account_supporter_expired_desc": "Seus benefícios de apoiador expiraram. Renove para continuar personalizando seu perfil.",
+  "account_become_supporter_title": "Torne-se um apoiador",
+  "account_become_supporter_desc": "Desbloqueie a personalização do perfil e outros recursos exclusivos tornando-se um apoiador.",
+  "account_support_cta": "Apoie o SteamHistory",
+  "account_status_active": "Ativo",
+  "account_status_expired": "Expirado",
+  "account_status_inactive": "Inativo",
+  "account_email_label": "E-mail:",
+  "account_not_linked": "Não vinculado",
+  "account_start_date_label": "Data de início:",
+  "account_end_date_label": "Data de término:",
+  "account_days_remaining": [
+    {
+      "declarations": [
+        "input count",
+        "local cp = count: plural"
+      ],
+      "selectors": [
+        "cp"
+      ],
+      "match": {
+        "cp=one": "{count} dias restantes",
+        "cp=other": "{count} dias restantes"
+      }
+    }
+  ],
+  "account_total_given_label": "Total fornecido:",
+  "account_link_kofi_title": "Link para a conta Ko-Fi",
+  "account_link_kofi_desc": "Após fazer uma doação no Ko-fi, você receberá um e-mail com um ID de transação. Insira seus dados abaixo para vincular seu status de apoiador.",
+  "account_kofi_email_label": "E-mail do Ko-Fi",
+  "account_kofi_id_label": "ID da transação Ko-Fi",
+  "account_kofi_link_button": "Link para a conta Ko-Fi",
+  "account_watched_users_title": "Usuários observados",
+  "account_watch_limit_reached_tooltip": "Limite de visualizações atingido! Você precisa se tornar um apoiador para assistir a mais usuários.",
+  "account_watch_limit_nearing_tooltip": "O limite de visualizações está se aproximando. Clique para se tornar um apoiador e aumentar seu limite para 32 usuários.",
+  "account_unwatch_tooltip": "Deixar de assistir",
+  "account_no_watched_users": "Você não está seguindo nenhum usuário no momento.",
+  "account_search_to_watch": "Procure um usuário para começar a visualizar o perfil dele.",
+  "account_user_notes_title": "Notas do usuário",
+  "account_remove_note_tooltip": "Remover nota",
+  "account_no_notes": "Você ainda não adicionou nenhuma nota aos usuários.",
+  "account_visit_to_add_note": "Acesse o perfil de um usuário para adicionar notas pessoais.",
+  "account_api_key_title": "Gerenciamento de chaves de API",
+  "account_revoke_confirm": "Tem certeza de que deseja revogar sua chave de API? Essa ação é irreversível e deixará de funcionar em qualquer aplicativo que a utilize.",
+  "account_revoke_button": "Revogar chave de API",
+  "account_no_api_key": "Nenhuma chave de API foi gerada.",
+  "account_generate_api_key": "Gerar chave de API",
+  "account_discord_title": "Integração com o Discord",
+  "account_discord_connected": "Conectado",
+  "account_discord_success": "Conexão com o Discord estabelecida com sucesso!",
+  "account_discord_linked_title": "Conta do Discord vinculada",
+  "account_discord_role_hint": "Observação: Pode levar cerca de 5 minutos para que o status de Verificado seja aplicado no servidor do Discord.",
+  "account_discord_disconnect_button": "Desconectar do Discord",
+  "account_discord_link_title": "Vincule sua conta do Discord",
+  "account_discord_link_desc": "Compartilhe sua conta do Discord com:",
+  "account_discord_link_li1": "Obtenha o cargo de Verificado no Discord para permissões de mídia.",
+  "account_discord_link_li2": "Use a função \"Seguir Usuário\" e receba notificações diretamente pelo Discord sobre alterações em um perfil.",
+  "account_discord_link_button": "Link para a conta do Discord",
+  "community_ban_attr_suspicious": "Suspeito",
+  "community_ban_attr_cheater": "Trapaceiro",
+  "community_ban_attr_exploiter": "Explorador",
+  "community_ban_attr_racist": "Racista",
+  "status_private_member": "Membro Privado",
+  "friendgroups_title": "Rede de Amigos",
+  "friendgroups_search_placeholder": "Pesquisar por nome ou ID...",
+  "friendgroups_controls_title": "Controles e Filtros",
+  "friendgroups_view_controls": "Controles de visualização",
+  "friendgroups_zoom_in": "Ampliar",
+  "friendgroups_zoom_out": "Diminuir o zoom",
+  "friendgroups_reset_view": "Redefinir visualização",
+  "friendgroups_show_labels": "Mostrar rótulos",
+  "friendgroups_hide_labels": "Ocultar rótulos",
+  "friendgroups_distance_filter": "Filtro de distância",
+  "friendgroups_all_distances": "Todas as distâncias",
+  "friendgroups_source_only": "Somente fonte",
+  "friendgroups_min_connections": "Conexões mínimas: {count}",
+  "friendgroups_edge_types": "Tipos de borda e usuários",
+  "friendgroups_bfs_tree": "Árvore BFS",
+  "friendgroups_direct_source": "Fonte direta",
+  "friendgroups_same_distance": "Mesma distância",
+  "friendgroups_cross_distance": "Distância transversal",
+  "friendgroups_unfriended_users": "Usuários removidos da lista de amigos",
+  "friendgroups_legend_title": "Lenda",
+  "friendgroups_legend_node_colors": "Cores dos nós (distância)",
+  "friendgroups_legend_source": "Fonte",
+  "friendgroups_legend_dist": "Dist {count}",
+  "friendgroups_legend_dist_plus": "Distrito 5+",
+  "friendgroups_legend_edge_styles": "Estilos de borda (relacionamento)",
+  "friendgroups_legend_bfs_tree": "Árvore BFS (caminho de descoberta)",
+  "friendgroups_legend_direct": "Diretamente da fonte",
+  "friendgroups_legend_same_level": "Mesmo nível de distância",
+  "friendgroups_legend_shortcut": "Atalho de distância transversal",
+  "friendgroups_legend_unfriended_edge": "Removido da lista de amigos (conexão anterior)",
+  "friendgroups_legend_special_styles": "Estilos Especiais",
+  "friendgroups_legend_has_avatar": "Possui Avatar",
+  "friendgroups_legend_unfriended_user": "Usuário removido da lista de amigos",
+  "friendgroups_form_desc": "Explore redes de amigos a partir de um usuário específico.",
+  "friendgroups_start_id_label": "ID Steam inicial",
+  "friendgroups_start_id_placeholder": "Insira o ID do Steam (ex: 76561198000000000)",
+  "friendgroups_max_depth_label": "Profundidade máxima",
+  "friendgroups_generate_button": "Gerar gráfico",
+  "friendgroups_node_info_close": "Fechar",
+  "friendgroups_node_info_view_profile": "Ver perfil",
+  "friendgroups_node_info_status_current": "Amigo atual",
+  "friendgroups_node_info_status_unfriended": "Excluir da lista de amigos",
+  "friendgroups_node_info_distance": "Distância",
+  "friendgroups_node_info_distance_unit": "lúpulo",
+  "friendgroups_node_info_connections": "Conexões",
+  "friendgroups_node_info_connections_unit": "amigos",
+  "friendgroups_node_info_source_user": "Usuário de origem",
+  "friendgroups_mobile_tip": "Dica: Toque nos nós para visualizar detalhes e conexões.",
+  "friendgroups_unfriended_at": "Desamigado {date}",
+  "friendgroups_disabled_production": "Essa funcionalidade está desativada em produção.",
+  "account_copy_button": "Cópia",
+  "account_copied_button": "Copiado!",
+  "account_save_button": "Salvar",
+  "account_saving_button": "Salvando...",
+  "account_saved_button": "Salvo!",
+  "account_renew_button": "Renovar o suporte",
+  "account_border_solid": "Sólido",
+  "account_border_dotted": "Pontilhado",
+  "account_border_dashed": "tracejado",
+  "account_border_double": "Dobro",
+  "account_border_groove": "Sulco",
+  "account_border_ridge": "Cume",
+  "account_border_inset": "Inserir",
+  "account_border_outset": "Início",
+  "account_border_gradient": "Gradiente",
+  "history_title": "Histórico {type} para {name} ( {steamID64} )",
+  "history_back_to_profile": "Voltar ao perfil de {name}",
+  "history_no_data": "Não há dados disponíveis para este usuário.",
+  "history_error_not_found": "Não encontrado",
+  "history_type_persona": "Persona",
+  "history_type_realname": "Nome verdadeiro",
+  "history_type_url": "URL",
+  "history_type_pfp": "PFP",
+  "history_type_comments": "Comentários",
+  "history_type_friends": "Amigos",
+  "history_type_data": "Dados",
+  "history_meta_title": "SteamHistory.net | {name} | {steamID64} | Histórico {type}",
+  "history_meta_description": "Visualizando o histórico {type} para {name} em SteamHistory.net",
+  "teams_accept_button": "Aceitar",
+  "teams_decline_button": "Declínio",
+  "teams_create_title": "Criar nova equipe",
+  "teams_create_first_button": "Crie sua primeira equipe",
+  "teams_rank_owner": "Proprietário",
+  "teams_rank_admin": "Administrador",
+  "teams_rank_moderator": "Moderador",
+  "teams_rank_member": "Membro",
+  "teams_private_badge": "Privado",
+  "privacy_meta_description": "Política de Privacidade do SteamHistory.net. Saiba como coletamos, usamos e protegemos seus dados.",
+  "tos_meta_description": "Termos de Serviço do SteamHistory.net.",
+  "login_required_title": "É necessário fazer login.",
+  "login_required_header": "Autenticação necessária",
+  "login_required_desc": "Você precisa estar conectado para acessar esta página.",
+  "login_required_button": "Faça login com o Steam.",
+  "teams_back_to_my_teams": "Voltar para Minhas Equipes",
+  "teams_edit_settings": "Editar configurações",
+  "teams_invite_members": "Convidar membros",
+  "teams_members_tab": "Membros",
+  "teams_notes_tab": "Notas",
+  "teams_invitations_tab": "Convites",
+  "teams_search_members": "Pesquisar membros...",
+  "teams_save_settings": "Salvar configurações",
+  "teams_team_notes": "Notas da equipe",
+  "teams_manage_invitations": "Gerenciar convites",
+  "teams_send_invitation": "Enviar convite",
+  "teams_team_overview": "Visão geral da equipe",
+  "teams_total_members": "Total de membros",
+  "teams_your_membership": "Sua assinatura",
+  "teams_privacy_mode": "Modo de privacidade",
+  "teams_your_rank": "Sua classificação",
+  "teams_kick_member": "Membro de chute",
+  "teams_promote_admin": "Promover para Administrador",
+  "teams_promote_moderator": "Promover a Moderador",
+  "teams_demote_member": "Rebaixar para Membro",
+  "teams_confirm_kick": "Tem certeza de que deseja expulsar este membro?",
+  "teams_confirm_promote": "Tem certeza de que deseja promover este membro?",
+  "teams_confirm_demote": "Tem certeza de que deseja rebaixar este membro?",
+  "teams_no_invitations": "Não há convites pendentes.",
+  "teams_steamid_placeholder": "SteamID64",
+  "teams_invite_hint": "Os usuários convidados devem possuir um perfil existente no SteamHistory.net.",
+  "teams_pending_invites": "Convites pendentes",
+  "teams_cancel_invite": "Cancelar convite",
+  "teams_follow": "Seguir",
+  "teams_unfollow": "Deixar de seguir",
+  "teams_edit_team": "Equipe de edição",
+  "teams_delete_team": "Excluir equipe",
+  "teams_confirm_delete": "Tem certeza de que deseja excluir esta equipe? Esta ação é irreversível.",
+  "teams_founded": "Fundada",
+  "teams_staff_count": "Funcionários",
+  "teams_hidden": "Escondido",
+  "teams_visible": "Visível",
+  "teams_show_membership": "Mostrar associação",
+  "teams_hide_membership": "Ocultar associação",
+  "teams_membership_hidden_hint": "Sua inscrição está oculta. Você não aparecerá nas listas públicas de membros que não fazem parte da equipe.",
+  "teams_membership_public_hint": "Sua participação é pública. Qualquer pessoa pode ver que você faz parte desta equipe.",
+  "teams_resignation": "Renúncia",
+  "teams_leave_team": "Sair da equipe",
+  "teams_confirm_leave": "Tem certeza de que deseja deixar esta equipe?"
 }
