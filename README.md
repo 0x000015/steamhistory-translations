@@ -2,6 +2,8 @@
 
 This repository contains the translations for SteamHistory.net
 
+[![Crowdin](https://badges.crowdin.net/steamhistory-translations/localized.svg)](https://crowdin.com/project/steamhistory-translations)
+
 ## Contribution Guidelines
 
 The localization workflow is powered by Inlang and Paraglide. Contributions are accepted through the following channels:
