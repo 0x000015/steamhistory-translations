@@ -29,7 +29,7 @@
   "profile_custom_tag_whats_this": "Что это?",
   "profile_label_steamid64": "SteamID64:",
   "profile_label_steamid32": "SteamID32:",
-  "profile_label_steamid": "SteamID:",
+  "profile_label_steamid": "ID SteamID:",
   "profile_label_community_url": "URL сообщества:",
   "profile_label_profile_url": "URL профиля:",
   "profile_label_created": "Созданный:",
@@ -73,17 +73,17 @@
   "profile_ban_duration_days": [
     {
       "declarations": [
-        "input count",
-        "local cp = count: plural"
+        "счетчик ввода",
+        "локальная cp = кол-во местности: множественное число"
       ],
       "selectors": [
         "cp"
       ],
       "match": {
         "cp=one": "{count} день",
-        "cp=other": "{count} дней",
-        "cp=few": "{count} дней",
-        "cp=many": "{count} дней"
+        "cp=few": "{count} days",
+        "cp=many": "{count} days",
+        "cp=other": "{count} дней"
       }
     }
   ],
@@ -108,36 +108,36 @@
   "profile_vac_bans_detailed": [
     {
       "declarations": [
-        "input count",
+        "счетчик ввода",
         "input timeAgo",
-        "input timestamp",
-        "local cp = count: plural"
+        "время ввода",
+        "локальная cp = кол-во местности: множественное число"
       ],
       "selectors": [
         "cp"
       ],
       "match": {
         "cp=one": "{count} ban, {timeAgo} ( {timestamp} )",
-        "cp=other": "{count} bans, {timeAgo} ( {timestamp} )",
-        "cp=few": "{count} bans, {timeAgo} ( {timestamp} )",
-        "cp=many": "{count} bans, {timeAgo} ( {timestamp} )"
+        "cp=few": "{count} бан, {timeAgo} ({timestamp})",
+        "cp=many": "{count} бан, {timeAgo} ({timestamp})",
+        "cp=other": "{count} bans, {timeAgo} ( {timestamp} )"
       }
     }
   ],
   "profile_vac_bans_simple": [
     {
       "declarations": [
-        "input count",
-        "local cp = count: plural"
+        "счетчик ввода",
+        "локальная cp = кол-во местности: множественное число"
       ],
       "selectors": [
         "cp"
       ],
       "match": {
-        "cp=one": "{count} ban",
-        "cp=other": "{count} запрещает",
+        "cp=one": "Бан {count}",
         "cp=few": "{count} запрещает",
-        "cp=many": "{count} запрещает"
+        "cp=many": "{count} запрещает",
+        "cp=other": "{count} запрещает"
       }
     }
   ],
@@ -148,53 +148,53 @@
   "profile_community_bans_total_count": [
     {
       "declarations": [
-        "input count",
-        "local cp = count: plural"
+        "счетчик ввода",
+        "локальная cp = кол-во местности: множественное число"
       ],
       "selectors": [
         "cp"
       ],
       "match": {
-        "cp=one": "{count} ban",
-        "cp=other": "{count} запрещает",
+        "cp=one": "Бан {count}",
         "cp=few": "{count} запрещает",
-        "cp=many": "{count} запрещает"
+        "cp=many": "{count} запрещает",
+        "cp=other": "{count} запрещает"
       }
     }
   ],
   "profile_game_bans_detailed": [
     {
       "declarations": [
-        "input count",
+        "счетчик ввода",
         "input timeAgo",
-        "input timestamp",
-        "local cp = count: plural"
+        "время ввода",
+        "локальная cp = кол-во местности: множественное число"
       ],
       "selectors": [
         "cp"
       ],
       "match": {
         "cp=one": "{count} ban, {timeAgo} ( {timestamp} )",
-        "cp=other": "{count} bans, {timeAgo} ( {timestamp} )",
-        "cp=few": "{count} bans, {timeAgo} ( {timestamp} )",
-        "cp=many": "{count} bans, {timeAgo} ( {timestamp} )"
+        "cp=few": "{count} бан, {timeAgo} ({timestamp})",
+        "cp=many": "{count} бан, {timeAgo} ({timestamp})",
+        "cp=other": "{count} bans, {timeAgo} ( {timestamp} )"
       }
     }
   ],
   "profile_game_bans_simple": [
     {
       "declarations": [
-        "input count",
-        "local cp = count: plural"
+        "счетчик ввода",
+        "локальная cp = кол-во местности: множественное число"
       ],
       "selectors": [
         "cp"
       ],
       "match": {
-        "cp=one": "{count} ban",
-        "cp=other": "{count} запрещает",
-        "cp=few": "{count} запрещает",
-        "cp=many": "{count} запрещает"
+        "cp=one": "Бан {count}",
+        "cp=few": "{count} bans",
+        "cp=many": "{count} bans",
+        "cp=other": "{count} запрещает"
       }
     }
   ],
@@ -257,17 +257,17 @@
   "search_avatar_found_results": [
     {
       "declarations": [
-        "input count",
-        "local cp = count: plural"
+        "счетчик ввода",
+        "локальная cp = кол-во местности: множественное число"
       ],
       "selectors": [
         "cp"
       ],
       "match": {
         "cp=one": "Найден результат ' {count} ' для",
-        "cp=other": "Найдены результаты ' {count} ' для",
-        "cp=few": "Найдены результаты ' {count} ' для",
-        "cp=many": "Найдены результаты ' {count} ' для"
+        "cp=few": "Found '{count}' results for",
+        "cp=many": "Found '{count}' results for",
+        "cp=other": "Найдены результаты ' {count} ' для"
       }
     }
   ],
@@ -292,18 +292,18 @@
   "search_comment_results_found": [
     {
       "declarations": [
-        "input count",
-        "input time",
-        "local cp = count: plural"
+        "счетчик ввода",
+        "время ввода",
+        "локальная cp = кол-во местности: множественное число"
       ],
       "selectors": [
         "cp"
       ],
       "match": {
         "cp=one": "Найден результат {count} ( {time} мс)",
-        "cp=other": "Найдены результаты {count} ( {time} мс)",
-        "cp=few": "Найдены результаты {count} ( {time} мс)",
-        "cp=many": "Найдены результаты {count} ( {time} мс)"
+        "cp=few": "Found {count} results ({time}ms)",
+        "cp=many": "Found {count} results ({time}ms)",
+        "cp=other": "Найдены результаты {count} ( {time} мс)"
       }
     }
   ],
@@ -361,22 +361,22 @@
     {
       "declarations": [
         "input ",
-        "input count",
-        "input count, plural, =1 {",
-        "input count, plural, one {",
+        "счетчик ввода",
+        "число входных данных, plural, =1 {",
+        "число входных записей, plural, одна {",
         "input e",
         "input one {",
         "input s",
-        "local cp = count: plural"
+        "локальная cp = кол-во местности: множественное число"
       ],
       "selectors": [
         "cp"
       ],
       "match": {
         "cp=one": "чтобы показать {count} удаленный комментарий",
-        "cp=other": "чтобы показать удаленные комментарии {count}",
-        "cp=few": "чтобы показать удаленные комментарии {count}",
-        "cp=many": "чтобы показать удаленные комментарии {count}"
+        "cp=few": "to show {count} deleted comments",
+        "cp=many": "to show {count} deleted comments",
+        "cp=other": "чтобы показать удаленные комментарии {count}"
       }
     }
   ],
@@ -389,17 +389,17 @@
   "profile_history_friends_duration": [
     {
       "declarations": [
-        "input count",
-        "local cp = count: plural"
+        "счетчик ввода",
+        "локальная cp = кол-во местности: множественное число"
       ],
       "selectors": [
         "cp"
       ],
       "match": {
         "cp=one": "Друзья на {count} день",
-        "cp=other": "Друзья на {count} дней",
-        "cp=few": "Друзья на {count} дней",
-        "cp=many": "Друзья на {count} дней"
+        "cp=few": "Friends for {count} days",
+        "cp=many": "Friends for {count} days",
+        "cp=other": "Друзья на {count} дней"
       }
     }
   ],
@@ -413,23 +413,23 @@
   "profile_community_bans_proof_entries": [
     {
       "declarations": [
-        "input count",
-        "input count, plural, one {stück",
-        "input count, plural, one {y",
+        "счетчик ввода",
+        "число вводов, множественное число, один {stu<unk> ck",
+        "число вводимых данных, множественное число, одно {y",
         "input ies",
-        "input one {stück",
-        "input one {y",
-        "input stücke",
-        "local cp = count: plural"
+        "введите один {stu<unk> ck",
+        "введите один {y",
+        "input stücke",
+        "локальная cp = кол-во местности: множественное число"
       ],
       "selectors": [
         "cp"
       ],
       "match": {
         "cp=one": "{count} Прикреплена подтверждающая запись",
-        "cp=other": "{count} Прикреплены подтверждающие записи",
-        "cp=few": "{count} Прикреплены подтверждающие записи",
-        "cp=many": "{count} Прикреплены подтверждающие записи"
+        "cp=few": "{count} proof entries attached",
+        "cp=many": "{count} proof entries attached",
+        "cp=other": "{count} Прикреплены подтверждающие записи"
       }
     }
   ],
@@ -461,104 +461,104 @@
   "time_ago_years": [
     {
       "declarations": [
-        "input count",
-        "input count, plural, one {",
+        "счетчик ввода",
+        "число входных записей, plural, одна {",
         "input en",
         "input one {",
         "input s",
-        "local cp = count: plural"
+        "локальная cp = кол-во местности: множественное число"
       ],
       "selectors": [
         "cp"
       ],
       "match": {
         "cp=one": "{count} год назад",
-        "cp=other": "{count} лет назад",
-        "cp=few": "{count} лет назад",
-        "cp=many": "{count} лет назад"
+        "cp=few": "{count} years ago",
+        "cp=many": "{count} years ago",
+        "cp=other": "{count} лет назад"
       }
     }
   ],
   "time_ago_months": [
     {
       "declarations": [
-        "input count",
-        "input count, plural, one {",
+        "счетчик ввода",
+        "число входных записей, plural, одна {",
         "input en",
         "input one {",
         "input s",
-        "local cp = count: plural"
+        "локальная cp = кол-во местности: множественное число"
       ],
       "selectors": [
         "cp"
       ],
       "match": {
         "cp=one": "{count} месяц назад",
-        "cp=other": "{count} месяцев назад",
-        "cp=few": "{count} месяцев назад",
-        "cp=many": "{count} месяцев назад"
+        "cp=few": "{count} months ago",
+        "cp=many": "{count} months ago",
+        "cp=other": "{count} месяцев назад"
       }
     }
   ],
   "time_ago_days": [
     {
       "declarations": [
-        "input count",
-        "input count, plural, one {",
+        "счетчик ввода",
+        "число входных записей, plural, одна {",
         "input en",
         "input one {",
-        "local cp = count: plural"
+        "локальная cp = кол-во местности: множественное число"
       ],
       "selectors": [
         "cp"
       ],
       "match": {
         "cp=one": "{count} день назад",
-        "cp=other": "{count} дней назад",
-        "cp=few": "{count} дней назад",
-        "cp=many": "{count} дней назад"
+        "cp=few": "{count} days ago",
+        "cp=many": "{count} days ago",
+        "cp=other": "{count} дней назад"
       }
     }
   ],
   "time_ago_hours": [
     {
       "declarations": [
-        "input count",
-        "input count, plural, one {",
+        "счетчик ввода",
+        "число входных записей, plural, одна {",
         "input n",
         "input one {",
         "input s",
-        "local cp = count: plural"
+        "локальная cp = кол-во местности: множественное число"
       ],
       "selectors": [
         "cp"
       ],
       "match": {
         "cp=one": "{count} час назад",
-        "cp=other": "{count} часов назад",
-        "cp=few": "{count} часов назад",
-        "cp=many": "{count} часов назад"
+        "cp=few": "{count} hours ago",
+        "cp=many": "{count} hours ago",
+        "cp=other": "{count} часов назад"
       }
     }
   ],
   "time_ago_minutes": [
     {
       "declarations": [
-        "input count",
-        "input count, plural, one {",
+        "счетчик ввода",
+        "число входных записей, plural, одна {",
         "input n",
         "input one {",
         "input s",
-        "local cp = count: plural"
+        "локальная cp = кол-во местности: множественное число"
       ],
       "selectors": [
         "cp"
       ],
       "match": {
         "cp=one": "{count} минуту назад",
-        "cp=other": "{count} минут назад",
-        "cp=few": "{count} минут назад",
-        "cp=many": "{count} минут назад"
+        "cp=few": "{count} minutes ago",
+        "cp=many": "{count} minutes ago",
+        "cp=other": "{count} минут назад"
       }
     }
   ],
@@ -574,11 +574,11 @@
     {
       "declarations": [
         "input name",
-        "input nameCount",
-        "input pfpCount",
-        "input privacy",
-        "local ncp = nameCount: plural",
-        "local pcp = pfpCount: plural"
+        "введите имя пользователя",
+        "ввод pfpcount",
+        "конфиденциальность ввода",
+        "локальный ncp = имя: множественное число",
+        "локальный pcp = pfpcount: множественное число"
       ],
       "selectors": [
         "ncp",
@@ -586,21 +586,21 @@
       ],
       "match": {
         "ncp=one, pcp=one": "{name} — это профиль с {privacy} содержащий записанное имя, {nameCount} {pfpCount}",
+        "ncp=one, pcp=few": "{name} is a {privacy} profile with {nameCount} recorded name, {pfpCount} recorded profile pictures",
+        "ncp=one, pcp=many": "{name} is a {privacy} profile with {nameCount} recorded name, {pfpCount} recorded profile pictures",
         "ncp=one, pcp=other": "{name} — это профиль с {privacy} содержащий записанное имя, {nameCount} {pfpCount}",
+        "ncp=few, pcp=one": "{name} is a {privacy} profile with {nameCount} recorded names, {pfpCount} recorded profile picture",
+        "ncp=few, pcp=few": "{name} is a {privacy} profile with {nameCount} recorded names, {pfpCount} recorded profile pictures",
+        "ncp=few, pcp=many": "{name} is a {privacy} profile with {nameCount} recorded names, {pfpCount} recorded profile pictures",
+        "ncp=few, pcp=other": "{name} is a {privacy} profile with {nameCount} recorded names, {pfpCount} recorded profile pictures",
+        "ncp=many, pcp=one": "{name} is a {privacy} profile with {nameCount} recorded names, {pfpCount} recorded profile picture",
+        "ncp=many, pcp=few": "{name} is a {privacy} profile with {nameCount} recorded names, {pfpCount} recorded profile pictures",
+        "ncp=many, pcp=many": "{name} is a {privacy} profile with {nameCount} recorded names, {pfpCount} recorded profile pictures",
+        "ncp=many, pcp=other": "{name} is a {privacy} profile with {nameCount} recorded names, {pfpCount} recorded profile pictures",
         "ncp=other, pcp=one": "{name} — это профиль с {privacy} содержащий {nameCount} записанных имен и {pfpCount} записанного изображения профиля.",
-        "ncp=other, pcp=other": "{name} — это профиль с {privacy} содержащий {nameCount} записанными именами и {pfpCount} записанными фотографиями профиля.",
-        "ncp=one, pcp=few": "{name} — это профиль с {privacy} содержащий записанное имя, {nameCount} {pfpCount}",
-        "ncp=one, pcp=many": "{name} — это профиль с {privacy} содержащий записанное имя, {nameCount} {pfpCount}",
-        "ncp=few, pcp=one": "{name} — это профиль с {privacy} содержащий {nameCount} записанных имен и {pfpCount} записанного изображения профиля.",
-        "ncp=few, pcp=few": "{name} — это профиль с {privacy} содержащий {nameCount} записанными именами и {pfpCount} записанными фотографиями профиля.",
-        "ncp=few, pcp=many": "{name} — это профиль с {privacy} содержащий {nameCount} записанными именами и {pfpCount} записанными фотографиями профиля.",
-        "ncp=few, pcp=other": "{name} — это профиль с {privacy} содержащий {nameCount} записанными именами и {pfpCount} записанными фотографиями профиля.",
-        "ncp=many, pcp=one": "{name} — это профиль с {privacy} содержащий {nameCount} записанных имен и {pfpCount} записанного изображения профиля.",
-        "ncp=many, pcp=few": "{name} — это профиль с {privacy} содержащий {nameCount} записанными именами и {pfpCount} записанными фотографиями профиля.",
-        "ncp=many, pcp=many": "{name} — это профиль с {privacy} содержащий {nameCount} записанными именами и {pfpCount} записанными фотографиями профиля.",
-        "ncp=many, pcp=other": "{name} — это профиль с {privacy} содержащий {nameCount} записанными именами и {pfpCount} записанными фотографиями профиля.",
-        "ncp=other, pcp=few": "{name} — это профиль с {privacy} содержащий {nameCount} записанными именами и {pfpCount} записанными фотографиями профиля.",
-        "ncp=other, pcp=many": "{name} — это профиль с {privacy} содержащий {nameCount} записанными именами и {pfpCount} записанными фотографиями профиля."
+        "ncp=other, pcp=few": "{name} is a {privacy} profile with {nameCount} recorded names, {pfpCount} recorded profile pictures",
+        "ncp=other, pcp=many": "{name} is a {privacy} profile with {nameCount} recorded names, {pfpCount} recorded profile pictures",
+        "ncp=other, pcp=other": "{name} — это профиль с {privacy} содержащий {nameCount} записанными именами и {pfpCount} записанными фотографиями профиля."
       }
     }
   ],
@@ -617,17 +617,17 @@
   "notification_dock_votes_count": [
     {
       "declarations": [
-        "input count",
-        "local cp = count: plural"
+        "счетчик ввода",
+        "локальная cp = кол-во местности: множественное число"
       ],
       "selectors": [
         "cp"
       ],
       "match": {
         "cp=one": "{count} vote",
-        "cp=other": "{count} голосов",
-        "cp=few": "{count} голосов",
-        "cp=many": "{count} голосов"
+        "cp=few": "{count} votes",
+        "cp=many": "{count} votes",
+        "cp=other": "{count} голосов"
       }
     }
   ],
@@ -845,17 +845,17 @@
   "data_removal_entries_count": [
     {
       "declarations": [
-        "input count",
-        "local cp = count: plural"
+        "счетчик ввода",
+        "локальная cp = кол-во местности: множественное число"
       ],
       "selectors": [
         "cp"
       ],
       "match": {
         "cp=one": "( {count} entry)",
-        "cp=other": "( {count} записей)",
-        "cp=few": "( {count} записей)",
-        "cp=many": "( {count} записей)"
+        "cp=few": "({count} entries)",
+        "cp=many": "({count} entries)",
+        "cp=other": "( {count} записей)"
       }
     }
   ],
@@ -873,20 +873,20 @@
   "data_removal_selected_items": [
     {
       "declarations": [
-        "input count",
-        "input count, plural, one {",
+        "счетчик ввода",
+        "число входных записей, plural, одна {",
         "input e",
         "input one {",
-        "local cp = count: plural"
+        "локальная cp = кол-во местности: множественное число"
       ],
       "selectors": [
         "cp"
       ],
       "match": {
         "cp=one": "Выбран элемент {count} для удаления",
-        "cp=other": "Выбраны элементы {count} для удаления",
-        "cp=few": "Выбраны элементы {count} для удаления",
-        "cp=many": "Выбраны элементы {count} для удаления"
+        "cp=few": "Selected {count} items for removal",
+        "cp=many": "Selected {count} items for removal",
+        "cp=other": "Выбраны элементы {count} для удаления"
       }
     }
   ],
@@ -942,17 +942,17 @@
   "sources_count": [
     {
       "declarations": [
-        "input count",
-        "local cp = count: plural"
+        "счетчик ввода",
+        "локальная cp = кол-во местности: множественное число"
       ],
       "selectors": [
         "cp"
       ],
       "match": {
         "cp=one": "{count} источник",
-        "cp=other": "{count} источников",
-        "cp=few": "{count} источников",
-        "cp=many": "{count} источников"
+        "cp=few": "{count} sources",
+        "cp=many": "{count} sources",
+        "cp=other": "{count} источников"
       }
     }
   ],
@@ -1009,51 +1009,51 @@
   "team_members_tab": [
     {
       "declarations": [
-        "input count",
-        "local cp = count: plural"
+        "счетчик ввода",
+        "локальная cp = кол-во местности: множественное число"
       ],
       "selectors": [
         "cp"
       ],
       "match": {
         "cp=one": "Участник ( {count} )",
-        "cp=other": "Члены ( {count} )",
-        "cp=few": "Члены ( {count} )",
-        "cp=many": "Члены ( {count} )"
+        "cp=few": "Members ({count})",
+        "cp=many": "Members ({count})",
+        "cp=other": "Члены ( {count} )"
       }
     }
   ],
   "team_notes_tab": [
     {
       "declarations": [
-        "input count",
-        "local cp = count: plural"
+        "счетчик ввода",
+        "локальная cp = кол-во местности: множественное число"
       ],
       "selectors": [
         "cp"
       ],
       "match": {
         "cp=one": "Примечание ( {count} )",
-        "cp=other": "Примечания ( {count} )",
-        "cp=few": "Примечания ( {count} )",
-        "cp=many": "Примечания ( {count} )"
+        "cp=few": "Notes ({count})",
+        "cp=many": "Notes ({count})",
+        "cp=other": "Примечания ( {count} )"
       }
     }
   ],
   "team_invitations_tab": [
     {
       "declarations": [
-        "input count",
-        "local cp = count: plural"
+        "счетчик ввода",
+        "локальная cp = кол-во местности: множественное число"
       ],
       "selectors": [
         "cp"
       ],
       "match": {
         "cp=one": "Приглашение ( {count} )",
-        "cp=other": "Приглашения ( {count} )",
-        "cp=few": "Приглашения ( {count} )",
-        "cp=many": "Приглашения ( {count} )"
+        "cp=few": "Invitations ({count})",
+        "cp=many": "Invitations ({count})",
+        "cp=other": "Приглашения ( {count} )"
       }
     }
   ],
@@ -1068,17 +1068,17 @@
   "team_pending_invites_title": [
     {
       "declarations": [
-        "input count",
-        "local cp = count: plural"
+        "счетчик ввода",
+        "локальная cp = кол-во местности: множественное число"
       ],
       "selectors": [
         "cp"
       ],
       "match": {
         "cp=one": "Ожидающее приглашение ( {count} )",
-        "cp=other": "Ожидающие приглашения ( {count} )",
-        "cp=few": "Ожидающие приглашения ( {count} )",
-        "cp=many": "Ожидающие приглашения ( {count} )"
+        "cp=few": "Pending Invites ({count})",
+        "cp=many": "Pending Invites ({count})",
+        "cp=other": "Ожидающие приглашения ( {count} )"
       }
     }
   ],
@@ -1149,17 +1149,17 @@
   "account_days_remaining": [
     {
       "declarations": [
-        "input count",
-        "local cp = count: plural"
+        "счетчик ввода",
+        "локальная cp = кол-во местности: множественное число"
       ],
       "selectors": [
         "cp"
       ],
       "match": {
         "cp=one": "{count} оставшийся день",
-        "cp=other": "{count} дней осталось",
-        "cp=few": "{count} дней осталось",
-        "cp=many": "{count} дней осталось"
+        "cp=few": "{count} days remaining",
+        "cp=many": "{count} days remaining",
+        "cp=other": "{count} дней осталось"
       }
     }
   ],
@@ -1222,7 +1222,7 @@
   "friendgroups_legend_title": "Легенда",
   "friendgroups_legend_node_colors": "Цвета узлов (в зависимости от расстояния)",
   "friendgroups_legend_source": "Источник",
-  "friendgroups_legend_dist": "Dist {count}",
+  "friendgroups_legend_dist": "Расскажите {count}",
   "friendgroups_legend_dist_plus": "Дистрикт 5+",
   "friendgroups_legend_edge_styles": "Стили ребер (связь)",
   "friendgroups_legend_bfs_tree": "Дерево BFS (путь обнаружения)",
