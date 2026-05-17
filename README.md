@@ -6,7 +6,10 @@ This repository contains the translations for SteamHistory.net
 
 ## Contribution Guidelines
 
-The localization workflow is powered by Inlang and Paraglide. Contributions are accepted through the following channels:
+The localization workflow is powered by Crowdin, Inlang, and Paraglide. Contributions are accepted through the following channels:
+
+### Crowdin (Recommended)
+The preferred and easiest way to contribute is through [the Crowdin page](https://crowdin.com/project/steamhistory-translations)
 
 ### Development Environment
 Alternatively, you can contribute locally through the Sherlock (Inlang) extension for Visual Studio Code:
