@@ -403,13 +403,13 @@
       }
     }
   ],
-  "profile_history_friends_from": "Друзья из {date}",
-  "profile_history_friend_since": "Друг с {date}",
-  "profile_community_bans_title": "Запреты сообщества",
-  "profile_community_bans_possible_cheater": "Возможный мошенник",
+  "profile_history_friends_from": "Бывшие друзья с {date}",
+  "profile_history_friend_since": "Друзья с {date}",
+  "profile_community_bans_title": "Баны в сообществе",
+  "profile_community_bans_possible_cheater": "Возможный читер",
   "profile_community_bans_keywords_label": "Ключевые слова: {list}",
-  "profile_community_bans_group_ban_note": "Запрет на членство в группе не является прямым доказательством мошенничества, а скорее выражением позиции сообщества.",
-  "profile_community_bans_view_on_server": "Просмотр блокировок по {server}",
+  "profile_community_bans_group_ban_note": "Бан в группе не является прямым доказательством читерства, а лишь отражает позицию сообщества.",
+  "profile_community_bans_view_on_server": "Посмотреть баны на {server}",
   "profile_community_bans_proof_entries": [
     {
       "declarations": [
@@ -426,10 +426,10 @@
         "cp"
       ],
       "match": {
-        "cp=one": "{count} Прикреплена подтверждающая запись",
+        "cp=one": "{count} доказательство прикреплено",
         "cp=few": "{count} доказательства прикреплено",
         "cp=many": "{count} доказательств прикреплено",
-        "cp=other": "{count} Прикреплены подтверждающие записи"
+        "cp=other": "{count} доказательств прикреплено"
       }
     }
   ],
@@ -853,10 +853,10 @@
         "cp"
       ],
       "match": {
-        "cp=one": "( {count} entry)",
+        "cp=one": "({count} запись)",
         "cp=few": "({count} записи)",
         "cp=many": "({count} записей)",
-        "cp=other": "( {count} записей)"
+        "cp=other": "({count} записей)"
       }
     }
   ],
@@ -1158,7 +1158,7 @@
         "cp"
       ],
       "match": {
-        "cp=one": "{count} оставшийся день",
+        "cp=one": "{count} день остался",
         "cp=few": "{count} дня осталось",
         "cp=many": "{count} дней осталось",
         "cp=other": "{count} дней осталось"
