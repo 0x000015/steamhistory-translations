@@ -40,15 +40,15 @@
   "profile_updated_tooltip": "Последний раз, когда мы зафиксировали изменение профиля",
   "profile_last_checked_tooltip": "Последний раз, когда мы проверяли на наличие обновлений",
   "profile_last_online_tooltip": "Последний раз, когда мы видели пользователя онлайн в Steam",
-  "profile_estimated_label": "[Оцененный]",
-  "profile_estimated_tooltip": "Эта дата является приблизительной и основана на соседних SteamID64 пользователя. Её точность не гарантируется, но она должна быть относительно близка к истине.",
+  "profile_estimated_label": "[Предположительно]",
+  "profile_estimated_tooltip": "Эта дата является приблизительной и основана на соседних SteamID64 пользователя. Точность не гарантируется, но значение близко к реальному",
   "profile_na": "Н/Д",
   "profile_user_info_divider": "Информация о пользователе",
   "profile_label_status": "Статус:",
-  "profile_label_privacy": "Конфиденциальность:",
+  "profile_label_privacy": "Приватность:",
   "profile_label_profile_setup": "Настройка профиля:",
   "profile_label_premium": "Премиум:",
-  "profile_ban_info_divider": "Информация о бане",
+  "profile_ban_info_divider": "Информация о банах",
   "profile_label_vac": "VAC:",
   "profile_label_community": "Сообщество:",
   "profile_label_game": "Игра:",
@@ -117,10 +117,10 @@
         "cp"
       ],
       "match": {
-        "cp=one": "{count} ban, {timeAgo} ( {timestamp} )",
-        "cp=few": "{count} бан, {timeAgo} ({timestamp})",
-        "cp=many": "{count} бан, {timeAgo} ({timestamp})",
-        "cp=other": "{count} bans, {timeAgo} ( {timestamp} )"
+        "cp=one": "{count} бан, {timeAgo} ({timestamp})",
+        "cp=few": "{count} бана, {timeAgo} ({timestamp})",
+        "cp=many": "{count} банов, {timeAgo} ({timestamp})",
+        "cp=other": "{count} банов, {timeAgo} ({timestamp})"
       }
     }
   ],
@@ -396,10 +396,10 @@
         "cp"
       ],
       "match": {
-        "cp=one": "Друзья на {count} день",
+        "cp=one": "Друзья: {count} день",
         "cp=few": "Друзья: {count} дня",
         "cp=many": "Друзья: {count} дней",
-        "cp=other": "Друзья на {count} дней"
+        "cp=other": "Друзья: {count} дней"
       }
     }
   ],
