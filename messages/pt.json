@@ -458,6 +458,7 @@
   "common_true": "Verdadeiro",
   "common_false": "Falso",
   "common_cancel": "Cancelar",
+  "common_unknown_user": "Usuário Desconhecido",
   "time_ago_years": [
     {
       "declarations": [
@@ -984,6 +985,7 @@
   "teams_vanity_label": "URL personalizada",
   "teams_vanity_placeholder": "realizadores",
   "teams_vanity_hint": "Um link curto e exclusivo para o perfil da sua equipe.",
+  "teams_vanity_readonly_hint": "URLs personalizados não podem ser alteradas após a criação.",
   "teams_description_label": "Descrição",
   "teams_description_placeholder": "Qual é o foco desta equipe?",
   "teams_private_label": "Equipe Privada",
@@ -1336,5 +1338,24 @@
   "teams_membership_public_hint": "Sua participação é pública. Qualquer pessoa pode ver que você faz parte desta equipe.",
   "teams_resignation": "Renúncia",
   "teams_leave_team": "Sair da equipe",
-  "teams_confirm_leave": "Tem certeza de que deseja deixar esta equipe?"
+  "teams_confirm_leave": "Tem certeza de que deseja deixar esta equipe?",
+  "teams_note_target": "Target",
+  "teams_note_author": "Autor",
+  "teams_note_revisions": "Revisões",
+  "teams_note_edit": "Editar Nota",
+  "teams_note_visibility": "Visibilidade",
+  "teams_note_staff_only": "Apenas Funcionários",
+  "teams_note_team_members": "Membros da equipe",
+  "teams_note_public": "Público",
+  "teams_note_unlock": "Unlock Note",
+  "teams_note_lock": "Lock Note",
+  "teams_note_delete": "Delete Note",
+  "teams_note_delete_confirm": "Are you sure you want to delete this note?",
+  "teams_note_save_changes": "Save Changes",
+  "teams_note_revision_history": "Revision History",
+  "teams_note_close": "Close",
+  "teams_note_current_version": "Current Version",
+  "teams_note_recent": "Recent",
+  "teams_note_locked": "Locked",
+  "teams_notes_none": "No team notes found."
 }
