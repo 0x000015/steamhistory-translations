@@ -1065,7 +1065,7 @@
   "team_remove_member_confirm": "¿Estás seguro de que quieres eliminar a este miembro del equipo?",
   "team_notes_title": "Notas del equipo",
   "team_manage_invitations": "Gestionar invitaciones",
-  "team_invite_member_title": "Invitar a un nuevo miembro",
+  "team_invite_member_title": "Invitar Nuevo Miembro",
   "team_invite_member_hint": "Los usuarios invitados deben tener un perfil existente en SteamHistory.net.",
   "team_pending_invites_title": [
     {
