@@ -68,13 +68,13 @@
   "profile_ban_status_unknown": "Неизвестно",
   "profile_ban_no_proof": "Нет доказательств",
   "profile_ban_unban_reason": "Причина разбана:",
-  "profile_ban_unban_date": "Дата разблокировки:",
-  "profile_ban_duration": "Продолжительность:",
+  "profile_ban_unban_date": "Дата разбана:",
+  "profile_ban_duration": "Длительность:",
   "profile_ban_duration_days": [
     {
       "declarations": [
-        "счетчик ввода",
-        "локальная cp = кол-во местности: множественное число"
+        "input count",
+        "local cp = count: plural"
       ],
       "selectors": [
         "cp"
@@ -89,29 +89,29 @@
   ],
   "profile_notes_title": "Примечания",
   "profile_notes_tab_team": "Команда",
-  "profile_notes_tab_personal": "Личное",
-  "profile_notes_hide": "Скрывать",
-  "profile_notes_show": "Показывать",
+  "profile_notes_tab_personal": "Личные",
+  "profile_notes_hide": "Скрыть",
+  "profile_notes_show": "Показать",
   "profile_notes_personal_placeholder": "Добавьте личную заметку для себя...",
   "profile_notes_personal_save": "Сохранить личную заметку",
-  "profile_notes_personal_updated": "Личная заметка обновлена.",
+  "profile_notes_personal_updated": "Личная заметка обновлена",
   "profile_notes_chars_limit": "{count} / {limit} символов",
-  "profile_notes_team_records": "Командные рекорды",
+  "profile_notes_team_records": "Записи команды",
   "profile_notes_team_new_note": "+ Новая заметка",
   "profile_notes_team_publish_to": "Опубликовать для команды",
   "profile_notes_team_visibility": "Видимость",
-  "profile_notes_team_visibility_private": "Приватная зона (только для персонала)",
+  "profile_notes_team_visibility_private": "Частный (только для персонала)",
   "profile_notes_team_visibility_team": "Команда (все участники)",
-  "profile_notes_team_visibility_public": "Общедоступно (для участников и подписчиков)",
-  "profile_notes_team_placeholder": "Поделитесь своим наблюдением с командой...",
-  "profile_notes_team_post": "Опубликовать в команде",
+  "profile_notes_team_visibility_public": "Публичный (участники и подписчики)",
+  "profile_notes_team_placeholder": "Поделитесь наблюдением с вашей командой...",
+  "profile_notes_team_post": "Отправить команде",
   "profile_vac_bans_detailed": [
     {
       "declarations": [
-        "счетчик ввода",
+        "input count",
         "input timeAgo",
-        "время ввода",
-        "локальная cp = кол-во местности: множественное число"
+        "input timestamp",
+        "local cp = count: plural"
       ],
       "selectors": [
         "cp"
@@ -127,89 +127,89 @@
   "profile_vac_bans_simple": [
     {
       "declarations": [
-        "счетчик ввода",
-        "локальная cp = кол-во местности: множественное число"
+        "input count",
+        "local cp = count: plural"
       ],
       "selectors": [
         "cp"
       ],
       "match": {
-        "cp=one": "Бан {count}",
-        "cp=few": "{count} запрещает",
-        "cp=many": "{count} запрещает",
-        "cp=other": "{count} запрещает"
+        "cp=one": "{count} бан",
+        "cp=few": "{count} бана",
+        "cp=many": "{count} банов",
+        "cp=other": "{count} банов"
       }
     }
   ],
-  "profile_vac_none": "В настоящее время нет зафиксированных случаев запрета на использование VAC-терминалов.",
-  "profile_community_bans_detailed": "Запрещено {timeAgo} ( {timestamp} )",
-  "profile_community_bans_simple": "Запрещено",
-  "profile_community_none": "Зафиксированных запретов в сообществе нет.",
+  "profile_vac_none": "Нет записей о VAC-банах",
+  "profile_community_bans_detailed": "Забанен {timeAgo} ({timestamp})",
+  "profile_community_bans_simple": "Забанен",
+  "profile_community_none": "Нет записей о банах в сообществах",
   "profile_community_bans_total_count": [
     {
       "declarations": [
-        "счетчик ввода",
-        "локальная cp = кол-во местности: множественное число"
+        "input count",
+        "local cp = count: plural"
       ],
       "selectors": [
         "cp"
       ],
       "match": {
-        "cp=one": "Бан {count}",
-        "cp=few": "{count} запрещает",
-        "cp=many": "{count} запрещает",
-        "cp=other": "{count} запрещает"
+        "cp=one": "{count} бан",
+        "cp=few": "{count} бана",
+        "cp=many": "{count} банов",
+        "cp=other": "{count} банов"
       }
     }
   ],
   "profile_game_bans_detailed": [
     {
       "declarations": [
-        "счетчик ввода",
+        "input count",
         "input timeAgo",
-        "время ввода",
-        "локальная cp = кол-во местности: множественное число"
+        "input timestamp",
+        "local cp = count: plural"
       ],
       "selectors": [
         "cp"
       ],
       "match": {
-        "cp=one": "{count} ban, {timeAgo} ( {timestamp} )",
-        "cp=few": "{count} бан, {timeAgo} ({timestamp})",
-        "cp=many": "{count} бан, {timeAgo} ({timestamp})",
-        "cp=other": "{count} bans, {timeAgo} ( {timestamp} )"
+        "cp=one": "{count} бан, {timeAgo} ({timestamp})",
+        "cp=few": "{count} бана, {timeAgo} ({timestamp})",
+        "cp=many": "{count} банов, {timeAgo} ({timestamp})",
+        "cp=other": "{count} банов, {timeAgo} ({timestamp})"
       }
     }
   ],
   "profile_game_bans_simple": [
     {
       "declarations": [
-        "счетчик ввода",
-        "локальная cp = кол-во местности: множественное число"
+        "input count",
+        "local cp = count: plural"
       ],
       "selectors": [
         "cp"
       ],
       "match": {
-        "cp=one": "Бан {count}",
-        "cp=few": "{count} запрещает",
-        "cp=many": "{count} запрещает",
-        "cp=other": "{count} запрещает"
+        "cp=one": "{count} бан",
+        "cp=few": "{count} бана",
+        "cp=many": "{count} банов",
+        "cp=other": "{count} банов"
       }
     }
   ],
-  "profile_game_none": "В статистике нет банов за игры.",
-  "profile_economy_bans_detailed": "Запрещено {timeAgo} ( {timestamp} )",
-  "profile_economy_bans_simple": "Запрещено",
-  "profile_economy_none": "Торговых запретов официально не зафиксировано.",
+  "profile_game_none": "Нет записей об игровых банах",
+  "profile_economy_bans_detailed": "Забанен {timeAgo} ({timestamp})",
+  "profile_economy_bans_simple": "Забанен",
+  "profile_economy_none": "Нет записей о банах в системе обмена",
   "profile_tools_info_divider": "Информация",
-  "profile_tools_unique_views": "Уникальные виды:",
+  "profile_tools_unique_views": "Уникальных посетителей:",
   "profile_tools_total_views": "Всего просмотров:",
   "profile_tools_tools_divider": "Инструменты",
-  "profile_tools_watch_user": "Смотреть пользователя",
-  "profile_tools_unwatch_user": "Отменить отслеживание пользователя",
-  "profile_tools_force_update": "Принудительное обновление",
-  "profile_tools_supporter_divider": "Сторонник",
+  "profile_tools_watch_user": "Отслеживать пользователя",
+  "profile_tools_unwatch_user": "Перестать отслеживать",
+  "profile_tools_force_update": "Принудительно обновить",
+  "profile_tools_supporter_divider": "Спонсор",
   "profile_tools_comment_search": "Поиск комментариев",
   "profile_tools_watch_tooltip": "Получать уведомления об изменениях в профиле этого пользователя.",
   "profile_tools_force_update_tooltip": "Запросить обновление профиля пользователя в режиме реального времени через Steam.",
