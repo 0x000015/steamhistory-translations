@@ -250,24 +250,24 @@
   "search_bulk_title": "Массовый поиск",
   "search_bulk_description": "Отображает профили из предоставленных данных",
   "search_bulk_identifiers_label": "Идентификаторы",
-  "search_bulk_vanity_label": "Разрешите использование спичек где угодно.",
+  "search_bulk_vanity_label": "Разрешить поиск по концу ссылки",
   "search_avatar_title": "Поиск аватара",
   "search_avatar_description": "Поиск исторических фотографий профиля",
   "search_avatar_hash_label": "Хэш аватара",
   "search_avatar_found_results": [
     {
       "declarations": [
-        "счетчик ввода",
-        "локальная cp = кол-во местности: множественное число"
+        "input count",
+        "local cp = count: plural"
       ],
       "selectors": [
         "cp"
       ],
       "match": {
-        "cp=one": "Найден результат ' {count} ' для",
-        "cp=few": "Найдено '{count}' результатов для",
+        "cp=one": "Найден '{count}' результат для",
+        "cp=few": "Найдено '{count}' результата для",
         "cp=many": "Найдено '{count}' результатов для",
-        "cp=other": "Найдены результаты ' {count} ' для"
+        "cp=other": "Найдено '{count}' результатов для"
       }
     }
   ],
@@ -276,55 +276,55 @@
   "search_url_label": "URL",
   "search_comment_title": "Поиск комментариев",
   "search_comment_description": "Поиск комментариев по SteamID или тексту",
-  "search_comment_supporter_only_title": "Только для сторонников",
-  "search_comment_supporter_only_description": "Эта функция доступна только подписчикам.",
+  "search_comment_supporter_only_title": "Только для спонсоров",
+  "search_comment_supporter_only_description": "Эта функция доступна только спонсорам.",
   "search_comment_text_label": "Текст комментария",
   "search_comment_text_hint": "Используйте кавычки для точных фраз: \"steamhistory\", \"cheating\".<br> Используйте -word для исключения терминов: \"steamhistory\" -cheating",
   "search_comment_exclude_tooltip": "Исключить комментарии с этого SteamID",
   "search_comment_include_tooltip": "Включать только комментарии с этого SteamID",
   "search_comment_exclude_button": "Исключать",
   "search_comment_include_button": "Включать",
-  "search_comment_exclude_error": "Для использования функции «Исключить» необходимы как SteamID, так и текст комментария.",
+  "search_comment_exclude_error": "Для \"Исключения\" нужны SteamID и текст комментария",
   "search_comment_deleted_only_label": "Показать только удалённые комментарии",
   "search_comment_sort_label": "Сортировать по:",
-  "search_comment_sort_newest": "Новейшие первыми",
-  "search_comment_sort_oldest": "Старейший первым",
+  "search_comment_sort_newest": "Сначала новые",
+  "search_comment_sort_oldest": "Сначала старые",
   "search_comment_results_found": [
     {
       "declarations": [
-        "счетчик ввода",
-        "время ввода",
-        "локальная cp = кол-во местности: множественное число"
+        "input count",
+        "input time",
+        "local cp = count: plural"
       ],
       "selectors": [
         "cp"
       ],
       "match": {
-        "cp=one": "Найден результат {count} ( {time} мс)",
-        "cp=few": "Найдены результаты {count} ({time}ms)",
-        "cp=many": "Найдены результаты {count} ({time}ms)",
-        "cp=other": "Найдены результаты {count} ( {time} мс)"
+        "cp=one": "Найден {count} результат ({time}мс)",
+        "cp=few": "Найдено {count} результата ({time}мс)",
+        "cp=many": "Найдено {count} результатов ({time}мс)",
+        "cp=other": "Найдено {count} результатов ({time}мс)"
       }
     }
   ],
   "search_comment_date_range": "Диапазон дат: {range}",
   "homepage_title": "SteamHistory.net | Архив профилей Steam",
   "homepage_description": "Основная цель SteamHistory — сбор и последующее хранение исторической и/или текущей информации профиля Steam в централизованном месте.",
-  "homepage_button_discord": "Присоединяйтесь к Discord",
-  "homepage_button_avatar_metrics": "Показатели использования аватаров",
+  "homepage_button_discord": "Вступить в Discord",
+  "homepage_button_avatar_metrics": "Статистика использования аватаров",
   "homepage_recently_updated_title": "Недавно обновленные профили",
-  "homepage_ban_type_vac": "Имеет(ют) запрет(ы) VAC",
-  "homepage_ban_type_game": "Имеет(ют) запрет(ы) на игру(и)",
-  "homepage_ban_type_tf2bd": "Имеет отметку(и) детектора ботов TF2.",
-  "homepage_ban_type_sourceban": "Имеет(ют) отметку(и) SourceBan.",
-  "homepage_ban_type_rustwho": "Имеет отметку(и) RustWho.",
-  "homepage_time_ago_seconds": "{count} s ago",
-  "homepage_time_ago_minutes": "{count} м назад",
-  "homepage_time_ago_hours": "{count} ч назад",
-  "homepage_time_ago_days": "{count} d ago",
+  "homepage_ban_type_vac": "Есть VAC-бан(ы)",
+  "homepage_ban_type_game": "Есть игровой(ые) бан(ы)",
+  "homepage_ban_type_tf2bd": "Есть метка(и) TF2 Bot Detector",
+  "homepage_ban_type_sourceban": "Есть метка(и) SourceBan",
+  "homepage_ban_type_rustwho": "Есть метка(и) RustWho",
+  "homepage_time_ago_seconds": "{count}с назад",
+  "homepage_time_ago_minutes": "{count}м назад",
+  "homepage_time_ago_hours": "{count}ч назад",
+  "homepage_time_ago_days": "{count}д назад",
   "profile_status_tooltip": "Текущий статус пользователя в Steam",
   "profile_privacy_tooltip": "Настройки конфиденциальности профиля пользователя",
-  "profile_setup_tooltip": "Указывает, есть ли у пользователя профиль в сообществе.",
+  "profile_setup_tooltip": "Указывает, настроен ли у пользователя профиль сообщества",
   "profile_premium_tooltip": "Указывает, есть ли у пользователя премиум-аккаунт Steam (платный аккаунт).",
   "profile_impersonator_disclaimer_title": "Отказ от ответственности",
   "profile_impersonator_disclaimer_text": "Этот пользователь <b>не</b> связан с проектом SteamHistory, не работает на него и не является его частью.",
@@ -361,13 +361,13 @@
     {
       "declarations": [
         "input ",
-        "счетчик ввода",
-        "число входных данных, plural, =1 {",
-        "число входных записей, plural, одна {",
+        "input count",
+        "input count, plural, =1 {",
+        "input count, plural, one {",
         "input e",
         "input one {",
         "input s",
-        "локальная cp = кол-во местности: множественное число"
+        "local cp = count: plural"
       ],
       "selectors": [
         "cp"
@@ -389,8 +389,8 @@
   "profile_history_friends_duration": [
     {
       "declarations": [
-        "счетчик ввода",
-        "локальная cp = кол-во местности: множественное число"
+        "input count",
+        "local cp = count: plural"
       ],
       "selectors": [
         "cp"
@@ -413,14 +413,14 @@
   "profile_community_bans_proof_entries": [
     {
       "declarations": [
-        "счетчик ввода",
-        "число вводов, множественное число, один {stu<unk> ck",
-        "число вводимых данных, множественное число, одно {y",
+        "input count",
+        "input count, plural, one {stück",
+        "input count, plural, one {y",
         "input ies",
-        "введите один {stu<unk> ck",
-        "введите один {y",
+        "input one {stück",
+        "input one {y",
         "input stücke",
-        "локальная cp = кол-во местности: множественное число"
+        "local cp = count: plural"
       ],
       "selectors": [
         "cp"
@@ -462,12 +462,12 @@
   "time_ago_years": [
     {
       "declarations": [
-        "счетчик ввода",
-        "число входных записей, plural, одна {",
+        "input count",
+        "input count, plural, one {",
         "input en",
         "input one {",
         "input s",
-        "локальная cp = кол-во местности: множественное число"
+        "local cp = count: plural"
       ],
       "selectors": [
         "cp"
@@ -483,12 +483,12 @@
   "time_ago_months": [
     {
       "declarations": [
-        "счетчик ввода",
-        "число входных записей, plural, одна {",
+        "input count",
+        "input count, plural, one {",
         "input en",
         "input one {",
         "input s",
-        "локальная cp = кол-во местности: множественное число"
+        "local cp = count: plural"
       ],
       "selectors": [
         "cp"
@@ -504,11 +504,11 @@
   "time_ago_days": [
     {
       "declarations": [
-        "счетчик ввода",
-        "число входных записей, plural, одна {",
+        "input count",
+        "input count, plural, one {",
         "input en",
         "input one {",
-        "локальная cp = кол-во местности: множественное число"
+        "local cp = count: plural"
       ],
       "selectors": [
         "cp"
@@ -524,12 +524,12 @@
   "time_ago_hours": [
     {
       "declarations": [
-        "счетчик ввода",
-        "число входных записей, plural, одна {",
+        "input count",
+        "input count, plural, one {",
         "input n",
         "input one {",
         "input s",
-        "локальная cp = кол-во местности: множественное число"
+        "local cp = count: plural"
       ],
       "selectors": [
         "cp"
@@ -545,12 +545,12 @@
   "time_ago_minutes": [
     {
       "declarations": [
-        "счетчик ввода",
-        "число входных записей, plural, одна {",
+        "input count",
+        "input count, plural, one {",
         "input n",
         "input one {",
         "input s",
-        "локальная cp = кол-во местности: множественное число"
+        "local cp = count: plural"
       ],
       "selectors": [
         "cp"
@@ -575,11 +575,11 @@
     {
       "declarations": [
         "input name",
-        "введите имя пользователя",
-        "ввод pfpcount",
-        "конфиденциальность ввода",
-        "локальный ncp = имя: множественное число",
-        "локальный pcp = pfpcount: множественное число"
+        "input nameCount",
+        "input pfpCount",
+        "input privacy",
+        "local ncp = nameCount: plural",
+        "local pcp = pfpCount: plural"
       ],
       "selectors": [
         "ncp",
@@ -618,8 +618,8 @@
   "notification_dock_votes_count": [
     {
       "declarations": [
-        "счетчик ввода",
-        "локальная cp = кол-во местности: множественное число"
+        "input count",
+        "local cp = count: plural"
       ],
       "selectors": [
         "cp"
@@ -846,8 +846,8 @@
   "data_removal_entries_count": [
     {
       "declarations": [
-        "счетчик ввода",
-        "локальная cp = кол-во местности: множественное число"
+        "input count",
+        "local cp = count: plural"
       ],
       "selectors": [
         "cp"
@@ -874,11 +874,11 @@
   "data_removal_selected_items": [
     {
       "declarations": [
-        "счетчик ввода",
-        "число входных записей, plural, одна {",
+        "input count",
+        "input count, plural, one {",
         "input e",
         "input one {",
-        "локальная cp = кол-во местности: множественное число"
+        "local cp = count: plural"
       ],
       "selectors": [
         "cp"
@@ -943,8 +943,8 @@
   "sources_count": [
     {
       "declarations": [
-        "счетчик ввода",
-        "локальная cp = кол-во местности: множественное число"
+        "input count",
+        "local cp = count: plural"
       ],
       "selectors": [
         "cp"
@@ -1011,8 +1011,8 @@
   "team_members_tab": [
     {
       "declarations": [
-        "счетчик ввода",
-        "локальная cp = кол-во местности: множественное число"
+        "input count",
+        "local cp = count: plural"
       ],
       "selectors": [
         "cp"
@@ -1028,8 +1028,8 @@
   "team_notes_tab": [
     {
       "declarations": [
-        "счетчик ввода",
-        "локальная cp = кол-во местности: множественное число"
+        "input count",
+        "local cp = count: plural"
       ],
       "selectors": [
         "cp"
@@ -1045,8 +1045,8 @@
   "team_invitations_tab": [
     {
       "declarations": [
-        "счетчик ввода",
-        "локальная cp = кол-во местности: множественное число"
+        "input count",
+        "local cp = count: plural"
       ],
       "selectors": [
         "cp"
@@ -1070,8 +1070,8 @@
   "team_pending_invites_title": [
     {
       "declarations": [
-        "счетчик ввода",
-        "локальная cp = кол-во местности: множественное число"
+        "input count",
+        "local cp = count: plural"
       ],
       "selectors": [
         "cp"
@@ -1151,8 +1151,8 @@
   "account_days_remaining": [
     {
       "declarations": [
-        "счетчик ввода",
-        "локальная cp = кол-во местности: множественное число"
+        "input count",
+        "local cp = count: plural"
       ],
       "selectors": [
         "cp"
