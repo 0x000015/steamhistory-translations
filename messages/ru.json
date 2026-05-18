@@ -458,6 +458,7 @@
   "common_true": "Истинный",
   "common_false": "ЛОЖЬ",
   "common_cancel": "Отмена",
+  "common_unknown_user": "Неизвестный пользователь",
   "time_ago_years": [
     {
       "declarations": [
@@ -984,6 +985,7 @@
   "teams_vanity_label": "Уникальный URL",
   "teams_vanity_placeholder": "успешные",
   "teams_vanity_hint": "Уникальная короткая ссылка для профиля вашей команды.",
+  "teams_vanity_readonly_hint": "Персональные URL не могут быть изменены после создания.",
   "teams_description_label": "Описание",
   "teams_description_placeholder": "На чём сосредоточена эта команда?",
   "teams_private_label": "Частная команда",
@@ -1336,5 +1338,24 @@
   "teams_membership_public_hint": "Ваше членство является публичным. Любой может увидеть, что вы являетесь частью этой команды.",
   "teams_resignation": "Отставка",
   "teams_leave_team": "Покинуть команду",
-  "teams_confirm_leave": "Вы уверены, что хотите покинуть эту команду?"
+  "teams_confirm_leave": "Вы уверены, что хотите покинуть эту команду?",
+  "teams_note_target": "Target",
+  "teams_note_author": "Автор",
+  "teams_note_revisions": "Версии",
+  "teams_note_edit": "Изменить заметку",
+  "teams_note_visibility": "Видимость",
+  "teams_note_staff_only": "Только персонал",
+  "teams_note_team_members": "Члены команды",
+  "teams_note_public": "Публичный",
+  "teams_note_unlock": "Unlock Note",
+  "teams_note_lock": "Lock Note",
+  "teams_note_delete": "Delete Note",
+  "teams_note_delete_confirm": "Are you sure you want to delete this note?",
+  "teams_note_save_changes": "Save Changes",
+  "teams_note_revision_history": "Revision History",
+  "teams_note_close": "Close",
+  "teams_note_current_version": "Current Version",
+  "teams_note_recent": "Recent",
+  "teams_note_locked": "Locked",
+  "teams_notes_none": "No team notes found."
 }
