@@ -23,7 +23,7 @@
   "nav_api": "API",
   "nav_supporter_features": "Функции поддержки",
   "nav_comment_search": "Поиск комментариев",
-  "profile_official_tooltip": "Это официальный аккаунт, связанный с SteamHistory.",
+  "profile_official_tooltip": "Это официальный аккаунт, связанный с SteamHistory",
   "profile_official_tag": "Официальный",
   "profile_custom_tag_tooltip": "Это пользовательский тег, установленный пользователем; это не официальный тег, установленный SteamHistory, и эта функция доступна только для пользователей, поддерживающих сервис.",
   "profile_custom_tag_whats_this": "Что это?",
@@ -49,23 +49,23 @@
   "profile_label_profile_setup": "Настройка профиля:",
   "profile_label_premium": "Премиум:",
   "profile_ban_info_divider": "Информация о бане",
-  "profile_label_vac": "ВАК:",
+  "profile_label_vac": "VAC:",
   "profile_label_community": "Сообщество:",
   "profile_label_game": "Игра:",
-  "profile_label_trade": "Торговля:",
-  "profile_label_vac_short": "ВА",
+  "profile_label_trade": "Обмен:",
+  "profile_label_vac_short": "VAC",
   "profile_label_community_short": "Сообщество",
   "profile_label_game_short": "Игра",
-  "profile_label_trade_short": "Торговля",
-  "profile_label_sb_short": "СБ",
+  "profile_label_trade_short": "Обмен",
+  "profile_label_sb_short": "SB",
   "profile_label_tf2bd_short": "TF2BD",
-  "profile_ban_status_banned": "Запрещено",
-  "profile_ban_status_clear": "Прозрачный",
+  "profile_ban_status_banned": "Забанен",
+  "profile_ban_status_clear": "Чист",
   "profile_ban_status_perm": "Перм",
-  "profile_ban_status_temp": "Температура",
-  "profile_ban_status_unbanned": "Разблокировано",
-  "profile_ban_status_expired": "Истекший",
-  "profile_ban_status_unknown": "Неизвестный",
+  "profile_ban_status_temp": "Врем",
+  "profile_ban_status_unbanned": "Разбанен",
+  "profile_ban_status_expired": "Истёк",
+  "profile_ban_status_unknown": "Неизвестно",
   "profile_ban_no_proof": "Нет доказательств",
   "profile_ban_unban_reason": "Причина разбана:",
   "profile_ban_unban_date": "Дата разблокировки:",
@@ -81,8 +81,8 @@
       ],
       "match": {
         "cp=one": "{count} день",
-        "cp=few": "{count} days",
-        "cp=many": "{count} days",
+        "cp=few": "{count} дня",
+        "cp=many": "{count} дней",
         "cp=other": "{count} дней"
       }
     }
@@ -397,8 +397,8 @@
       ],
       "match": {
         "cp=one": "Друзья на {count} день",
-        "cp=few": "Friends for {count} days",
-        "cp=many": "Friends for {count} days",
+        "cp=few": "Друзья: {count} дня",
+        "cp=many": "Друзья: {count} дней",
         "cp=other": "Друзья на {count} дней"
       }
     }
@@ -427,8 +427,8 @@
       ],
       "match": {
         "cp=one": "{count} Прикреплена подтверждающая запись",
-        "cp=few": "{count} proof entries attached",
-        "cp=many": "{count} proof entries attached",
+        "cp=few": "{count} доказательства прикреплено",
+        "cp=many": "{count} доказательств прикреплено",
         "cp=other": "{count} Прикреплены подтверждающие записи"
       }
     }
@@ -474,8 +474,8 @@
       ],
       "match": {
         "cp=one": "{count} год назад",
-        "cp=few": "{count} years ago",
-        "cp=many": "{count} years ago",
+        "cp=few": "{count} года назад",
+        "cp=many": "{count} лет назад",
         "cp=other": "{count} лет назад"
       }
     }
@@ -495,8 +495,8 @@
       ],
       "match": {
         "cp=one": "{count} месяц назад",
-        "cp=few": "{count} months ago",
-        "cp=many": "{count} months ago",
+        "cp=few": "{count} месяца назад",
+        "cp=many": "{count} месяцев назад",
         "cp=other": "{count} месяцев назад"
       }
     }
@@ -515,8 +515,8 @@
       ],
       "match": {
         "cp=one": "{count} день назад",
-        "cp=few": "{count} days ago",
-        "cp=many": "{count} days ago",
+        "cp=few": "{count} дня назад",
+        "cp=many": "{count} дней назад",
         "cp=other": "{count} дней назад"
       }
     }
@@ -536,8 +536,8 @@
       ],
       "match": {
         "cp=one": "{count} час назад",
-        "cp=few": "{count} hours ago",
-        "cp=many": "{count} hours ago",
+        "cp=few": "{count} часа назад",
+        "cp=many": "{count} часов назад",
         "cp=other": "{count} часов назад"
       }
     }
@@ -557,8 +557,8 @@
       ],
       "match": {
         "cp=one": "{count} минуту назад",
-        "cp=few": "{count} minutes ago",
-        "cp=many": "{count} minutes ago",
+        "cp=few": "{count} минуты назад",
+        "cp=many": "{count} минут назад",
         "cp=other": "{count} минут назад"
       }
     }
@@ -625,9 +625,9 @@
         "cp"
       ],
       "match": {
-        "cp=one": "{count} vote",
-        "cp=few": "{count} votes",
-        "cp=many": "{count} votes",
+        "cp=one": "{count} голос",
+        "cp=few": "{count} голоса",
+        "cp=many": "{count} голосов",
         "cp=other": "{count} голосов"
       }
     }
@@ -854,8 +854,8 @@
       ],
       "match": {
         "cp=one": "( {count} entry)",
-        "cp=few": "({count} entries)",
-        "cp=many": "({count} entries)",
+        "cp=few": "({count} записи)",
+        "cp=many": "({count} записей)",
         "cp=other": "( {count} записей)"
       }
     }
@@ -1159,8 +1159,8 @@
       ],
       "match": {
         "cp=one": "{count} оставшийся день",
-        "cp=few": "{count} days remaining",
-        "cp=many": "{count} days remaining",
+        "cp=few": "{count} дня осталось",
+        "cp=many": "{count} дней осталось",
         "cp=other": "{count} дней осталось"
       }
     }
