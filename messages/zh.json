@@ -458,6 +458,7 @@
   "common_true": "真的",
   "common_false": "错误的",
   "common_cancel": "取消",
+  "common_unknown_user": "未知用户",
   "time_ago_years": [
     {
       "declarations": [
@@ -984,6 +985,7 @@
   "teams_vanity_label": "自定义网址",
   "teams_vanity_placeholder": "成功者",
   "teams_vanity_hint": "团队简介的专属短链接。",
+  "teams_vanity_readonly_hint": "Vanity URL无法在创建后更改。",
   "teams_description_label": "描述",
   "teams_description_placeholder": "这个团队的重点是什么？",
   "teams_private_label": "私人团队",
@@ -1336,5 +1338,24 @@
   "teams_membership_public_hint": "您的成员身份是公开的。任何人都可以看到您是团队的一员。",
   "teams_resignation": "辞职",
   "teams_leave_team": "离开团队",
-  "teams_confirm_leave": "你确定要离开这支球队吗？"
+  "teams_confirm_leave": "你确定要离开这支球队吗？",
+  "teams_note_target": "Target",
+  "teams_note_author": "作者",
+  "teams_note_revisions": "修订版",
+  "teams_note_edit": "编辑笔记",
+  "teams_note_visibility": "可见性",
+  "teams_note_staff_only": "仅限工作人员",
+  "teams_note_team_members": "团队成员",
+  "teams_note_public": "公开的",
+  "teams_note_unlock": "Unlock Note",
+  "teams_note_lock": "Lock Note",
+  "teams_note_delete": "Delete Note",
+  "teams_note_delete_confirm": "Are you sure you want to delete this note?",
+  "teams_note_save_changes": "Save Changes",
+  "teams_note_revision_history": "Revision History",
+  "teams_note_close": "Close",
+  "teams_note_current_version": "Current Version",
+  "teams_note_recent": "Recent",
+  "teams_note_locked": "Locked",
+  "teams_notes_none": "No team notes found."
 }
