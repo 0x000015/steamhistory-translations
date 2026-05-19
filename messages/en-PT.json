@@ -25,15 +25,15 @@
         "input count",
         "local cp = count: plural"
       ],
+      "selectors": [
+        "cp"
+      ],
       "match": {
         "cp=few": "{count} days remaining",
         "cp=many": "{count} days remaining",
         "cp=one": "{count} day remaining",
         "cp=other": "{count} days remaining"
-      },
-      "selectors": [
-        "cp"
-      ]
+      }
     }
   ],
   "account_discord_connected": "Connected",
@@ -83,6 +83,7 @@
   "account_status_expired": "Expired",
   "account_status_inactive": "Inactive",
   "account_support_cta": "Support SteamHistory",
+  "account_supporter_status_title": "Supporter Status",
   "account_supporter_expired_desc": "Yer supporter benefits 'ave expired. Renew t' continue customizin' yer profile.",
   "account_supporter_expired_title": "Supporter Status Expired",
   "account_tag_color_label": "Tag Color",
@@ -138,15 +139,15 @@
         "input count",
         "local cp = count: plural"
       ],
+      "selectors": [
+        "cp"
+      ],
       "match": {
         "cp=few": "({count} entries)",
         "cp=many": "({count} entries)",
         "cp=one": "({count} entry)",
         "cp=other": "({count} entries)"
-      },
-      "selectors": [
-        "cp"
-      ]
+      }
     }
   ],
   "data_removal_min_words_error": "Please ensure all reasons meet the minimum {count} word requirement.",
@@ -168,15 +169,15 @@
         "input one {",
         "local cp = count: plural"
       ],
+      "selectors": [
+        "cp"
+      ],
       "match": {
         "cp=few": "Selected {count} items for removal",
         "cp=many": "Selected {count} items for removal",
         "cp=one": "Selected {count} item for removal",
         "cp=other": "Selected {count} items for removal"
-      },
-      "selectors": [
-        "cp"
-      ]
+      }
     }
   ],
   "data_removal_submit_title": "Submit Request",
@@ -241,13 +242,13 @@
   "footer_link_tos": "Terms o' Service",
   "friendgroups_all_distances": "All Distances",
   "friendgroups_bfs_tree": "BFS Tree",
-  "friendgroups_controls_title": "Controls \u0026 Filters",
+  "friendgroups_controls_title": "Controls & Filters",
   "friendgroups_cross_distance": "Cross Distance",
   "friendgroups_direct_source": "Direct Source",
   "friendgroups_disabled_prod": "Dis feature be disabled in production.",
   "friendgroups_disabled_production": "Dis feature be disabled in production.",
   "friendgroups_distance_filter": "Distance Filter",
-  "friendgroups_edge_types": "Edge Types \u0026 Users",
+  "friendgroups_edge_types": "Edge Types & Users",
   "friendgroups_form_depth_label": "Maximum Depth",
   "friendgroups_form_desc": "Explore scallywag networks startin' from a specific user",
   "friendgroups_form_description": "Explore scallywag networks startin' from a specific user",
@@ -363,15 +364,15 @@
         "input count",
         "local cp = count: plural"
       ],
+      "selectors": [
+        "cp"
+      ],
       "match": {
         "cp=few": "{count} votes",
         "cp=many": "{count} votes",
         "cp=one": "{count} vote",
         "cp=other": "{count} votes"
-      },
-      "selectors": [
-        "cp"
-      ]
+      }
     }
   ],
   "notification_dock_wisdom_tab": "Wisdom",
@@ -447,15 +448,15 @@
         "input count",
         "local cp = count: plural"
       ],
+      "selectors": [
+        "cp"
+      ],
       "match": {
         "cp=few": "{count} days",
         "cp=many": "{count} days",
         "cp=one": "{count} day",
         "cp=other": "{count} days"
-      },
-      "selectors": [
-        "cp"
-      ]
+      }
     }
   ],
   "profile_ban_info_divider": "Ban Info",
@@ -487,15 +488,15 @@
         "input stücke",
         "local cp = count: plural"
       ],
+      "selectors": [
+        "cp"
+      ],
       "match": {
         "cp=few": "{count} proof entries attached",
         "cp=many": "{count} proof entries attached",
         "cp=one": "{count} proof entry attached",
         "cp=other": "{count} proof entries attached"
-      },
-      "selectors": [
-        "cp"
-      ]
+      }
     }
   ],
   "profile_community_bans_recent_badge": "Recent",
@@ -514,15 +515,15 @@
         "input count",
         "local cp = count: plural"
       ],
+      "selectors": [
+        "cp"
+      ],
       "match": {
         "cp=few": "{count} bans",
         "cp=many": "{count} bans",
         "cp=one": "{count} ban",
         "cp=other": "{count} bans"
-      },
-      "selectors": [
-        "cp"
-      ]
+      }
     }
   ],
   "profile_community_bans_unbanned_badge": "Unbanned",
@@ -549,15 +550,15 @@
         "input timestamp",
         "local cp = count: plural"
       ],
+      "selectors": [
+        "cp"
+      ],
       "match": {
         "cp=few": "{count} bans, {timeAgo} ({timestamp})",
         "cp=many": "{count} bans, {timeAgo} ({timestamp})",
         "cp=one": "{count} ban, {timeAgo} ({timestamp})",
         "cp=other": "{count} bans, {timeAgo} ({timestamp})"
-      },
-      "selectors": [
-        "cp"
-      ]
+      }
     }
   ],
   "profile_game_bans_simple": [
@@ -566,15 +567,15 @@
         "input count",
         "local cp = count: plural"
       ],
+      "selectors": [
+        "cp"
+      ],
       "match": {
         "cp=few": "{count} bans",
         "cp=many": "{count} bans",
         "cp=one": "{count} ban",
         "cp=other": "{count} bans"
-      },
-      "selectors": [
-        "cp"
-      ]
+      }
     }
   ],
   "profile_game_none": "No game bans on log",
@@ -601,15 +602,15 @@
         "input count",
         "local cp = count: plural"
       ],
+      "selectors": [
+        "cp"
+      ],
       "match": {
         "cp=few": "Friends for {count} days",
         "cp=many": "Friends for {count} days",
         "cp=one": "Friends for {count} day",
         "cp=other": "Friends for {count} days"
-      },
-      "selectors": [
-        "cp"
-      ]
+      }
     }
   ],
   "profile_history_friends_from": "Hearties from {date}",
@@ -637,15 +638,15 @@
         "input s",
         "local cp = count: plural"
       ],
+      "selectors": [
+        "cp"
+      ],
       "match": {
         "cp=few": "to show {count} deleted comments",
         "cp=many": "to show {count} deleted comments",
         "cp=one": "to show {count} deleted comment",
         "cp=other": "to show {count} deleted comments"
-      },
-      "selectors": [
-        "cp"
-      ]
+      }
     }
   ],
   "profile_history_tf2bd_bans_warning": "{percent}% o' mateys 'ave TF2BD bans",
@@ -654,7 +655,7 @@
   "profile_history_url_title": "URL History",
   "profile_history_vac_bans_warning": "{percent}% o' scallywags 'ave VAC bans",
   "profile_history_view_all_button": "View All",
-  "profile_impersonator_disclaimer_text": "Dis user be \u003cb\u003enah\u003c/b\u003e associated wit', workin' fer, or part o' the SteamHistory project.",
+  "profile_impersonator_disclaimer_text": "Dis user be <b>nah</b> associated wit', workin' fer, or part o' the SteamHistory project.",
   "profile_impersonator_disclaimer_title": "Disclaimer",
   "profile_indexing_text": "Dis user's profile be currently bein' indexed. Please wait a moment.",
   "profile_indexing_title": "Indexin' in Progress",
@@ -693,6 +694,10 @@
         "local ncp = nameCount: plural",
         "local pcp = pfpCount: plural"
       ],
+      "selectors": [
+        "ncp",
+        "pcp"
+      ],
       "match": {
         "ncp=few, pcp=few": "{name} is a {privacy} profile with {nameCount} recorded names, {pfpCount} recorded profile pictures",
         "ncp=few, pcp=many": "{name} is a {privacy} profile with {nameCount} recorded names, {pfpCount} recorded profile pictures",
@@ -710,11 +715,7 @@
         "ncp=other, pcp=many": "{name} is a {privacy} profile with {nameCount} recorded names, {pfpCount} recorded profile pictures",
         "ncp=other, pcp=one": "{name} is a {privacy} profile with {nameCount} recorded names, {pfpCount} recorded profile picture",
         "ncp=other, pcp=other": "{name} is a {privacy} profile with {nameCount} recorded names, {pfpCount} recorded profile pictures"
-      },
-      "selectors": [
-        "ncp",
-        "pcp"
-      ]
+      }
     }
   ],
   "profile_na": "N/A",
@@ -734,7 +735,7 @@
   "profile_notes_team_records": "Crew Logs",
   "profile_notes_team_visibility": "Visibility",
   "profile_notes_team_visibility_private": "Private (Staff Only)",
-  "profile_notes_team_visibility_public": "Public (Hands \u0026 Followers)",
+  "profile_notes_team_visibility_public": "Public (Hands & Followers)",
   "profile_notes_team_visibility_team": "Crew (All Hands)",
   "profile_notes_title": "Notes",
   "profile_official_tag": "Official",
@@ -783,15 +784,15 @@
         "input timestamp",
         "local cp = count: plural"
       ],
+      "selectors": [
+        "cp"
+      ],
       "match": {
         "cp=few": "{count} bans, {timeAgo} ({timestamp})",
         "cp=many": "{count} bans, {timeAgo} ({timestamp})",
         "cp=one": "{count} ban, {timeAgo} ({timestamp})",
         "cp=other": "{count} bans, {timeAgo} ({timestamp})"
-      },
-      "selectors": [
-        "cp"
-      ]
+      }
     }
   ],
   "profile_vac_bans_simple": [
@@ -800,15 +801,15 @@
         "input count",
         "local cp = count: plural"
       ],
+      "selectors": [
+        "cp"
+      ],
       "match": {
         "cp=few": "{count} bans",
         "cp=many": "{count} bans",
         "cp=one": "{count} ban",
         "cp=other": "{count} bans"
-      },
-      "selectors": [
-        "cp"
-      ]
+      }
     }
   ],
   "profile_vac_none": "No VAC bans on log",
@@ -825,15 +826,15 @@
         "input count",
         "local cp = count: plural"
       ],
+      "selectors": [
+        "cp"
+      ],
       "match": {
         "cp=few": "Found '{count}' results for",
         "cp=many": "Found '{count}' results for",
         "cp=one": "Found '{count}' result for",
         "cp=other": "Found '{count}' results for"
-      },
-      "selectors": [
-        "cp"
-      ]
+      }
     }
   ],
   "search_avatar_hash_label": "Avatar Hash",
@@ -864,15 +865,15 @@
         "input time",
         "local cp = count: plural"
       ],
+      "selectors": [
+        "cp"
+      ],
       "match": {
         "cp=few": "Found {count} results ({time}ms)",
         "cp=many": "Found {count} results ({time}ms)",
         "cp=one": "Found {count} result ({time}ms)",
         "cp=other": "Found {count} results ({time}ms)"
-      },
-      "selectors": [
-        "cp"
-      ]
+      }
     }
   ],
   "search_comment_sort_label": "Sort by:",
@@ -882,7 +883,7 @@
   "search_comment_submit": "Search Comments",
   "search_comment_supporter_only_description": "Dis feature be only available t' supporters.",
   "search_comment_supporter_only_title": "Supporter Only",
-  "search_comment_text_hint": "Use quotes fer exact phrases: \"steamhistory\" \"hornswagglin'\"\u003cbr\u003eUse -word t' exclude terms: \"steamhistory\" -hornswagglin'",
+  "search_comment_text_hint": "Use quotes fer exact phrases: \"steamhistory\" \"hornswagglin'\"<br>Use -word t' exclude terms: \"steamhistory\" -hornswagglin'",
   "search_comment_text_label": "Comment Text",
   "search_comment_text_placeholder": "Keywords or phrases (optional)",
   "search_comment_title": "Comment Search",
@@ -917,15 +918,15 @@
         "input count",
         "local cp = count: plural"
       ],
+      "selectors": [
+        "cp"
+      ],
       "match": {
         "cp=few": "{count} sources",
         "cp=many": "{count} sources",
         "cp=one": "{count} source",
         "cp=other": "{count} sources"
-      },
-      "selectors": [
-        "cp"
-      ]
+      }
     }
   ],
   "sources_description": "Steam History gathers data from various sources t' provide comprehensive information about Steam accounts. Below be all the sources we use fer our database.",
@@ -982,7 +983,7 @@
   "supporter_linking_p2": "Link yer supporter status by:",
   "supporter_min_amount": "Minimum Amount: $5 per month",
   "supporter_pricing_info_title": "Pricin' Information",
-  "supporter_pricing_terms_title": "Pricin' \u0026 Terms",
+  "supporter_pricing_terms_title": "Pricin' & Terms",
   "supporter_subtitle": "Support SteamHistory.net 'n unlock exclusive features t' enhance yer experience",
   "supporter_title": "Become a Supporter",
   "team_about": "About {name}",
@@ -1000,15 +1001,15 @@
         "input count",
         "local cp = count: plural"
       ],
+      "selectors": [
+        "cp"
+      ],
       "match": {
         "cp=few": "Invitations ({count})",
         "cp=many": "Invitations ({count})",
         "cp=one": "Invitation ({count})",
         "cp=other": "Invitations ({count})"
-      },
-      "selectors": [
-        "cp"
-      ]
+      }
     }
   ],
   "team_invite_member_hint": "Invited users must 'ave an existin' SteamHistory.net profile.",
@@ -1023,15 +1024,15 @@
         "input count",
         "local cp = count: plural"
       ],
+      "selectors": [
+        "cp"
+      ],
       "match": {
         "cp=few": "Members ({count})",
         "cp=many": "Members ({count})",
         "cp=one": "Member ({count})",
         "cp=other": "Members ({count})"
-      },
-      "selectors": [
-        "cp"
-      ]
+      }
     }
   ],
   "team_members_title": "Hands",
@@ -1046,15 +1047,15 @@
         "input count",
         "local cp = count: plural"
       ],
+      "selectors": [
+        "cp"
+      ],
       "match": {
         "cp=few": "Notes ({count})",
         "cp=many": "Notes ({count})",
         "cp=one": "Note ({count})",
         "cp=other": "Notes ({count})"
-      },
-      "selectors": [
-        "cp"
-      ]
+      }
     }
   ],
   "team_notes_title": "Crew Notes",
@@ -1066,15 +1067,15 @@
         "input count",
         "local cp = count: plural"
       ],
+      "selectors": [
+        "cp"
+      ],
       "match": {
         "cp=few": "Pending Invites ({count})",
         "cp=many": "Pending Invites ({count})",
         "cp=one": "Pending Invite ({count})",
         "cp=other": "Pending Invites ({count})"
-      },
-      "selectors": [
-        "cp"
-      ]
+      }
     }
   ],
   "team_privacy_hidden": "Hidden",
@@ -1197,15 +1198,15 @@
         "input one {",
         "local cp = count: plural"
       ],
+      "selectors": [
+        "cp"
+      ],
       "match": {
         "cp=few": "{count} days ago",
         "cp=many": "{count} days ago",
         "cp=one": "{count} day ago",
         "cp=other": "{count} days ago"
-      },
-      "selectors": [
-        "cp"
-      ]
+      }
     }
   ],
   "time_ago_hours": [
@@ -1218,15 +1219,15 @@
         "input s",
         "local cp = count: plural"
       ],
+      "selectors": [
+        "cp"
+      ],
       "match": {
         "cp=few": "{count} hours ago",
         "cp=many": "{count} hours ago",
         "cp=one": "{count} hour ago",
         "cp=other": "{count} hours ago"
-      },
-      "selectors": [
-        "cp"
-      ]
+      }
     }
   ],
   "time_ago_just_now": "Jus' now",
@@ -1240,15 +1241,15 @@
         "input s",
         "local cp = count: plural"
       ],
+      "selectors": [
+        "cp"
+      ],
       "match": {
         "cp=few": "{count} minutes ago",
         "cp=many": "{count} minutes ago",
         "cp=one": "{count} minute ago",
         "cp=other": "{count} minutes ago"
-      },
-      "selectors": [
-        "cp"
-      ]
+      }
     }
   ],
   "time_ago_months": [
@@ -1261,15 +1262,15 @@
         "input s",
         "local cp = count: plural"
       ],
+      "selectors": [
+        "cp"
+      ],
       "match": {
         "cp=few": "{count} months ago",
         "cp=many": "{count} months ago",
         "cp=one": "{count} month ago",
         "cp=other": "{count} months ago"
-      },
-      "selectors": [
-        "cp"
-      ]
+      }
     }
   ],
   "time_ago_years": [
@@ -1282,15 +1283,15 @@
         "input s",
         "local cp = count: plural"
       ],
+      "selectors": [
+        "cp"
+      ],
       "match": {
         "cp=few": "{count} years ago",
         "cp=many": "{count} years ago",
         "cp=one": "{count} year ago",
         "cp=other": "{count} years ago"
-      },
-      "selectors": [
-        "cp"
-      ]
+      }
     }
   ],
   "tos_header": "Terms o' Service fer SteamHistory.net",
@@ -1349,7 +1350,7 @@
   "tos_s9_p1": "Any disputes arisin' out o' or in connection wit' these Terms or yer use o' the Service shall be governed by the codes o' conduct o' the jurisdiction in which the Service's operators be based, without regard t' its conflict o' code o' conduct provisions. Ye agree t' submit t' the personal 'n exclusive jurisdiction o' the courts located within dat jurisdiction.",
   "tos_s9_title": "9. Dispute Resolution",
   "tos_title": "Terms o' Service",
-  "turnstile_button": "Verify \u0026 Continue",
+  "turnstile_button": "Verify & Continue",
   "turnstile_title": "Verification Required",
   "turnstile_verifying": "Verifyin'...",
   "usermenu_account_title": "Account",

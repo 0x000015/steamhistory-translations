@@ -1141,6 +1141,7 @@
   "account_become_supporter_title": "Become a Supporter",
   "account_become_supporter_desc": "Unlock profile customization and other exclusive features by becoming a supporter.",
   "account_support_cta": "Support SteamHistory",
+  "account_supporter_status_title": "Supporter Status",
   "account_status_active": "Active",
   "account_status_expired": "Expired",
   "account_status_inactive": "Inactive",
