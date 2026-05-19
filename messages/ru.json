@@ -1141,6 +1141,7 @@
   "account_become_supporter_title": "Станьте сторонником",
   "account_become_supporter_desc": "Став спонсором, вы получите доступ к персонализации профиля и другим эксклюзивным функциям.",
   "account_support_cta": "Поддержите SteamHistory",
+  "account_supporter_status_title": "Supporter Status",
   "account_status_active": "Активный",
   "account_status_expired": "Истекший",
   "account_status_inactive": "Неактивный",
