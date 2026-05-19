@@ -1141,6 +1141,7 @@
   "account_become_supporter_title": "成为支持者",
   "account_become_supporter_desc": "成为支持者，即可解锁个人资料自定义和其他专属功能。",
   "account_support_cta": "支持Steam历史",
+  "account_supporter_status_title": "Supporter Status",
   "account_status_active": "积极的",
   "account_status_expired": "已到期",
   "account_status_inactive": "非活跃状态",
