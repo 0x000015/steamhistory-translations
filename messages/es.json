@@ -5,16 +5,16 @@
   "navbar_search_error_generic": "Se produjo un error durante la búsqueda.",
   "navbar_search_error_not_found": "No se encontró ningún usuario con ese ID.",
   "navbar_tools_dropdown": "Herramientas",
-  "navbar_discord_button": "Discordia",
+  "navbar_discord_button": "Discord",
   "navbar_mobile_menu_aria": "Abrir menú",
   "navbar_language_label": "Idioma",
   "footer_copyright": "Copyright ©️ 2026 - Todos los derechos reservados por SteamHistory.net",
   "footer_disclaimer": "SteamHistory.net no es propiedad de Valve Corporation, ni está operado ni respaldado por ella, ni es un producto de Steam.",
-  "footer_link_supporter": "Conviértete en patrocinador",
+  "footer_link_supporter": "Conviértete en Colaborador",
   "footer_link_sources": "Fuentes",
   "footer_link_faq": "Preguntas frecuentes",
-  "footer_link_privacy": "política de privacidad",
-  "footer_link_tos": "Condiciones de servicio",
+  "footer_link_privacy": "Política de Privacidad",
+  "footer_link_tos": "Términos de servicio",
   "footer_link_suggestions": "Sugerencias",
   "nav_alias_search": "Búsqueda de alias",
   "nav_avatar_search": "Búsqueda de avatares",
@@ -34,12 +34,12 @@
   "profile_label_profile_url": "URL del perfil:",
   "profile_label_created": "Creado:",
   "profile_label_updated": "Actualizado:",
-  "profile_label_last_checked": "Última comprobación:",
+  "profile_label_last_checked": "Última revisión:",
   "profile_label_last_online": "Última conexión:",
   "profile_created_tooltip": "Cuando se creó esta cuenta",
   "profile_updated_tooltip": "La última vez registramos un cambio en el perfil.",
   "profile_last_checked_tooltip": "La última vez que revisamos si había actualizaciones",
-  "profile_last_online_tooltip": "La última vez que vimos al usuario en línea fue en Steam.",
+  "profile_last_online_tooltip": "La última vez que vimos este usuario en línea fue en Steam.",
   "profile_estimated_label": "[Estimado]",
   "profile_estimated_tooltip": "Esta fecha es una estimación basada en los SteamID64 vecinos del usuario y no se garantiza su exactitud, pero debería ser relativamente cercana.",
   "profile_na": "N / A",
@@ -47,28 +47,28 @@
   "profile_label_status": "Estado:",
   "profile_label_privacy": "Privacidad:",
   "profile_label_profile_setup": "Configuración del perfil:",
-  "profile_label_premium": "De primera calidad:",
-  "profile_ban_info_divider": "Información sobre la prohibición",
-  "profile_label_vac": "VACACIONES:",
+  "profile_label_premium": "Premium:",
+  "profile_ban_info_divider": "Información sobre baneo",
+  "profile_label_vac": "VAC:",
   "profile_label_community": "Comunidad:",
   "profile_label_game": "Juego:",
-  "profile_label_trade": "Comercio:",
-  "profile_label_vac_short": "VACACIONES",
+  "profile_label_trade": "Intercambio:",
+  "profile_label_vac_short": "VAC",
   "profile_label_community_short": "Comunidad",
   "profile_label_game_short": "Juego",
-  "profile_label_trade_short": "Comercio",
+  "profile_label_trade_short": "Intercambio",
   "profile_label_sb_short": "SB",
   "profile_label_tf2bd_short": "TF2BD",
-  "profile_ban_status_banned": "Prohibido",
-  "profile_ban_status_clear": "Claro",
+  "profile_ban_status_banned": "Baneado",
+  "profile_ban_status_clear": "Limpio",
   "profile_ban_status_perm": "Permanente",
-  "profile_ban_status_temp": "Temperatura",
-  "profile_ban_status_unbanned": "Desbloqueado",
-  "profile_ban_status_expired": "Venció",
+  "profile_ban_status_temp": "Temporal",
+  "profile_ban_status_unbanned": "Desbaneado",
+  "profile_ban_status_expired": "Expirado",
   "profile_ban_status_unknown": "Desconocido",
-  "profile_ban_no_proof": "No hay pruebas",
-  "profile_ban_unban_reason": "Razón para desbloquear:",
-  "profile_ban_unban_date": "Fecha de levantamiento de la prohibición:",
+  "profile_ban_no_proof": "Sin Pruebas",
+  "profile_ban_unban_reason": "Razón de desbaneo:",
+  "profile_ban_unban_date": "Fecha de desbaneo:",
   "profile_ban_duration": "Duración:",
   "profile_ban_duration_days": [
     {
@@ -90,17 +90,17 @@
   "profile_notes_title": "Notas",
   "profile_notes_tab_team": "Equipo",
   "profile_notes_tab_personal": "Personal",
-  "profile_notes_hide": "Esconder",
-  "profile_notes_show": "Espectáculo",
+  "profile_notes_hide": "Ocultar",
+  "profile_notes_show": "Mostrar",
   "profile_notes_personal_placeholder": "Añade una nota privada para ti...",
   "profile_notes_personal_save": "Guardar nota personal",
   "profile_notes_personal_updated": "Nota personal actualizada",
   "profile_notes_chars_limit": "{count} / {limit} caracteres",
-  "profile_notes_team_records": "Récords del equipo",
+  "profile_notes_team_records": "Historial del equipo",
   "profile_notes_team_new_note": "+ Nueva nota",
   "profile_notes_team_publish_to": "Publicar en el equipo",
   "profile_notes_team_visibility": "Visibilidad",
-  "profile_notes_team_visibility_private": "Privado (solo para personal)",
+  "profile_notes_team_visibility_private": "Privado (solo para Staff)",
   "profile_notes_team_visibility_team": "Equipo (Todos los miembros)",
   "profile_notes_team_visibility_public": "Público (Miembros y Seguidores)",
   "profile_notes_team_placeholder": "Comparte una observación con tu equipo...",
@@ -134,17 +134,17 @@
         "cp"
       ],
       "match": {
-        "cp=one": "{count} ban",
-        "cp=few": "{count} bans",
-        "cp=many": "{count} bans",
+        "cp=one": "Baneo",
+        "cp=few": "Baneos",
+        "cp=many": "Baneos",
         "cp=other": "{count} prohibiciones"
       }
     }
   ],
   "profile_vac_none": "No hay registros de prohibiciones de VAC",
   "profile_community_bans_detailed": "Prohibido {timeAgo} ( {timestamp} )",
-  "profile_community_bans_simple": "Prohibido",
-  "profile_community_none": "No hay registros de prohibiciones comunitarias.",
+  "profile_community_bans_simple": "Baneado",
+  "profile_community_none": "No hay registros de baneos comunitarios.",
   "profile_community_bans_total_count": [
     {
       "declarations": [
@@ -155,9 +155,9 @@
         "cp"
       ],
       "match": {
-        "cp=one": "{count} ban",
-        "cp=few": "{count} bans",
-        "cp=many": "{count} bans",
+        "cp=one": "Baneo",
+        "cp=few": "Baneos",
+        "cp=many": "Baneos",
         "cp=other": "{count} prohibiciones"
       }
     }
@@ -191,33 +191,33 @@
         "cp"
       ],
       "match": {
-        "cp=one": "{count} ban",
-        "cp=few": "{count} bans",
-        "cp=many": "{count} bans",
+        "cp=one": "Baneo",
+        "cp=few": "Baneos",
+        "cp=many": "Baneos",
         "cp=other": "{count} prohibiciones"
       }
     }
   ],
-  "profile_game_none": "No hay registros de prohibiciones de juego.",
+  "profile_game_none": "No hay registros de baneos en juegos.",
   "profile_economy_bans_detailed": "Prohibido {timeAgo} ( {timestamp} )",
-  "profile_economy_bans_simple": "Prohibido",
-  "profile_economy_none": "No hay registros de prohibiciones comerciales",
+  "profile_economy_bans_simple": "Baneado",
+  "profile_economy_none": "No hay registros de baneos de intercambio",
   "profile_tools_info_divider": "Información",
   "profile_tools_unique_views": "Vistas únicas:",
   "profile_tools_total_views": "Vistas totales:",
   "profile_tools_tools_divider": "Herramientas",
-  "profile_tools_watch_user": "Usuario de Watch",
+  "profile_tools_watch_user": "Seguir usuario",
   "profile_tools_unwatch_user": "Dejar de seguir a ese usuario",
-  "profile_tools_force_update": "Actualización forzada",
-  "profile_tools_supporter_divider": "Seguidor",
+  "profile_tools_force_update": "Forzar actualización de perfil",
+  "profile_tools_supporter_divider": "Colaborador",
   "profile_tools_comment_search": "Búsqueda de comentarios",
-  "profile_tools_watch_tooltip": "Reciba notificaciones sobre los cambios en el perfil de este usuario.",
+  "profile_tools_watch_tooltip": "Recibir notificaciones de los cambios en el perfil de este usuario",
   "profile_tools_force_update_tooltip": "Solicitar una actualización en tiempo real del perfil del usuario desde Steam.",
-  "profile_tools_comment_search_tooltip": "Buscar comentarios realizados por un usuario determinado",
+  "profile_tools_comment_search_tooltip": "Buscar comentarios realizados por un usuario especifico",
   "profile_tools_link_discord": "Enlace de Discord",
-  "profile_tools_link_discord_suffix": " para usar la función de reloj.",
-  "profile_tools_watch_limit_nearing": "El límite de vigilancia se está acercando. Conviértete en un {supporterLink} para aumentar el límite.",
-  "profile_tools_watch_limit_reached": "Se ha alcanzado el límite de vigilancia. Conviértete en un {supporterLink} para aumentar el límite.",
+  "profile_tools_link_discord_suffix": " para usar la función de seguimiento ",
+  "profile_tools_watch_limit_nearing": "El límite de seguimientos se está alcanzando. Conviértete en un {supporterLink} para aumentar el límite.",
+  "profile_tools_watch_limit_reached": "Se ha alcanzado el límite de seguimientos. Conviértete en un {supporterLink} para aumentar el límite.",
   "profile_tools_update_success_detailed": "¡Actualización exitosa! ( {usesLeft} / {maxUses} ) usos restantes",
   "profile_tools_update_success_simple": "¡Actualización exitosa!",
   "profile_tools_daily_limit_reached": "Límite diario alcanzado ( {maxUses} / {maxUses} )",
@@ -230,17 +230,17 @@
   "profile_tools_login_to_use": "Inicia sesión para usar la búsqueda de comentarios.",
   "profile_tools_supporter_expired": "Tu membresía ha caducado. Haz clic aquí para renovarla.",
   "profile_tools_become_supporter_cta": "Hazte colaborador para usar la función de búsqueda de comentarios.",
-  "profile_tools_status_watched": "Usuario observado",
-  "profile_status_unwatched": "Usuario no vigilado",
+  "profile_tools_status_watched": "Usuario seguido",
+  "profile_status_unwatched": "Usuario no seguido",
   "search_login_title": "Por favor, inicie sesión.",
   "search_login_description": "Para usar esta función, debes iniciar sesión.",
   "search_login_button": "Iniciar sesión con Steam",
   "search_button": "Buscar",
   "search_no_results": "No se encontraron resultados.",
-  "search_rate_limited_title": "Tarifa limitada",
+  "search_rate_limited_title": "Tasa limitada",
   "search_rate_limited_description": "Estás realizando esta acción con demasiada frecuencia. Inténtalo de nuevo más tarde.",
   "search_error_title": "Error",
-  "search_copy_error_code": "Código de error de copia",
+  "search_copy_error_code": "Copiar código de error",
   "search_alias_title": "Búsqueda de alias",
   "search_alias_description": "Buscar alias",
   "search_alias_label": "Alias",
@@ -474,8 +474,8 @@
       ],
       "match": {
         "cp=one": "{count} hace un año",
-        "cp=few": "{count} years ago",
-        "cp=many": "{count} years ago",
+        "cp=few": "Años atrás",
+        "cp=many": "Años atrás",
         "cp=other": "{count} hace años"
       }
     }
@@ -495,8 +495,8 @@
       ],
       "match": {
         "cp=one": "{count} hace un mes",
-        "cp=few": "{count} months ago",
-        "cp=many": "{count} months ago",
+        "cp=few": "Meses atrás",
+        "cp=many": "Meses atrás",
         "cp=other": "{count} hace meses"
       }
     }
@@ -515,8 +515,8 @@
       ],
       "match": {
         "cp=one": "{count} hace un día",
-        "cp=few": "{count} days ago",
-        "cp=many": "{count} days ago",
+        "cp=few": "Días atrás",
+        "cp=many": "Días atrás",
         "cp=other": "{count} hace días"
       }
     }
@@ -536,8 +536,8 @@
       ],
       "match": {
         "cp=one": "{count} hace una hora",
-        "cp=few": "{count} hours ago",
-        "cp=many": "{count} hours ago",
+        "cp=few": "Horas atrás",
+        "cp=many": "Horas atrás",
         "cp=other": "{count} hace horas"
       }
     }
@@ -557,8 +557,8 @@
       ],
       "match": {
         "cp=one": "{count} hace un minuto",
-        "cp=few": "{count} minutes ago",
-        "cp=many": "{count} minutes ago",
+        "cp=few": "Minutos atrás",
+        "cp=many": "Minutos atrás",
         "cp=other": "{count} hace minutos"
       }
     }
@@ -854,8 +854,8 @@
       ],
       "match": {
         "cp=one": "( {count} entrada)",
-        "cp=few": "({count} entries)",
-        "cp=many": "({count} entries)",
+        "cp=few": "Entradas",
+        "cp=many": "Entradas",
         "cp=other": "( {count} entradas)"
       }
     }
