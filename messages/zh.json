@@ -73,8 +73,8 @@
   "profile_ban_duration_days": [
     {
       "declarations": [
-        "输入计数",
-        "本地cp = 计数：复数"
+        "input count",
+        "local cp = count: plural"
       ],
       "selectors": [
         "cp"
@@ -108,10 +108,10 @@
   "profile_vac_bans_detailed": [
     {
       "declarations": [
-        "输入计数",
+        "input count",
         "input timeAgo",
-        "输入时间戳",
-        "本地cp = 计数：复数"
+        "input timestamp",
+        "local cp = count: plural"
       ],
       "selectors": [
         "cp"
@@ -127,8 +127,8 @@
   "profile_vac_bans_simple": [
     {
       "declarations": [
-        "输入计数",
-        "本地cp = 计数：复数"
+        "input count",
+        "local cp = count: plural"
       ],
       "selectors": [
         "cp"
@@ -148,8 +148,8 @@
   "profile_community_bans_total_count": [
     {
       "declarations": [
-        "输入计数",
-        "本地cp = 计数：复数"
+        "input count",
+        "local cp = count: plural"
       ],
       "selectors": [
         "cp"
@@ -165,10 +165,10 @@
   "profile_game_bans_detailed": [
     {
       "declarations": [
-        "输入计数",
+        "input count",
         "input timeAgo",
-        "输入时间戳",
-        "本地cp = 计数：复数"
+        "input timestamp",
+        "local cp = count: plural"
       ],
       "selectors": [
         "cp"
@@ -184,8 +184,8 @@
   "profile_game_bans_simple": [
     {
       "declarations": [
-        "输入计数",
-        "本地cp = 计数：复数"
+        "input count",
+        "local cp = count: plural"
       ],
       "selectors": [
         "cp"
@@ -257,8 +257,8 @@
   "search_avatar_found_results": [
     {
       "declarations": [
-        "输入计数",
-        "本地cp = 计数：复数"
+        "input count",
+        "local cp = count: plural"
       ],
       "selectors": [
         "cp"
@@ -292,9 +292,9 @@
   "search_comment_results_found": [
     {
       "declarations": [
-        "输入计数",
-        "输入时间",
-        "本地cp = 计数：复数"
+        "input count",
+        "input time",
+        "local cp = count: plural"
       ],
       "selectors": [
         "cp"
@@ -360,14 +360,8 @@
   "profile_history_show_deleted_count": [
     {
       "declarations": [
-        "input ",
-        "输入计数",
-        "输入计数、复数，=1",
-        "输入计数、复数、一个",
-        "input e",
-        "input one {",
-        "input s",
-        "本地cp = 计数：复数"
+        "input count",
+        "local cp = count: plural"
       ],
       "selectors": [
         "cp"
@@ -389,8 +383,8 @@
   "profile_history_friends_duration": [
     {
       "declarations": [
-        "输入计数",
-        "本地cp = 计数：复数"
+        "input count",
+        "local cp = count: plural"
       ],
       "selectors": [
         "cp"
@@ -413,14 +407,8 @@
   "profile_community_bans_proof_entries": [
     {
       "declarations": [
-        "输入计数",
-        "输入计数, 复数, 一个 {stutrends ck",
-        "输入计数、复数，一个 {y",
-        "input ies",
-        "输入一个 {stutructure",
-        "输入一个 {y",
-        "input stücke",
-        "本地cp = 计数：复数"
+        "input count",
+        "local cp = count: plural"
       ],
       "selectors": [
         "cp"
@@ -462,12 +450,8 @@
   "time_ago_years": [
     {
       "declarations": [
-        "输入计数",
-        "输入计数、复数、一个",
-        "input en",
-        "input one {",
-        "input s",
-        "本地cp = 计数：复数"
+        "input count",
+        "local cp = count: plural"
       ],
       "selectors": [
         "cp"
@@ -483,12 +467,8 @@
   "time_ago_months": [
     {
       "declarations": [
-        "输入计数",
-        "输入计数、复数、一个",
-        "input en",
-        "input one {",
-        "input s",
-        "本地cp = 计数：复数"
+        "input count",
+        "local cp = count: plural"
       ],
       "selectors": [
         "cp"
@@ -504,11 +484,8 @@
   "time_ago_days": [
     {
       "declarations": [
-        "输入计数",
-        "输入计数、复数、一个",
-        "input en",
-        "input one {",
-        "本地cp = 计数：复数"
+        "input count",
+        "local cp = count: plural"
       ],
       "selectors": [
         "cp"
@@ -524,12 +501,8 @@
   "time_ago_hours": [
     {
       "declarations": [
-        "输入计数",
-        "输入计数、复数、一个",
-        "input n",
-        "input one {",
-        "input s",
-        "本地cp = 计数：复数"
+        "input count",
+        "local cp = count: plural"
       ],
       "selectors": [
         "cp"
@@ -545,12 +518,8 @@
   "time_ago_minutes": [
     {
       "declarations": [
-        "输入计数",
-        "输入计数、复数、一个",
-        "input n",
-        "input one {",
-        "input s",
-        "本地cp = 计数：复数"
+        "input count",
+        "local cp = count: plural"
       ],
       "selectors": [
         "cp"
@@ -575,11 +544,11 @@
     {
       "declarations": [
         "input name",
-        "输入名称计数",
-        "输入pfpCount",
-        "输入隐私",
-        "local ncp = name数量：复数",
-        "local pcp = pfpCount: 复数"
+        "input nameCount",
+        "input pfpCount",
+        "input privacy",
+        "local ncp = nameCount: plural",
+        "local pcp = pfpCount: plural"
       ],
       "selectors": [
         "ncp",
@@ -587,21 +556,9 @@
       ],
       "match": {
         "ncp=one, pcp=one": "{name}是一个{privacy}配置文件，其中记录了{nameCount}个名称和{pfpCount}张头像。",
-        "ncp=one, pcp=few": "{name} is a {privacy} profile with {nameCount} recorded name, {pfpCount} recorded profile pictures",
-        "ncp=one, pcp=many": "{name} is a {privacy} profile with {nameCount} recorded name, {pfpCount} recorded profile pictures",
-        "ncp=one, pcp=other": "{name}是一个{privacy}配置文件，其中记录了{nameCount}个名称和{pfpCount}张头像。",
-        "ncp=few, pcp=one": "{name} is a {privacy} profile with {nameCount} recorded names, {pfpCount} recorded profile picture",
-        "ncp=few, pcp=few": "{name} is a {privacy} profile with {nameCount} recorded names, {pfpCount} recorded profile pictures",
-        "ncp=few, pcp=many": "{name} is a {privacy} profile with {nameCount} recorded names, {pfpCount} recorded profile pictures",
-        "ncp=few, pcp=other": "{name} is a {privacy} profile with {nameCount} recorded names, {pfpCount} recorded profile pictures",
-        "ncp=many, pcp=one": "{name} is a {privacy} profile with {nameCount} recorded names, {pfpCount} recorded profile picture",
-        "ncp=many, pcp=few": "{name} is a {privacy} profile with {nameCount} recorded names, {pfpCount} recorded profile pictures",
-        "ncp=many, pcp=many": "{name} is a {privacy} profile with {nameCount} recorded names, {pfpCount} recorded profile pictures",
-        "ncp=many, pcp=other": "{name} is a {privacy} profile with {nameCount} recorded names, {pfpCount} recorded profile pictures",
-        "ncp=other, pcp=one": "{name}是一个{privacy}配置文件，其中记录了{nameCount}个姓名和{pfpCount}张头像。",
-        "ncp=other, pcp=other": "{name}是一个{privacy}配置文件，其中记录了{nameCount}个姓名和{pfpCount}张头像。",
         "ncp=one, pcp=few": "{name}是一个{privacy}配置文件，其中记录了{nameCount}个名称和{pfpCount}张头像。",
         "ncp=one, pcp=many": "{name}是一个{privacy}配置文件，其中记录了{nameCount}个名称和{pfpCount}张头像。",
+        "ncp=one, pcp=other": "{name}是一个{privacy}配置文件，其中记录了{nameCount}个名称和{pfpCount}张头像。",
         "ncp=few, pcp=one": "{name}是一个{privacy}配置文件，其中记录了{nameCount}个姓名和{pfpCount}张头像。",
         "ncp=few, pcp=few": "{name}是一个{privacy}配置文件，其中记录了{nameCount}个姓名和{pfpCount}张头像。",
         "ncp=few, pcp=many": "{name}是一个{privacy}配置文件，其中记录了{nameCount}个姓名和{pfpCount}张头像。",
@@ -610,6 +567,8 @@
         "ncp=many, pcp=few": "{name}是一个{privacy}配置文件，其中记录了{nameCount}个姓名和{pfpCount}张头像。",
         "ncp=many, pcp=many": "{name}是一个{privacy}配置文件，其中记录了{nameCount}个姓名和{pfpCount}张头像。",
         "ncp=many, pcp=other": "{name}是一个{privacy}配置文件，其中记录了{nameCount}个姓名和{pfpCount}张头像。",
+        "ncp=other, pcp=one": "{name}是一个{privacy}配置文件，其中记录了{nameCount}个姓名和{pfpCount}张头像。",
+        "ncp=other, pcp=other": "{name}是一个{privacy}配置文件，其中记录了{nameCount}个姓名和{pfpCount}张头像。",
         "ncp=other, pcp=few": "{name}是一个{privacy}配置文件，其中记录了{nameCount}个姓名和{pfpCount}张头像。",
         "ncp=other, pcp=many": "{name}是一个{privacy}配置文件，其中记录了{nameCount}个姓名和{pfpCount}张头像。"
       }
@@ -628,8 +587,8 @@
   "notification_dock_votes_count": [
     {
       "declarations": [
-        "输入计数",
-        "本地cp = 计数：复数"
+        "input count",
+        "local cp = count: plural"
       ],
       "selectors": [
         "cp"
@@ -856,8 +815,8 @@
   "data_removal_entries_count": [
     {
       "declarations": [
-        "输入计数",
-        "本地cp = 计数：复数"
+        "input count",
+        "local cp = count: plural"
       ],
       "selectors": [
         "cp"
@@ -884,11 +843,8 @@
   "data_removal_selected_items": [
     {
       "declarations": [
-        "输入计数",
-        "输入计数、复数、一个",
-        "input e",
-        "input one {",
-        "本地cp = 计数：复数"
+        "input count",
+        "local cp = count: plural"
       ],
       "selectors": [
         "cp"
@@ -953,8 +909,8 @@
   "sources_count": [
     {
       "declarations": [
-        "输入计数",
-        "本地cp = 计数：复数"
+        "input count",
+        "local cp = count: plural"
       ],
       "selectors": [
         "cp"
@@ -995,7 +951,7 @@
   "teams_vanity_label": "自定义网址",
   "teams_vanity_placeholder": "成功者",
   "teams_vanity_hint": "团队简介的专属短链接。",
-  "teams_vanity_readonly_hint": "Vanity URL无法在创建后更改。",
+  "teams_vanity_readonly_hint": "自定义网址创建后无法更改。",
   "teams_description_label": "描述",
   "teams_description_placeholder": "这个团队的重点是什么？",
   "teams_private_label": "私人团队",
@@ -1021,8 +977,8 @@
   "team_members_tab": [
     {
       "declarations": [
-        "输入计数",
-        "本地cp = 计数：复数"
+        "input count",
+        "local cp = count: plural"
       ],
       "selectors": [
         "cp"
@@ -1038,8 +994,8 @@
   "team_notes_tab": [
     {
       "declarations": [
-        "输入计数",
-        "本地cp = 计数：复数"
+        "input count",
+        "local cp = count: plural"
       ],
       "selectors": [
         "cp"
@@ -1055,8 +1011,8 @@
   "team_invitations_tab": [
     {
       "declarations": [
-        "输入计数",
-        "本地cp = 计数：复数"
+        "input count",
+        "local cp = count: plural"
       ],
       "selectors": [
         "cp"
@@ -1080,8 +1036,8 @@
   "team_pending_invites_title": [
     {
       "declarations": [
-        "输入计数",
-        "本地cp = 计数：复数"
+        "input count",
+        "local cp = count: plural"
       ],
       "selectors": [
         "cp"
@@ -1162,8 +1118,8 @@
   "account_days_remaining": [
     {
       "declarations": [
-        "输入计数",
-        "本地cp = 计数：复数"
+        "input count",
+        "local cp = count: plural"
       ],
       "selectors": [
         "cp"
@@ -1350,8 +1306,6 @@
   "teams_resignation": "辞职",
   "teams_leave_team": "离开团队",
   "teams_confirm_leave": "你确定要离开这支球队吗？",
-  "common_unknown_user": "未知用户",
-  "teams_vanity_readonly_hint": "自定义网址创建后无法更改。",
   "teams_note_target": "目标",
   "teams_note_author": "作者",
   "teams_note_revisions": "修订",
