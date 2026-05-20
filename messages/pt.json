@@ -70,23 +70,7 @@
   "profile_ban_unban_reason": "Razão para cancelar o banimento:",
   "profile_ban_unban_date": "Data de desbloqueio:",
   "profile_ban_duration": "Duração:",
-  "profile_ban_duration_days": [
-    {
-      "declarations": [
-        "número de entrada",
-        "cp local = contagem: plural"
-      ],
-      "selectors": [
-        "cd"
-      ],
-      "match": {
-        "cp=one": "{count} dia",
-        "cp=few": "{count} dias",
-        "cp=many": "{count} dias",
-        "cp=other": "{count} dias"
-      }
-    }
-  ],
+  "profile_ban_duration_days": "{count} dias",
   "profile_notes_title": "Notas",
   "profile_notes_tab_team": "Equipe",
   "profile_notes_tab_personal": "Pessoal",
@@ -105,99 +89,15 @@
   "profile_notes_team_visibility_public": "Público (Membros e Seguidores)",
   "profile_notes_team_placeholder": "Compartilhe uma observação com sua equipe...",
   "profile_notes_team_post": "Publicar na equipe",
-  "profile_vac_bans_detailed": [
-    {
-      "declarations": [
-        "número de entrada",
-        "input timeAgo",
-        "entrada timestamp",
-        "cp local = contagem: plural"
-      ],
-      "selectors": [
-        "cd"
-      ],
-      "match": {
-        "cp=one": "{count} ban, {timeAgo} ( {timestamp} )",
-        "cp=few": "{count} bans, {timeAgo} ( {timestamp} )",
-        "cp=many": "{count} bans, {timeAgo} ( {timestamp} )",
-        "cp=other": "{count} bans, {timeAgo} ( {timestamp} )"
-      }
-    }
-  ],
-  "profile_vac_bans_simple": [
-    {
-      "declarations": [
-        "número de entrada",
-        "cp local = contagem: plural"
-      ],
-      "selectors": [
-        "cd"
-      ],
-      "match": {
-        "cp=one": "{count} banimento",
-        "cp=few": "{count} proibições",
-        "cp=many": "{count} proibições",
-        "cp=other": "{count} proibições"
-      }
-    }
-  ],
+  "profile_vac_bans_detailed": "Banimentos {count} , {timeAgo} ({timestamp})",
+  "profile_vac_bans_simple": "{count} banidos",
   "profile_vac_none": "Não há registros de banimentos do VAC.",
   "profile_community_bans_detailed": "Banido {timeAgo} ( {timestamp} )",
   "profile_community_bans_simple": "Proibido",
   "profile_community_none": "Não há registros de proibições comunitárias.",
-  "profile_community_bans_total_count": [
-    {
-      "declarations": [
-        "número de entrada",
-        "cp local = contagem: plural"
-      ],
-      "selectors": [
-        "cd"
-      ],
-      "match": {
-        "cp=one": "{count} banimento",
-        "cp=few": "{count} proibições",
-        "cp=many": "{count} proibições",
-        "cp=other": "{count} proibições"
-      }
-    }
-  ],
-  "profile_game_bans_detailed": [
-    {
-      "declarations": [
-        "número de entrada",
-        "input timeAgo",
-        "entrada timestamp",
-        "cp local = contagem: plural"
-      ],
-      "selectors": [
-        "cd"
-      ],
-      "match": {
-        "cp=one": "{count} ban, {timeAgo} ( {timestamp} )",
-        "cp=few": "{count} bans, {timeAgo} ( {timestamp} )",
-        "cp=many": "{count} bans, {timeAgo} ( {timestamp} )",
-        "cp=other": "{count} bans, {timeAgo} ( {timestamp} )"
-      }
-    }
-  ],
-  "profile_game_bans_simple": [
-    {
-      "declarations": [
-        "número de entrada",
-        "cp local = contagem: plural"
-      ],
-      "selectors": [
-        "cd"
-      ],
-      "match": {
-        "cp=one": "{count} banimento",
-        "cp=few": "{count} proibições",
-        "cp=many": "{count} proibições",
-        "cp=other": "{count} proibições"
-      }
-    }
-  ],
+  "profile_community_bans_total_count": "{count} banidos",
+  "profile_game_bans_detailed": "Banimentos {count} , {timeAgo} ({timestamp})",
+  "profile_game_bans_simple": "{count} banidos",
   "profile_game_none": "Não há registros de banimentos de jogos.",
   "profile_economy_bans_detailed": "Banido {timeAgo} ( {timestamp} )",
   "profile_economy_bans_simple": "Proibido",
@@ -254,23 +154,7 @@
   "search_avatar_title": "Busca de Avatar",
   "search_avatar_description": "Pesquise fotos de perfil históricas.",
   "search_avatar_hash_label": "Hash do Avatar",
-  "search_avatar_found_results": [
-    {
-      "declarations": [
-        "número de entrada",
-        "cp local = contagem: plural"
-      ],
-      "selectors": [
-        "cd"
-      ],
-      "match": {
-        "cp=one": "Encontrado resultado ' {count} ' para",
-        "cp=few": "Resultados encontrados para ' {count} '.",
-        "cp=many": "Resultados encontrados para ' {count} '.",
-        "cp=other": "Resultados encontrados para ' {count} '."
-      }
-    }
-  ],
+  "search_avatar_found_results": "Encontrados resultados '{count}' para",
   "search_url_title": "Pesquisa de URL",
   "search_url_description": "Pesquisar URLs históricos",
   "search_url_label": "URL:",
@@ -289,24 +173,7 @@
   "search_comment_sort_label": "Ordenar por:",
   "search_comment_sort_newest": "Mais recentes primeiro",
   "search_comment_sort_oldest": "Mais antigo primeiro",
-  "search_comment_results_found": [
-    {
-      "declarations": [
-        "número de entrada",
-        "tempo de entrada",
-        "cp local = contagem: plural"
-      ],
-      "selectors": [
-        "cd"
-      ],
-      "match": {
-        "cp=one": "Encontrado {count} resultado ( {time} ms)",
-        "cp=few": "Encontrados {count} resultados ( {time} ms)",
-        "cp=many": "Encontrados {count} resultados ( {time} ms)",
-        "cp=other": "Encontrados {count} resultados ( {time} ms)"
-      }
-    }
-  ],
+  "search_comment_results_found": "Encontrados {count} resultados ({time}ms)",
   "search_comment_date_range": "Intervalo de datas: {range}",
   "homepage_title": "SteamHistory.net | Arquivo de perfis do Steam",
   "homepage_description": "O objetivo principal do SteamHistory é coletar e armazenar as informações históricas e/ou atuais de um perfil do Steam em um local centralizado.",
@@ -357,46 +224,14 @@
   "profile_history_filter_unfriended": "Excluir da lista de amigos",
   "profile_history_filter_deleted": "Excluído",
   "profile_history_bans_label": "Proibições:",
-  "profile_history_show_deleted_count": [
-    {
-      "declarations": [
-        "número de entrada",
-        "cp local = contagem: plural"
-      ],
-      "selectors": [
-        "cd"
-      ],
-      "match": {
-        "cp=one": "para mostrar {count} comentário excluído",
-        "cp=few": "para mostrar {count} comentários excluídos",
-        "cp=many": "para mostrar {count} comentários excluídos",
-        "cp=other": "para mostrar {count} comentários excluídos"
-      }
-    }
-  ],
+  "profile_history_show_deleted_count": "to show {count} deleted comments",
   "profile_history_view_all_button": "Ver tudo",
   "profile_history_hidden_data": "[Dados SH ocultos a pedido]",
   "profile_history_search_persona_tooltip": "Pesquise usuários com este nome de usuário.",
   "profile_history_search_url_tooltip": "Pesquise usuários com este URL",
   "profile_history_official_avatar_tooltip": "Este é um avatar oficial do Steam ou do jogo e não pode ser encontrado por meio de buscas.",
   "profile_history_unfriended_label": "[UNFRIENDED {date} ]",
-  "profile_history_friends_duration": [
-    {
-      "declarations": [
-        "número de entrada",
-        "cp local = contagem: plural"
-      ],
-      "selectors": [
-        "cd"
-      ],
-      "match": {
-        "cp=one": "Amigos para {count} dia",
-        "cp=few": "Amigos por {count} dias",
-        "cp=many": "Amigos por {count} dias",
-        "cp=other": "Amigos por {count} dias"
-      }
-    }
-  ],
+  "profile_history_friends_duration": "Friends for {count} days",
   "profile_history_friends_from": "Amigos de {date}",
   "profile_history_friend_since": "Amigo desde {date}",
   "profile_community_bans_title": "Proibições da comunidade",
@@ -404,23 +239,7 @@
   "profile_community_bans_keywords_label": "Palavras-chave: {list}",
   "profile_community_bans_group_ban_note": "A proibição de participação em grupos não é uma prova direta de trapaça, mas sim uma posição da comunidade.",
   "profile_community_bans_view_on_server": "Ver proibições em {server}",
-  "profile_community_bans_proof_entries": [
-    {
-      "declarations": [
-        "número de entrada",
-        "cp local = contagem: plural"
-      ],
-      "selectors": [
-        "cd"
-      ],
-      "match": {
-        "cp=one": "{count} entrada de prova anexada",
-        "cp=few": "{count} entradas de prova anexadas",
-        "cp=many": "{count} entradas de prova anexadas",
-        "cp=other": "{count} entradas de prova anexadas"
-      }
-    }
-  ],
+  "profile_community_bans_proof_entries": "{count} proof entries attached",
   "profile_community_bans_recent_badge": "Recente",
   "profile_community_bans_permanent_badge": "Permanente",
   "profile_community_bans_temporary_badge": "Temporário",
@@ -447,91 +266,11 @@
   "common_false": "Falso",
   "common_cancel": "Cancelar",
   "common_unknown_user": "Usuário desconhecido",
-  "time_ago_years": [
-    {
-      "declarations": [
-        "número de entrada",
-        "cp local = contagem: plural"
-      ],
-      "selectors": [
-        "cd"
-      ],
-      "match": {
-        "cp=one": "{count} ano atrás",
-        "cp=few": "{count} anos atrás",
-        "cp=many": "{count} anos atrás",
-        "cp=other": "{count} anos atrás"
-      }
-    }
-  ],
-  "time_ago_months": [
-    {
-      "declarations": [
-        "número de entrada",
-        "cp local = contagem: plural"
-      ],
-      "selectors": [
-        "cd"
-      ],
-      "match": {
-        "cp=one": "{count} mês atrás",
-        "cp=few": "{count} meses atrás",
-        "cp=many": "{count} meses atrás",
-        "cp=other": "{count} meses atrás"
-      }
-    }
-  ],
-  "time_ago_days": [
-    {
-      "declarations": [
-        "número de entrada",
-        "cp local = contagem: plural"
-      ],
-      "selectors": [
-        "cd"
-      ],
-      "match": {
-        "cp=one": "{count} dia atrás",
-        "cp=few": "{count} dias atrás",
-        "cp=many": "{count} dias atrás",
-        "cp=other": "{count} dias atrás"
-      }
-    }
-  ],
-  "time_ago_hours": [
-    {
-      "declarations": [
-        "número de entrada",
-        "cp local = contagem: plural"
-      ],
-      "selectors": [
-        "cd"
-      ],
-      "match": {
-        "cp=one": "{count} hora atrás",
-        "cp=few": "{count} horas atrás",
-        "cp=many": "{count} horas atrás",
-        "cp=other": "{count} horas atrás"
-      }
-    }
-  ],
-  "time_ago_minutes": [
-    {
-      "declarations": [
-        "número de entrada",
-        "cp local = contagem: plural"
-      ],
-      "selectors": [
-        "cd"
-      ],
-      "match": {
-        "cp=one": "{count} minuto atrás",
-        "cp=few": "{count} minutos atrás",
-        "cp=many": "{count} minutos atrás",
-        "cp=other": "{count} minutos atrás"
-      }
-    }
-  ],
+  "time_ago_years": "{count} years ago",
+  "time_ago_months": "{count} months ago",
+  "time_ago_days": "{count} days ago",
+  "time_ago_hours": "{count} hours ago",
+  "time_ago_minutes": "{count} minutes ago",
   "time_ago_just_now": "Agora mesmo",
   "profile_indexing_title": "Indexação em andamento",
   "profile_indexing_text": "O perfil deste usuário está sendo indexado. Aguarde um momento.",
@@ -540,40 +279,7 @@
   "profile_error_load_failed": "Falha ao carregar os dados do usuário. O perfil pode não existir ou ser privado.",
   "profile_error_backend_connection": "Estamos com problemas para conectar aos nossos servidores. Tente novamente mais tarde. Para atualizações em tempo real, junte-se ao nosso {discordLink} !",
   "profile_error_auth_required": "Este usuário não está indexado. Por favor {loginLink} para iniciar o processo de indexação.",
-  "profile_meta_description": [
-    {
-      "declarations": [
-        "input name",
-        "número de entrada",
-        "pfpCount entrada",
-        "entrada de privacidade",
-        "ncp local = nameCount: plural",
-        "pcp local = pfpCount: plural"
-      ],
-      "selectors": [
-        "CNPJ",
-        "pcp"
-      ],
-      "match": {
-        "ncp=one, pcp=one": "{name} é um perfil {privacy} com {nameCount} nome registrado e {pfpCount} foto de perfil registrada.",
-        "ncp=one, pcp=few": "{name} é um perfil {privacy} com {nameCount} nome registrado e {pfpCount} fotos de perfil registradas.",
-        "ncp=one, pcp=many": "{name} é um perfil {privacy} com {nameCount} nome registrado e {pfpCount} fotos de perfil registradas.",
-        "ncp=one, pcp=other": "{name} é um perfil {privacy} com {nameCount} nome registrado e {pfpCount} fotos de perfil registradas.",
-        "ncp=few, pcp=one": "{name} é um perfil {privacy} com {nameCount} nomes registrados e {pfpCount} fotos de perfil registradas.",
-        "ncp=few, pcp=few": "{name} é um perfil {privacy} com {nameCount} nomes registrados e {pfpCount} fotos de perfil registradas.",
-        "ncp=few, pcp=many": "{name} é um perfil {privacy} com {nameCount} nomes registrados e {pfpCount} fotos de perfil registradas.",
-        "ncp=few, pcp=other": "{name} é um perfil {privacy} com {nameCount} nomes registrados e {pfpCount} fotos de perfil registradas.",
-        "ncp=many, pcp=one": "{name} é um perfil {privacy} com {nameCount} nomes registrados e {pfpCount} fotos de perfil registradas.",
-        "ncp=many, pcp=few": "{name} é um perfil {privacy} com {nameCount} nomes registrados e {pfpCount} fotos de perfil registradas.",
-        "ncp=many, pcp=many": "{name} é um perfil {privacy} com {nameCount} nomes registrados e {pfpCount} fotos de perfil registradas.",
-        "ncp=many, pcp=other": "{name} é um perfil {privacy} com {nameCount} nomes registrados e {pfpCount} fotos de perfil registradas.",
-        "ncp=other, pcp=one": "{name} é um perfil {privacy} com {nameCount} nomes registrados e {pfpCount} fotos de perfil registradas.",
-        "ncp=other, pcp=few": "{name} é um perfil {privacy} com {nameCount} nomes registrados e {pfpCount} fotos de perfil registradas.",
-        "ncp=other, pcp=many": "{name} é um perfil {privacy} com {nameCount} nomes registrados e {pfpCount} fotos de perfil registradas.",
-        "ncp=other, pcp=other": "{name} é um perfil {privacy} com {nameCount} nomes registrados e {pfpCount} fotos de perfil registradas."
-      }
-    }
-  ],
+  "profile_meta_description": "{name} is a {privacy} profile with {nameCount} recorded names, {pfpCount} recorded profile pictures",
   "notification_dock_wisdom_tab": "Sabedoria",
   "notification_dock_poll_tab": "Enquete",
   "notification_dock_vote_label": "Voto!",
@@ -584,23 +290,7 @@
   "notification_dock_minimize_button_tooltip": "Minimizar",
   "notification_dock_your_answer_label": "Sua Resposta",
   "notification_dock_submit_button": "Enviar",
-  "notification_dock_votes_count": [
-    {
-      "declarations": [
-        "número de entrada",
-        "cp local = contagem: plural"
-      ],
-      "selectors": [
-        "cd"
-      ],
-      "match": {
-        "cp=one": "{count} voto",
-        "cp=few": "{count} votos",
-        "cp=many": "{count} votos",
-        "cp=other": "{count} votos"
-      }
-    }
-  ],
+  "notification_dock_votes_count": "{count} votes",
   "notification_dock_you_voted": "Você votou",
   "notification_dock_signin_to_vote": "Inicie sessão com a sua conta Steam para votar!",
   "notification_dock_poll_disclaimer": "As pesquisas de opinião são usadas para coletar pensamentos e opiniões da comunidade, não para decisões finais.",
@@ -812,23 +502,7 @@
   "data_removal_realname_title": "Nomes reais históricos",
   "data_removal_url_title": "URLs de perfis históricos",
   "data_removal_pfp_title": "Fotos de perfil históricas",
-  "data_removal_entries_count": [
-    {
-      "declarations": [
-        "número de entrada",
-        "cp local = contagem: plural"
-      ],
-      "selectors": [
-        "cd"
-      ],
-      "match": {
-        "cp=one": "( {count} entrada)",
-        "cp=few": "( {count} entradas)",
-        "cp=many": "( {count} entradas)",
-        "cp=other": "( {count} entradas)"
-      }
-    }
-  ],
+  "data_removal_entries_count": "({count} entries)",
   "data_removal_current_name": "Nome atual",
   "data_removal_current_name_warning": "Esta entrada não pode ser removida porque é muito semelhante ao seu nome de exibição atual.",
   "data_removal_persona_placeholder": "Por favor, explique por que você deseja que esse nome de usuário seja removido...",
@@ -840,23 +514,7 @@
   "data_removal_overall_reason_desc": "Por favor, forneça uma explicação geral sobre o motivo pelo qual deseja que esses dados sejam removidos. Isso ajudará nossos administradores a entender melhor sua solicitação.",
   "data_removal_overall_placeholder": "Explique por que você deseja que esses dados sejam removidos...",
   "data_removal_submit_title": "Enviar solicitação",
-  "data_removal_selected_items": [
-    {
-      "declarations": [
-        "número de entrada",
-        "cp local = contagem: plural"
-      ],
-      "selectors": [
-        "cd"
-      ],
-      "match": {
-        "cp=one": "Item selecionado {count} para remoção",
-        "cp=few": "Itens selecionados {count} para remoção",
-        "cp=many": "Itens selecionados {count} para remoção",
-        "cp=other": "Itens selecionados {count} para remoção"
-      }
-    }
-  ],
+  "data_removal_selected_items": "Selected {count} items for removal",
   "data_removal_duplicate_error": "Por favor, forneça justificativas únicas para cada entrada de dados. Justificativas duplicadas não são permitidas.",
   "data_removal_min_words_error": "Certifique-se de que todos os motivos atendam ao requisito mínimo {count} palavras.",
   "data_removal_confirm_title": "Confirmar envio",
@@ -906,23 +564,7 @@
   "sources_meta_description": "Veja todas as fontes que o Steam History usa para coletar dados sobre contas do Steam, incluindo SourceBans, RustWho e listas do TF2BD.",
   "sources_header": "Fontes de dados",
   "sources_description": "O Steam History coleta dados de diversas fontes para fornecer informações completas sobre contas Steam. Abaixo estão todas as fontes que utilizamos para nosso banco de dados.",
-  "sources_count": [
-    {
-      "declarations": [
-        "número de entrada",
-        "cp local = contagem: plural"
-      ],
-      "selectors": [
-        "cd"
-      ],
-      "match": {
-        "cp=one": "{count} fonte",
-        "cp=few": "{count} fontes",
-        "cp=many": "{count} fontes",
-        "cp=other": "{count} fontes"
-      }
-    }
-  ],
+  "sources_count": "{count} sources",
   "sources_never_updated": "Nunca atualizado",
   "sources_last_updated": "Última atualização: {time}",
   "api_title": "Documentação da API",
@@ -974,57 +616,9 @@
   "team_save_settings": "Salvar configurações",
   "team_about": "Sobre {name}",
   "team_no_summary": "Nenhum resumo foi fornecido.",
-  "team_members_tab": [
-    {
-      "declarations": [
-        "número de entrada",
-        "cp local = contagem: plural"
-      ],
-      "selectors": [
-        "cd"
-      ],
-      "match": {
-        "cp=one": "Membro ( {count} )",
-        "cp=few": "Membros ( {count} )",
-        "cp=many": "Membros ( {count} )",
-        "cp=other": "Membros ( {count} )"
-      }
-    }
-  ],
-  "team_notes_tab": [
-    {
-      "declarations": [
-        "número de entrada",
-        "cp local = contagem: plural"
-      ],
-      "selectors": [
-        "cd"
-      ],
-      "match": {
-        "cp=one": "Nota ( {count} )",
-        "cp=few": "Notas ( {count} )",
-        "cp=many": "Notas ( {count} )",
-        "cp=other": "Notas ( {count} )"
-      }
-    }
-  ],
-  "team_invitations_tab": [
-    {
-      "declarations": [
-        "número de entrada",
-        "cp local = contagem: plural"
-      ],
-      "selectors": [
-        "cd"
-      ],
-      "match": {
-        "cp=one": "Convite ( {count} )",
-        "cp=few": "Convites ( {count} )",
-        "cp=many": "Convites ( {count} )",
-        "cp=other": "Convites ( {count} )"
-      }
-    }
-  ],
+  "team_members_tab": "Members ({count})",
+  "team_notes_tab": "Notes ({count})",
+  "team_invitations_tab": "Invitations ({count})",
   "team_members_title": "Membros",
   "team_member_joined": "Unidos {date}",
   "team_remove_member_tooltip": "Remover membro",
@@ -1033,23 +627,7 @@
   "team_manage_invitations": "Gerenciar convites",
   "team_invite_member_title": "Convidar novo membro",
   "team_invite_member_hint": "Os usuários convidados devem possuir um perfil existente no SteamHistory.net.",
-  "team_pending_invites_title": [
-    {
-      "declarations": [
-        "número de entrada",
-        "cp local = contagem: plural"
-      ],
-      "selectors": [
-        "cd"
-      ],
-      "match": {
-        "cp=one": "Convite pendente ( {count} )",
-        "cp=few": "Convites Pendentes ( {count} )",
-        "cp=many": "Convites Pendentes ( {count} )",
-        "cp=other": "Convites Pendentes ( {count} )"
-      }
-    }
-  ],
+  "team_pending_invites_title": "Pending Invites ({count})",
   "team_no_pending_invites": "Não há convites pendentes.",
   "team_overview_title": "Visão geral da equipe",
   "team_founded": "Fundada",
@@ -1115,23 +693,7 @@
   "account_not_linked": "Não vinculado",
   "account_start_date_label": "Data de início:",
   "account_end_date_label": "Data de término:",
-  "account_days_remaining": [
-    {
-      "declarations": [
-        "número de entrada",
-        "cp local = contagem: plural"
-      ],
-      "selectors": [
-        "cd"
-      ],
-      "match": {
-        "cp=one": "{count} dias restantes",
-        "cp=few": "{count} dias restantes",
-        "cp=many": "{count} dias restantes",
-        "cp=other": "{count} dias restantes"
-      }
-    }
-  ],
+  "account_days_remaining": "{count} days remaining",
   "account_total_given_label": "Total fornecido:",
   "account_link_kofi_title": "Link para a conta Ko-Fi",
   "account_link_kofi_desc": "Após fazer uma doação no Ko-fi, você receberá um e-mail com um ID de transação. Insira seus dados abaixo para vincular seu status de apoiador.",
