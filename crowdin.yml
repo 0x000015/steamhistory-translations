@@ -3,3 +3,4 @@ files:
     translation: /messages/%two_letters_code%.json
     translatable_elements:
       - "match.*"
+    type: i18next_json
