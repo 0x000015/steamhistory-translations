@@ -8,7 +8,7 @@
   "navbar_discord_button": "Niezgoda",
   "navbar_mobile_menu_aria": "Otwórz menu",
   "navbar_language_label": "Język",
-  "footer_copyright": "Copyright ©️ 2026 - Wszystkie prawa zastrzeżone przez SteamHistory.net",
+  "footer_copyright": "Prawa autorskie © 2026 - Wszelkie prawa zastrzeżone przez SteamHistory.net",
   "footer_disclaimer": "Serwis SteamHistory.net nie jest własnością Valve Corporation, nie jest przez nią obsługiwany ani wspierany, nie jest też produktem platformy Steam.",
   "footer_link_supporter": "Zostań darczyńcą",
   "footer_link_sources": "Źródła",
@@ -81,9 +81,9 @@
       ],
       "match": {
         "cp=one": "{count} dzień",
-        "cp=few": "{count} days",
-        "cp=many": "{count} days",
-        "cp=other": "{count} dni"
+        "cp=other": "{count} dni",
+        "cp=few": "{count} dni",
+        "cp=many": "{count} dni"
       }
     }
   ],
@@ -118,9 +118,9 @@
       ],
       "match": {
         "cp=one": "{count} ban, {timeAgo} ( {timestamp} )",
-        "cp=few": "{count} bany, {timeAgo} ({timestamp})",
-        "cp=many": "{count} bany, {timeAgo} ({timestamp})",
-        "cp=other": "{count} zakazy, {timeAgo} ( {timestamp} )"
+        "cp=other": "{count} zakazy, {timeAgo} ( {timestamp} )",
+        "cp=few": "{count} zakazy, {timeAgo} ( {timestamp} )",
+        "cp=many": "{count} zakazy, {timeAgo} ( {timestamp} )"
       }
     }
   ],
@@ -134,10 +134,10 @@
         "cp"
       ],
       "match": {
-        "cp=one": "{count} banu",
-        "cp=few": "{count} banów",
-        "cp=many": "{count} banów",
-        "cp=other": "{count} bany"
+        "cp=one": "{count} ban",
+        "cp=other": "{count} bany",
+        "cp=few": "{count} bany",
+        "cp=many": "{count} bany"
       }
     }
   ],
@@ -155,10 +155,10 @@
         "cp"
       ],
       "match": {
-        "cp=one": "{count} banu",
-        "cp=few": "{count} banów",
-        "cp=many": "{count} banów",
-        "cp=other": "{count} bany"
+        "cp=one": "{count} ban",
+        "cp=other": "{count} bany",
+        "cp=few": "{count} bany",
+        "cp=many": "{count} bany"
       }
     }
   ],
@@ -175,9 +175,9 @@
       ],
       "match": {
         "cp=one": "{count} ban, {timeAgo} ( {timestamp} )",
-        "cp=few": "{count} bany, {timeAgo} ({timestamp})",
-        "cp=many": "{count} bany, {timeAgo} ({timestamp})",
-        "cp=other": "{count} zakazy, {timeAgo} ( {timestamp} )"
+        "cp=other": "{count} zakazy, {timeAgo} ( {timestamp} )",
+        "cp=few": "{count} zakazy, {timeAgo} ( {timestamp} )",
+        "cp=many": "{count} zakazy, {timeAgo} ( {timestamp} )"
       }
     }
   ],
@@ -191,10 +191,10 @@
         "cp"
       ],
       "match": {
-        "cp=one": "{count} banu",
-        "cp=few": "{count} banów",
-        "cp=many": "{count} banów",
-        "cp=other": "{count} bany"
+        "cp=one": "{count} ban",
+        "cp=other": "{count} bany",
+        "cp=few": "{count} bany",
+        "cp=many": "{count} bany"
       }
     }
   ],
@@ -265,9 +265,9 @@
       ],
       "match": {
         "cp=one": "Znaleziono wynik „ {count} ” dla",
-        "cp=few": "Znaleziono '{count}' wyniki dla",
-        "cp=many": "Znaleziono '{count}' wyniki dla",
-        "cp=other": "Znaleziono ' {count} ' wyników dla"
+        "cp=other": "Znaleziono ' {count} ' wyników dla",
+        "cp=few": "Znaleziono ' {count} ' wyników dla",
+        "cp=many": "Znaleziono ' {count} ' wyników dla"
       }
     }
   ],
@@ -301,9 +301,9 @@
       ],
       "match": {
         "cp=one": "Znaleziono wynik {count} ( {time} ms)",
-        "cp=few": "Znaleziono wyniki {count} ({time}ms)",
-        "cp=many": "Znaleziono wyniki {count} ({time}ms)",
-        "cp=other": "Znaleziono {count} wyników ( {time} ms)"
+        "cp=other": "Znaleziono {count} wyników ( {time} ms)",
+        "cp=few": "Znaleziono {count} wyników ( {time} ms)",
+        "cp=many": "Znaleziono {count} wyników ( {time} ms)"
       }
     }
   ],
@@ -374,9 +374,9 @@
       ],
       "match": {
         "cp=one": "aby wyświetlić {count} usunięty komentarz",
-        "cp=few": "aby pokazać usunięte komentarze {count}",
-        "cp=many": "aby pokazać usunięte komentarze {count}",
-        "cp=other": "aby wyświetlić usunięte komentarze {count}"
+        "cp=other": "aby wyświetlić usunięte komentarze {count}",
+        "cp=few": "aby wyświetlić usunięte komentarze {count}",
+        "cp=many": "aby wyświetlić usunięte komentarze {count}"
       }
     }
   ],
@@ -397,9 +397,9 @@
       ],
       "match": {
         "cp=one": "Przyjaciele przez {count} dzień",
-        "cp=few": "Friends for {count} days",
-        "cp=many": "Friends for {count} days",
-        "cp=other": "Przyjaciele przez {count} dni"
+        "cp=other": "Przyjaciele przez {count} dni",
+        "cp=few": "Przyjaciele przez {count} dni",
+        "cp=many": "Przyjaciele przez {count} dni"
       }
     }
   ],
@@ -427,9 +427,9 @@
       ],
       "match": {
         "cp=one": "Załączono wpis dowodowy {count}",
-        "cp=few": "{count} proof entries attached",
-        "cp=many": "{count} proof entries attached",
-        "cp=other": "Dołączono wpisy dowodowe {count}"
+        "cp=other": "Dołączono wpisy dowodowe {count}",
+        "cp=few": "Dołączono wpisy dowodowe {count}",
+        "cp=many": "Dołączono wpisy dowodowe {count}"
       }
     }
   ],
@@ -474,9 +474,9 @@
       ],
       "match": {
         "cp=one": "{count} rok temu",
-        "cp=few": "{count} years ago",
-        "cp=many": "{count} years ago",
-        "cp=other": "{count} lat temu"
+        "cp=other": "{count} lat temu",
+        "cp=few": "{count} lat temu",
+        "cp=many": "{count} lat temu"
       }
     }
   ],
@@ -495,9 +495,9 @@
       ],
       "match": {
         "cp=one": "{count} miesiąc temu",
+        "cp=other": "{count} miesięcy temu",
         "cp=few": "{count} miesięcy temu",
-        "cp=many": "{count} miesięcy temu",
-        "cp=other": "{count} miesięcy temu"
+        "cp=many": "{count} miesięcy temu"
       }
     }
   ],
@@ -515,9 +515,9 @@
       ],
       "match": {
         "cp=one": "{count} dzień temu",
-        "cp=few": "{count} days ago",
-        "cp=many": "{count} days ago",
-        "cp=other": "{count} dni temu"
+        "cp=other": "{count} dni temu",
+        "cp=few": "{count} dni temu",
+        "cp=many": "{count} dni temu"
       }
     }
   ],
@@ -536,9 +536,9 @@
       ],
       "match": {
         "cp=one": "{count} godzinę temu",
+        "cp=other": "{count} godzin temu",
         "cp=few": "{count} godzin temu",
-        "cp=many": "{count} godzin temu",
-        "cp=other": "{count} godzin temu"
+        "cp=many": "{count} godzin temu"
       }
     }
   ],
@@ -557,9 +557,9 @@
       ],
       "match": {
         "cp=one": "{count} minutę temu",
-        "cp=few": "{count} minutes ago",
-        "cp=many": "{count} minutes ago",
-        "cp=other": "{count} minut temu"
+        "cp=other": "{count} minut temu",
+        "cp=few": "{count} minut temu",
+        "cp=many": "{count} minut temu"
       }
     }
   ],
@@ -599,9 +599,19 @@
         "ncp=many, pcp=many": "{name} jest profilem {privacy} z nagranymi nazwami {nameCount} , nagranymi zdjęciami profilowymi {pfpCount}",
         "ncp=many, pcp=other": "{name} jest profilem {privacy} z nagranymi nazwami {nameCount} , nagranymi zdjęciami profilowymi {pfpCount}",
         "ncp=other, pcp=one": "{name} to {privacy} z {nameCount} zarejestrowanymi nazwami, {pfpCount} zarejestrowanym zdjęciem profilowym",
-        "ncp=other, pcp=few": "{name} jest profilem {privacy} z nagranymi nazwami {nameCount} , nagranymi zdjęciami profilowymi {pfpCount}",
-        "ncp=other, pcp=many": "{name} jest profilem {privacy} z nagranymi nazwami {nameCount} , nagranymi zdjęciami profilowymi {pfpCount}",
-        "ncp=other, pcp=other": "{name} to {privacy} z {nameCount} zarejestrowanymi nazwami, {pfpCount} zarejestrowanymi zdjęciami profilowymi"
+        "ncp=other, pcp=other": "{name} to {privacy} z {nameCount} zarejestrowanymi nazwami, {pfpCount} zarejestrowanymi zdjęciami profilowymi",
+        "ncp=one, pcp=few": "{name} to profil {privacy} z zarejestrowanym {nameCount} zarejestrowanymi zdjęciami profilowymi {pfpCount}",
+        "ncp=one, pcp=many": "{name} to profil {privacy} z zarejestrowanym {nameCount} zarejestrowanymi zdjęciami profilowymi {pfpCount}",
+        "ncp=few, pcp=one": "{name} to {privacy} z {nameCount} zarejestrowanymi nazwami, {pfpCount} zarejestrowanym zdjęciem profilowym",
+        "ncp=few, pcp=few": "{name} to {privacy} z {nameCount} zarejestrowanymi nazwami, {pfpCount} zarejestrowanymi zdjęciami profilowymi",
+        "ncp=few, pcp=many": "{name} to {privacy} z {nameCount} zarejestrowanymi nazwami, {pfpCount} zarejestrowanymi zdjęciami profilowymi",
+        "ncp=few, pcp=other": "{name} to {privacy} z {nameCount} zarejestrowanymi nazwami, {pfpCount} zarejestrowanymi zdjęciami profilowymi",
+        "ncp=many, pcp=one": "{name} to {privacy} z {nameCount} zarejestrowanymi nazwami, {pfpCount} zarejestrowanym zdjęciem profilowym",
+        "ncp=many, pcp=few": "{name} to {privacy} z {nameCount} zarejestrowanymi nazwami, {pfpCount} zarejestrowanymi zdjęciami profilowymi",
+        "ncp=many, pcp=many": "{name} to {privacy} z {nameCount} zarejestrowanymi nazwami, {pfpCount} zarejestrowanymi zdjęciami profilowymi",
+        "ncp=many, pcp=other": "{name} to {privacy} z {nameCount} zarejestrowanymi nazwami, {pfpCount} zarejestrowanymi zdjęciami profilowymi",
+        "ncp=other, pcp=few": "{name} to {privacy} z {nameCount} zarejestrowanymi nazwami, {pfpCount} zarejestrowanymi zdjęciami profilowymi",
+        "ncp=other, pcp=many": "{name} to {privacy} z {nameCount} zarejestrowanymi nazwami, {pfpCount} zarejestrowanymi zdjęciami profilowymi"
       }
     }
   ],
@@ -626,9 +636,9 @@
       ],
       "match": {
         "cp=one": "{count} głos",
+        "cp=other": "{count} głosów",
         "cp=few": "{count} głosów",
-        "cp=many": "{count} głosów",
-        "cp=other": "{count} głosów"
+        "cp=many": "{count} głosów"
       }
     }
   ],
@@ -854,9 +864,9 @@
       ],
       "match": {
         "cp=one": "( {count} )",
-        "cp=few": "({count} wpisów)",
-        "cp=many": "({count} wpisów)",
-        "cp=other": "( {count} wpisów)"
+        "cp=other": "( {count} wpisów)",
+        "cp=few": "( {count} wpisów)",
+        "cp=many": "( {count} wpisów)"
       }
     }
   ],
@@ -885,9 +895,9 @@
       ],
       "match": {
         "cp=one": "Wybrano element {count} do usunięcia",
-        "cp=few": "Wybrane elementy {count} do usunięcia",
-        "cp=many": "Wybrane elementy {count} do usunięcia",
-        "cp=other": "Wybrano {count} elementów do usunięcia"
+        "cp=other": "Wybrano {count} elementów do usunięcia",
+        "cp=few": "Wybrano {count} elementów do usunięcia",
+        "cp=many": "Wybrano {count} elementów do usunięcia"
       }
     }
   ],
@@ -951,9 +961,9 @@
       ],
       "match": {
         "cp=one": "{count} źródło",
-        "cp=few": "Źródła {count}",
-        "cp=many": "Źródła {count}",
-        "cp=other": "{count} źródła"
+        "cp=other": "{count} źródła",
+        "cp=few": "{count} źródła",
+        "cp=many": "{count} źródła"
       }
     }
   ],
@@ -1019,9 +1029,9 @@
       ],
       "match": {
         "cp=one": "Członek ( {count} )",
-        "cp=few": "Członkowie ({count})",
-        "cp=many": "Członkowie ({count})",
-        "cp=other": "Członkowie ( {count} )"
+        "cp=other": "Członkowie ( {count} )",
+        "cp=few": "Członkowie ( {count} )",
+        "cp=many": "Członkowie ( {count} )"
       }
     }
   ],
@@ -1036,9 +1046,9 @@
       ],
       "match": {
         "cp=one": "Uwaga ( {count} )",
-        "cp=few": "Notatki ({count})",
-        "cp=many": "Notatki ({count})",
-        "cp=other": "Notatki ( {count} )"
+        "cp=other": "Notatki ( {count} )",
+        "cp=few": "Notatki ( {count} )",
+        "cp=many": "Notatki ( {count} )"
       }
     }
   ],
@@ -1053,9 +1063,9 @@
       ],
       "match": {
         "cp=one": "Zaproszenie ( {count} )",
-        "cp=few": "Zaproszenia ({count})",
-        "cp=many": "Zaproszenia ({count})",
-        "cp=other": "Zaproszenia ( {count} )"
+        "cp=other": "Zaproszenia ( {count} )",
+        "cp=few": "Zaproszenia ( {count} )",
+        "cp=many": "Zaproszenia ( {count} )"
       }
     }
   ],
@@ -1078,9 +1088,9 @@
       ],
       "match": {
         "cp=one": "Oczekujące zaproszenie ( {count} )",
-        "cp=few": "Oczekujące zaproszenia ({count})",
-        "cp=many": "Oczekujące zaproszenia ({count})",
-        "cp=other": "Oczekujące zaproszenia ( {count} )"
+        "cp=other": "Oczekujące zaproszenia ( {count} )",
+        "cp=few": "Oczekujące zaproszenia ( {count} )",
+        "cp=many": "Oczekujące zaproszenia ( {count} )"
       }
     }
   ],
@@ -1141,7 +1151,7 @@
   "account_become_supporter_title": "Zostań darczyńcą",
   "account_become_supporter_desc": "Zostań darczyńcą i odblokuj możliwość personalizacji profilu oraz inne ekskluzywne funkcje.",
   "account_support_cta": "Wesprzyj SteamHistory",
-  "account_supporter_status_title": "Status opiekuna",
+  "account_supporter_status_title": "Status wspierającego",
   "account_status_active": "Aktywny",
   "account_status_expired": "Wygasły",
   "account_status_inactive": "Nieaktywny",
@@ -1160,9 +1170,9 @@
       ],
       "match": {
         "cp=one": "Pozostały dzień {count}",
-        "cp=few": "{count} days remaining",
-        "cp=many": "{count} days remaining",
-        "cp=other": "Pozostało {count} dni"
+        "cp=other": "Pozostało {count} dni",
+        "cp=few": "Pozostało {count} dni",
+        "cp=many": "Pozostało {count} dni"
       }
     }
   ],
@@ -1340,23 +1350,25 @@
   "teams_resignation": "Rezygnacja",
   "teams_leave_team": "Opuść drużynę",
   "teams_confirm_leave": "Czy na pewno chcesz opuścić ten zespół?",
-  "teams_note_target": "Target",
+  "common_unknown_user": "Nieznany użytkownik",
+  "teams_vanity_readonly_hint": "Adresów URL typu „vanity” nie można zmienić po ich utworzeniu.",
+  "teams_note_target": "Cel",
   "teams_note_author": "Autor",
-  "teams_note_revisions": "Wersje",
+  "teams_note_revisions": "Rewizje",
   "teams_note_edit": "Edytuj notatkę",
   "teams_note_visibility": "Widoczność",
   "teams_note_staff_only": "Tylko dla personelu",
   "teams_note_team_members": "Członkowie zespołu",
-  "teams_note_public": "Publiczne",
+  "teams_note_public": "Publiczny",
   "teams_note_unlock": "Odblokuj notatkę",
-  "teams_note_lock": "Zablokuj notatkę",
+  "teams_note_lock": "Notatka blokady",
   "teams_note_delete": "Usuń notatkę",
   "teams_note_delete_confirm": "Czy na pewno chcesz usunąć tę notatkę?",
   "teams_note_save_changes": "Zapisz zmiany",
-  "teams_note_revision_history": "Historia wersji",
-  "teams_note_close": "Zamknij",
+  "teams_note_revision_history": "Historia rewizji",
+  "teams_note_close": "Zamknąć",
   "teams_note_current_version": "Aktualna wersja",
-  "teams_note_recent": "Najnowsze",
-  "teams_note_locked": "Zablokowane",
-  "teams_notes_none": "Nie znaleziono notatek zespołowych."
+  "teams_note_recent": "Ostatni",
+  "teams_note_locked": "Zamknięty",
+  "teams_notes_none": "Nie znaleziono notatek zespołu."
 }

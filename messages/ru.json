@@ -8,7 +8,7 @@
   "navbar_discord_button": "Discord",
   "navbar_mobile_menu_aria": "Открыть меню",
   "navbar_language_label": "Язык",
-  "footer_copyright": "Авторское право © 2026 - Все права защищены SteamHistory.net",
+  "footer_copyright": "Авторские права © 2026 - Все права принадлежат SteamHistory.net",
   "footer_disclaimer": "Сайт SteamHistory.net не принадлежит корпорации Valve, не управляется ею и не поддерживается ею, а также не является продуктом Steam.",
   "footer_link_supporter": "Стать спонсором",
   "footer_link_sources": "Источники",
@@ -81,9 +81,9 @@
       ],
       "match": {
         "cp=one": "{count} день",
-        "cp=few": "{count} дня",
-        "cp=many": "{count} дней",
-        "cp=other": "{count} дней"
+        "cp=other": "{count} дней",
+        "cp=few": "{count} дней",
+        "cp=many": "{count} дней"
       }
     }
   ],
@@ -117,10 +117,10 @@
         "cp"
       ],
       "match": {
-        "cp=one": "{count} бан, {timeAgo} ({timestamp})",
-        "cp=few": "{count} бана, {timeAgo} ({timestamp})",
-        "cp=many": "{count} банов, {timeAgo} ({timestamp})",
-        "cp=other": "{count} банов, {timeAgo} ({timestamp})"
+        "cp=one": "{count} ban, {timeAgo} ( {timestamp} )",
+        "cp=other": "{count} bans, {timeAgo} ( {timestamp} )",
+        "cp=few": "{count} bans, {timeAgo} ( {timestamp} )",
+        "cp=many": "{count} bans, {timeAgo} ( {timestamp} )"
       }
     }
   ],
@@ -134,10 +134,10 @@
         "cp"
       ],
       "match": {
-        "cp=one": "{count} бан",
-        "cp=few": "{count} бана",
-        "cp=many": "{count} банов",
-        "cp=other": "{count} банов"
+        "cp=one": "{count} ban",
+        "cp=other": "{count} запрещает",
+        "cp=few": "{count} запрещает",
+        "cp=many": "{count} запрещает"
       }
     }
   ],
@@ -155,10 +155,10 @@
         "cp"
       ],
       "match": {
-        "cp=one": "{count} бан",
-        "cp=few": "{count} бана",
-        "cp=many": "{count} банов",
-        "cp=other": "{count} банов"
+        "cp=one": "{count} ban",
+        "cp=other": "{count} запрещает",
+        "cp=few": "{count} запрещает",
+        "cp=many": "{count} запрещает"
       }
     }
   ],
@@ -174,10 +174,10 @@
         "cp"
       ],
       "match": {
-        "cp=one": "{count} бан, {timeAgo} ({timestamp})",
-        "cp=few": "{count} бана, {timeAgo} ({timestamp})",
-        "cp=many": "{count} банов, {timeAgo} ({timestamp})",
-        "cp=other": "{count} банов, {timeAgo} ({timestamp})"
+        "cp=one": "{count} ban, {timeAgo} ( {timestamp} )",
+        "cp=other": "{count} bans, {timeAgo} ( {timestamp} )",
+        "cp=few": "{count} bans, {timeAgo} ( {timestamp} )",
+        "cp=many": "{count} bans, {timeAgo} ( {timestamp} )"
       }
     }
   ],
@@ -191,10 +191,10 @@
         "cp"
       ],
       "match": {
-        "cp=one": "{count} бан",
-        "cp=few": "{count} бана",
-        "cp=many": "{count} банов",
-        "cp=other": "{count} банов"
+        "cp=one": "{count} ban",
+        "cp=other": "{count} запрещает",
+        "cp=few": "{count} запрещает",
+        "cp=many": "{count} запрещает"
       }
     }
   ],
@@ -264,10 +264,10 @@
         "cp"
       ],
       "match": {
-        "cp=one": "Найден '{count}' результат для",
-        "cp=few": "Найдено '{count}' результата для",
-        "cp=many": "Найдено '{count}' результатов для",
-        "cp=other": "Найдено '{count}' результатов для"
+        "cp=one": "Найден результат ' {count} ' для",
+        "cp=other": "Найдены результаты ' {count} ' для",
+        "cp=few": "Найдены результаты ' {count} ' для",
+        "cp=many": "Найдены результаты ' {count} ' для"
       }
     }
   ],
@@ -300,10 +300,10 @@
         "cp"
       ],
       "match": {
-        "cp=one": "Найден {count} результат ({time}мс)",
-        "cp=few": "Найдено {count} результата ({time}мс)",
-        "cp=many": "Найдено {count} результатов ({time}мс)",
-        "cp=other": "Найдено {count} результатов ({time}мс)"
+        "cp=one": "Найден результат {count} ( {time} мс)",
+        "cp=other": "Найдены результаты {count} ( {time} мс)",
+        "cp=few": "Найдены результаты {count} ( {time} мс)",
+        "cp=many": "Найдены результаты {count} ( {time} мс)"
       }
     }
   ],
@@ -374,9 +374,9 @@
       ],
       "match": {
         "cp=one": "чтобы показать {count} удаленный комментарий",
-        "cp=few": "чтобы показать {count} удаленных комментария",
-        "cp=many": "чтобы показать {count} удаленных комментариев",
-        "cp=other": "чтобы показать {count} удаленных комментариев"
+        "cp=other": "чтобы показать удаленные комментарии {count}",
+        "cp=few": "чтобы показать удаленные комментарии {count}",
+        "cp=many": "чтобы показать удаленные комментарии {count}"
       }
     }
   ],
@@ -396,10 +396,10 @@
         "cp"
       ],
       "match": {
-        "cp=one": "Друзья: {count} день",
-        "cp=few": "Друзья: {count} дня",
-        "cp=many": "Друзья: {count} дней",
-        "cp=other": "Друзья: {count} дней"
+        "cp=one": "Друзья на {count} день",
+        "cp=other": "Друзья на {count} дней",
+        "cp=few": "Друзья на {count} дней",
+        "cp=many": "Друзья на {count} дней"
       }
     }
   ],
@@ -426,10 +426,10 @@
         "cp"
       ],
       "match": {
-        "cp=one": "{count} доказательство прикреплено",
-        "cp=few": "{count} доказательства прикреплено",
-        "cp=many": "{count} доказательств прикреплено",
-        "cp=other": "{count} доказательств прикреплено"
+        "cp=one": "{count} Прикреплена подтверждающая запись",
+        "cp=other": "{count} Прикреплены подтверждающие записи",
+        "cp=few": "{count} Прикреплены подтверждающие записи",
+        "cp=many": "{count} Прикреплены подтверждающие записи"
       }
     }
   ],
@@ -474,9 +474,9 @@
       ],
       "match": {
         "cp=one": "{count} год назад",
-        "cp=few": "{count} года назад",
-        "cp=many": "{count} лет назад",
-        "cp=other": "{count} лет назад"
+        "cp=other": "{count} лет назад",
+        "cp=few": "{count} лет назад",
+        "cp=many": "{count} лет назад"
       }
     }
   ],
@@ -495,9 +495,9 @@
       ],
       "match": {
         "cp=one": "{count} месяц назад",
-        "cp=few": "{count} месяца назад",
-        "cp=many": "{count} месяцев назад",
-        "cp=other": "{count} месяцев назад"
+        "cp=other": "{count} месяцев назад",
+        "cp=few": "{count} месяцев назад",
+        "cp=many": "{count} месяцев назад"
       }
     }
   ],
@@ -515,9 +515,9 @@
       ],
       "match": {
         "cp=one": "{count} день назад",
-        "cp=few": "{count} дня назад",
-        "cp=many": "{count} дней назад",
-        "cp=other": "{count} дней назад"
+        "cp=other": "{count} дней назад",
+        "cp=few": "{count} дней назад",
+        "cp=many": "{count} дней назад"
       }
     }
   ],
@@ -536,9 +536,9 @@
       ],
       "match": {
         "cp=one": "{count} час назад",
-        "cp=few": "{count} часа назад",
-        "cp=many": "{count} часов назад",
-        "cp=other": "{count} часов назад"
+        "cp=other": "{count} часов назад",
+        "cp=few": "{count} часов назад",
+        "cp=many": "{count} часов назад"
       }
     }
   ],
@@ -557,9 +557,9 @@
       ],
       "match": {
         "cp=one": "{count} минуту назад",
-        "cp=few": "{count} минуты назад",
-        "cp=many": "{count} минут назад",
-        "cp=other": "{count} минут назад"
+        "cp=other": "{count} минут назад",
+        "cp=few": "{count} минут назад",
+        "cp=many": "{count} минут назад"
       }
     }
   ],
@@ -586,22 +586,22 @@
         "pcp"
       ],
       "match": {
-        "ncp=one, pcp=one": "В профиле {name} ({privacy}) зафиксирован {nameCount} псевдоним и {pfpCount} аватар",
-        "ncp=one, pcp=few": "В профиле {name} ({privacy}) зафиксирован {nameCount} псевдоним и {pfpCount} аватара",
-        "ncp=one, pcp=many": "В профиле {name} ({privacy}) зафиксирован {nameCount} псевдоним и {pfpCount} аватаров",
-        "ncp=one, pcp=other": "В профиле {name} ({privacy}) зафиксирован {nameCount} псевдоним и {pfpCount} аватаров",
-        "ncp=few, pcp=one": "В профиле {name} ({privacy}) зафиксировано {nameCount} псевдонима и {pfpCount} аватар",
-        "ncp=few, pcp=few": "В профиле {name} ({privacy}) зафиксировано {nameCount} псевдонима и {pfpCount} аватара",
-        "ncp=few, pcp=many": "В профиле {name} ({privacy}) зафиксировано {nameCount} псевдонима и {pfpCount} аватаров",
-        "ncp=few, pcp=other": "В профиле {name} ({privacy}) зафиксировано {nameCount} псевдонима и {pfpCount} аватаров",
-        "ncp=many, pcp=one": "В профиле {name} ({privacy}) зафиксировано {nameCount} псевдонимов и {pfpCount} аватар",
-        "ncp=many, pcp=few": "В профиле {name} ({privacy}) зафиксировано {nameCount} псевдонимов и {pfpCount} аватара",
-        "ncp=many, pcp=many": "В профиле {name} ({privacy}) зафиксировано {nameCount} псевдонимов и {pfpCount} аватаров",
-        "ncp=many, pcp=other": "В профиле {name} ({privacy}) зафиксировано {nameCount} псевдонимов и {pfpCount} аватаров",
-        "ncp=other, pcp=one": "В профиле {name} ({privacy}) зафиксировано {nameCount} псевдонимов и {pfpCount} аватар",
-        "ncp=other, pcp=few": "В профиле {name} ({privacy}) зафиксировано {nameCount} псевдонимов и {pfpCount} аватара",
-        "ncp=other, pcp=many": "В профиле {name} ({privacy}) зафиксировано {nameCount} псевдонимов и {pfpCount} аватаров",
-        "ncp=other, pcp=other": "В профиле {name} ({privacy}) зафиксировано {nameCount} псевдонимов и {pfpCount} аватаров"
+        "ncp=one, pcp=one": "{name} — это профиль с {privacy} содержащий записанное имя, {nameCount} {pfpCount}",
+        "ncp=one, pcp=other": "{name} — это профиль с {privacy} содержащий записанное имя, {nameCount} {pfpCount}",
+        "ncp=other, pcp=one": "{name} — это профиль с {privacy} содержащий {nameCount} записанных имен и {pfpCount} записанного изображения профиля.",
+        "ncp=other, pcp=other": "{name} — это профиль с {privacy} содержащий {nameCount} записанными именами и {pfpCount} записанными фотографиями профиля.",
+        "ncp=one, pcp=few": "{name} — это профиль с {privacy} содержащий записанное имя, {nameCount} {pfpCount}",
+        "ncp=one, pcp=many": "{name} — это профиль с {privacy} содержащий записанное имя, {nameCount} {pfpCount}",
+        "ncp=few, pcp=one": "{name} — это профиль с {privacy} содержащий {nameCount} записанных имен и {pfpCount} записанного изображения профиля.",
+        "ncp=few, pcp=few": "{name} — это профиль с {privacy} содержащий {nameCount} записанными именами и {pfpCount} записанными фотографиями профиля.",
+        "ncp=few, pcp=many": "{name} — это профиль с {privacy} содержащий {nameCount} записанными именами и {pfpCount} записанными фотографиями профиля.",
+        "ncp=few, pcp=other": "{name} — это профиль с {privacy} содержащий {nameCount} записанными именами и {pfpCount} записанными фотографиями профиля.",
+        "ncp=many, pcp=one": "{name} — это профиль с {privacy} содержащий {nameCount} записанных имен и {pfpCount} записанного изображения профиля.",
+        "ncp=many, pcp=few": "{name} — это профиль с {privacy} содержащий {nameCount} записанными именами и {pfpCount} записанными фотографиями профиля.",
+        "ncp=many, pcp=many": "{name} — это профиль с {privacy} содержащий {nameCount} записанными именами и {pfpCount} записанными фотографиями профиля.",
+        "ncp=many, pcp=other": "{name} — это профиль с {privacy} содержащий {nameCount} записанными именами и {pfpCount} записанными фотографиями профиля.",
+        "ncp=other, pcp=few": "{name} — это профиль с {privacy} содержащий {nameCount} записанными именами и {pfpCount} записанными фотографиями профиля.",
+        "ncp=other, pcp=many": "{name} — это профиль с {privacy} содержащий {nameCount} записанными именами и {pfpCount} записанными фотографиями профиля."
       }
     }
   ],
@@ -625,10 +625,10 @@
         "cp"
       ],
       "match": {
-        "cp=one": "{count} голос",
-        "cp=few": "{count} голоса",
-        "cp=many": "{count} голосов",
-        "cp=other": "{count} голосов"
+        "cp=one": "{count} vote",
+        "cp=other": "{count} голосов",
+        "cp=few": "{count} голосов",
+        "cp=many": "{count} голосов"
       }
     }
   ],
@@ -853,10 +853,10 @@
         "cp"
       ],
       "match": {
-        "cp=one": "({count} запись)",
-        "cp=few": "({count} записи)",
-        "cp=many": "({count} записей)",
-        "cp=other": "({count} записей)"
+        "cp=one": "( {count} entry)",
+        "cp=other": "( {count} записей)",
+        "cp=few": "( {count} записей)",
+        "cp=many": "( {count} записей)"
       }
     }
   ],
@@ -884,10 +884,10 @@
         "cp"
       ],
       "match": {
-        "cp=one": "Выбран {count} элемент для удаления",
-        "cp=few": "Выбрано {count} элемента для удаления",
-        "cp=many": "Выбрано {count} элементов для удаления",
-        "cp=other": "Выбрано {count} элементов для удаления"
+        "cp=one": "Выбран элемент {count} для удаления",
+        "cp=other": "Выбраны элементы {count} для удаления",
+        "cp=few": "Выбраны элементы {count} для удаления",
+        "cp=many": "Выбраны элементы {count} для удаления"
       }
     }
   ],
@@ -951,9 +951,9 @@
       ],
       "match": {
         "cp=one": "{count} источник",
-        "cp=few": "{count} источника",
-        "cp=many": "{count} источников",
-        "cp=other": "{count} источников"
+        "cp=other": "{count} источников",
+        "cp=few": "{count} источников",
+        "cp=many": "{count} источников"
       }
     }
   ],
@@ -1018,10 +1018,10 @@
         "cp"
       ],
       "match": {
-        "cp=one": "{count} участник",
-        "cp=few": "{count} участника",
-        "cp=many": "{count} участников",
-        "cp=other": "{count} участников"
+        "cp=one": "Участник ( {count} )",
+        "cp=other": "Члены ( {count} )",
+        "cp=few": "Члены ( {count} )",
+        "cp=many": "Члены ( {count} )"
       }
     }
   ],
@@ -1035,10 +1035,10 @@
         "cp"
       ],
       "match": {
-        "cp=one": "{count} заметка",
-        "cp=few": "{count} заметки",
-        "cp=many": "{count} заметок",
-        "cp=other": "{count} заметок"
+        "cp=one": "Примечание ( {count} )",
+        "cp=other": "Примечания ( {count} )",
+        "cp=few": "Примечания ( {count} )",
+        "cp=many": "Примечания ( {count} )"
       }
     }
   ],
@@ -1052,10 +1052,10 @@
         "cp"
       ],
       "match": {
-        "cp=one": "{count} приглашение",
-        "cp=few": "{count} приглашения",
-        "cp=many": "{count} приглашений",
-        "cp=other": "{count} приглашений"
+        "cp=one": "Приглашение ( {count} )",
+        "cp=other": "Приглашения ( {count} )",
+        "cp=few": "Приглашения ( {count} )",
+        "cp=many": "Приглашения ( {count} )"
       }
     }
   ],
@@ -1077,10 +1077,10 @@
         "cp"
       ],
       "match": {
-        "cp=one": "Ожидающие приглашение ({count})",
-        "cp=few": "Ожидающие приглашение ({count})",
-        "cp=many": "Ожидающие приглашение ({count})",
-        "cp=other": "Ожидающие приглашение ({count})"
+        "cp=one": "Ожидающее приглашение ( {count} )",
+        "cp=other": "Ожидающие приглашения ( {count} )",
+        "cp=few": "Ожидающие приглашения ( {count} )",
+        "cp=many": "Ожидающие приглашения ( {count} )"
       }
     }
   ],
@@ -1142,9 +1142,9 @@
   "account_become_supporter_desc": "Став спонсором, вы получите доступ к персонализации профиля и другим эксклюзивным функциям.",
   "account_support_cta": "Поддержите SteamHistory",
   "account_supporter_status_title": "Статус спонсора",
-  "account_status_active": "Активен",
-  "account_status_expired": "Истёк",
-  "account_status_inactive": "Неактивен",
+  "account_status_active": "Активный",
+  "account_status_expired": "Истекший",
+  "account_status_inactive": "Неактивный",
   "account_email_label": "Электронная почта:",
   "account_not_linked": "Не привязан",
   "account_start_date_label": "Дата начала:",
@@ -1159,10 +1159,10 @@
         "cp"
       ],
       "match": {
-        "cp=one": "{count} день остался",
-        "cp=few": "{count} дня осталось",
-        "cp=many": "{count} дней осталось",
-        "cp=other": "{count} дней осталось"
+        "cp=one": "{count} оставшийся день",
+        "cp=other": "{count} дней осталось",
+        "cp=few": "{count} дней осталось",
+        "cp=many": "{count} дней осталось"
       }
     }
   ],
@@ -1340,23 +1340,25 @@
   "teams_resignation": "Отставка",
   "teams_leave_team": "Покинуть команду",
   "teams_confirm_leave": "Вы уверены, что хотите покинуть эту команду?",
+  "common_unknown_user": "Неизвестный пользователь",
+  "teams_vanity_readonly_hint": "Индивидуальные URL-адреса нельзя изменить после создания.",
   "teams_note_target": "Цель",
   "teams_note_author": "Автор",
-  "teams_note_revisions": "Правки",
-  "teams_note_edit": "Редактировать заметку",
+  "teams_note_revisions": "Изменения",
+  "teams_note_edit": "Примечание по редактированию",
   "teams_note_visibility": "Видимость",
-  "teams_note_staff_only": "Только персонал",
-  "teams_note_team_members": "Участники команды",
-  "teams_note_public": "Открытый",
+  "teams_note_staff_only": "Служебное помещение",
+  "teams_note_team_members": "Члены команды",
+  "teams_note_public": "Общественный",
   "teams_note_unlock": "Разблокировать заметку",
-  "teams_note_lock": "Заблокировать заметку",
+  "teams_note_lock": "Блокировка заметки",
   "teams_note_delete": "Удалить заметку",
   "teams_note_delete_confirm": "Вы уверены, что хотите удалить эту заметку?",
   "teams_note_save_changes": "Сохранить изменения",
   "teams_note_revision_history": "История изменений",
-  "teams_note_close": "Закрыть",
+  "teams_note_close": "Закрывать",
   "teams_note_current_version": "Текущая версия",
-  "teams_note_recent": "Недавние",
+  "teams_note_recent": "Недавний",
   "teams_note_locked": "Заблокировано",
   "teams_notes_none": "Заметки команды не найдены."
 }
