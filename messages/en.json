@@ -886,5 +886,20 @@
   "teams_note_current_version": "Current Version",
   "teams_note_recent": "Recent",
   "teams_note_locked": "Locked",
-  "teams_notes_none": "No team notes found."
-}
+  "teams_notes_none": "No team notes found.",
+  "teams_tags_label": "Tags",
+  "teams_tags_filter_label": "Filter",
+  "teams_tags_clear_button": "Clear",
+  "teams_tags_new_button": "New Tag",
+  "teams_tags_none": "No tags created yet.",
+  "teams_tags_create_title": "Create New Tag",
+  "teams_tags_name_label": "Tag Name",
+  "teams_tags_name_placeholder": "Tag name...",
+  "teams_tags_name_hint": "Keep it short (max 16 chars).",
+  "teams_tags_color_label": "Tag Color",
+  "teams_tags_color_hint": "Pick a vibrant color for visibility",
+  "teams_tags_preview_label": "Preview",
+  "teams_tags_create_submit": "Create Tag",
+  "teams_tags_delete_confirm": "Delete tag \"{name}\"?",
+  "common_add": "Add"
+  }
