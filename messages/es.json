@@ -5,16 +5,16 @@
   "navbar_search_error_generic": "Se produjo un error durante la búsqueda.",
   "navbar_search_error_not_found": "No se encontró ningún usuario con ese ID.",
   "navbar_tools_dropdown": "Herramientas",
-  "navbar_discord_button": "Discordia",
+  "navbar_discord_button": "Discord",
   "navbar_mobile_menu_aria": "Abrir menú",
   "navbar_language_label": "Idioma",
-  "footer_copyright": "Copyright © 2026 - Todos los derechos reservados por SteamHistory.net",
+  "footer_copyright": "Copyright ©️ 2026 - Todos los derechos reservados por SteamHistory.net",
   "footer_disclaimer": "SteamHistory.net no es propiedad de Valve Corporation, ni está operado ni respaldado por ella, ni es un producto de Steam.",
-  "footer_link_supporter": "Conviértete en patrocinador",
+  "footer_link_supporter": "Conviértete en Colaborador",
   "footer_link_sources": "Fuentes",
   "footer_link_faq": "Preguntas frecuentes",
-  "footer_link_privacy": "política de privacidad",
-  "footer_link_tos": "Condiciones de servicio",
+  "footer_link_privacy": "Política de Privacidad",
+  "footer_link_tos": "Términos de servicio",
   "footer_link_suggestions": "Sugerencias",
   "nav_alias_search": "Búsqueda de alias",
   "nav_avatar_search": "Búsqueda de avatares",
@@ -22,24 +22,24 @@
   "nav_bulk_search": "Búsqueda masiva",
   "nav_api": "API",
   "nav_supporter_features": "Características de soporte",
-  "nav_comment_search": "Búsqueda de comentarios",
+  "nav_comment_search": "Buscar comentario",
   "profile_official_tooltip": "Esta es una cuenta oficial relacionada con SteamHistory.",
   "profile_official_tag": "Oficial",
   "profile_custom_tag_tooltip": "Esta es una etiqueta personalizada establecida por el usuario; no es una etiqueta oficial establecida por SteamHistory y es una función exclusiva para colaboradores.",
   "profile_custom_tag_whats_this": "¿Qué es esto?",
   "profile_label_steamid64": "SteamID64:",
   "profile_label_steamid32": "SteamID32:",
-  "profile_label_steamid": "SteamID:",
+  "profile_label_steamid": "Id Steam:",
   "profile_label_community_url": "URL de la comunidad:",
   "profile_label_profile_url": "URL del perfil:",
   "profile_label_created": "Creado:",
   "profile_label_updated": "Actualizado:",
-  "profile_label_last_checked": "Última comprobación:",
+  "profile_label_last_checked": "Última revisión:",
   "profile_label_last_online": "Última conexión:",
   "profile_created_tooltip": "Cuando se creó esta cuenta",
   "profile_updated_tooltip": "La última vez registramos un cambio en el perfil.",
   "profile_last_checked_tooltip": "La última vez que revisamos si había actualizaciones",
-  "profile_last_online_tooltip": "La última vez que vimos al usuario en línea fue en Steam.",
+  "profile_last_online_tooltip": "La última vez que vimos este usuario en línea fue en Steam.",
   "profile_estimated_label": "[Estimado]",
   "profile_estimated_tooltip": "Esta fecha es una estimación basada en los SteamID64 vecinos del usuario y no se garantiza su exactitud, pero debería ser relativamente cercana.",
   "profile_na": "N / A",
@@ -47,60 +47,60 @@
   "profile_label_status": "Estado:",
   "profile_label_privacy": "Privacidad:",
   "profile_label_profile_setup": "Configuración del perfil:",
-  "profile_label_premium": "De primera calidad:",
-  "profile_ban_info_divider": "Información sobre la prohibición",
-  "profile_label_vac": "VACACIONES:",
+  "profile_label_premium": "Premium:",
+  "profile_ban_info_divider": "Información sobre baneo",
+  "profile_label_vac": "VAC:",
   "profile_label_community": "Comunidad:",
   "profile_label_game": "Juego:",
-  "profile_label_trade": "Comercio:",
-  "profile_label_vac_short": "VACACIONES",
+  "profile_label_trade": "Intercambio:",
+  "profile_label_vac_short": "VAC",
   "profile_label_community_short": "Comunidad",
   "profile_label_game_short": "Juego",
-  "profile_label_trade_short": "Comercio",
+  "profile_label_trade_short": "Intercambio",
   "profile_label_sb_short": "SB",
   "profile_label_tf2bd_short": "TF2BD",
-  "profile_ban_status_banned": "Prohibido",
-  "profile_ban_status_clear": "Claro",
+  "profile_ban_status_banned": "Baneado",
+  "profile_ban_status_clear": "Limpio",
   "profile_ban_status_perm": "Permanente",
-  "profile_ban_status_temp": "Temperatura",
-  "profile_ban_status_unbanned": "Desbloqueado",
-  "profile_ban_status_expired": "Venció",
+  "profile_ban_status_temp": "Temporal",
+  "profile_ban_status_unbanned": "Desbaneado",
+  "profile_ban_status_expired": "Expirado",
   "profile_ban_status_unknown": "Desconocido",
-  "profile_ban_no_proof": "No hay pruebas",
-  "profile_ban_unban_reason": "Razón para desbloquear:",
-  "profile_ban_unban_date": "Fecha de levantamiento de la prohibición:",
+  "profile_ban_no_proof": "Sin Pruebas",
+  "profile_ban_unban_reason": "Razón de desbaneo:",
+  "profile_ban_unban_date": "Fecha de desbaneo:",
   "profile_ban_duration": "Duración:",
   "profile_ban_duration_days": [
     {
       "declarations": [
-        "input count",
-        "local cp = count: plural"
+        "contador de entradas",
+        "local cp = contador: plural"
       ],
       "selectors": [
         "cp"
       ],
       "match": {
         "cp=one": "{count} día",
-        "cp=other": "{count} días",
         "cp=few": "{count} días",
-        "cp=many": "{count} días"
+        "cp=many": "{count} días",
+        "cp=other": "{count} días"
       }
     }
   ],
   "profile_notes_title": "Notas",
   "profile_notes_tab_team": "Equipo",
   "profile_notes_tab_personal": "Personal",
-  "profile_notes_hide": "Esconder",
-  "profile_notes_show": "Espectáculo",
+  "profile_notes_hide": "Ocultar",
+  "profile_notes_show": "Mostrar",
   "profile_notes_personal_placeholder": "Añade una nota privada para ti...",
   "profile_notes_personal_save": "Guardar nota personal",
   "profile_notes_personal_updated": "Nota personal actualizada",
   "profile_notes_chars_limit": "{count} / {limit} caracteres",
-  "profile_notes_team_records": "Récords del equipo",
+  "profile_notes_team_records": "Historial del equipo",
   "profile_notes_team_new_note": "+ Nueva nota",
   "profile_notes_team_publish_to": "Publicar en el equipo",
   "profile_notes_team_visibility": "Visibilidad",
-  "profile_notes_team_visibility_private": "Privado (solo para personal)",
+  "profile_notes_team_visibility_private": "Privado (solo para Staff)",
   "profile_notes_team_visibility_team": "Equipo (Todos los miembros)",
   "profile_notes_team_visibility_public": "Público (Miembros y Seguidores)",
   "profile_notes_team_placeholder": "Comparte una observación con tu equipo...",
@@ -108,116 +108,116 @@
   "profile_vac_bans_detailed": [
     {
       "declarations": [
-        "input count",
+        "contador de entradas",
         "input timeAgo",
-        "input timestamp",
-        "local cp = count: plural"
+        "fecha de entrada",
+        "local cp = contador: plural"
       ],
       "selectors": [
         "cp"
       ],
       "match": {
         "cp=one": "{count} ban, {timeAgo} ( {timestamp} )",
-        "cp=other": "{count} prohibiciones, {timeAgo} ( {timestamp} )",
-        "cp=few": "{count} prohibiciones, {timeAgo} ( {timestamp} )",
-        "cp=many": "{count} prohibiciones, {timeAgo} ( {timestamp} )"
+        "cp=few": "{count} baneos, {timeAgo} ({timestamp})",
+        "cp=many": "{count} baneos, {timeAgo} ({timestamp})",
+        "cp=other": "{count} prohibiciones, {timeAgo} ( {timestamp} )"
       }
     }
   ],
   "profile_vac_bans_simple": [
     {
       "declarations": [
-        "input count",
-        "local cp = count: plural"
+        "contador de entradas",
+        "local cp = contador: plural"
       ],
       "selectors": [
         "cp"
       ],
       "match": {
-        "cp=one": "{count} ban",
-        "cp=other": "{count} prohibiciones",
-        "cp=few": "{count} prohibiciones",
-        "cp=many": "{count} prohibiciones"
+        "cp=one": "Baneo",
+        "cp=few": "Baneos",
+        "cp=many": "Baneos",
+        "cp=other": "{count} prohibiciones"
       }
     }
   ],
   "profile_vac_none": "No hay registros de prohibiciones de VAC",
   "profile_community_bans_detailed": "Prohibido {timeAgo} ( {timestamp} )",
-  "profile_community_bans_simple": "Prohibido",
-  "profile_community_none": "No hay registros de prohibiciones comunitarias.",
+  "profile_community_bans_simple": "Baneado",
+  "profile_community_none": "No hay registros de baneos comunitarios.",
   "profile_community_bans_total_count": [
     {
       "declarations": [
-        "input count",
-        "local cp = count: plural"
+        "contador de entradas",
+        "local cp = contador: plural"
       ],
       "selectors": [
         "cp"
       ],
       "match": {
-        "cp=one": "{count} ban",
-        "cp=other": "{count} prohibiciones",
-        "cp=few": "{count} prohibiciones",
-        "cp=many": "{count} prohibiciones"
+        "cp=one": "Baneo",
+        "cp=few": "Baneos",
+        "cp=many": "Baneos",
+        "cp=other": "{count} prohibiciones"
       }
     }
   ],
   "profile_game_bans_detailed": [
     {
       "declarations": [
-        "input count",
+        "contador de entradas",
         "input timeAgo",
-        "input timestamp",
-        "local cp = count: plural"
+        "fecha de entrada",
+        "local cp = contador: plural"
       ],
       "selectors": [
         "cp"
       ],
       "match": {
         "cp=one": "{count} ban, {timeAgo} ( {timestamp} )",
-        "cp=other": "{count} prohibiciones, {timeAgo} ( {timestamp} )",
-        "cp=few": "{count} prohibiciones, {timeAgo} ( {timestamp} )",
-        "cp=many": "{count} prohibiciones, {timeAgo} ( {timestamp} )"
+        "cp=few": "{count} baneos, {timeAgo} ({timestamp})",
+        "cp=many": "{count} baneos, {timeAgo} ({timestamp})",
+        "cp=other": "{count} prohibiciones, {timeAgo} ( {timestamp} )"
       }
     }
   ],
   "profile_game_bans_simple": [
     {
       "declarations": [
-        "input count",
-        "local cp = count: plural"
+        "contador de entradas",
+        "local cp = contador: plural"
       ],
       "selectors": [
         "cp"
       ],
       "match": {
-        "cp=one": "{count} ban",
-        "cp=other": "{count} prohibiciones",
-        "cp=few": "{count} prohibiciones",
-        "cp=many": "{count} prohibiciones"
+        "cp=one": "Baneo",
+        "cp=few": "Baneos",
+        "cp=many": "Baneos",
+        "cp=other": "{count} prohibiciones"
       }
     }
   ],
-  "profile_game_none": "No hay registros de prohibiciones de juego.",
+  "profile_game_none": "No hay registros de baneos en juegos.",
   "profile_economy_bans_detailed": "Prohibido {timeAgo} ( {timestamp} )",
-  "profile_economy_bans_simple": "Prohibido",
-  "profile_economy_none": "No hay registros de prohibiciones comerciales",
+  "profile_economy_bans_simple": "Baneado",
+  "profile_economy_none": "No hay registros de baneos de intercambio",
   "profile_tools_info_divider": "Información",
   "profile_tools_unique_views": "Vistas únicas:",
   "profile_tools_total_views": "Vistas totales:",
   "profile_tools_tools_divider": "Herramientas",
-  "profile_tools_watch_user": "Usuario de Watch",
+  "profile_tools_watch_user": "Seguir usuario",
   "profile_tools_unwatch_user": "Dejar de seguir a ese usuario",
-  "profile_tools_force_update": "Actualización forzada",
-  "profile_tools_supporter_divider": "Seguidor",
+  "profile_tools_force_update": "Forzar actualización de perfil",
+  "profile_tools_supporter_divider": "Colaborador",
   "profile_tools_comment_search": "Búsqueda de comentarios",
-  "profile_tools_watch_tooltip": "Reciba notificaciones sobre los cambios en el perfil de este usuario.",
+  "profile_tools_watch_tooltip": "Recibir notificaciones de los cambios en el perfil de este usuario",
   "profile_tools_force_update_tooltip": "Solicitar una actualización en tiempo real del perfil del usuario desde Steam.",
-  "profile_tools_comment_search_tooltip": "Buscar comentarios realizados por un usuario determinado",
+  "profile_tools_comment_search_tooltip": "Buscar comentarios realizados por un usuario especifico",
   "profile_tools_link_discord": "Enlace de Discord",
-  "profile_tools_link_discord_suffix": " para usar la función de reloj.",
-  "profile_tools_watch_limit_nearing": "El límite de vigilancia se está acercando. Conviértete en un {supporterLink} para aumentar el límite.",
-  "profile_tools_watch_limit_reached": "Se ha alcanzado el límite de vigilancia. Conviértete en un {supporterLink} para aumentar el límite.",
+  "profile_tools_link_discord_suffix": " para usar la función de seguimiento ",
+  "profile_tools_watch_limit_nearing": "El límite de seguimientos se está alcanzando. Conviértete en un {supporterLink} para aumentar el límite.",
+  "profile_tools_watch_limit_reached": "Se ha alcanzado el límite de seguimientos. Conviértete en un {supporterLink} para aumentar el límite.",
   "profile_tools_update_success_detailed": "¡Actualización exitosa! ( {usesLeft} / {maxUses} ) usos restantes",
   "profile_tools_update_success_simple": "¡Actualización exitosa!",
   "profile_tools_daily_limit_reached": "Límite diario alcanzado ( {maxUses} / {maxUses} )",
@@ -230,17 +230,17 @@
   "profile_tools_login_to_use": "Inicia sesión para usar la búsqueda de comentarios.",
   "profile_tools_supporter_expired": "Tu membresía ha caducado. Haz clic aquí para renovarla.",
   "profile_tools_become_supporter_cta": "Hazte colaborador para usar la función de búsqueda de comentarios.",
-  "profile_tools_status_watched": "Usuario observado",
-  "profile_status_unwatched": "Usuario no vigilado",
+  "profile_tools_status_watched": "Usuario seguido",
+  "profile_status_unwatched": "Usuario no seguido",
   "search_login_title": "Por favor, inicie sesión.",
   "search_login_description": "Para usar esta función, debes iniciar sesión.",
   "search_login_button": "Iniciar sesión con Steam",
   "search_button": "Buscar",
   "search_no_results": "No se encontraron resultados.",
-  "search_rate_limited_title": "Tarifa limitada",
+  "search_rate_limited_title": "Tasa limitada",
   "search_rate_limited_description": "Estás realizando esta acción con demasiada frecuencia. Inténtalo de nuevo más tarde.",
   "search_error_title": "Error",
-  "search_copy_error_code": "Código de error de copia",
+  "search_copy_error_code": "Copiar código de error",
   "search_alias_title": "Búsqueda de alias",
   "search_alias_description": "Buscar alias",
   "search_alias_label": "Alias",
@@ -257,17 +257,17 @@
   "search_avatar_found_results": [
     {
       "declarations": [
-        "input count",
-        "local cp = count: plural"
+        "contador de entradas",
+        "local cp = contador: plural"
       ],
       "selectors": [
         "cp"
       ],
       "match": {
         "cp=one": "Se encontró el resultado ' {count} ' para",
-        "cp=other": "Se encontraron resultados para ' {count} '",
-        "cp=few": "Se encontraron resultados para ' {count} '",
-        "cp=many": "Se encontraron resultados para ' {count} '"
+        "cp=few": "Se encontraron '{count}' resultados para",
+        "cp=many": "Se encontraron '{count}' resultados para",
+        "cp=other": "Se encontraron resultados para ' {count} '"
       }
     }
   ],
@@ -292,18 +292,18 @@
   "search_comment_results_found": [
     {
       "declarations": [
-        "input count",
-        "input time",
-        "local cp = count: plural"
+        "contador de entradas",
+        "hora de entrada",
+        "local cp = contador: plural"
       ],
       "selectors": [
         "cp"
       ],
       "match": {
         "cp=one": "Se encontró el resultado {count} ( {time} ms)",
-        "cp=other": "Se encontraron {count} resultados ( {time} ms)",
-        "cp=few": "Se encontraron {count} resultados ( {time} ms)",
-        "cp=many": "Se encontraron {count} resultados ( {time} ms)"
+        "cp=few": "Resultados {count} encontrados ({time}ms)",
+        "cp=many": "Resultados {count} encontrados ({time}ms)",
+        "cp=other": "Se encontraron {count} resultados ( {time} ms)"
       }
     }
   ],
@@ -360,23 +360,17 @@
   "profile_history_show_deleted_count": [
     {
       "declarations": [
-        "input ",
-        "input count",
-        "input count, plural, =1 {",
-        "input count, plural, one {",
-        "input e",
-        "input one {",
-        "input s",
-        "local cp = count: plural"
+        "contador de entradas",
+        "local cp = contador: plural"
       ],
       "selectors": [
         "cp"
       ],
       "match": {
         "cp=one": "para mostrar {count} comentario eliminado",
-        "cp=other": "para mostrar {count} comentarios eliminados",
-        "cp=few": "para mostrar {count} comentarios eliminados",
-        "cp=many": "para mostrar {count} comentarios eliminados"
+        "cp=few": "para mostrar los comentarios eliminados {count}",
+        "cp=many": "para mostrar los comentarios eliminados {count}",
+        "cp=other": "para mostrar {count} comentarios eliminados"
       }
     }
   ],
@@ -389,17 +383,17 @@
   "profile_history_friends_duration": [
     {
       "declarations": [
-        "input count",
-        "local cp = count: plural"
+        "contador de entradas",
+        "local cp = contador: plural"
       ],
       "selectors": [
         "cp"
       ],
       "match": {
         "cp=one": "Amigos por {count} día",
-        "cp=other": "Amigos por {count} días",
         "cp=few": "Amigos por {count} días",
-        "cp=many": "Amigos por {count} días"
+        "cp=many": "Amigos por {count} días",
+        "cp=other": "Amigos por {count} días"
       }
     }
   ],
@@ -413,23 +407,17 @@
   "profile_community_bans_proof_entries": [
     {
       "declarations": [
-        "input count",
-        "input count, plural, one {stück",
-        "input count, plural, one {y",
-        "input ies",
-        "input one {stück",
-        "input one {y",
-        "input stücke",
-        "local cp = count: plural"
+        "contador de entradas",
+        "local cp = contador: plural"
       ],
       "selectors": [
         "cp"
       ],
       "match": {
         "cp=one": "{count} Entrada de prueba adjunta",
-        "cp=other": "{count} Entradas de prueba adjuntas",
-        "cp=few": "{count} Entradas de prueba adjuntas",
-        "cp=many": "{count} Entradas de prueba adjuntas"
+        "cp=few": "{count} entradas de prueba adjuntas",
+        "cp=many": "{count} entradas de prueba adjuntas",
+        "cp=other": "{count} Entradas de prueba adjuntas"
       }
     }
   ],
@@ -458,107 +446,89 @@
   "common_true": "Verdadero",
   "common_false": "FALSO",
   "common_cancel": "Cancelar",
+  "common_unknown_user": "Usuario desconocido",
   "time_ago_years": [
     {
       "declarations": [
-        "input count",
-        "input count, plural, one {",
-        "input en",
-        "input one {",
-        "input s",
-        "local cp = count: plural"
+        "contador de entradas",
+        "local cp = contador: plural"
       ],
       "selectors": [
         "cp"
       ],
       "match": {
         "cp=one": "{count} hace un año",
-        "cp=other": "{count} hace años",
-        "cp=few": "{count} hace años",
-        "cp=many": "{count} hace años"
+        "cp=few": "Años atrás",
+        "cp=many": "Años atrás",
+        "cp=other": "{count} hace años"
       }
     }
   ],
   "time_ago_months": [
     {
       "declarations": [
-        "input count",
-        "input count, plural, one {",
-        "input en",
-        "input one {",
-        "input s",
-        "local cp = count: plural"
+        "contador de entradas",
+        "local cp = contador: plural"
       ],
       "selectors": [
         "cp"
       ],
       "match": {
         "cp=one": "{count} hace un mes",
-        "cp=other": "{count} hace meses",
-        "cp=few": "{count} hace meses",
-        "cp=many": "{count} hace meses"
+        "cp=few": "Meses atrás",
+        "cp=many": "Meses atrás",
+        "cp=other": "{count} hace meses"
       }
     }
   ],
   "time_ago_days": [
     {
       "declarations": [
-        "input count",
-        "input count, plural, one {",
-        "input en",
-        "input one {",
-        "local cp = count: plural"
+        "contador de entradas",
+        "local cp = contador: plural"
       ],
       "selectors": [
         "cp"
       ],
       "match": {
         "cp=one": "{count} hace un día",
-        "cp=other": "{count} hace días",
-        "cp=few": "{count} hace días",
-        "cp=many": "{count} hace días"
+        "cp=few": "Días atrás",
+        "cp=many": "Días atrás",
+        "cp=other": "{count} hace días"
       }
     }
   ],
   "time_ago_hours": [
     {
       "declarations": [
-        "input count",
-        "input count, plural, one {",
-        "input n",
-        "input one {",
-        "input s",
-        "local cp = count: plural"
+        "contador de entradas",
+        "local cp = contador: plural"
       ],
       "selectors": [
         "cp"
       ],
       "match": {
         "cp=one": "{count} hace una hora",
-        "cp=other": "{count} hace horas",
-        "cp=few": "{count} hace horas",
-        "cp=many": "{count} hace horas"
+        "cp=few": "Horas atrás",
+        "cp=many": "Horas atrás",
+        "cp=other": "{count} hace horas"
       }
     }
   ],
   "time_ago_minutes": [
     {
       "declarations": [
-        "input count",
-        "input count, plural, one {",
-        "input n",
-        "input one {",
-        "input s",
-        "local cp = count: plural"
+        "contador de entradas",
+        "local cp = contador: plural"
       ],
       "selectors": [
         "cp"
       ],
       "match": {
         "cp=one": "{count} hace un minuto",
-        "cp=other": "{count} hace minutos",
-        "cp=few": "{count} hace minutos",
-        "cp=many": "{count} hace minutos"
+        "cp=few": "Minutos atrás",
+        "cp=many": "Minutos atrás",
+        "cp=other": "{count} hace minutos"
       }
     }
   ],
@@ -574,11 +544,11 @@
     {
       "declarations": [
         "input name",
-        "input nameCount",
-        "input pfpCount",
-        "input privacy",
+        "entrada nameCount",
+        "entrada pfpCount",
+        "introducir privacidad",
         "local ncp = nameCount: plural",
-        "local pcp = pfpCount: plural"
+        "pcp local = pfpCount: plural"
       ],
       "selectors": [
         "ncp",
@@ -586,21 +556,21 @@
       ],
       "match": {
         "ncp=one, pcp=one": "{name} es un perfil {privacy} con {nameCount} una imagen de perfil registrada {pfpCount}",
+        "ncp=one, pcp=few": "{name} es un perfil {privacy} con {nameCount} nombre registrado, {pfpCount} imágenes de perfil grabadas",
+        "ncp=one, pcp=many": "{name} es un perfil {privacy} con {nameCount} nombre registrado, {pfpCount} imágenes de perfil grabadas",
         "ncp=one, pcp=other": "{name} es un perfil {privacy} con {nameCount} nombre registrado, {pfpCount} fotos de perfil registradas",
+        "ncp=few, pcp=one": "{name} es un perfil {privacy} con {nameCount} nombres registrados, {pfpCount} foto de perfil grabada",
+        "ncp=few, pcp=few": "{name} es un perfil {privacy} con {nameCount} nombres grabados, {pfpCount} imágenes de perfil grabadas",
+        "ncp=few, pcp=many": "{name} es un perfil {privacy} con {nameCount} nombres grabados, {pfpCount} imágenes de perfil grabadas",
+        "ncp=few, pcp=other": "{name} es un perfil {privacy} con {nameCount} nombres grabados, {pfpCount} imágenes de perfil grabadas",
+        "ncp=many, pcp=one": "{name} es un perfil {privacy} con {nameCount} nombres registrados, {pfpCount} foto de perfil grabada",
+        "ncp=many, pcp=few": "{name} es un perfil {privacy} con {nameCount} nombres grabados, {pfpCount} imágenes de perfil grabadas",
+        "ncp=many, pcp=many": "{name} es un perfil {privacy} con {nameCount} nombres grabados, {pfpCount} imágenes de perfil grabadas",
+        "ncp=many, pcp=other": "{name} es un perfil {privacy} con {nameCount} nombres grabados, {pfpCount} imágenes de perfil grabadas",
         "ncp=other, pcp=one": "{name} es un perfil {privacy} con {nameCount} nombres registrados y {pfpCount} imagen de perfil registrada",
-        "ncp=other, pcp=other": "{name} es un perfil {privacy} con {nameCount} nombres registrados y {pfpCount} fotos de perfil registradas",
-        "ncp=one, pcp=few": "{name} es un perfil {privacy} con {nameCount} nombre registrado, {pfpCount} fotos de perfil registradas",
-        "ncp=one, pcp=many": "{name} es un perfil {privacy} con {nameCount} nombre registrado, {pfpCount} fotos de perfil registradas",
-        "ncp=few, pcp=one": "{name} es un perfil {privacy} con {nameCount} nombres registrados y {pfpCount} imagen de perfil registrada",
-        "ncp=few, pcp=few": "{name} es un perfil {privacy} con {nameCount} nombres registrados y {pfpCount} fotos de perfil registradas",
-        "ncp=few, pcp=many": "{name} es un perfil {privacy} con {nameCount} nombres registrados y {pfpCount} fotos de perfil registradas",
-        "ncp=few, pcp=other": "{name} es un perfil {privacy} con {nameCount} nombres registrados y {pfpCount} fotos de perfil registradas",
-        "ncp=many, pcp=one": "{name} es un perfil {privacy} con {nameCount} nombres registrados y {pfpCount} imagen de perfil registrada",
-        "ncp=many, pcp=few": "{name} es un perfil {privacy} con {nameCount} nombres registrados y {pfpCount} fotos de perfil registradas",
-        "ncp=many, pcp=many": "{name} es un perfil {privacy} con {nameCount} nombres registrados y {pfpCount} fotos de perfil registradas",
-        "ncp=many, pcp=other": "{name} es un perfil {privacy} con {nameCount} nombres registrados y {pfpCount} fotos de perfil registradas",
-        "ncp=other, pcp=few": "{name} es un perfil {privacy} con {nameCount} nombres registrados y {pfpCount} fotos de perfil registradas",
-        "ncp=other, pcp=many": "{name} es un perfil {privacy} con {nameCount} nombres registrados y {pfpCount} fotos de perfil registradas"
+        "ncp=other, pcp=few": "{name} es un perfil {privacy} con {nameCount} nombres grabados, {pfpCount} imágenes de perfil grabadas",
+        "ncp=other, pcp=many": "{name} es un perfil {privacy} con {nameCount} nombres grabados, {pfpCount} imágenes de perfil grabadas",
+        "ncp=other, pcp=other": "{name} es un perfil {privacy} con {nameCount} nombres registrados y {pfpCount} fotos de perfil registradas"
       }
     }
   ],
@@ -617,17 +587,17 @@
   "notification_dock_votes_count": [
     {
       "declarations": [
-        "input count",
-        "local cp = count: plural"
+        "contador de entradas",
+        "local cp = contador: plural"
       ],
       "selectors": [
         "cp"
       ],
       "match": {
-        "cp=one": "{count} vote",
-        "cp=other": "{count} votos",
+        "cp=one": "{count} voto",
         "cp=few": "{count} votos",
-        "cp=many": "{count} votos"
+        "cp=many": "{count} votos",
+        "cp=other": "{count} votos"
       }
     }
   ],
@@ -845,17 +815,17 @@
   "data_removal_entries_count": [
     {
       "declarations": [
-        "input count",
-        "local cp = count: plural"
+        "contador de entradas",
+        "local cp = contador: plural"
       ],
       "selectors": [
         "cp"
       ],
       "match": {
         "cp=one": "( {count} entrada)",
-        "cp=other": "( {count} entradas)",
-        "cp=few": "( {count} entradas)",
-        "cp=many": "( {count} entradas)"
+        "cp=few": "Entradas",
+        "cp=many": "Entradas",
+        "cp=other": "( {count} entradas)"
       }
     }
   ],
@@ -873,20 +843,17 @@
   "data_removal_selected_items": [
     {
       "declarations": [
-        "input count",
-        "input count, plural, one {",
-        "input e",
-        "input one {",
-        "local cp = count: plural"
+        "contador de entradas",
+        "local cp = contador: plural"
       ],
       "selectors": [
         "cp"
       ],
       "match": {
         "cp=one": "Elemento seleccionado {count} para su eliminación",
-        "cp=other": "Elementos seleccionados {count} para su eliminación",
-        "cp=few": "Elementos seleccionados {count} para su eliminación",
-        "cp=many": "Elementos seleccionados {count} para su eliminación"
+        "cp=few": "Seleccionados {count} elementos para eliminar",
+        "cp=many": "Seleccionados {count} elementos para eliminar",
+        "cp=other": "Elementos seleccionados {count} para su eliminación"
       }
     }
   ],
@@ -942,17 +909,17 @@
   "sources_count": [
     {
       "declarations": [
-        "input count",
-        "local cp = count: plural"
+        "contador de entradas",
+        "local cp = contador: plural"
       ],
       "selectors": [
         "cp"
       ],
       "match": {
-        "cp=one": "{count} source",
-        "cp=other": "{count} fuentes",
-        "cp=few": "{count} fuentes",
-        "cp=many": "{count} fuentes"
+        "cp=one": "Fuente {count}",
+        "cp=few": "Fuentes {count}",
+        "cp=many": "Fuentes {count}",
+        "cp=other": "{count} fuentes"
       }
     }
   ],
@@ -968,8 +935,8 @@
   "api_example_data": "Datos de ejemplo:",
   "api_copy": "Copiar",
   "api_copied": "¡Copiado!",
-  "api_hide": "Esconder",
-  "api_show": "Espectáculo",
+  "api_hide": "Ocultar",
+  "api_show": "Mostrar",
   "teams_title": "Mis equipos",
   "teams_search_placeholder": "Equipos de búsqueda...",
   "teams_create_button": "Crear equipo",
@@ -984,6 +951,7 @@
   "teams_vanity_label": "URL personalizada",
   "teams_vanity_placeholder": "triunfadores",
   "teams_vanity_hint": "Un enlace corto y único para el perfil de tu equipo.",
+  "teams_vanity_readonly_hint": "Las URL de Vanity no se pueden cambiar después de la creación.",
   "teams_description_label": "Descripción",
   "teams_description_placeholder": "¿Cuál es el objetivo de este equipo?",
   "teams_private_label": "Equipo privado",
@@ -1009,95 +977,95 @@
   "team_members_tab": [
     {
       "declarations": [
-        "input count",
-        "local cp = count: plural"
+        "contador de entradas",
+        "local cp = contador: plural"
       ],
       "selectors": [
         "cp"
       ],
       "match": {
         "cp=one": "Miembro ( {count} )",
-        "cp=other": "Miembros ( {count} )",
-        "cp=few": "Miembros ( {count} )",
-        "cp=many": "Miembros ( {count} )"
+        "cp=few": "Miembros ({count})",
+        "cp=many": "Miembros ({count})",
+        "cp=other": "Miembros ( {count} )"
       }
     }
   ],
   "team_notes_tab": [
     {
       "declarations": [
-        "input count",
-        "local cp = count: plural"
+        "contador de entradas",
+        "local cp = contador: plural"
       ],
       "selectors": [
         "cp"
       ],
       "match": {
         "cp=one": "Nota ( {count} )",
-        "cp=other": "Notas ( {count} )",
-        "cp=few": "Notas ( {count} )",
-        "cp=many": "Notas ( {count} )"
+        "cp=few": "Notas ({count})",
+        "cp=many": "Notas ({count})",
+        "cp=other": "Notas ( {count} )"
       }
     }
   ],
   "team_invitations_tab": [
     {
       "declarations": [
-        "input count",
-        "local cp = count: plural"
+        "contador de entradas",
+        "local cp = contador: plural"
       ],
       "selectors": [
         "cp"
       ],
       "match": {
         "cp=one": "Invitación ( {count} )",
-        "cp=other": "Invitaciones ( {count} )",
-        "cp=few": "Invitaciones ( {count} )",
-        "cp=many": "Invitaciones ( {count} )"
+        "cp=few": "Invitaciones ({count})",
+        "cp=many": "Invitaciones ({count})",
+        "cp=other": "Invitaciones ( {count} )"
       }
     }
   ],
   "team_members_title": "Miembros",
   "team_member_joined": "Se unió {date}",
-  "team_remove_member_tooltip": "Eliminar miembro",
+  "team_remove_member_tooltip": "Quitar miembro",
   "team_remove_member_confirm": "¿Estás seguro de que quieres eliminar a este miembro del equipo?",
   "team_notes_title": "Notas del equipo",
   "team_manage_invitations": "Gestionar invitaciones",
-  "team_invite_member_title": "Invitar a un nuevo miembro",
+  "team_invite_member_title": "Invitar Nuevo Miembro",
   "team_invite_member_hint": "Los usuarios invitados deben tener un perfil existente en SteamHistory.net.",
   "team_pending_invites_title": [
     {
       "declarations": [
-        "input count",
-        "local cp = count: plural"
+        "contador de entradas",
+        "local cp = contador: plural"
       ],
       "selectors": [
         "cp"
       ],
       "match": {
         "cp=one": "Invitación pendiente ( {count} )",
-        "cp=other": "Invitaciones pendientes ( {count} )",
-        "cp=few": "Invitaciones pendientes ( {count} )",
-        "cp=many": "Invitaciones pendientes ( {count} )"
+        "cp=few": "Invitaciones pendientes ({count})",
+        "cp=many": "Invitaciones pendientes ({count})",
+        "cp=other": "Invitaciones pendientes ( {count} )"
       }
     }
   ],
   "team_no_pending_invites": "No hay invitaciones pendientes",
   "team_overview_title": "Descripción general del equipo",
   "team_founded": "Fundado",
-  "team_total_members": "Total de miembros",
+  "team_total_members": "Miembros Totales",
   "team_staff_count": "Personal",
-  "team_your_membership": "Su membresía",
+  "team_your_membership": "Tu membresía",
   "team_privacy_mode": "Modo privado",
   "team_privacy_hidden": "Oculto",
   "team_privacy_visible": "Visible",
   "team_your_rank": "Tu clasificación",
   "team_show_membership": "Mostrar membresía",
   "team_hide_membership": "Ocultar membresía",
-  "team_membership_hidden_hint": "Tu membresía está oculta. No aparecerás en las listas públicas de miembros para personas que no son personal.",
+  "team_membership_hidden_hint": "Tu membresía está oculta. No aparecerás en las listas públicas de miembros para personas que no son Administradores",
   "team_membership_visible_hint": "Tu membresía es pública. Cualquiera puede ver que formas parte de este equipo.",
   "team_resignation": "Renuncia",
-  "team_leave_group": "Grupo de salida",
+  "team_leave_group": "Abandonar Grupo",
   "team_leave_confirm": "¿Está seguro de que desea salir de {name} ?",
   "team_owner_leave_hint": "Los propietarios no pueden abandonar su propio equipo. Debes eliminar el equipo para renunciar.",
   "friendgroups_form_title": "Visualización de grupos de amigos",
@@ -1127,8 +1095,8 @@
   "account_tag_text_label": "Texto de etiqueta",
   "account_tag_text_placeholder": "Introduzca el texto de la etiqueta...",
   "account_tag_color_label": "Color de la etiqueta",
-  "account_blur_label": "Difuminar",
-  "account_spread_label": "Desparramar",
+  "account_blur_label": "Desenfocar",
+  "account_spread_label": "Propagar",
   "account_x_offset_label": "Desplazamiento horizontal",
   "account_y_offset_label": "Desplazamiento vertical",
   "account_shadow_color_label": "Color de sombra",
@@ -1139,8 +1107,9 @@
   "account_become_supporter_title": "Conviértete en patrocinador",
   "account_become_supporter_desc": "Desbloquea la personalización de tu perfil y otras funciones exclusivas convirtiéndote en patrocinador.",
   "account_support_cta": "Apoya la historia de Steam",
+  "account_supporter_status_title": "Estado del soporte",
   "account_status_active": "Activo",
-  "account_status_expired": "Venció",
+  "account_status_expired": "Expirado",
   "account_status_inactive": "Inactivo",
   "account_email_label": "Correo electrónico:",
   "account_not_linked": "No está vinculado",
@@ -1149,17 +1118,17 @@
   "account_days_remaining": [
     {
       "declarations": [
-        "input count",
-        "local cp = count: plural"
+        "contador de entradas",
+        "local cp = contador: plural"
       ],
       "selectors": [
         "cp"
       ],
       "match": {
         "cp=one": "{count} día restante",
-        "cp=other": "{count} días restantes",
         "cp=few": "{count} días restantes",
-        "cp=many": "{count} días restantes"
+        "cp=many": "{count} días restantes",
+        "cp=other": "{count} días restantes"
       }
     }
   ],
@@ -1172,12 +1141,12 @@
   "account_watched_users_title": "Usuarios observados",
   "account_watch_limit_reached_tooltip": "¡Límite de visualizaciones alcanzado! Debes convertirte en colaborador para ver a más usuarios.",
   "account_watch_limit_nearing_tooltip": "Estás cerca de alcanzar tu límite de usuarios. Haz clic para convertirte en colaborador y aumentar tu límite a 32 usuarios.",
-  "account_unwatch_tooltip": "Dejar de ver",
+  "account_unwatch_tooltip": "Dejar seguir",
   "account_no_watched_users": "Actualmente no estás viendo a ningún usuario.",
   "account_search_to_watch": "Busca un usuario para empezar a ver su perfil.",
   "account_user_notes_title": "Notas del usuario",
   "account_remove_note_tooltip": "Eliminar nota",
-  "account_no_notes": "Todavía no has añadido ninguna nota a los usuarios.",
+  "account_no_notes": "Aún no has añadido ninguna nota a los usuarios.",
   "account_visit_to_add_note": "Visita el perfil de un usuario para añadir notas personales.",
   "account_api_key_title": "Gestión de claves API",
   "account_revoke_confirm": "¿Está seguro de que desea revocar su clave API? Esta acción es irreversible y afectará a todas las aplicaciones que la utilicen.",
@@ -1194,18 +1163,18 @@
   "account_discord_link_desc": "Vincula tu Discord a:",
   "account_discord_link_li1": "Obtén el rol de Verificado en Discord para obtener permisos de medios.",
   "account_discord_link_li2": "Utiliza la función \"Observar usuario\" y recibe notificaciones directamente a través de Discord sobre los cambios en un perfil.",
-  "account_discord_link_button": "Enlace a la cuenta de Discord",
+  "account_discord_link_button": "Vincular cuenta de Discord",
   "community_ban_attr_suspicious": "Sospechoso",
   "community_ban_attr_cheater": "Tramposo",
-  "community_ban_attr_exploiter": "Explotador",
+  "community_ban_attr_exploiter": "Uso de Exploits",
   "community_ban_attr_racist": "Racista",
   "status_private_member": "Miembro privado",
   "friendgroups_title": "Red de amigos",
   "friendgroups_search_placeholder": "Buscar por nombre o ID...",
   "friendgroups_controls_title": "Controles y filtros",
   "friendgroups_view_controls": "Controles de vista",
-  "friendgroups_zoom_in": "Dar un golpe de zoom",
-  "friendgroups_zoom_out": "Aleja la imagen",
+  "friendgroups_zoom_in": "Ampliar Imagen",
+  "friendgroups_zoom_out": "Alejar Imagen",
   "friendgroups_reset_view": "Restablecer vista",
   "friendgroups_show_labels": "Mostrar etiquetas",
   "friendgroups_hide_labels": "Ocultar etiquetas",
@@ -1222,7 +1191,7 @@
   "friendgroups_legend_title": "Leyenda",
   "friendgroups_legend_node_colors": "Colores de los nodos (distancia)",
   "friendgroups_legend_source": "Fuente",
-  "friendgroups_legend_dist": "Dist {count}",
+  "friendgroups_legend_dist": "Distar {count}",
   "friendgroups_legend_dist_plus": "Distrito 5+",
   "friendgroups_legend_edge_styles": "Estilos de borde (Relación)",
   "friendgroups_legend_bfs_tree": "Árbol BFS (ruta de descubrimiento)",
@@ -1232,30 +1201,30 @@
   "friendgroups_legend_unfriended_edge": "Eliminado de la lista de amigos (conexión pasada)",
   "friendgroups_legend_special_styles": "Estilos especiales",
   "friendgroups_legend_has_avatar": "Tiene avatar",
-  "friendgroups_legend_unfriended_user": "Usuario eliminado de la lista de amigos",
+  "friendgroups_legend_unfriended_user": "Usuario eliminado ",
   "friendgroups_form_desc": "Explora las redes de amigos a partir de un usuario específico.",
   "friendgroups_start_id_label": "Iniciando Steam ID",
   "friendgroups_start_id_placeholder": "Introduce tu ID de Steam (por ejemplo, 76561198000000000)",
   "friendgroups_max_depth_label": "Profundidad máxima",
   "friendgroups_generate_button": "Generar gráfico",
-  "friendgroups_node_info_close": "Cerca",
+  "friendgroups_node_info_close": "Cerrar",
   "friendgroups_node_info_view_profile": "Ver perfil",
   "friendgroups_node_info_status_current": "Amigo actual",
-  "friendgroups_node_info_status_unfriended": "Hostil",
+  "friendgroups_node_info_status_unfriended": "Eliminado",
   "friendgroups_node_info_distance": "Distancia",
   "friendgroups_node_info_distance_unit": "lúpulo",
   "friendgroups_node_info_connections": "Conexiones",
-  "friendgroups_node_info_connections_unit": "amigos",
+  "friendgroups_node_info_connections_unit": "Amigos",
   "friendgroups_node_info_source_user": "Usuario de origen",
   "friendgroups_mobile_tip": "Consejo: Toca los nodos para ver los detalles y las conexiones.",
   "friendgroups_unfriended_at": "Eliminó a su lista de amigos {date}",
   "friendgroups_disabled_production": "Esta función está desactivada en producción.",
   "account_copy_button": "Copiar",
   "account_copied_button": "¡Copiado!",
-  "account_save_button": "Ahorrar",
-  "account_saving_button": "Ahorro...",
-  "account_saved_button": "¡Salvado!",
-  "account_renew_button": "Renovar el apoyo",
+  "account_save_button": "Guardar",
+  "account_saving_button": "Guardando ...",
+  "account_saved_button": "¡Guardado!",
+  "account_renew_button": "Renovar soporte",
   "account_border_solid": "Sólido",
   "account_border_dotted": "Punteado",
   "account_border_dashed": "Corrido",
@@ -1268,11 +1237,11 @@
   "history_title": "Histórico {type} para {name} ( {steamID64} )",
   "history_back_to_profile": "Volver al perfil de {name}",
   "history_no_data": "No hay datos disponibles para este usuario.",
-  "history_error_not_found": "Extraviado",
+  "history_error_not_found": "No encontrado",
   "history_type_persona": "Persona",
   "history_type_realname": "Nombre real",
   "history_type_url": "URL",
-  "history_type_pfp": "PFP",
+  "history_type_pfp": "Avatar",
   "history_type_comments": "Comentarios",
   "history_type_friends": "Amigos",
   "history_type_data": "Datos",
@@ -1283,19 +1252,19 @@
   "teams_create_title": "Crear nuevo equipo",
   "teams_create_first_button": "Crea tu primer equipo",
   "teams_rank_owner": "Dueño",
-  "teams_rank_admin": "Administración",
+  "teams_rank_admin": "Administrador",
   "teams_rank_moderator": "Moderador",
   "teams_rank_member": "Miembro",
   "teams_private_badge": "Privado",
   "privacy_meta_description": "Política de privacidad de SteamHistory.net. Descubre cómo recopilamos, usamos y protegemos tus datos.",
-  "tos_meta_description": "Condiciones de servicio de SteamHistory.net.",
+  "tos_meta_description": "Términos de servicio de SteamHistory.net.",
   "login_required_title": "Se requiere iniciar sesión.",
   "login_required_header": "Se requiere autenticación",
   "login_required_desc": "Debes iniciar sesión para acceder a esta página.",
   "login_required_button": "Iniciar sesión con Steam",
   "teams_back_to_my_teams": "Volver a Mis Equipos",
   "teams_edit_settings": "Editar configuración",
-  "teams_invite_members": "Invitar a los miembros",
+  "teams_invite_members": "Invitar miembros",
   "teams_members_tab": "Miembros",
   "teams_notes_tab": "Notas",
   "teams_invitations_tab": "Invitaciones",
@@ -1305,25 +1274,25 @@
   "teams_manage_invitations": "Gestionar invitaciones",
   "teams_send_invitation": "Enviar invitación",
   "teams_team_overview": "Descripción general del equipo",
-  "teams_total_members": "Total de miembros",
-  "teams_your_membership": "Su membresía",
-  "teams_privacy_mode": "Modo privado",
-  "teams_your_rank": "Tu clasificación",
-  "teams_kick_member": "Miembro de Kick",
-  "teams_promote_admin": "Ascender a administrador",
-  "teams_promote_moderator": "Ascender a moderador",
-  "teams_demote_member": "Degradación a miembro",
+  "teams_total_members": "Miembros Totales",
+  "teams_your_membership": "Tu membresía",
+  "teams_privacy_mode": "Modo de privacidad",
+  "teams_your_rank": "Tu rango",
+  "teams_kick_member": "Expulsar miembro",
+  "teams_promote_admin": "Promover a Administrador",
+  "teams_promote_moderator": "Promover a moderador",
+  "teams_demote_member": "Degradar a Miembro",
   "teams_confirm_kick": "¿Estás seguro de que quieres expulsar a este miembro?",
   "teams_confirm_promote": "¿Estás seguro de que quieres promocionar a este miembro?",
-  "teams_confirm_demote": "¿Está seguro de que desea degradar a este miembro?",
-  "teams_no_invitations": "No hay invitaciones pendientes",
-  "teams_steamid_placeholder": "SteamID64",
+  "teams_confirm_demote": "¿Estás seguro de que quieres degradar a este miembro?",
+  "teams_no_invitations": "Sin invitaciones pendientes",
+  "teams_steamid_placeholder": "Idioma 64",
   "teams_invite_hint": "Los usuarios invitados deben tener un perfil existente en SteamHistory.net.",
   "teams_pending_invites": "Invitaciones pendientes",
   "teams_cancel_invite": "Cancelar invitación",
   "teams_follow": "Seguir",
   "teams_unfollow": "Dejar de seguir",
-  "teams_edit_team": "Equipo de edición",
+  "teams_edit_team": "Editar equipo",
   "teams_delete_team": "Eliminar equipo",
   "teams_confirm_delete": "¿Estás seguro de que quieres eliminar este equipo? Esta acción es irreversible.",
   "teams_founded": "Fundado",
@@ -1335,27 +1304,25 @@
   "teams_membership_hidden_hint": "Tu membresía está oculta. No aparecerás en las listas públicas de miembros para personas que no son personal.",
   "teams_membership_public_hint": "Tu membresía es pública. Cualquiera puede ver que formas parte de este equipo.",
   "teams_resignation": "Renuncia",
-  "teams_leave_team": "Dejar el equipo",
+  "teams_leave_team": "Abandonar equipo",
   "teams_confirm_leave": "¿Estás seguro de que quieres abandonar este equipo?",
-  "common_unknown_user": "Usuario desconocido",
-  "teams_vanity_readonly_hint": "Las URL personalizadas no se pueden cambiar después de su creación.",
-  "teams_note_target": "Objetivo",
+  "teams_note_target": "Target",
   "teams_note_author": "Autor",
   "teams_note_revisions": "Revisiones",
-  "teams_note_edit": "Nota de edición",
+  "teams_note_edit": "Editar nota",
   "teams_note_visibility": "Visibilidad",
-  "teams_note_staff_only": "Sólo Personal",
+  "teams_note_staff_only": "Solo personal",
   "teams_note_team_members": "Miembros del equipo",
   "teams_note_public": "Público",
-  "teams_note_unlock": "Nota de desbloqueo",
-  "teams_note_lock": "Nota de candado",
-  "teams_note_delete": "Borrar nota",
-  "teams_note_delete_confirm": "¿Estás seguro de que quieres eliminar esta nota?",
-  "teams_note_save_changes": "Guardar cambios",
+  "teams_note_unlock": "Desbloquear nota",
+  "teams_note_lock": "Bloquear nota",
+  "teams_note_delete": "Eliminar nota",
+  "teams_note_delete_confirm": "¿Está seguro que desea eliminar esta nota?",
+  "teams_note_save_changes": "Guardar Cambios",
   "teams_note_revision_history": "Historial de revisiones",
-  "teams_note_close": "Cerca",
+  "teams_note_close": "Cerrar",
   "teams_note_current_version": "Versión actual",
-  "teams_note_recent": "Reciente",
+  "teams_note_recent": "Recientes",
   "teams_note_locked": "Bloqueado",
-  "teams_notes_none": "No se encontraron notas del equipo."
+  "teams_notes_none": "No se encontraron notas de equipo."
 }
