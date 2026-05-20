@@ -70,23 +70,7 @@
   "profile_ban_unban_reason": "解禁原因：",
   "profile_ban_unban_date": "解禁日期：",
   "profile_ban_duration": "期间：",
-  "profile_ban_duration_days": [
-    {
-      "declarations": [
-        "输入计数",
-        "本地cp = 计数：复数"
-      ],
-      "selectors": [
-        "cp"
-      ],
-      "match": {
-        "cp=one": "{count}天",
-        "cp=few": "{count}天",
-        "cp=many": "{count}天",
-        "cp=other": "{count}天"
-      }
-    }
-  ],
+  "profile_ban_duration_days": "{count} days",
   "profile_notes_title": "笔记",
   "profile_notes_tab_team": "团队",
   "profile_notes_tab_personal": "个人的",
@@ -105,99 +89,15 @@
   "profile_notes_team_visibility_public": "公开（成员和关注者）",
   "profile_notes_team_placeholder": "与团队分享你的观察结果……",
   "profile_notes_team_post": "发布到团队",
-  "profile_vac_bans_detailed": [
-    {
-      "declarations": [
-        "输入计数",
-        "input timeAgo",
-        "输入时间戳",
-        "本地cp = 计数：复数"
-      ],
-      "selectors": [
-        "cp"
-      ],
-      "match": {
-        "cp=one": "{count} ban, {timeAgo} ( {timestamp} )",
-        "cp=few": "{count}禁止， {timeAgo} ( {timestamp} )",
-        "cp=many": "{count}禁止， {timeAgo} ( {timestamp} )",
-        "cp=other": "{count}禁止， {timeAgo} ( {timestamp} )"
-      }
-    }
-  ],
-  "profile_vac_bans_simple": [
-    {
-      "declarations": [
-        "输入计数",
-        "本地cp = 计数：复数"
-      ],
-      "selectors": [
-        "cp"
-      ],
-      "match": {
-        "cp=one": "{count}禁令",
-        "cp=few": "{count}禁止",
-        "cp=many": "{count}禁止",
-        "cp=other": "{count}禁止"
-      }
-    }
-  ],
+  "profile_vac_bans_detailed": "{count} bans, {timeAgo} ({timestamp})",
+  "profile_vac_bans_simple": "{count} bans",
   "profile_vac_none": "没有VAC封禁记录",
   "profile_community_bans_detailed": "已禁用{timeAgo} ( {timestamp} )",
   "profile_community_bans_simple": "被禁",
   "profile_community_none": "目前没有社区禁令记录",
-  "profile_community_bans_total_count": [
-    {
-      "declarations": [
-        "输入计数",
-        "本地cp = 计数：复数"
-      ],
-      "selectors": [
-        "cp"
-      ],
-      "match": {
-        "cp=one": "{count}禁令",
-        "cp=few": "{count}禁止",
-        "cp=many": "{count}禁止",
-        "cp=other": "{count}禁止"
-      }
-    }
-  ],
-  "profile_game_bans_detailed": [
-    {
-      "declarations": [
-        "输入计数",
-        "input timeAgo",
-        "输入时间戳",
-        "本地cp = 计数：复数"
-      ],
-      "selectors": [
-        "cp"
-      ],
-      "match": {
-        "cp=one": "{count} ban, {timeAgo} ( {timestamp} )",
-        "cp=few": "{count}禁止， {timeAgo} ( {timestamp} )",
-        "cp=many": "{count}禁止， {timeAgo} ( {timestamp} )",
-        "cp=other": "{count}禁止， {timeAgo} ( {timestamp} )"
-      }
-    }
-  ],
-  "profile_game_bans_simple": [
-    {
-      "declarations": [
-        "输入计数",
-        "本地cp = 计数：复数"
-      ],
-      "selectors": [
-        "cp"
-      ],
-      "match": {
-        "cp=one": "{count}禁令",
-        "cp=few": "{count}禁止",
-        "cp=many": "{count}禁止",
-        "cp=other": "{count}禁止"
-      }
-    }
-  ],
+  "profile_community_bans_total_count": "{count} bans",
+  "profile_game_bans_detailed": "{count} bans, {timeAgo} ({timestamp})",
+  "profile_game_bans_simple": "{count} bans",
   "profile_game_none": "目前没有游戏禁赛记录",
   "profile_economy_bans_detailed": "已禁用{timeAgo} ( {timestamp} )",
   "profile_economy_bans_simple": "被禁",
@@ -254,23 +154,7 @@
   "search_avatar_title": "头像搜索",
   "search_avatar_description": "搜索历史人物照片",
   "search_avatar_hash_label": "头像哈希",
-  "search_avatar_found_results": [
-    {
-      "declarations": [
-        "输入计数",
-        "本地cp = 计数：复数"
-      ],
-      "selectors": [
-        "cp"
-      ],
-      "match": {
-        "cp=one": "找到{count} ”结果",
-        "cp=few": "找到 ' {count} ' 个结果",
-        "cp=many": "找到 ' {count} ' 个结果",
-        "cp=other": "找到 ' {count} ' 个结果"
-      }
-    }
-  ],
+  "search_avatar_found_results": "Found '{count}' results for",
   "search_url_title": "URL 搜索",
   "search_url_description": "搜索历史网址",
   "search_url_label": "网址",
@@ -289,24 +173,7 @@
   "search_comment_sort_label": "排序方式：",
   "search_comment_sort_newest": "最新优先",
   "search_comment_sort_oldest": "最早的在前",
-  "search_comment_results_found": [
-    {
-      "declarations": [
-        "输入计数",
-        "输入时间",
-        "本地cp = 计数：复数"
-      ],
-      "selectors": [
-        "cp"
-      ],
-      "match": {
-        "cp=one": "找到{count}结果（ {time}毫秒）",
-        "cp=few": "找到{count}个结果（ {time}毫秒）",
-        "cp=many": "找到{count}个结果（ {time}毫秒）",
-        "cp=other": "找到{count}个结果（ {time}毫秒）"
-      }
-    }
-  ],
+  "search_comment_results_found": "Found {count} results ({time}ms)",
   "search_comment_date_range": "日期范围： {range}",
   "homepage_title": "SteamHistory.net | Steam个人资料存档",
   "homepage_description": "SteamHistory 的主要目的是收集 Steam 个人资料的历史和/或当前信息，并将其存储在一个中心位置。",
@@ -357,46 +224,14 @@
   "profile_history_filter_unfriended": "解除好友",
   "profile_history_filter_deleted": "已删除",
   "profile_history_bans_label": "禁令：",
-  "profile_history_show_deleted_count": [
-    {
-      "declarations": [
-        "输入计数",
-        "本地cp = 计数：复数"
-      ],
-      "selectors": [
-        "cp"
-      ],
-      "match": {
-        "cp=one": "显示{count}已删除的评论",
-        "cp=few": "显示{count}已删除的评论",
-        "cp=many": "显示{count}已删除的评论",
-        "cp=other": "显示{count}已删除的评论"
-      }
-    }
-  ],
+  "profile_history_show_deleted_count": "to show {count} deleted comments",
   "profile_history_view_all_button": "查看全部",
   "profile_history_hidden_data": "[SH数据已按请求隐藏]",
   "profile_history_search_persona_tooltip": "搜索具有此角色名称的用户",
   "profile_history_search_url_tooltip": "搜索使用此 URL 的用户",
   "profile_history_official_avatar_tooltip": "这是官方的Steam或游戏头像，无法通过这种方式搜索到。",
   "profile_history_unfriended_label": "[已取消好友{date} ]",
-  "profile_history_friends_duration": [
-    {
-      "declarations": [
-        "输入计数",
-        "本地cp = 计数：复数"
-      ],
-      "selectors": [
-        "cp"
-      ],
-      "match": {
-        "cp=one": "朋友{count}",
-        "cp=few": "朋友陪伴{count}天",
-        "cp=many": "朋友陪伴{count}天",
-        "cp=other": "朋友陪伴{count}天"
-      }
-    }
-  ],
+  "profile_history_friends_duration": "Friends for {count} days",
   "profile_history_friends_from": "来自{date}的朋友",
   "profile_history_friend_since": "自{date}以来一直是朋友",
   "profile_community_bans_title": "社区禁令",
@@ -404,23 +239,7 @@
   "profile_community_bans_keywords_label": "关键词： {list}",
   "profile_community_bans_group_ban_note": "禁止加入群组并不代表存在作弊行为，而是社区的一种立场。",
   "profile_community_bans_view_on_server": "查看对{server}的禁令",
-  "profile_community_bans_proof_entries": [
-    {
-      "declarations": [
-        "输入计数",
-        "本地cp = 计数：复数"
-      ],
-      "selectors": [
-        "cp"
-      ],
-      "match": {
-        "cp=one": "{count}已附证明条目",
-        "cp=few": "{count}已附证明条目",
-        "cp=many": "{count}已附证明条目",
-        "cp=other": "{count}已附证明条目"
-      }
-    }
-  ],
+  "profile_community_bans_proof_entries": "{count} proof entries attached",
   "profile_community_bans_recent_badge": "最近的",
   "profile_community_bans_permanent_badge": "永恒的",
   "profile_community_bans_temporary_badge": "暂时的",
@@ -447,91 +266,11 @@
   "common_false": "错误的",
   "common_cancel": "取消",
   "common_unknown_user": "未知用户",
-  "time_ago_years": [
-    {
-      "declarations": [
-        "输入计数",
-        "本地cp = 计数：复数"
-      ],
-      "selectors": [
-        "cp"
-      ],
-      "match": {
-        "cp=one": "{count}年前",
-        "cp=few": "{count}年前",
-        "cp=many": "{count}年前",
-        "cp=other": "{count}年前"
-      }
-    }
-  ],
-  "time_ago_months": [
-    {
-      "declarations": [
-        "输入计数",
-        "本地cp = 计数：复数"
-      ],
-      "selectors": [
-        "cp"
-      ],
-      "match": {
-        "cp=one": "{count}前",
-        "cp=few": "{count}前",
-        "cp=many": "{count}前",
-        "cp=other": "{count}前"
-      }
-    }
-  ],
-  "time_ago_days": [
-    {
-      "declarations": [
-        "输入计数",
-        "本地cp = 计数：复数"
-      ],
-      "selectors": [
-        "cp"
-      ],
-      "match": {
-        "cp=one": "{count}天前",
-        "cp=few": "{count}天前",
-        "cp=many": "{count}天前",
-        "cp=other": "{count}天前"
-      }
-    }
-  ],
-  "time_ago_hours": [
-    {
-      "declarations": [
-        "输入计数",
-        "本地cp = 计数：复数"
-      ],
-      "selectors": [
-        "cp"
-      ],
-      "match": {
-        "cp=one": "{count}一小时前",
-        "cp=few": "{count}小时前",
-        "cp=many": "{count}小时前",
-        "cp=other": "{count}小时前"
-      }
-    }
-  ],
-  "time_ago_minutes": [
-    {
-      "declarations": [
-        "输入计数",
-        "本地cp = 计数：复数"
-      ],
-      "selectors": [
-        "cp"
-      ],
-      "match": {
-        "cp=one": "{count}分钟前",
-        "cp=few": "{count}分钟前",
-        "cp=many": "{count}分钟前",
-        "cp=other": "{count}分钟前"
-      }
-    }
-  ],
+  "time_ago_years": "{count} years ago",
+  "time_ago_months": "{count} months ago",
+  "time_ago_days": "{count} days ago",
+  "time_ago_hours": "{count} hours ago",
+  "time_ago_minutes": "{count} minutes ago",
   "time_ago_just_now": "现在",
   "profile_indexing_title": "索引进行中",
   "profile_indexing_text": "该用户的个人资料正在被索引，请稍候。",
@@ -540,40 +279,7 @@
   "profile_error_load_failed": "用户数据加载失败。该用户资料可能不存在或设置为私密。",
   "profile_error_backend_connection": "我们连接服务器时遇到问题。请稍后再试。如需实时更新，请加入我们的{discordLink} ！",
   "profile_error_auth_required": "此用户尚未被索引。请{loginLink}开始索引过程。",
-  "profile_meta_description": [
-    {
-      "declarations": [
-        "input name",
-        "输入名称计数",
-        "输入pfpCount",
-        "输入隐私",
-        "local ncp = name数量：复数",
-        "local pcp = pfpCount: 复数"
-      ],
-      "selectors": [
-        "ncp",
-        "pcp"
-      ],
-      "match": {
-        "ncp=one, pcp=one": "{name}是一个{privacy}配置文件，其中记录了{nameCount}个名称和{pfpCount}张头像。",
-        "ncp=one, pcp=few": "{name}是一个{privacy}配置文件，其中记录了{nameCount}个名称和{pfpCount}张头像。",
-        "ncp=one, pcp=many": "{name}是一个{privacy}配置文件，其中记录了{nameCount}个名称和{pfpCount}张头像。",
-        "ncp=one, pcp=other": "{name}是一个{privacy}配置文件，其中记录了{nameCount}个名称和{pfpCount}张头像。",
-        "ncp=few, pcp=one": "{name}是一个{privacy}配置文件，其中记录了{nameCount}个姓名和{pfpCount}张头像。",
-        "ncp=few, pcp=few": "{name}是一个{privacy}配置文件，其中记录了{nameCount}个姓名和{pfpCount}张头像。",
-        "ncp=few, pcp=many": "{name}是一个{privacy}配置文件，其中记录了{nameCount}个姓名和{pfpCount}张头像。",
-        "ncp=few, pcp=other": "{name}是一个{privacy}配置文件，其中记录了{nameCount}个姓名和{pfpCount}张头像。",
-        "ncp=many, pcp=one": "{name}是一个{privacy}配置文件，其中记录了{nameCount}个姓名和{pfpCount}张头像。",
-        "ncp=many, pcp=few": "{name}是一个{privacy}配置文件，其中记录了{nameCount}个姓名和{pfpCount}张头像。",
-        "ncp=many, pcp=many": "{name}是一个{privacy}配置文件，其中记录了{nameCount}个姓名和{pfpCount}张头像。",
-        "ncp=many, pcp=other": "{name}是一个{privacy}配置文件，其中记录了{nameCount}个姓名和{pfpCount}张头像。",
-        "ncp=other, pcp=one": "{name}是一个{privacy}配置文件，其中记录了{nameCount}个姓名和{pfpCount}张头像。",
-        "ncp=other, pcp=few": "{name}是一个{privacy}配置文件，其中记录了{nameCount}个姓名和{pfpCount}张头像。",
-        "ncp=other, pcp=many": "{name}是一个{privacy}配置文件，其中记录了{nameCount}个姓名和{pfpCount}张头像。",
-        "ncp=other, pcp=other": "{name}是一个{privacy}配置文件，其中记录了{nameCount}个姓名和{pfpCount}张头像。"
-      }
-    }
-  ],
+  "profile_meta_description": "{name} is a {privacy} profile with {nameCount} recorded names, {pfpCount} recorded profile pictures",
   "notification_dock_wisdom_tab": "智慧",
   "notification_dock_poll_tab": "轮询",
   "notification_dock_vote_label": "投票！",
@@ -584,23 +290,7 @@
   "notification_dock_minimize_button_tooltip": "最小化",
   "notification_dock_your_answer_label": "您的答案",
   "notification_dock_submit_button": "提交",
-  "notification_dock_votes_count": [
-    {
-      "declarations": [
-        "输入计数",
-        "本地cp = 计数：复数"
-      ],
-      "selectors": [
-        "cp"
-      ],
-      "match": {
-        "cp=one": "{count}投票",
-        "cp=few": "{count}票数",
-        "cp=many": "{count}票数",
-        "cp=other": "{count}票数"
-      }
-    }
-  ],
+  "notification_dock_votes_count": "{count} votes",
   "notification_dock_you_voted": "你投了票。",
   "notification_dock_signin_to_vote": "使用 Steam 登录进行投票！",
   "notification_dock_poll_disclaimer": "民意调查用于收集社区的想法和意见，而不是作为最终决定。",
@@ -812,23 +502,7 @@
   "data_removal_realname_title": "历史真实姓名",
   "data_removal_url_title": "历史概况网址",
   "data_removal_pfp_title": "历史人物简介照片",
-  "data_removal_entries_count": [
-    {
-      "declarations": [
-        "输入计数",
-        "本地cp = 计数：复数"
-      ],
-      "selectors": [
-        "cp"
-      ],
-      "match": {
-        "cp=one": "（ {count}条目）",
-        "cp=few": "（ {count}个条目）",
-        "cp=many": "（ {count}个条目）",
-        "cp=other": "（ {count}个条目）"
-      }
-    }
-  ],
+  "data_removal_entries_count": "({count} entries)",
   "data_removal_current_name": "当前姓名",
   "data_removal_current_name_warning": "此条目无法删除，因为它与您当前的显示名称过于相似。",
   "data_removal_persona_placeholder": "请解释一下您为什么想要删除这个角色名称……",
@@ -840,23 +514,7 @@
   "data_removal_overall_reason_desc": "请简要说明您希望删除这些数据条目的原因。这将有助于我们的管理员更好地理解您的请求。",
   "data_removal_overall_placeholder": "请解释一下您为什么想要删除这些数据……",
   "data_removal_submit_title": "提交请求",
-  "data_removal_selected_items": [
-    {
-      "declarations": [
-        "输入计数",
-        "本地cp = 计数：复数"
-      ],
-      "selectors": [
-        "cp"
-      ],
-      "match": {
-        "cp=one": "已选择要移除的{count}项",
-        "cp=few": "已选择{count}个项目进行移除",
-        "cp=many": "已选择{count}个项目进行移除",
-        "cp=other": "已选择{count}个项目进行移除"
-      }
-    }
-  ],
+  "data_removal_selected_items": "Selected {count} items for removal",
   "data_removal_duplicate_error": "请为每条数据录入提供唯一理由，不允许重复。",
   "data_removal_min_words_error": "请确保所有理由均满足最低{count}个字的要求。",
   "data_removal_confirm_title": "确认提交",
@@ -906,23 +564,7 @@
   "sources_meta_description": "查看 Steam History 用于收集 Steam 帐户数据的所有来源，包括 SourceBans、RustWho 和 TF2BD 列表。",
   "sources_header": "数据来源",
   "sources_description": "Steam History 从多个来源收集数据，提供关于 Steam 帐户的全面信息。以下是我们数据库使用的所有数据来源。",
-  "sources_count": [
-    {
-      "declarations": [
-        "输入计数",
-        "本地cp = 计数：复数"
-      ],
-      "selectors": [
-        "cp"
-      ],
-      "match": {
-        "cp=one": "{count}源",
-        "cp=few": "{count}源",
-        "cp=many": "{count}源",
-        "cp=other": "{count}源"
-      }
-    }
-  ],
+  "sources_count": "{count} sources",
   "sources_never_updated": "从未更新",
   "sources_last_updated": "最后更新时间： {time}",
   "api_title": "API 文档",
@@ -974,57 +616,9 @@
   "team_save_settings": "保存设置",
   "team_about": "关于{name}",
   "team_no_summary": "未提供摘要。",
-  "team_members_tab": [
-    {
-      "declarations": [
-        "输入计数",
-        "本地cp = 计数：复数"
-      ],
-      "selectors": [
-        "cp"
-      ],
-      "match": {
-        "cp=one": "成员（ {count} ）",
-        "cp=few": "成员（ {count} ）",
-        "cp=many": "成员（ {count} ）",
-        "cp=other": "成员（ {count} ）"
-      }
-    }
-  ],
-  "team_notes_tab": [
-    {
-      "declarations": [
-        "输入计数",
-        "本地cp = 计数：复数"
-      ],
-      "selectors": [
-        "cp"
-      ],
-      "match": {
-        "cp=one": "注意（ {count} ）",
-        "cp=few": "注释（ {count} ）",
-        "cp=many": "注释（ {count} ）",
-        "cp=other": "注释（ {count} ）"
-      }
-    }
-  ],
-  "team_invitations_tab": [
-    {
-      "declarations": [
-        "输入计数",
-        "本地cp = 计数：复数"
-      ],
-      "selectors": [
-        "cp"
-      ],
-      "match": {
-        "cp=one": "邀请（ {count} ）",
-        "cp=few": "邀请（ {count} ）",
-        "cp=many": "邀请（ {count} ）",
-        "cp=other": "邀请（ {count} ）"
-      }
-    }
-  ],
+  "team_members_tab": "Members ({count})",
+  "team_notes_tab": "Notes ({count})",
+  "team_invitations_tab": "Invitations ({count})",
   "team_members_title": "成员",
   "team_member_joined": "已连接{date}",
   "team_remove_member_tooltip": "移除成员",
@@ -1033,23 +627,7 @@
   "team_manage_invitations": "管理邀请",
   "team_invite_member_title": "邀请新成员",
   "team_invite_member_hint": "受邀用户必须拥有 SteamHistory.net 个人资料。",
-  "team_pending_invites_title": [
-    {
-      "declarations": [
-        "输入计数",
-        "本地cp = 计数：复数"
-      ],
-      "selectors": [
-        "cp"
-      ],
-      "match": {
-        "cp=one": "待处理邀请（ {count} ）",
-        "cp=few": "待处理的邀请（ {count} ）",
-        "cp=many": "待处理的邀请（ {count} ）",
-        "cp=other": "待处理的邀请（ {count} ）"
-      }
-    }
-  ],
+  "team_pending_invites_title": "Pending Invites ({count})",
   "team_no_pending_invites": "没有待处理的邀请。",
   "team_overview_title": "团队概览",
   "team_founded": "创立",
@@ -1115,23 +693,7 @@
   "account_not_linked": "未链接",
   "account_start_date_label": "开始日期：",
   "account_end_date_label": "结束日期：",
-  "account_days_remaining": [
-    {
-      "declarations": [
-        "输入计数",
-        "本地cp = 计数：复数"
-      ],
-      "selectors": [
-        "cp"
-      ],
-      "match": {
-        "cp=one": "{count}剩余天数",
-        "cp=few": "{count}剩余天数",
-        "cp=many": "{count}剩余天数",
-        "cp=other": "{count}剩余天数"
-      }
-    }
-  ],
+  "account_days_remaining": "{count} days remaining",
   "account_total_given_label": "总捐赠额：",
   "account_link_kofi_title": "链接 Ko-Fi 账号",
   "account_link_kofi_desc": "在 Ko-fi 上捐款后，您将收到一封包含交易 ID 的电子邮件。请在下方输入您的详细信息以关联您的支持者身份。",
