@@ -360,13 +360,7 @@
   "profile_history_show_deleted_count": [
     {
       "declarations": [
-        "input ",
         "input count",
-        "input count, plural, =1 {",
-        "input count, plural, one {",
-        "input e",
-        "input one {",
-        "input s",
         "local cp = count: plural"
       ],
       "selectors": [
@@ -414,12 +408,6 @@
     {
       "declarations": [
         "input count",
-        "input count, plural, one {stück",
-        "input count, plural, one {y",
-        "input ies",
-        "input one {stück",
-        "input one {y",
-        "input stücke",
         "local cp = count: plural"
       ],
       "selectors": [
@@ -463,10 +451,6 @@
     {
       "declarations": [
         "input count",
-        "input count, plural, one {",
-        "input en",
-        "input one {",
-        "input s",
         "local cp = count: plural"
       ],
       "selectors": [
@@ -484,10 +468,6 @@
     {
       "declarations": [
         "input count",
-        "input count, plural, one {",
-        "input en",
-        "input one {",
-        "input s",
         "local cp = count: plural"
       ],
       "selectors": [
@@ -505,9 +485,6 @@
     {
       "declarations": [
         "input count",
-        "input count, plural, one {",
-        "input en",
-        "input one {",
         "local cp = count: plural"
       ],
       "selectors": [
@@ -525,10 +502,6 @@
     {
       "declarations": [
         "input count",
-        "input count, plural, one {",
-        "input n",
-        "input one {",
-        "input s",
         "local cp = count: plural"
       ],
       "selectors": [
@@ -546,10 +519,6 @@
     {
       "declarations": [
         "input count",
-        "input count, plural, one {",
-        "input n",
-        "input one {",
-        "input s",
         "local cp = count: plural"
       ],
       "selectors": [
@@ -875,9 +844,6 @@
     {
       "declarations": [
         "input count",
-        "input count, plural, one {",
-        "input e",
-        "input one {",
         "local cp = count: plural"
       ],
       "selectors": [
@@ -1141,6 +1107,7 @@
   "account_become_supporter_title": "Become a Supporter",
   "account_become_supporter_desc": "Unlock profile customization and other exclusive features by becoming a supporter.",
   "account_support_cta": "Support SteamHistory",
+  "account_supporter_status_title": "Supporter Status",
   "account_status_active": "Active",
   "account_status_expired": "Expired",
   "account_status_inactive": "Inactive",
