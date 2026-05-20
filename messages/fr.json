@@ -8,7 +8,7 @@
   "navbar_discord_button": "Discorde",
   "navbar_mobile_menu_aria": "Ouvrir le menu",
   "navbar_language_label": "Langue",
-  "footer_copyright": "Copyright ©️ 2026 - Tous droits réservés par SteamHistory.net",
+  "footer_copyright": "Copyright © 2026 - Tous droits réservés par SteamHistory.net",
   "footer_disclaimer": "SteamHistory.net n'appartient pas à Valve Corporation, n'est pas exploité par elle et n'est pas approuvé par elle. Ce n'est pas non plus un produit de Steam.",
   "footer_link_supporter": "Devenez un soutien",
   "footer_link_sources": "Sources",
@@ -81,8 +81,8 @@
       ],
       "match": {
         "cp=one": "{count} jour",
-        "cp=few": "{count} days",
-        "cp=many": "{count} days",
+        "cp=few": "{count} jours",
+        "cp=many": "{count} jours",
         "cp=other": "{count} jours"
       }
     }
@@ -118,8 +118,8 @@
       ],
       "match": {
         "cp=one": "{count} bannissement, {timeAgo} ( {timestamp} )",
-        "cp=few": "Bannir {count} , {timeAgo} ({timestamp})",
-        "cp=many": "Bannir {count} , {timeAgo} ({timestamp})",
+        "cp=few": "{count} interdit, {timeAgo} ( {timestamp} )",
+        "cp=many": "{count} interdit, {timeAgo} ( {timestamp} )",
         "cp=other": "{count} interdit, {timeAgo} ( {timestamp} )"
       }
     }
@@ -135,8 +135,8 @@
       ],
       "match": {
         "cp=one": "{count} bannir",
-        "cp=few": "Bannissements {count}",
-        "cp=many": "Bannissements {count}",
+        "cp=few": "{count} interdit",
+        "cp=many": "{count} interdit",
         "cp=other": "{count} interdit"
       }
     }
@@ -156,8 +156,8 @@
       ],
       "match": {
         "cp=one": "{count} bannir",
-        "cp=few": "Bannissements {count}",
-        "cp=many": "Bannissements {count}",
+        "cp=few": "{count} interdit",
+        "cp=many": "{count} interdit",
         "cp=other": "{count} interdit"
       }
     }
@@ -175,8 +175,8 @@
       ],
       "match": {
         "cp=one": "{count} bannir, {timeAgo} ( {timestamp} )",
-        "cp=few": "Bannir {count} , {timeAgo} ({timestamp})",
-        "cp=many": "Bannir {count} , {timeAgo} ({timestamp})",
+        "cp=few": "{count} interdit, {timeAgo} ( {timestamp} )",
+        "cp=many": "{count} interdit, {timeAgo} ( {timestamp} )",
         "cp=other": "{count} interdit, {timeAgo} ( {timestamp} )"
       }
     }
@@ -192,8 +192,8 @@
       ],
       "match": {
         "cp=one": "{count} bannir",
-        "cp=few": "Bannissements {count}",
-        "cp=many": "Bannissements {count}",
+        "cp=few": "{count} interdit",
+        "cp=many": "{count} interdit",
         "cp=other": "{count} interdit"
       }
     }
@@ -265,8 +265,8 @@
       ],
       "match": {
         "cp=one": "Résultat trouvé pour ' {count} '",
-        "cp=few": "Résultats '{count}trouvés pour",
-        "cp=many": "Résultats '{count}trouvés pour",
+        "cp=few": "Résultats trouvés pour ' {count} '",
+        "cp=many": "Résultats trouvés pour ' {count} '",
         "cp=other": "Résultats trouvés pour ' {count} '"
       }
     }
@@ -301,8 +301,8 @@
       ],
       "match": {
         "cp=one": "Résultat trouvé {count} ( {time} ms)",
-        "cp=few": "Résultats {count} trouvés ({time}ms)",
-        "cp=many": "Résultats {count} trouvés ({time}ms)",
+        "cp=few": "Résultats trouvés {count} ( {time} ms)",
+        "cp=many": "Résultats trouvés {count} ( {time} ms)",
         "cp=other": "Résultats trouvés {count} ( {time} ms)"
       }
     }
@@ -368,8 +368,8 @@
       ],
       "match": {
         "cp=one": "pour afficher {count} commentaire supprimé",
-        "cp=few": "pour afficher les commentaires supprimés de {count}",
-        "cp=many": "pour afficher les commentaires supprimés de {count}",
+        "cp=few": "pour afficher les commentaires supprimés {count}",
+        "cp=many": "pour afficher les commentaires supprimés {count}",
         "cp=other": "pour afficher les commentaires supprimés {count}"
       }
     }
@@ -391,8 +391,8 @@
       ],
       "match": {
         "cp=one": "Amis pour {count} jour",
-        "cp=few": "Amis pour {count} jours",
-        "cp=many": "Amis pour {count} jours",
+        "cp=few": "Amis depuis {count} jours",
+        "cp=many": "Amis depuis {count} jours",
         "cp=other": "Amis depuis {count} jours"
       }
     }
@@ -415,8 +415,8 @@
       ],
       "match": {
         "cp=one": "{count} jointe",
-        "cp=few": "Entrées de preuve {count} jointes",
-        "cp=many": "Entrées de preuve {count} jointes",
+        "cp=few": "{count} preuves jointes",
+        "cp=many": "{count} preuves jointes",
         "cp=other": "{count} preuves jointes"
       }
     }
@@ -458,8 +458,8 @@
       ],
       "match": {
         "cp=one": "{count} un an",
-        "cp=few": "{count} years ago",
-        "cp=many": "{count} years ago",
+        "cp=few": "{count}",
+        "cp=many": "{count}",
         "cp=other": "{count}"
       }
     }
@@ -475,8 +475,8 @@
       ],
       "match": {
         "cp=one": "{count} il y a un mois",
-        "cp=few": "{count} months ago",
-        "cp=many": "{count} months ago",
+        "cp=few": "{count} il y a des mois",
+        "cp=many": "{count} il y a des mois",
         "cp=other": "{count} il y a des mois"
       }
     }
@@ -492,8 +492,8 @@
       ],
       "match": {
         "cp=one": "{count} il y a un jour",
-        "cp=few": "{count} days ago",
-        "cp=many": "{count} days ago",
+        "cp=few": "{count} il y a quelques jours",
+        "cp=many": "{count} il y a quelques jours",
         "cp=other": "{count} il y a quelques jours"
       }
     }
@@ -509,8 +509,8 @@
       ],
       "match": {
         "cp=one": "{count} il y a une heure",
-        "cp=few": "{count} hours ago",
-        "cp=many": "{count} hours ago",
+        "cp=few": "{count} il y a quelques heures",
+        "cp=many": "{count} il y a quelques heures",
         "cp=other": "{count} il y a quelques heures"
       }
     }
@@ -556,20 +556,20 @@
       ],
       "match": {
         "ncp=one, pcp=one": "{name} est un profil {privacy} avec {nameCount} nom enregistré et {pfpCount} photo de profil enregistrée",
-        "ncp=one, pcp=few": "{name} est un profil {privacy} avec un nom enregistré {nameCount} : {pfpCount} photos de profil enregistrées",
-        "ncp=one, pcp=many": "{name} est un profil {privacy} avec un nom enregistré {nameCount} : {pfpCount} photos de profil enregistrées",
+        "ncp=one, pcp=few": "{name} est un profil {privacy} avec {nameCount} nom enregistré et {pfpCount} photos de profil enregistrées",
+        "ncp=one, pcp=many": "{name} est un profil {privacy} avec {nameCount} nom enregistré et {pfpCount} photos de profil enregistrées",
         "ncp=one, pcp=other": "{name} est un profil {privacy} avec {nameCount} nom enregistré et {pfpCount} photos de profil enregistrées",
-        "ncp=few, pcp=one": "{name} est un profil {privacy} avec des noms enregistrés {nameCount} et une photo de profil enregistrée {pfpCount}",
-        "ncp=few, pcp=few": "{name} est un profil {privacy} avec des noms enregistrés {nameCount} et {pfpCount} des photos de profil enregistrées",
-        "ncp=few, pcp=many": "{name} est un profil {privacy} avec des noms enregistrés {nameCount} et {pfpCount} des photos de profil enregistrées",
-        "ncp=few, pcp=other": "{name} est un profil {privacy} avec des noms enregistrés {nameCount} et {pfpCount} des photos de profil enregistrées",
-        "ncp=many, pcp=one": "{name} est un profil {privacy} avec des noms enregistrés {nameCount} et une photo de profil enregistrée {pfpCount}",
-        "ncp=many, pcp=few": "{name} est un profil {privacy} avec des noms enregistrés {nameCount} et {pfpCount} des photos de profil enregistrées",
-        "ncp=many, pcp=many": "{name} est un profil {privacy} avec des noms enregistrés {nameCount} et {pfpCount} des photos de profil enregistrées",
-        "ncp=many, pcp=other": "{name} est un profil {privacy} avec des noms enregistrés {nameCount} et {pfpCount} des photos de profil enregistrées",
+        "ncp=few, pcp=one": "{name} est un profil {privacy} avec {nameCount} noms enregistrés et {pfpCount} photo de profil enregistrée",
+        "ncp=few, pcp=few": "{name} est un profil {privacy} avec {nameCount} noms enregistrés et {pfpCount} photos de profil enregistrées",
+        "ncp=few, pcp=many": "{name} est un profil {privacy} avec {nameCount} noms enregistrés et {pfpCount} photos de profil enregistrées",
+        "ncp=few, pcp=other": "{name} est un profil {privacy} avec {nameCount} noms enregistrés et {pfpCount} photos de profil enregistrées",
+        "ncp=many, pcp=one": "{name} est un profil {privacy} avec {nameCount} noms enregistrés et {pfpCount} photo de profil enregistrée",
+        "ncp=many, pcp=few": "{name} est un profil {privacy} avec {nameCount} noms enregistrés et {pfpCount} photos de profil enregistrées",
+        "ncp=many, pcp=many": "{name} est un profil {privacy} avec {nameCount} noms enregistrés et {pfpCount} photos de profil enregistrées",
+        "ncp=many, pcp=other": "{name} est un profil {privacy} avec {nameCount} noms enregistrés et {pfpCount} photos de profil enregistrées",
         "ncp=other, pcp=one": "{name} est un profil {privacy} avec {nameCount} noms enregistrés et {pfpCount} photo de profil enregistrée",
-        "ncp=other, pcp=few": "{name} est un profil {privacy} avec des noms enregistrés {nameCount} et {pfpCount} des photos de profil enregistrées",
-        "ncp=other, pcp=many": "{name} est un profil {privacy} avec des noms enregistrés {nameCount} et {pfpCount} des photos de profil enregistrées",
+        "ncp=other, pcp=few": "{name} est un profil {privacy} avec {nameCount} noms enregistrés et {pfpCount} photos de profil enregistrées",
+        "ncp=other, pcp=many": "{name} est un profil {privacy} avec {nameCount} noms enregistrés et {pfpCount} photos de profil enregistrées",
         "ncp=other, pcp=other": "{name} est un profil {privacy} avec {nameCount} noms enregistrés et {pfpCount} photos de profil enregistrées"
       }
     }
@@ -823,8 +823,8 @@
       ],
       "match": {
         "cp=one": "( {count} entrée)",
-        "cp=few": "(Entrées{count})",
-        "cp=many": "(Entrées{count})",
+        "cp=few": "( {count} entrées)",
+        "cp=many": "( {count} entrées)",
         "cp=other": "( {count} entrées)"
       }
     }
@@ -851,8 +851,8 @@
       ],
       "match": {
         "cp=one": "Élément {count} sélectionné pour suppression",
-        "cp=few": "Éléments {count} sélectionnés à supprimer",
-        "cp=many": "Éléments {count} sélectionnés à supprimer",
+        "cp=few": "Éléments {count} sélectionnés pour suppression",
+        "cp=many": "Éléments {count} sélectionnés pour suppression",
         "cp=other": "Éléments {count} sélectionnés pour suppression"
       }
     }
@@ -951,7 +951,7 @@
   "teams_vanity_label": "URL personnalisée",
   "teams_vanity_placeholder": "personnes performantes",
   "teams_vanity_hint": "Un lien court et unique pour le profil de votre équipe.",
-  "teams_vanity_readonly_hint": "Les URLs de Vanity ne peuvent pas être modifiées après la création.",
+  "teams_vanity_readonly_hint": "Les URL personnalisées ne peuvent pas être modifiées après leur création.",
   "teams_description_label": "Libellé",
   "teams_description_placeholder": "Quel est l'objectif de cette équipe ?",
   "teams_private_label": "Équipe privée",
@@ -985,8 +985,8 @@
       ],
       "match": {
         "cp=one": "Membre ( {count} )",
-        "cp=few": "Membres ({count})",
-        "cp=many": "Membres ({count})",
+        "cp=few": "Membres ( {count} )",
+        "cp=many": "Membres ( {count} )",
         "cp=other": "Membres ( {count} )"
       }
     }
@@ -1002,8 +1002,8 @@
       ],
       "match": {
         "cp=one": "Note ( {count} )",
-        "cp=few": "Notes ({count})",
-        "cp=many": "Notes ({count})",
+        "cp=few": "Notes ( {count} )",
+        "cp=many": "Notes ( {count} )",
         "cp=other": "Notes ( {count} )"
       }
     }
@@ -1019,8 +1019,8 @@
       ],
       "match": {
         "cp=one": "Invitation ( {count} )",
-        "cp=few": "Invitations ({count})",
-        "cp=many": "Invitations ({count})",
+        "cp=few": "Invitations ( {count} )",
+        "cp=many": "Invitations ( {count} )",
         "cp=other": "Invitations ( {count} )"
       }
     }
@@ -1044,8 +1044,8 @@
       ],
       "match": {
         "cp=one": "Invitation en attente ( {count} )",
-        "cp=few": "Invitations en attente ({count})",
-        "cp=many": "Invitations en attente ({count})",
+        "cp=few": "Invitations en attente ( {count} )",
+        "cp=many": "Invitations en attente ( {count} )",
         "cp=other": "Invitations en attente ( {count} )"
       }
     }
@@ -1107,7 +1107,7 @@
   "account_become_supporter_title": "Devenez un soutien",
   "account_become_supporter_desc": "Devenez un contributeur et débloquez la personnalisation de votre profil et d'autres fonctionnalités exclusives.",
   "account_support_cta": "Soutenez SteamHistory",
-  "account_supporter_status_title": "Statut Supporter",
+  "account_supporter_status_title": "Statut de supporter",
   "account_status_active": "Actif",
   "account_status_expired": "Expiré",
   "account_status_inactive": "Inactif",
@@ -1126,8 +1126,8 @@
       ],
       "match": {
         "cp=one": "{count} jour restant",
-        "cp=few": "{count} days remaining",
-        "cp=many": "{count} days remaining",
+        "cp=few": "{count} jours restants",
+        "cp=many": "{count} jours restants",
         "cp=other": "{count} jours restants"
       }
     }
@@ -1306,23 +1306,23 @@
   "teams_resignation": "Démission",
   "teams_leave_team": "Quitter l'équipe",
   "teams_confirm_leave": "Êtes-vous sûr de vouloir quitter cette équipe ?",
-  "teams_note_target": "Target",
+  "teams_note_target": "Cible",
   "teams_note_author": "Auteur",
   "teams_note_revisions": "Révisions",
-  "teams_note_edit": "Modifier la note",
+  "teams_note_edit": "Note de modification",
   "teams_note_visibility": "Visibilité",
-  "teams_note_staff_only": "Personnel uniquement",
+  "teams_note_staff_only": "Personnel seulement",
   "teams_note_team_members": "Membres de l'équipe",
   "teams_note_public": "Publique",
-  "teams_note_unlock": "Note de déblocage",
-  "teams_note_lock": "Verrouiller la note",
+  "teams_note_unlock": "Note de déverrouillage",
+  "teams_note_lock": "Note de verrouillage",
   "teams_note_delete": "Supprimer la note",
   "teams_note_delete_confirm": "Êtes-vous sûr de vouloir supprimer cette note ?",
   "teams_note_save_changes": "Enregistrer les modifications",
   "teams_note_revision_history": "Historique des révisions",
   "teams_note_close": "Fermer",
   "teams_note_current_version": "Version actuelle",
-  "teams_note_recent": "Récentes",
-  "teams_note_locked": "Verrouillé",
+  "teams_note_recent": "Récent",
+  "teams_note_locked": "Fermé",
   "teams_notes_none": "Aucune note d'équipe trouvée."
 }
