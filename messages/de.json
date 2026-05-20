@@ -73,8 +73,8 @@
   "profile_ban_duration_days": [
     {
       "declarations": [
-        "Eingabezähler",
-        "lokale cp = Anzahl: Plural:"
+        "input count",
+        "local cp = count: plural"
       ],
       "selectors": [
         "cp"
@@ -108,10 +108,10 @@
   "profile_vac_bans_detailed": [
     {
       "declarations": [
-        "Eingabezähler",
+        "input count",
         "input timeAgo",
-        "Eingabe-Timestamp",
-        "lokale cp = Anzahl: Plural:"
+        "input timestamp",
+        "local cp = count: plural"
       ],
       "selectors": [
         "cp"
@@ -127,8 +127,8 @@
   "profile_vac_bans_simple": [
     {
       "declarations": [
-        "Eingabezähler",
-        "lokale cp = Anzahl: Plural:"
+        "input count",
+        "local cp = count: plural"
       ],
       "selectors": [
         "cp"
@@ -148,8 +148,8 @@
   "profile_community_bans_total_count": [
     {
       "declarations": [
-        "Eingabezähler",
-        "lokale cp = Anzahl: Plural:"
+        "input count",
+        "local cp = count: plural"
       ],
       "selectors": [
         "cp"
@@ -165,10 +165,10 @@
   "profile_game_bans_detailed": [
     {
       "declarations": [
-        "Eingabezähler",
+        "input count",
         "input timeAgo",
-        "Eingabe-Timestamp",
-        "lokale cp = Anzahl: Plural:"
+        "input timestamp",
+        "local cp = count: plural"
       ],
       "selectors": [
         "cp"
@@ -184,8 +184,8 @@
   "profile_game_bans_simple": [
     {
       "declarations": [
-        "Eingabezähler",
-        "lokale cp = Anzahl: Plural:"
+        "input count",
+        "local cp = count: plural"
       ],
       "selectors": [
         "cp"
@@ -257,8 +257,8 @@
   "search_avatar_found_results": [
     {
       "declarations": [
-        "Eingabezähler",
-        "lokale cp = Anzahl: Plural:"
+        "input count",
+        "local cp = count: plural"
       ],
       "selectors": [
         "cp"
@@ -292,9 +292,9 @@
   "search_comment_results_found": [
     {
       "declarations": [
-        "Eingabezähler",
-        "Eingabezeit",
-        "lokale cp = Anzahl: Plural:"
+        "input count",
+        "input time",
+        "local cp = count: plural"
       ],
       "selectors": [
         "cp"
@@ -360,14 +360,8 @@
   "profile_history_show_deleted_count": [
     {
       "declarations": [
-        "input ",
-        "Eingabezähler",
-        "Eingabezähler, plural, =1 {",
-        "Eingabeaufforderung, plural, one {",
-        "input e",
-        "input one {",
-        "input s",
-        "lokale cp = Anzahl: Plural:"
+        "input count",
+        "local cp = count: plural"
       ],
       "selectors": [
         "cp"
@@ -389,8 +383,8 @@
   "profile_history_friends_duration": [
     {
       "declarations": [
-        "Eingabezähler",
-        "lokale cp = Anzahl: Plural:"
+        "input count",
+        "local cp = count: plural"
       ],
       "selectors": [
         "cp"
@@ -413,14 +407,8 @@
   "profile_community_bans_proof_entries": [
     {
       "declarations": [
-        "Eingabezähler",
-        "Eingabezähler, Plural, ein {stück",
-        "Eingabezähler, Plural, eins {y",
-        "input ies",
-        "ein {stück eingeben",
-        "eins eingeben {y",
-        "input stücke",
-        "lokale cp = Anzahl: Plural:"
+        "input count",
+        "local cp = count: plural"
       ],
       "selectors": [
         "cp"
@@ -462,12 +450,8 @@
   "time_ago_years": [
     {
       "declarations": [
-        "Eingabezähler",
-        "Eingabeaufforderung, plural, one {",
-        "input en",
-        "input one {",
-        "input s",
-        "lokale cp = Anzahl: Plural:"
+        "input count",
+        "local cp = count: plural"
       ],
       "selectors": [
         "cp"
@@ -483,12 +467,8 @@
   "time_ago_months": [
     {
       "declarations": [
-        "Eingabezähler",
-        "Eingabeaufforderung, plural, one {",
-        "input en",
-        "input one {",
-        "input s",
-        "lokale cp = Anzahl: Plural:"
+        "input count",
+        "local cp = count: plural"
       ],
       "selectors": [
         "cp"
@@ -504,11 +484,8 @@
   "time_ago_days": [
     {
       "declarations": [
-        "Eingabezähler",
-        "Eingabeaufforderung, plural, one {",
-        "input en",
-        "input one {",
-        "lokale cp = Anzahl: Plural:"
+        "input count",
+        "local cp = count: plural"
       ],
       "selectors": [
         "cp"
@@ -524,12 +501,8 @@
   "time_ago_hours": [
     {
       "declarations": [
-        "Eingabezähler",
-        "Eingabeaufforderung, plural, one {",
-        "input n",
-        "input one {",
-        "input s",
-        "lokale cp = Anzahl: Plural:"
+        "input count",
+        "local cp = count: plural"
       ],
       "selectors": [
         "cp"
@@ -545,12 +518,8 @@
   "time_ago_minutes": [
     {
       "declarations": [
-        "Eingabezähler",
-        "Eingabeaufforderung, plural, one {",
-        "input n",
-        "input one {",
-        "input s",
-        "lokale cp = Anzahl: Plural:"
+        "input count",
+        "local cp = count: plural"
       ],
       "selectors": [
         "cp"
@@ -575,11 +544,11 @@
     {
       "declarations": [
         "input name",
-        "eingabenameanzahl",
-        "eingabe-pfpAnzahl",
-        "Privatsphäre eingeben",
-        "lokale ncp = nameCount: Plural:",
-        "lokale pcp = pfpCount: Plural:"
+        "input nameCount",
+        "input pfpCount",
+        "input privacy",
+        "local ncp = nameCount: plural",
+        "local pcp = pfpCount: plural"
       ],
       "selectors": [
         "ncp",
@@ -618,8 +587,8 @@
   "notification_dock_votes_count": [
     {
       "declarations": [
-        "Eingabezähler",
-        "lokale cp = Anzahl: Plural:"
+        "input count",
+        "local cp = count: plural"
       ],
       "selectors": [
         "cp"
@@ -846,8 +815,8 @@
   "data_removal_entries_count": [
     {
       "declarations": [
-        "Eingabezähler",
-        "lokale cp = Anzahl: Plural:"
+        "input count",
+        "local cp = count: plural"
       ],
       "selectors": [
         "cp"
@@ -874,11 +843,8 @@
   "data_removal_selected_items": [
     {
       "declarations": [
-        "Eingabezähler",
-        "Eingabeaufforderung, plural, one {",
-        "input e",
-        "input one {",
-        "lokale cp = Anzahl: Plural:"
+        "input count",
+        "local cp = count: plural"
       ],
       "selectors": [
         "cp"
@@ -943,8 +909,8 @@
   "sources_count": [
     {
       "declarations": [
-        "Eingabezähler",
-        "lokale cp = Anzahl: Plural:"
+        "input count",
+        "local cp = count: plural"
       ],
       "selectors": [
         "cp"
@@ -985,7 +951,7 @@
   "teams_vanity_label": "Vanity-URL",
   "teams_vanity_placeholder": "leistende Personen",
   "teams_vanity_hint": "Ein einzigartiger kurzer Link für Ihr Teamprofil.",
-  "teams_vanity_readonly_hint": "Vanity-URLs können nach der Erstellung nicht geändert werden.",
+  "teams_vanity_readonly_hint": "Vanity-URLs können nach ihrer Erstellung nicht mehr geändert werden.",
   "teams_description_label": "Beschreibung",
   "teams_description_placeholder": "Was ist der Fokus dieses Teams?",
   "teams_private_label": "Privates Team",
@@ -1011,8 +977,8 @@
   "team_members_tab": [
     {
       "declarations": [
-        "Eingabezähler",
-        "lokale cp = Anzahl: Plural:"
+        "input count",
+        "local cp = count: plural"
       ],
       "selectors": [
         "cp"
@@ -1028,8 +994,8 @@
   "team_notes_tab": [
     {
       "declarations": [
-        "Eingabezähler",
-        "lokale cp = Anzahl: Plural:"
+        "input count",
+        "local cp = count: plural"
       ],
       "selectors": [
         "cp"
@@ -1045,8 +1011,8 @@
   "team_invitations_tab": [
     {
       "declarations": [
-        "Eingabezähler",
-        "lokale cp = Anzahl: Plural:"
+        "input count",
+        "local cp = count: plural"
       ],
       "selectors": [
         "cp"
@@ -1070,8 +1036,8 @@
   "team_pending_invites_title": [
     {
       "declarations": [
-        "Eingabezähler",
-        "lokale cp = Anzahl: Plural:"
+        "input count",
+        "local cp = count: plural"
       ],
       "selectors": [
         "cp"
@@ -1152,8 +1118,8 @@
   "account_days_remaining": [
     {
       "declarations": [
-        "Eingabezähler",
-        "lokale cp = Anzahl: Plural:"
+        "input count",
+        "local cp = count: plural"
       ],
       "selectors": [
         "cp"
@@ -1340,8 +1306,6 @@
   "teams_resignation": "Resignation",
   "teams_leave_team": "Team verlassen",
   "teams_confirm_leave": "Bist du sicher, dass du dieses Team verlassen willst?",
-  "common_unknown_user": "Unbekannter Benutzer",
-  "teams_vanity_readonly_hint": "Vanity-URLs können nach ihrer Erstellung nicht mehr geändert werden.",
   "teams_note_target": "Ziel",
   "teams_note_author": "Autor",
   "teams_note_revisions": "Überarbeitungen",

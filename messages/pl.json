@@ -73,8 +73,8 @@
   "profile_ban_duration_days": [
     {
       "declarations": [
-        "liczba danych wejściowych",
-        "miejscowy cp = liczba: liczba mnoga"
+        "input count",
+        "local cp = count: plural"
       ],
       "selectors": [
         "cp"
@@ -108,10 +108,10 @@
   "profile_vac_bans_detailed": [
     {
       "declarations": [
-        "liczba danych wejściowych",
+        "input count",
         "input timeAgo",
-        "znacznik czasu",
-        "miejscowy cp = liczba: liczba mnoga"
+        "input timestamp",
+        "local cp = count: plural"
       ],
       "selectors": [
         "cp"
@@ -127,8 +127,8 @@
   "profile_vac_bans_simple": [
     {
       "declarations": [
-        "liczba danych wejściowych",
-        "miejscowy cp = liczba: liczba mnoga"
+        "input count",
+        "local cp = count: plural"
       ],
       "selectors": [
         "cp"
@@ -148,8 +148,8 @@
   "profile_community_bans_total_count": [
     {
       "declarations": [
-        "liczba danych wejściowych",
-        "miejscowy cp = liczba: liczba mnoga"
+        "input count",
+        "local cp = count: plural"
       ],
       "selectors": [
         "cp"
@@ -165,10 +165,10 @@
   "profile_game_bans_detailed": [
     {
       "declarations": [
-        "liczba danych wejściowych",
+        "input count",
         "input timeAgo",
-        "znacznik czasu",
-        "miejscowy cp = liczba: liczba mnoga"
+        "input timestamp",
+        "local cp = count: plural"
       ],
       "selectors": [
         "cp"
@@ -184,8 +184,8 @@
   "profile_game_bans_simple": [
     {
       "declarations": [
-        "liczba danych wejściowych",
-        "miejscowy cp = liczba: liczba mnoga"
+        "input count",
+        "local cp = count: plural"
       ],
       "selectors": [
         "cp"
@@ -257,8 +257,8 @@
   "search_avatar_found_results": [
     {
       "declarations": [
-        "liczba danych wejściowych",
-        "miejscowy cp = liczba: liczba mnoga"
+        "input count",
+        "local cp = count: plural"
       ],
       "selectors": [
         "cp"
@@ -292,9 +292,9 @@
   "search_comment_results_found": [
     {
       "declarations": [
-        "liczba danych wejściowych",
-        "czas wprowadzania",
-        "miejscowy cp = liczba: liczba mnoga"
+        "input count",
+        "input time",
+        "local cp = count: plural"
       ],
       "selectors": [
         "cp"
@@ -360,14 +360,8 @@
   "profile_history_show_deleted_count": [
     {
       "declarations": [
-        "input ",
-        "liczba danych wejściowych",
-        "licznik wejściowy, plural, =1 {",
-        "liczba wejściowa, liczba mnoga, jeden {",
-        "input e",
-        "input one {",
-        "input s",
-        "miejscowy cp = liczba: liczba mnoga"
+        "input count",
+        "local cp = count: plural"
       ],
       "selectors": [
         "cp"
@@ -389,8 +383,8 @@
   "profile_history_friends_duration": [
     {
       "declarations": [
-        "liczba danych wejściowych",
-        "miejscowy cp = liczba: liczba mnoga"
+        "input count",
+        "local cp = count: plural"
       ],
       "selectors": [
         "cp"
@@ -413,14 +407,8 @@
   "profile_community_bans_proof_entries": [
     {
       "declarations": [
-        "liczba danych wejściowych",
-        "liczba wejściowa, liczba mnoga, jeden {ut<unk> ck",
-        "liczba wejściowa, liczba mnoga, jeden {y",
-        "input ies",
-        "wprowadź jeden {ut<unk> ck",
-        "wprowadź jeden {y",
-        "input stücke",
-        "miejscowy cp = liczba: liczba mnoga"
+        "input count",
+        "local cp = count: plural"
       ],
       "selectors": [
         "cp"
@@ -462,12 +450,8 @@
   "time_ago_years": [
     {
       "declarations": [
-        "liczba danych wejściowych",
-        "liczba wejściowa, liczba mnoga, jeden {",
-        "input en",
-        "input one {",
-        "input s",
-        "miejscowy cp = liczba: liczba mnoga"
+        "input count",
+        "local cp = count: plural"
       ],
       "selectors": [
         "cp"
@@ -483,12 +467,8 @@
   "time_ago_months": [
     {
       "declarations": [
-        "liczba danych wejściowych",
-        "liczba wejściowa, liczba mnoga, jeden {",
-        "input en",
-        "input one {",
-        "input s",
-        "miejscowy cp = liczba: liczba mnoga"
+        "input count",
+        "local cp = count: plural"
       ],
       "selectors": [
         "cp"
@@ -504,11 +484,8 @@
   "time_ago_days": [
     {
       "declarations": [
-        "liczba danych wejściowych",
-        "liczba wejściowa, liczba mnoga, jeden {",
-        "input en",
-        "input one {",
-        "miejscowy cp = liczba: liczba mnoga"
+        "input count",
+        "local cp = count: plural"
       ],
       "selectors": [
         "cp"
@@ -524,12 +501,8 @@
   "time_ago_hours": [
     {
       "declarations": [
-        "liczba danych wejściowych",
-        "liczba wejściowa, liczba mnoga, jeden {",
-        "input n",
-        "input one {",
-        "input s",
-        "miejscowy cp = liczba: liczba mnoga"
+        "input count",
+        "local cp = count: plural"
       ],
       "selectors": [
         "cp"
@@ -545,12 +518,8 @@
   "time_ago_minutes": [
     {
       "declarations": [
-        "liczba danych wejściowych",
-        "liczba wejściowa, liczba mnoga, jeden {",
-        "input n",
-        "input one {",
-        "input s",
-        "miejscowy cp = liczba: liczba mnoga"
+        "input count",
+        "local cp = count: plural"
       ],
       "selectors": [
         "cp"
@@ -575,11 +544,11 @@
     {
       "declarations": [
         "input name",
-        "nazwa wprowadzona",
-        "wejście pfpCount",
-        "wprowadź prywatność",
-        "lokalne ncp = nazwaLicznik: liczba mnoga",
-        "lokalne pcp = pfpCount: liczba mnoga"
+        "input nameCount",
+        "input pfpCount",
+        "input privacy",
+        "local ncp = nameCount: plural",
+        "local pcp = pfpCount: plural"
       ],
       "selectors": [
         "ncp",
@@ -587,21 +556,9 @@
       ],
       "match": {
         "ncp=one, pcp=one": "{name} to {privacy} z zarejestrowaną {nameCount} zarejestrowanym zdjęciem profilowym {pfpCount}",
-        "ncp=one, pcp=few": "{name} jest profilem {privacy} o zarejestrowanej nazwie {nameCount} , nagrane zdjęcia profilowe {pfpCount}",
-        "ncp=one, pcp=many": "{name} jest profilem {privacy} o zarejestrowanej nazwie {nameCount} , nagrane zdjęcia profilowe {pfpCount}",
-        "ncp=one, pcp=other": "{name} to profil {privacy} z zarejestrowanym {nameCount} zarejestrowanymi zdjęciami profilowymi {pfpCount}",
-        "ncp=few, pcp=one": "{name} jest profilem {privacy} z nagrywanymi nazwami {nameCount} , nagrywanym obrazem profilowym {pfpCount}",
-        "ncp=few, pcp=few": "{name} jest profilem {privacy} z nagranymi nazwami {nameCount} , nagranymi zdjęciami profilowymi {pfpCount}",
-        "ncp=few, pcp=many": "{name} jest profilem {privacy} z nagranymi nazwami {nameCount} , nagranymi zdjęciami profilowymi {pfpCount}",
-        "ncp=few, pcp=other": "{name} jest profilem {privacy} z nagranymi nazwami {nameCount} , nagranymi zdjęciami profilowymi {pfpCount}",
-        "ncp=many, pcp=one": "{name} jest profilem {privacy} z nagrywanymi nazwami {nameCount} , nagrywanym obrazem profilowym {pfpCount}",
-        "ncp=many, pcp=few": "{name} jest profilem {privacy} z nagranymi nazwami {nameCount} , nagranymi zdjęciami profilowymi {pfpCount}",
-        "ncp=many, pcp=many": "{name} jest profilem {privacy} z nagranymi nazwami {nameCount} , nagranymi zdjęciami profilowymi {pfpCount}",
-        "ncp=many, pcp=other": "{name} jest profilem {privacy} z nagranymi nazwami {nameCount} , nagranymi zdjęciami profilowymi {pfpCount}",
-        "ncp=other, pcp=one": "{name} to {privacy} z {nameCount} zarejestrowanymi nazwami, {pfpCount} zarejestrowanym zdjęciem profilowym",
-        "ncp=other, pcp=other": "{name} to {privacy} z {nameCount} zarejestrowanymi nazwami, {pfpCount} zarejestrowanymi zdjęciami profilowymi",
         "ncp=one, pcp=few": "{name} to profil {privacy} z zarejestrowanym {nameCount} zarejestrowanymi zdjęciami profilowymi {pfpCount}",
         "ncp=one, pcp=many": "{name} to profil {privacy} z zarejestrowanym {nameCount} zarejestrowanymi zdjęciami profilowymi {pfpCount}",
+        "ncp=one, pcp=other": "{name} to profil {privacy} z zarejestrowanym {nameCount} zarejestrowanymi zdjęciami profilowymi {pfpCount}",
         "ncp=few, pcp=one": "{name} to {privacy} z {nameCount} zarejestrowanymi nazwami, {pfpCount} zarejestrowanym zdjęciem profilowym",
         "ncp=few, pcp=few": "{name} to {privacy} z {nameCount} zarejestrowanymi nazwami, {pfpCount} zarejestrowanymi zdjęciami profilowymi",
         "ncp=few, pcp=many": "{name} to {privacy} z {nameCount} zarejestrowanymi nazwami, {pfpCount} zarejestrowanymi zdjęciami profilowymi",
@@ -610,6 +567,8 @@
         "ncp=many, pcp=few": "{name} to {privacy} z {nameCount} zarejestrowanymi nazwami, {pfpCount} zarejestrowanymi zdjęciami profilowymi",
         "ncp=many, pcp=many": "{name} to {privacy} z {nameCount} zarejestrowanymi nazwami, {pfpCount} zarejestrowanymi zdjęciami profilowymi",
         "ncp=many, pcp=other": "{name} to {privacy} z {nameCount} zarejestrowanymi nazwami, {pfpCount} zarejestrowanymi zdjęciami profilowymi",
+        "ncp=other, pcp=one": "{name} to {privacy} z {nameCount} zarejestrowanymi nazwami, {pfpCount} zarejestrowanym zdjęciem profilowym",
+        "ncp=other, pcp=other": "{name} to {privacy} z {nameCount} zarejestrowanymi nazwami, {pfpCount} zarejestrowanymi zdjęciami profilowymi",
         "ncp=other, pcp=few": "{name} to {privacy} z {nameCount} zarejestrowanymi nazwami, {pfpCount} zarejestrowanymi zdjęciami profilowymi",
         "ncp=other, pcp=many": "{name} to {privacy} z {nameCount} zarejestrowanymi nazwami, {pfpCount} zarejestrowanymi zdjęciami profilowymi"
       }
@@ -628,8 +587,8 @@
   "notification_dock_votes_count": [
     {
       "declarations": [
-        "liczba danych wejściowych",
-        "miejscowy cp = liczba: liczba mnoga"
+        "input count",
+        "local cp = count: plural"
       ],
       "selectors": [
         "cp"
@@ -856,8 +815,8 @@
   "data_removal_entries_count": [
     {
       "declarations": [
-        "liczba danych wejściowych",
-        "miejscowy cp = liczba: liczba mnoga"
+        "input count",
+        "local cp = count: plural"
       ],
       "selectors": [
         "cp"
@@ -884,11 +843,8 @@
   "data_removal_selected_items": [
     {
       "declarations": [
-        "liczba danych wejściowych",
-        "liczba wejściowa, liczba mnoga, jeden {",
-        "input e",
-        "input one {",
-        "miejscowy cp = liczba: liczba mnoga"
+        "input count",
+        "local cp = count: plural"
       ],
       "selectors": [
         "cp"
@@ -953,8 +909,8 @@
   "sources_count": [
     {
       "declarations": [
-        "liczba danych wejściowych",
-        "miejscowy cp = liczba: liczba mnoga"
+        "input count",
+        "local cp = count: plural"
       ],
       "selectors": [
         "cp"
@@ -995,7 +951,7 @@
   "teams_vanity_label": "Adres URL typu „vanity”",
   "teams_vanity_placeholder": "osoby osiągające sukcesy",
   "teams_vanity_hint": "Unikalny, krótki link do profilu Twojego zespołu.",
-  "teams_vanity_readonly_hint": "Wolne adresy URL nie mogą zostać zmienione po utworzeniu.",
+  "teams_vanity_readonly_hint": "Adresów URL typu „vanity” nie można zmienić po ich utworzeniu.",
   "teams_description_label": "Opis",
   "teams_description_placeholder": "Na czym skupia się ten zespół?",
   "teams_private_label": "Prywatny zespół",
@@ -1021,8 +977,8 @@
   "team_members_tab": [
     {
       "declarations": [
-        "liczba danych wejściowych",
-        "miejscowy cp = liczba: liczba mnoga"
+        "input count",
+        "local cp = count: plural"
       ],
       "selectors": [
         "cp"
@@ -1038,8 +994,8 @@
   "team_notes_tab": [
     {
       "declarations": [
-        "liczba danych wejściowych",
-        "miejscowy cp = liczba: liczba mnoga"
+        "input count",
+        "local cp = count: plural"
       ],
       "selectors": [
         "cp"
@@ -1055,8 +1011,8 @@
   "team_invitations_tab": [
     {
       "declarations": [
-        "liczba danych wejściowych",
-        "miejscowy cp = liczba: liczba mnoga"
+        "input count",
+        "local cp = count: plural"
       ],
       "selectors": [
         "cp"
@@ -1080,8 +1036,8 @@
   "team_pending_invites_title": [
     {
       "declarations": [
-        "liczba danych wejściowych",
-        "miejscowy cp = liczba: liczba mnoga"
+        "input count",
+        "local cp = count: plural"
       ],
       "selectors": [
         "cp"
@@ -1162,8 +1118,8 @@
   "account_days_remaining": [
     {
       "declarations": [
-        "liczba danych wejściowych",
-        "miejscowy cp = liczba: liczba mnoga"
+        "input count",
+        "local cp = count: plural"
       ],
       "selectors": [
         "cp"
@@ -1350,8 +1306,6 @@
   "teams_resignation": "Rezygnacja",
   "teams_leave_team": "Opuść drużynę",
   "teams_confirm_leave": "Czy na pewno chcesz opuścić ten zespół?",
-  "common_unknown_user": "Nieznany użytkownik",
-  "teams_vanity_readonly_hint": "Adresów URL typu „vanity” nie można zmienić po ich utworzeniu.",
   "teams_note_target": "Cel",
   "teams_note_author": "Autor",
   "teams_note_revisions": "Rewizje",
