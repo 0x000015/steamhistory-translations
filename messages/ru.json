@@ -70,23 +70,7 @@
   "profile_ban_unban_reason": "Причина разбана:",
   "profile_ban_unban_date": "Дата разбана:",
   "profile_ban_duration": "Длительность:",
-  "profile_ban_duration_days": [
-    {
-      "declarations": [
-        "input count",
-        "local cp = count: plural"
-      ],
-      "selectors": [
-        "cp"
-      ],
-      "match": {
-        "cp=one": "{count} день",
-        "cp=few": "{count} дней",
-        "cp=many": "{count} дней",
-        "cp=other": "{count} дней"
-      }
-    }
-  ],
+  "profile_ban_duration_days": "{count} days",
   "profile_notes_title": "Заметки",
   "profile_notes_tab_team": "Команда",
   "profile_notes_tab_personal": "Личные",
@@ -105,99 +89,15 @@
   "profile_notes_team_visibility_public": "Публичный (участники и подписчики)",
   "profile_notes_team_placeholder": "Поделитесь наблюдением с вашей командой...",
   "profile_notes_team_post": "Отправить команде",
-  "profile_vac_bans_detailed": [
-    {
-      "declarations": [
-        "input count",
-        "input timeAgo",
-        "input timestamp",
-        "local cp = count: plural"
-      ],
-      "selectors": [
-        "cp"
-      ],
-      "match": {
-        "cp=one": "{count} бан, {timeAgo} ({timestamp})",
-        "cp=few": "{count} bans, {timeAgo} ( {timestamp} )",
-        "cp=many": "{count} bans, {timeAgo} ( {timestamp} )",
-        "cp=other": "{count} банов, {timeAgo} ({timestamp})"
-      }
-    }
-  ],
-  "profile_vac_bans_simple": [
-    {
-      "declarations": [
-        "input count",
-        "local cp = count: plural"
-      ],
-      "selectors": [
-        "cp"
-      ],
-      "match": {
-        "cp=one": "{count} бан",
-        "cp=few": "{count} бана",
-        "cp=many": "{count} банов",
-        "cp=other": "{count} банов"
-      }
-    }
-  ],
+  "profile_vac_bans_detailed": "{count} бан, {timeAgo} ({timestamp})",
+  "profile_vac_bans_simple": "{count} запрещает",
   "profile_vac_none": "Нет записей о VAC-банах",
   "profile_community_bans_detailed": "Забанен {timeAgo} ({timestamp})",
   "profile_community_bans_simple": "Забанен",
   "profile_community_none": "Нет записей о банах в сообществе",
-  "profile_community_bans_total_count": [
-    {
-      "declarations": [
-        "input count",
-        "local cp = count: plural"
-      ],
-      "selectors": [
-        "cp"
-      ],
-      "match": {
-        "cp=one": "{count} бан",
-        "cp=few": "{count} бана",
-        "cp=many": "{count} банов",
-        "cp=other": "{count} банов"
-      }
-    }
-  ],
-  "profile_game_bans_detailed": [
-    {
-      "declarations": [
-        "input count",
-        "input timeAgo",
-        "input timestamp",
-        "local cp = count: plural"
-      ],
-      "selectors": [
-        "cp"
-      ],
-      "match": {
-        "cp=one": "{count} бан, {timeAgo} ({timestamp})",
-        "cp=few": "{count} bans, {timeAgo} ( {timestamp} )",
-        "cp=many": "{count} bans, {timeAgo} ( {timestamp} )",
-        "cp=other": "{count} банов, {timeAgo} ({timestamp})"
-      }
-    }
-  ],
-  "profile_game_bans_simple": [
-    {
-      "declarations": [
-        "input count",
-        "local cp = count: plural"
-      ],
-      "selectors": [
-        "cp"
-      ],
-      "match": {
-        "cp=one": "{count} бан",
-        "cp=few": "{count} бана",
-        "cp=many": "{count} банов",
-        "cp=other": "{count} банов"
-      }
-    }
-  ],
+  "profile_community_bans_total_count": "{count} запрещает",
+  "profile_game_bans_detailed": "{count} бан, {timeAgo} ({timestamp})",
+  "profile_game_bans_simple": "{count} запрещает",
   "profile_game_none": "Нет записей об игровых банах",
   "profile_economy_bans_detailed": "Забанен {timeAgo} ({timestamp})",
   "profile_economy_bans_simple": "Забанен",
@@ -254,23 +154,7 @@
   "search_avatar_title": "Поиск аватара",
   "search_avatar_description": "Поиск исторических фотографий профиля",
   "search_avatar_hash_label": "Хэш аватара",
-  "search_avatar_found_results": [
-    {
-      "declarations": [
-        "input count",
-        "local cp = count: plural"
-      ],
-      "selectors": [
-        "cp"
-      ],
-      "match": {
-        "cp=one": "Найден '{count}' результат для",
-        "cp=few": "Найдены результаты ' {count} ' для",
-        "cp=many": "Найдены результаты ' {count} ' для",
-        "cp=other": "Найдено '{count}' результатов для"
-      }
-    }
-  ],
+  "search_avatar_found_results": "Найдено '{count}' результатов для",
   "search_url_title": "Поиск по URL",
   "search_url_description": "Поиск исторических URL-адресов",
   "search_url_label": "URL",
@@ -289,24 +173,7 @@
   "search_comment_sort_label": "Сортировать по:",
   "search_comment_sort_newest": "Сначала новые",
   "search_comment_sort_oldest": "Сначала старые",
-  "search_comment_results_found": [
-    {
-      "declarations": [
-        "input count",
-        "input time",
-        "local cp = count: plural"
-      ],
-      "selectors": [
-        "cp"
-      ],
-      "match": {
-        "cp=one": "Найден {count} результат ({time}мс)",
-        "cp=few": "Найдены результаты {count} ( {time} мс)",
-        "cp=many": "Найдены результаты {count} ( {time} мс)",
-        "cp=other": "Найдено {count} результатов ({time}мс)"
-      }
-    }
-  ],
+  "search_comment_results_found": "Найдены результаты {count} ({time}ms)",
   "search_comment_date_range": "Диапазон дат: {range}",
   "homepage_title": "SteamHistory.net | Архив профилей Steam",
   "homepage_description": "Основная цель SteamHistory — сбор и последующее хранение исторической и/или текущей информации профиля Steam в централизованном месте.",
@@ -357,46 +224,14 @@
   "profile_history_filter_unfriended": "Удалены",
   "profile_history_filter_deleted": "Удалено",
   "profile_history_bans_label": "Баны:",
-  "profile_history_show_deleted_count": [
-    {
-      "declarations": [
-        "счетчик ввода",
-        "локальная cp = кол-во местности: множественное число"
-      ],
-      "selectors": [
-        "cp"
-      ],
-      "match": {
-        "cp=one": "чтобы показать {count} удаленный комментарий",
-        "cp=few": "чтобы показать удаленные комментарии {count}",
-        "cp=many": "чтобы показать удаленные комментарии {count}",
-        "cp=other": "чтобы показать {count} удаленных комментариев"
-      }
-    }
-  ],
+  "profile_history_show_deleted_count": "to show {count} deleted comments",
   "profile_history_view_all_button": "Посмотреть все",
   "profile_history_hidden_data": "[Данные SH скрыты по запросу]",
   "profile_history_search_persona_tooltip": "Найти пользователей с таким псевдонимом",
   "profile_history_search_url_tooltip": "Найти пользователей с таким URL-адресом",
   "profile_history_official_avatar_tooltip": "Это официальный аватар Steam или игры, и его нельзя найти таким способом.",
   "profile_history_unfriended_label": "[УДАЛЁН {date}]",
-  "profile_history_friends_duration": [
-    {
-      "declarations": [
-        "input count",
-        "local cp = count: plural"
-      ],
-      "selectors": [
-        "cp"
-      ],
-      "match": {
-        "cp=one": "Друзья: {count} день",
-        "cp=few": "Друзья на {count} дней",
-        "cp=many": "Друзья на {count} дней",
-        "cp=other": "Друзья: {count} дней"
-      }
-    }
-  ],
+  "profile_history_friends_duration": "Friends for {count} days",
   "profile_history_friends_from": "Бывшие друзья с {date}",
   "profile_history_friend_since": "Друзья с {date}",
   "profile_community_bans_title": "Баны в сообществе",
@@ -404,23 +239,7 @@
   "profile_community_bans_keywords_label": "Ключевые слова: {list}",
   "profile_community_bans_group_ban_note": "Бан в группе не является прямым доказательством читерства, а лишь отражает позицию сообщества.",
   "profile_community_bans_view_on_server": "Посмотреть баны на {server}",
-  "profile_community_bans_proof_entries": [
-    {
-      "declarations": [
-        "input count",
-        "локальная cp = кол-во местности: множественное число"
-      ],
-      "selectors": [
-        "cp"
-      ],
-      "match": {
-        "cp=one": "{count} доказательство прикреплено",
-        "cp=few": "{count} Прикреплены подтверждающие записи",
-        "cp=many": "{count} Прикреплены подтверждающие записи",
-        "cp=other": "{count} доказательств прикреплено"
-      }
-    }
-  ],
+  "profile_community_bans_proof_entries": "{count} proof entries attached",
   "profile_community_bans_recent_badge": "Недавний",
   "profile_community_bans_permanent_badge": "Постоянный",
   "profile_community_bans_temporary_badge": "Временный",
@@ -447,91 +266,11 @@
   "common_false": "Нет",
   "common_cancel": "Отмена",
   "common_unknown_user": "Неизвестный пользователь",
-  "time_ago_years": [
-    {
-      "declarations": [
-        "input count",
-        "локальная cp = кол-во местности: множественное число"
-      ],
-      "selectors": [
-        "cp"
-      ],
-      "match": {
-        "cp=one": "{count} год назад",
-        "cp=few": "{count} лет назад",
-        "cp=many": "{count} лет назад",
-        "cp=other": "{count} лет назад"
-      }
-    }
-  ],
-  "time_ago_months": [
-    {
-      "declarations": [
-        "input count",
-        "локальная cp = кол-во местности: множественное число"
-      ],
-      "selectors": [
-        "cp"
-      ],
-      "match": {
-        "cp=one": "{count} месяц назад",
-        "cp=few": "{count} месяцев назад",
-        "cp=many": "{count} месяцев назад",
-        "cp=other": "{count} месяцев назад"
-      }
-    }
-  ],
-  "time_ago_days": [
-    {
-      "declarations": [
-        "input count",
-        "локальная cp = кол-во местности: множественное число"
-      ],
-      "selectors": [
-        "cp"
-      ],
-      "match": {
-        "cp=one": "{count} день назад",
-        "cp=few": "{count} дней назад",
-        "cp=many": "{count} дней назад",
-        "cp=other": "{count} дней назад"
-      }
-    }
-  ],
-  "time_ago_hours": [
-    {
-      "declarations": [
-        "input count",
-        "локальная cp = кол-во местности: множественное число"
-      ],
-      "selectors": [
-        "cp"
-      ],
-      "match": {
-        "cp=one": "{count} час назад",
-        "cp=few": "{count} часов назад",
-        "cp=many": "{count} часов назад",
-        "cp=other": "{count} часов назад"
-      }
-    }
-  ],
-  "time_ago_minutes": [
-    {
-      "declarations": [
-        "input count",
-        "локальная cp = кол-во местности: множественное число"
-      ],
-      "selectors": [
-        "cp"
-      ],
-      "match": {
-        "cp=one": "{count} минуту назад",
-        "cp=few": "{count} минут назад",
-        "cp=many": "{count} минут назад",
-        "cp=other": "{count} минут назад"
-      }
-    }
-  ],
+  "time_ago_years": "{count} years ago",
+  "time_ago_months": "{count} months ago",
+  "time_ago_days": "{count} days ago",
+  "time_ago_hours": "{count} hours ago",
+  "time_ago_minutes": "{count} minutes ago",
   "time_ago_just_now": "Только что",
   "profile_indexing_title": "Выполняется индексация",
   "profile_indexing_text": "Профиль пользователя индексируется. Пожалуйста, подождите.",
@@ -540,40 +279,7 @@
   "profile_error_load_failed": "Ошибка загрузки данных. Возможно, профиль не существует или является закрытым.",
   "profile_error_backend_connection": "У нас возникли проблемы с подключением к нашим серверам. Пожалуйста, попробуйте позже. Актуальная информация - в нашем {discordLink}!",
   "profile_error_auth_required": "Пользователь не проиндексирован. Пожалуйста, {loginLink} чтобы начать индексацию.",
-  "profile_meta_description": [
-    {
-      "declarations": [
-        "input name",
-        "input nameCount",
-        "input pfpCount",
-        "input privacy",
-        "local ncp = nameCount: plural",
-        "local pcp = pfpCount: plural"
-      ],
-      "selectors": [
-        "ncp",
-        "pcp"
-      ],
-      "match": {
-        "ncp=one, pcp=one": "В профиле {name} ({privacy}) зафиксирован {nameCount} псевдоним и {pfpCount} аватар",
-        "ncp=one, pcp=few": "{name} — это профиль с {privacy} содержащий записанное имя, {nameCount} {pfpCount}",
-        "ncp=one, pcp=many": "{name} — это профиль с {privacy} содержащий записанное имя, {nameCount} {pfpCount}",
-        "ncp=one, pcp=other": "В профиле {name} ({privacy}) зафиксирован {nameCount} псевдоним и {pfpCount} аватаров",
-        "ncp=few, pcp=one": "{name} — это профиль с {privacy} содержащий {nameCount} записанных имен и {pfpCount} записанного изображения профиля.",
-        "ncp=few, pcp=few": "{name} — это профиль с {privacy} содержащий {nameCount} записанными именами и {pfpCount} записанными фотографиями профиля.",
-        "ncp=few, pcp=many": "{name} — это профиль с {privacy} содержащий {nameCount} записанными именами и {pfpCount} записанными фотографиями профиля.",
-        "ncp=few, pcp=other": "{name} — это профиль с {privacy} содержащий {nameCount} записанными именами и {pfpCount} записанными фотографиями профиля.",
-        "ncp=many, pcp=one": "{name} — это профиль с {privacy} содержащий {nameCount} записанных имен и {pfpCount} записанного изображения профиля.",
-        "ncp=many, pcp=few": "{name} — это профиль с {privacy} содержащий {nameCount} записанными именами и {pfpCount} записанными фотографиями профиля.",
-        "ncp=many, pcp=many": "{name} — это профиль с {privacy} содержащий {nameCount} записанными именами и {pfpCount} записанными фотографиями профиля.",
-        "ncp=many, pcp=other": "{name} — это профиль с {privacy} содержащий {nameCount} записанными именами и {pfpCount} записанными фотографиями профиля.",
-        "ncp=other, pcp=one": "В профиле {name} ({privacy}) зафиксировано {nameCount} псевдонимов и {pfpCount} аватар",
-        "ncp=other, pcp=few": "{name} — это профиль с {privacy} содержащий {nameCount} записанными именами и {pfpCount} записанными фотографиями профиля.",
-        "ncp=other, pcp=many": "{name} — это профиль с {privacy} содержащий {nameCount} записанными именами и {pfpCount} записанными фотографиями профиля.",
-        "ncp=other, pcp=other": "В профиле {name} ({privacy}) зафиксировано {nameCount} псевдонимов и {pfpCount} аватаров"
-      }
-    }
-  ],
+  "profile_meta_description": "{name} is a {privacy} profile with {nameCount} recorded names, {pfpCount} recorded profile pictures",
   "notification_dock_wisdom_tab": "Мудрость",
   "notification_dock_poll_tab": "Голосование",
   "notification_dock_vote_label": "Голосовать!",
@@ -584,23 +290,7 @@
   "notification_dock_minimize_button_tooltip": "Свернуть",
   "notification_dock_your_answer_label": "Ваш ответ",
   "notification_dock_submit_button": "Отправить",
-  "notification_dock_votes_count": [
-    {
-      "declarations": [
-        "input count",
-        "local cp = count: plural"
-      ],
-      "selectors": [
-        "cp"
-      ],
-      "match": {
-        "cp=one": "{count} голос",
-        "cp=few": "{count} голосов",
-        "cp=many": "{count} голосов",
-        "cp=other": "{count} голосов"
-      }
-    }
-  ],
+  "notification_dock_votes_count": "{count} votes",
   "notification_dock_you_voted": "Вы проголосовали",
   "notification_dock_signin_to_vote": "Войдите через Steam, чтобы проголосовать!",
   "notification_dock_poll_disclaimer": "Опросы используются для сбора мнений сообщества, а не для принятия окончательных решений.",
@@ -812,23 +502,7 @@
   "data_removal_realname_title": "История реальных имён",
   "data_removal_url_title": "История URL-адресов",
   "data_removal_pfp_title": "История аватаров",
-  "data_removal_entries_count": [
-    {
-      "declarations": [
-        "input count",
-        "local cp = count: plural"
-      ],
-      "selectors": [
-        "cp"
-      ],
-      "match": {
-        "cp=one": "({count} запись)",
-        "cp=few": "( {count} записей)",
-        "cp=many": "( {count} записей)",
-        "cp=other": "({count} записей)"
-      }
-    }
-  ],
+  "data_removal_entries_count": "({count} entries)",
   "data_removal_current_name": "Текущее имя",
   "data_removal_current_name_warning": "Эту запись нельзя удалить, поскольку она слишком похожа на ваше текущее отображаемое имя.",
   "data_removal_persona_placeholder": "Пожалуйста, объясните, почему вы хотите удалить этот псевдоним...",
@@ -840,23 +514,7 @@
   "data_removal_overall_reason_desc": "Пожалуйста, предоставьте общее объяснение того, почему вы хотите удалить эти записи данных. Это поможет нашим администраторам лучше понять ваш запрос.",
   "data_removal_overall_placeholder": "Объясните, почему вы хотите удалить эти данные...",
   "data_removal_submit_title": "Отправить запрос",
-  "data_removal_selected_items": [
-    {
-      "declarations": [
-        "input count",
-        "локальная cp = кол-во местности: множественное число"
-      ],
-      "selectors": [
-        "cp"
-      ],
-      "match": {
-        "cp=one": "Выбран {count} элемент для удаления",
-        "cp=few": "Выбраны элементы {count} для удаления",
-        "cp=many": "Выбраны элементы {count} для удаления",
-        "cp=other": "Выбрано {count} элементов для удаления"
-      }
-    }
-  ],
+  "data_removal_selected_items": "Selected {count} items for removal",
   "data_removal_duplicate_error": "Пожалуйста, указывайте уникальные причины для каждой записи данных. Повторение причин не допускается.",
   "data_removal_min_words_error": "Пожалуйста, убедитесь, что все указанные причины содержат не менее {count} слов.",
   "data_removal_confirm_title": "Подтвердить отправку",
@@ -906,23 +564,7 @@
   "sources_meta_description": "Просмотрите все источники, которые Steam History использует для сбора данных об учетных записях Steam, включая списки SourceBans, RustWho и TF2BD.",
   "sources_header": "Источники данных",
   "sources_description": "Сервис Steam History собирает данные из различных источников, чтобы предоставлять полную информацию об аккаунтах Steam. Ниже перечислены все источники, которые мы используем для нашей базы данных.",
-  "sources_count": [
-    {
-      "declarations": [
-        "input count",
-        "local cp = count: plural"
-      ],
-      "selectors": [
-        "cp"
-      ],
-      "match": {
-        "cp=one": "{count} источник",
-        "cp=few": "{count} источников",
-        "cp=many": "{count} источников",
-        "cp=other": "{count} источников"
-      }
-    }
-  ],
+  "sources_count": "{count} sources",
   "sources_never_updated": "Никогда не обновлялось",
   "sources_last_updated": "Последнее обновление: {time}",
   "api_title": "Документация по API",
@@ -974,57 +616,9 @@
   "team_save_settings": "Сохранить настройки",
   "team_about": "О {name}",
   "team_no_summary": "Нет описания.",
-  "team_members_tab": [
-    {
-      "declarations": [
-        "input count",
-        "local cp = count: plural"
-      ],
-      "selectors": [
-        "cp"
-      ],
-      "match": {
-        "cp=one": "{count} участник",
-        "cp=few": "Члены ( {count} )",
-        "cp=many": "Члены ( {count} )",
-        "cp=other": "{count} участников"
-      }
-    }
-  ],
-  "team_notes_tab": [
-    {
-      "declarations": [
-        "input count",
-        "local cp = count: plural"
-      ],
-      "selectors": [
-        "cp"
-      ],
-      "match": {
-        "cp=one": "{count} заметка",
-        "cp=few": "Примечания ( {count} )",
-        "cp=many": "Примечания ( {count} )",
-        "cp=other": "{count} заметок"
-      }
-    }
-  ],
-  "team_invitations_tab": [
-    {
-      "declarations": [
-        "input count",
-        "local cp = count: plural"
-      ],
-      "selectors": [
-        "cp"
-      ],
-      "match": {
-        "cp=one": "{count} приглашение",
-        "cp=few": "Приглашения ( {count} )",
-        "cp=many": "Приглашения ( {count} )",
-        "cp=other": "{count} приглашений"
-      }
-    }
-  ],
+  "team_members_tab": "Members ({count})",
+  "team_notes_tab": "Notes ({count})",
+  "team_invitations_tab": "Invitations ({count})",
   "team_members_title": "Участники",
   "team_member_joined": "Вступил {date}",
   "team_remove_member_tooltip": "Исключить участника",
@@ -1033,23 +627,7 @@
   "team_manage_invitations": "Управление приглашениями",
   "team_invite_member_title": "Пригласить нового участника",
   "team_invite_member_hint": "Приглашенные пользователи должны иметь действующий профиль на SteamHistory.net.",
-  "team_pending_invites_title": [
-    {
-      "declarations": [
-        "input count",
-        "local cp = count: plural"
-      ],
-      "selectors": [
-        "cp"
-      ],
-      "match": {
-        "cp=one": "Ожидающие приглашение ({count})",
-        "cp=few": "Ожидающие приглашения ( {count} )",
-        "cp=many": "Ожидающие приглашения ( {count} )",
-        "cp=other": "Ожидающие приглашение ({count})"
-      }
-    }
-  ],
+  "team_pending_invites_title": "Pending Invites ({count})",
   "team_no_pending_invites": "Нет ожидающих приглашений",
   "team_overview_title": "Обзор команды",
   "team_founded": "Основан",
@@ -1115,23 +693,7 @@
   "account_not_linked": "Не привязан",
   "account_start_date_label": "Дата начала:",
   "account_end_date_label": "Дата окончания:",
-  "account_days_remaining": [
-    {
-      "declarations": [
-        "input count",
-        "local cp = count: plural"
-      ],
-      "selectors": [
-        "cp"
-      ],
-      "match": {
-        "cp=one": "{count} день остался",
-        "cp=few": "{count} дней осталось",
-        "cp=many": "{count} дней осталось",
-        "cp=other": "{count} дней осталось"
-      }
-    }
-  ],
+  "account_days_remaining": "{count} days remaining",
   "account_total_given_label": "Всего:",
   "account_link_kofi_title": "Привязать аккаунт Ko-Fi",
   "account_link_kofi_desc": "После пожертвования на Ko-Fi вы получите электронное письмо с идентификатором транзакции. Введите данные ниже, чтобы привязать статус спонсора.",
