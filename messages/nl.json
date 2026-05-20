@@ -70,23 +70,7 @@
   "profile_ban_unban_reason": "Reden voor ongedaan maken:",
   "profile_ban_unban_date": "Datum waarop de blokkering wordt opgeheven:",
   "profile_ban_duration": "Duur:",
-  "profile_ban_duration_days": [
-    {
-      "declarations": [
-        "input count",
-        "local cp = count: plural"
-      ],
-      "selectors": [
-        "cp"
-      ],
-      "match": {
-        "cp=one": "{count} dag",
-        "cp=few": "{count} dagen",
-        "cp=many": "{count} dagen",
-        "cp=other": "{count} dagen"
-      }
-    }
-  ],
+  "profile_ban_duration_days": "{count} dagen",
   "profile_notes_title": "Notities",
   "profile_notes_tab_team": "Team",
   "profile_notes_tab_personal": "Persoonlijk",
@@ -105,101 +89,17 @@
   "profile_notes_team_visibility_public": "Openbaar (leden en volgers)",
   "profile_notes_team_placeholder": "Deel een observatie met je team...",
   "profile_notes_team_post": "Plaatsen naar team",
-  "profile_vac_bans_detailed": [
-    {
-      "declarations": [
-        "input count",
-        "input timeAgo",
-        "input timestamp",
-        "local cp = count: plural"
-      ],
-      "selectors": [
-        "cp"
-      ],
-      "match": {
-        "cp=one": "{count} ban, {timeAgo} ( {timestamp} )",
-        "cp=few": "{count} verbiedt, {timeAgo} ( {timestamp} )",
-        "cp=many": "{count} verbiedt, {timeAgo} ( {timestamp} )",
-        "cp=other": "{count} verbiedt, {timeAgo} ( {timestamp} )"
-      }
-    }
-  ],
-  "profile_vac_bans_simple": [
-    {
-      "declarations": [
-        "input count",
-        "local cp = count: plural"
-      ],
-      "selectors": [
-        "cp"
-      ],
-      "match": {
-        "cp=one": "{count} ban",
-        "cp=few": "{count} verboden",
-        "cp=many": "{count} verboden",
-        "cp=other": "{count} verboden"
-      }
-    }
-  ],
+  "profile_vac_bans_detailed": "{count} verbiedt, {timeAgo} ({timestamp})",
+  "profile_vac_bans_simple": "{count} verboden",
   "profile_vac_none": "Geen VAC-verboden geregistreerd.",
-  "profile_community_bans_detailed": "Verboden {timeAgo} ( {timestamp} )",
+  "profile_community_bans_detailed": "Verboden {timeAgo} ({timestamp})",
   "profile_community_bans_simple": "Verboden",
   "profile_community_none": "Geen communityverboden geregistreerd.",
-  "profile_community_bans_total_count": [
-    {
-      "declarations": [
-        "input count",
-        "local cp = count: plural"
-      ],
-      "selectors": [
-        "cp"
-      ],
-      "match": {
-        "cp=one": "{count} ban",
-        "cp=few": "{count} verboden",
-        "cp=many": "{count} verboden",
-        "cp=other": "{count} verboden"
-      }
-    }
-  ],
-  "profile_game_bans_detailed": [
-    {
-      "declarations": [
-        "input count",
-        "input timeAgo",
-        "input timestamp",
-        "local cp = count: plural"
-      ],
-      "selectors": [
-        "cp"
-      ],
-      "match": {
-        "cp=one": "{count} ban, {timeAgo} ( {timestamp} )",
-        "cp=few": "{count} verbiedt, {timeAgo} ( {timestamp} )",
-        "cp=many": "{count} verbiedt, {timeAgo} ( {timestamp} )",
-        "cp=other": "{count} verbiedt, {timeAgo} ( {timestamp} )"
-      }
-    }
-  ],
-  "profile_game_bans_simple": [
-    {
-      "declarations": [
-        "input count",
-        "local cp = count: plural"
-      ],
-      "selectors": [
-        "cp"
-      ],
-      "match": {
-        "cp=one": "{count} ban",
-        "cp=few": "{count} verboden",
-        "cp=many": "{count} verboden",
-        "cp=other": "{count} verboden"
-      }
-    }
-  ],
+  "profile_community_bans_total_count": "{count} verboden",
+  "profile_game_bans_detailed": "{count} verbiedt, {timeAgo} ({timestamp})",
+  "profile_game_bans_simple": "{count} verboden",
   "profile_game_none": "Geen gameverboden geregistreerd.",
-  "profile_economy_bans_detailed": "Verboden {timeAgo} ( {timestamp} )",
+  "profile_economy_bans_detailed": "Verboden {timeAgo} ({timestamp})",
   "profile_economy_bans_simple": "Verboden",
   "profile_economy_none": "Er zijn geen handelsverboden geregistreerd.",
   "profile_tools_info_divider": "Informatie",
@@ -218,9 +118,9 @@
   "profile_tools_link_discord_suffix": " Om de Watch-functie te gebruiken.",
   "profile_tools_watch_limit_nearing": "De kijklimiet nadert. Word een {supporterLink} om de limiet te verhogen.",
   "profile_tools_watch_limit_reached": "Limiet voor het aantal kijkers bereikt. Word een {supporterLink} om de limiet te verhogen.",
-  "profile_tools_update_success_detailed": "Update succesvol! ( {usesLeft} / {maxUses} ) resterende gebruiksmomenten",
+  "profile_tools_update_success_detailed": "Update succesvol! ({usesLeft} / {maxUses}) resterende gebruiksmomenten",
   "profile_tools_update_success_simple": "Update succesvol!",
-  "profile_tools_daily_limit_reached": "Dagelijkse limiet bereikt ( {maxUses} / {maxUses} )",
+  "profile_tools_daily_limit_reached": "Dagelijkse limiet bereikt ({maxUses} / {maxUses})",
   "profile_tools_unlimited_updates_cta": "Word supporter voor onbeperkte updates.",
   "profile_tools_update_failed": "Update mislukt. Probeer het opnieuw.",
   "profile_tools_recently_updated": "Recent bijgewerkt. Probeer het opnieuw in {time}",
@@ -254,23 +154,7 @@
   "search_avatar_title": "Avatar zoeken",
   "search_avatar_description": "Zoek naar historische profielfoto's",
   "search_avatar_hash_label": "Avatar-hash",
-  "search_avatar_found_results": [
-    {
-      "declarations": [
-        "input count",
-        "local cp = count: plural"
-      ],
-      "selectors": [
-        "cp"
-      ],
-      "match": {
-        "cp=one": "' {count} ' resultaat gevonden voor",
-        "cp=few": "Er zijn resultaten gevonden voor ' {count} '",
-        "cp=many": "Er zijn resultaten gevonden voor ' {count} '",
-        "cp=other": "Er zijn resultaten gevonden voor ' {count} '"
-      }
-    }
-  ],
+  "search_avatar_found_results": "Er zijn resultaten gevonden voor ' {count} '",
   "search_url_title": "URL-zoekopdracht",
   "search_url_description": "Zoek naar historische URL's",
   "search_url_label": "URL",
@@ -289,24 +173,7 @@
   "search_comment_sort_label": "Sorteren op:",
   "search_comment_sort_newest": "Nieuwste eerst",
   "search_comment_sort_oldest": "Oudste eerst",
-  "search_comment_results_found": [
-    {
-      "declarations": [
-        "input count",
-        "input time",
-        "local cp = count: plural"
-      ],
-      "selectors": [
-        "cp"
-      ],
-      "match": {
-        "cp=one": "Resultaat gevonden {count} ( {time} ms)",
-        "cp=few": "Er zijn {count} resultaten gevonden ( {time} ms)",
-        "cp=many": "Er zijn {count} resultaten gevonden ( {time} ms)",
-        "cp=other": "Er zijn {count} resultaten gevonden ( {time} ms)"
-      }
-    }
-  ],
+  "search_comment_results_found": "Er zijn {count} resultaten gevonden ({time} ms)",
   "search_comment_date_range": "Datumbereik: {range}",
   "homepage_title": "SteamHistory.net | Steam-profielarchief",
   "homepage_description": "Het voornaamste doel van SteamHistory is het verzamelen en vervolgens centraal opslaan van historische en/of actuele informatie over een Steam-profiel.",
@@ -357,46 +224,14 @@
   "profile_history_filter_unfriended": "Ontvrienden",
   "profile_history_filter_deleted": "Verwijderd",
   "profile_history_bans_label": "Verboden:",
-  "profile_history_show_deleted_count": [
-    {
-      "declarations": [
-        "input count",
-        "local cp = count: plural"
-      ],
-      "selectors": [
-        "cp"
-      ],
-      "match": {
-        "cp=one": "om {count} te tonen verwijderde opmerking",
-        "cp=few": "om {count} verwijderde opmerkingen weer te geven",
-        "cp=many": "om {count} verwijderde opmerkingen weer te geven",
-        "cp=other": "om {count} verwijderde opmerkingen weer te geven"
-      }
-    }
-  ],
+  "profile_history_show_deleted_count": "om {count} verwijderde opmerkingen weer te geven",
   "profile_history_view_all_button": "Alles bekijken",
   "profile_history_hidden_data": "[SH-gegevens verborgen op verzoek]",
   "profile_history_search_persona_tooltip": "Zoek naar gebruikers met deze persona-naam",
   "profile_history_search_url_tooltip": "Zoek naar gebruikers met deze URL.",
   "profile_history_official_avatar_tooltip": "Dit is een officiële Steam- of game-avatar en kan niet op deze manier worden opgezocht.",
   "profile_history_unfriended_label": "[ONGEFRIENDED {date} ]",
-  "profile_history_friends_duration": [
-    {
-      "declarations": [
-        "input count",
-        "local cp = count: plural"
-      ],
-      "selectors": [
-        "cp"
-      ],
-      "match": {
-        "cp=one": "Vrienden voor {count} dag",
-        "cp=few": "Vrienden voor {count} dagen",
-        "cp=many": "Vrienden voor {count} dagen",
-        "cp=other": "Vrienden voor {count} dagen"
-      }
-    }
-  ],
+  "profile_history_friends_duration": "Vrienden voor {count} dagen",
   "profile_history_friends_from": "Vrienden van {date}",
   "profile_history_friend_since": "Vriend sinds {date}",
   "profile_community_bans_title": "Gemeenschapsverboden",
@@ -404,23 +239,7 @@
   "profile_community_bans_keywords_label": "Trefwoorden: {list}",
   "profile_community_bans_group_ban_note": "Het verbieden van groepslidmaatschap is geen direct bewijs van valsspelen, maar eerder een standpunt van de gemeenschap.",
   "profile_community_bans_view_on_server": "Bekijk verboden op {server}",
-  "profile_community_bans_proof_entries": [
-    {
-      "declarations": [
-        "input count",
-        "local cp = count: plural"
-      ],
-      "selectors": [
-        "cp"
-      ],
-      "match": {
-        "cp=one": "{count} bewijsinvoer bijgevoegd",
-        "cp=few": "{count} bewijsvermeldingen bijgevoegd",
-        "cp=many": "{count} bewijsvermeldingen bijgevoegd",
-        "cp=other": "{count} bewijsvermeldingen bijgevoegd"
-      }
-    }
-  ],
+  "profile_community_bans_proof_entries": "{count} bewijsvermeldingen bijgevoegd",
   "profile_community_bans_recent_badge": "Recent",
   "profile_community_bans_permanent_badge": "Permanent",
   "profile_community_bans_temporary_badge": "Tijdelijk",
@@ -447,91 +266,11 @@
   "common_false": "Onwaar",
   "common_cancel": "Annuleren",
   "common_unknown_user": "Onbekende gebruiker",
-  "time_ago_years": [
-    {
-      "declarations": [
-        "input count",
-        "local cp = count: plural"
-      ],
-      "selectors": [
-        "cp"
-      ],
-      "match": {
-        "cp=one": "{count} jaar geleden",
-        "cp=few": "{count} jaar geleden",
-        "cp=many": "{count} jaar geleden",
-        "cp=other": "{count} jaar geleden"
-      }
-    }
-  ],
-  "time_ago_months": [
-    {
-      "declarations": [
-        "input count",
-        "local cp = count: plural"
-      ],
-      "selectors": [
-        "cp"
-      ],
-      "match": {
-        "cp=one": "{count} maand geleden",
-        "cp=few": "{count} maanden geleden",
-        "cp=many": "{count} maanden geleden",
-        "cp=other": "{count} maanden geleden"
-      }
-    }
-  ],
-  "time_ago_days": [
-    {
-      "declarations": [
-        "input count",
-        "local cp = count: plural"
-      ],
-      "selectors": [
-        "cp"
-      ],
-      "match": {
-        "cp=one": "{count} dag geleden",
-        "cp=few": "{count} dagen geleden",
-        "cp=many": "{count} dagen geleden",
-        "cp=other": "{count} dagen geleden"
-      }
-    }
-  ],
-  "time_ago_hours": [
-    {
-      "declarations": [
-        "input count",
-        "local cp = count: plural"
-      ],
-      "selectors": [
-        "cp"
-      ],
-      "match": {
-        "cp=one": "{count} uur geleden",
-        "cp=few": "{count} uur geleden",
-        "cp=many": "{count} uur geleden",
-        "cp=other": "{count} uur geleden"
-      }
-    }
-  ],
-  "time_ago_minutes": [
-    {
-      "declarations": [
-        "input count",
-        "local cp = count: plural"
-      ],
-      "selectors": [
-        "cp"
-      ],
-      "match": {
-        "cp=one": "{count} minuut geleden",
-        "cp=few": "{count} minuten geleden",
-        "cp=many": "{count} minuten geleden",
-        "cp=other": "{count} minuten geleden"
-      }
-    }
-  ],
+  "time_ago_years": "{count} jaar geleden",
+  "time_ago_months": "{count} maanden geleden",
+  "time_ago_days": "{count} dagen geleden",
+  "time_ago_hours": "{count} uur geleden",
+  "time_ago_minutes": "{count} minuten geleden",
   "time_ago_just_now": "Zojuist",
   "profile_indexing_title": "Indexering in uitvoering",
   "profile_indexing_text": "Het profiel van deze gebruiker wordt momenteel geïndexeerd. Even geduld alstublieft.",
@@ -540,40 +279,7 @@
   "profile_error_load_failed": "Het laden van gebruikersgegevens is mislukt. Het profiel bestaat mogelijk niet of is privé.",
   "profile_error_backend_connection": "We hebben problemen met de verbinding met onze servers. Probeer het later opnieuw. Voor realtime updates kunt u lid worden van onze {discordLink} !",
   "profile_error_auth_required": "Deze gebruiker is nog niet geïndexeerd. Gebruik {loginLink} om het indexeringsproces te starten.",
-  "profile_meta_description": [
-    {
-      "declarations": [
-        "input name",
-        "input nameCount",
-        "input pfpCount",
-        "input privacy",
-        "local ncp = nameCount: plural",
-        "local pcp = pfpCount: plural"
-      ],
-      "selectors": [
-        "ncp",
-        "pcp"
-      ],
-      "match": {
-        "ncp=one, pcp=one": "{name} {privacy} profiel met {nameCount} geregistreerde naam {pfpCount} geregistreerde profielfoto",
-        "ncp=one, pcp=few": "{name} {privacy} profiel met {nameCount} geregistreerde naam, {pfpCount} geregistreerde profielfoto's",
-        "ncp=one, pcp=many": "{name} {privacy} profiel met {nameCount} geregistreerde naam, {pfpCount} geregistreerde profielfoto's",
-        "ncp=one, pcp=other": "{name} {privacy} profiel met {nameCount} geregistreerde naam, {pfpCount} geregistreerde profielfoto's",
-        "ncp=few, pcp=one": "{name} {privacy} profiel met {nameCount} geregistreerde namen {pfpCount} geregistreerde profielfoto",
-        "ncp=few, pcp=few": "{name} {privacy} profiel met {nameCount} geregistreerde namen en {pfpCount} geregistreerde profielfoto's",
-        "ncp=few, pcp=many": "{name} {privacy} profiel met {nameCount} geregistreerde namen en {pfpCount} geregistreerde profielfoto's",
-        "ncp=few, pcp=other": "{name} {privacy} profiel met {nameCount} geregistreerde namen en {pfpCount} geregistreerde profielfoto's",
-        "ncp=many, pcp=one": "{name} {privacy} profiel met {nameCount} geregistreerde namen {pfpCount} geregistreerde profielfoto",
-        "ncp=many, pcp=few": "{name} {privacy} profiel met {nameCount} geregistreerde namen en {pfpCount} geregistreerde profielfoto's",
-        "ncp=many, pcp=many": "{name} {privacy} profiel met {nameCount} geregistreerde namen en {pfpCount} geregistreerde profielfoto's",
-        "ncp=many, pcp=other": "{name} {privacy} profiel met {nameCount} geregistreerde namen en {pfpCount} geregistreerde profielfoto's",
-        "ncp=other, pcp=one": "{name} {privacy} profiel met {nameCount} geregistreerde namen {pfpCount} geregistreerde profielfoto",
-        "ncp=other, pcp=few": "{name} {privacy} profiel met {nameCount} geregistreerde namen en {pfpCount} geregistreerde profielfoto's",
-        "ncp=other, pcp=many": "{name} {privacy} profiel met {nameCount} geregistreerde namen en {pfpCount} geregistreerde profielfoto's",
-        "ncp=other, pcp=other": "{name} {privacy} profiel met {nameCount} geregistreerde namen en {pfpCount} geregistreerde profielfoto's"
-      }
-    }
-  ],
+  "profile_meta_description": "{name} {privacy} profiel met {nameCount} geregistreerde namen en {pfpCount} geregistreerde profielfoto's",
   "notification_dock_wisdom_tab": "Wijsheid",
   "notification_dock_poll_tab": "Peiling",
   "notification_dock_vote_label": "Stemmen!",
@@ -584,23 +290,7 @@
   "notification_dock_minimize_button_tooltip": "Minimaliseren",
   "notification_dock_your_answer_label": "Uw antwoord",
   "notification_dock_submit_button": "Indienen",
-  "notification_dock_votes_count": [
-    {
-      "declarations": [
-        "input count",
-        "local cp = count: plural"
-      ],
-      "selectors": [
-        "cp"
-      ],
-      "match": {
-        "cp=one": "{count} stemmen",
-        "cp=few": "{count} stemmen",
-        "cp=many": "{count} stemmen",
-        "cp=other": "{count} stemmen"
-      }
-    }
-  ],
+  "notification_dock_votes_count": "{count} stemmen",
   "notification_dock_you_voted": "U heeft gestemd",
   "notification_dock_signin_to_vote": "Meld je aan met Steam om te stemmen!",
   "notification_dock_poll_disclaimer": "Peilingen worden gebruikt om de gedachten en meningen van de gemeenschap te verzamelen, niet om definitieve beslissingen te nemen.",
@@ -774,23 +464,7 @@
   "data_removal_realname_title": "Historische echte namen",
   "data_removal_url_title": "Historische profiel-URL's",
   "data_removal_pfp_title": "Historische profielfoto's",
-  "data_removal_entries_count": [
-    {
-      "declarations": [
-        "input count",
-        "local cp = count: plural"
-      ],
-      "selectors": [
-        "cp"
-      ],
-      "match": {
-        "cp=one": "( {count} entry)",
-        "cp=few": "( {count} entries)",
-        "cp=many": "( {count} entries)",
-        "cp=other": "( {count} entries)"
-      }
-    }
-  ],
+  "data_removal_entries_count": "({count} entries)",
   "data_removal_current_name": "Huidige naam",
   "data_removal_current_name_warning": "Deze vermelding kan niet worden verwijderd omdat deze te veel lijkt op uw huidige weergavenaam.",
   "data_removal_persona_placeholder": "Leg uit waarom u deze gebruikersnaam wilt laten verwijderen...",
@@ -802,23 +476,7 @@
   "data_removal_overall_reason_desc": "Geef een algemene toelichting waarom u deze gegevens wilt laten verwijderen. Dit helpt onze beheerders uw verzoek beter te begrijpen.",
   "data_removal_overall_placeholder": "Leg uit waarom u deze gegevens wilt laten verwijderen...",
   "data_removal_submit_title": "Verzoek indienen",
-  "data_removal_selected_items": [
-    {
-      "declarations": [
-        "input count",
-        "local cp = count: plural"
-      ],
-      "selectors": [
-        "cp"
-      ],
-      "match": {
-        "cp=one": "Geselecteerd {count} item voor verwijdering",
-        "cp=few": "Geselecteerde {count} items voor verwijdering",
-        "cp=many": "Geselecteerde {count} items voor verwijdering",
-        "cp=other": "Geselecteerde {count} items voor verwijdering"
-      }
-    }
-  ],
+  "data_removal_selected_items": "Geselecteerde {count} items voor verwijdering",
   "data_removal_duplicate_error": "Geef voor elke gegevensinvoer een unieke reden op. Dubbele redenen zijn niet toegestaan.",
   "data_removal_min_words_error": "Zorg ervoor dat alle redenen voldoen aan de minimale {count} .",
   "data_removal_confirm_title": "Bevestig inzending",
@@ -868,23 +526,7 @@
   "sources_meta_description": "Bekijk alle bronnen die Steam History gebruikt om gegevens over Steam-accounts te verzamelen, waaronder SourceBans, RustWho en TF2BD-lijsten.",
   "sources_header": "Gegevensbronnen",
   "sources_description": "Steam History verzamelt gegevens uit verschillende bronnen om uitgebreide informatie over Steam-accounts te bieden. Hieronder vindt u alle bronnen die we voor onze database gebruiken.",
-  "sources_count": [
-    {
-      "declarations": [
-        "input count",
-        "local cp = count: plural"
-      ],
-      "selectors": [
-        "cp"
-      ],
-      "match": {
-        "cp=one": "{count} source",
-        "cp=few": "{count} sources",
-        "cp=many": "{count} sources",
-        "cp=other": "{count} sources"
-      }
-    }
-  ],
+  "sources_count": "{count} sources",
   "sources_never_updated": "Nooit bijgewerkt",
   "sources_last_updated": "Laatst bijgewerkt: {time}",
   "api_title": "API-documentatie",
@@ -936,57 +578,9 @@
   "team_save_settings": "Instellingen opslaan",
   "team_about": "Over {name}",
   "team_no_summary": "Geen samenvatting beschikbaar.",
-  "team_members_tab": [
-    {
-      "declarations": [
-        "input count",
-        "local cp = count: plural"
-      ],
-      "selectors": [
-        "cp"
-      ],
-      "match": {
-        "cp=one": "Lid ( {count} )",
-        "cp=few": "Leden ( {count} )",
-        "cp=many": "Leden ( {count} )",
-        "cp=other": "Leden ( {count} )"
-      }
-    }
-  ],
-  "team_notes_tab": [
-    {
-      "declarations": [
-        "input count",
-        "local cp = count: plural"
-      ],
-      "selectors": [
-        "cp"
-      ],
-      "match": {
-        "cp=one": "Opmerking ( {count} )",
-        "cp=few": "Notities ( {count} )",
-        "cp=many": "Notities ( {count} )",
-        "cp=other": "Notities ( {count} )"
-      }
-    }
-  ],
-  "team_invitations_tab": [
-    {
-      "declarations": [
-        "input count",
-        "local cp = count: plural"
-      ],
-      "selectors": [
-        "cp"
-      ],
-      "match": {
-        "cp=one": "Uitnodiging ( {count} )",
-        "cp=few": "Uitnodigingen ( {count} )",
-        "cp=many": "Uitnodigingen ( {count} )",
-        "cp=other": "Uitnodigingen ( {count} )"
-      }
-    }
-  ],
+  "team_members_tab": "Leden ({count})",
+  "team_notes_tab": "Notities ({count})",
+  "team_invitations_tab": "Uitnodigingen ({count})",
   "team_members_title": "Leden",
   "team_member_joined": "Samengevoegd {date}",
   "team_remove_member_tooltip": "Lid verwijderen",
@@ -995,23 +589,7 @@
   "team_manage_invitations": "Uitnodigingen beheren",
   "team_invite_member_title": "Nodig een nieuw lid uit",
   "team_invite_member_hint": "Uitgenodigde gebruikers moeten al een SteamHistory.net-profiel hebben.",
-  "team_pending_invites_title": [
-    {
-      "declarations": [
-        "input count",
-        "local cp = count: plural"
-      ],
-      "selectors": [
-        "cp"
-      ],
-      "match": {
-        "cp=one": "Uitnodiging in behandeling ( {count} )",
-        "cp=few": "In afwachting zijnde uitnodigingen ( {count} )",
-        "cp=many": "In afwachting zijnde uitnodigingen ( {count} )",
-        "cp=other": "In afwachting zijnde uitnodigingen ( {count} )"
-      }
-    }
-  ],
+  "team_pending_invites_title": "In afwachting zijnde uitnodigingen ({count})",
   "team_no_pending_invites": "Geen uitnodigingen in behandeling",
   "team_overview_title": "Teamoverzicht",
   "team_founded": "Opgericht",
@@ -1043,7 +621,7 @@
   "friendgroups_stats_max_distance": "Maximale afstand:",
   "friendgroups_disabled_prod": "Deze functie is in de productieomgeving uitgeschakeld.",
   "account_settings_title": "Accountinstellingen",
-  "account_refresh_button": "Account vernieuwen (laatst gecontroleerd {time} )",
+  "account_refresh_button": "Account vernieuwen (laatst gecontroleerd {time})",
   "account_customization_title": "Profiel aanpassen",
   "account_live_preview": "LIVE VOORBEELD",
   "account_preview_hint": "Voorbeeld van hoe je profiel eruit zal zien",
@@ -1077,23 +655,7 @@
   "account_not_linked": "Niet gekoppeld",
   "account_start_date_label": "Startdatum:",
   "account_end_date_label": "Einddatum:",
-  "account_days_remaining": [
-    {
-      "declarations": [
-        "input count",
-        "local cp = count: plural"
-      ],
-      "selectors": [
-        "cp"
-      ],
-      "match": {
-        "cp=one": "{count} dagen resterend",
-        "cp=few": "{count} dagen resterend",
-        "cp=many": "{count} dagen resterend",
-        "cp=other": "{count} dagen resterend"
-      }
-    }
-  ],
+  "account_days_remaining": "{count} dagen resterend",
   "account_total_given_label": "Totaal gegeven:",
   "account_link_kofi_title": "Koppel je Ko-Fi-account",
   "account_link_kofi_desc": "Na je donatie via Ko-fi ontvang je een e-mail met een transactie-ID. Vul hieronder je gegevens in om je supporterstatus te koppelen.",
@@ -1196,7 +758,7 @@
   "account_border_inset": "Inzet",
   "account_border_outset": "Begin",
   "account_border_gradient": "Gradiënt",
-  "history_title": "Historisch {type} voor {name} {steamID64} )",
+  "history_title": "Historisch {type} voor {name} {steamID64})",
   "history_back_to_profile": "Terug naar het profiel {name}",
   "history_no_data": "Er zijn geen gegevens beschikbaar voor deze gebruiker.",
   "history_error_not_found": "Niet gevonden",
