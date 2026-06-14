@@ -449,7 +449,15 @@
   "data_removal_pfp_title": "Historic Profile Pictures",
   "data_removal_entries_count": "({count} entries)",
   "data_removal_current_name": "Current Name",
-  "data_removal_current_name_warning": "This entry cannot be removed because it is too similar to your current display name.",
+  "data_removal_active_name_warning": "This is your active display name and cannot be removed.",
+  "data_removal_similar_name_warning": "This entry cannot be removed because it is too similar to your current display name.",
+  "data_removal_current_realname": "Current Real Name",
+  "data_removal_active_realname_warning": "This is your active real name and cannot be removed.",
+  "data_removal_similar_realname_warning": "This entry cannot be removed because it is too similar to your current real name.",
+  "data_removal_current_url": "Current URL",
+  "data_removal_active_url_warning": "This is your active profile URL and cannot be removed.",
+  "data_removal_current_avatar": "Current Avatar",
+  "data_removal_active_avatar_warning": "This is your active profile picture and cannot be removed.",
   "data_removal_persona_placeholder": "Please explain why you want this persona name removed...",
   "data_removal_realname_placeholder": "Please explain why you want this real name removed...",
   "data_removal_url_placeholder": "Please explain why you want this URL removed...",
@@ -903,5 +911,7 @@
   "tos_s12_p1_2": ". For requests related to data privacy and removal, please visit ",
   "tos_s12_p1_3": " (login required).",
   "supporter_linking_li1_1": "Going to your ",
-  "supporter_linking_li1_2": ""
+  "supporter_linking_li1_2": "",
+  "profile_history_reused_avatar_label": "Reused Avatar",
+  "profile_history_reused_avatar_tooltip": "This avatar has been reused {count} times"
 }
