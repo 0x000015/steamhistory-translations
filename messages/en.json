@@ -267,6 +267,13 @@
   "profile_shadefall_report_opened": "Opened: {date}",
   "profile_shadefall_view_report": "View Report",
   "profile_shadefall_no_reports": "No manual player reports recorded.",
+  "profile_shadefall_legend_title": "Terminology Legend",
+  "profile_shadefall_legend_oob": "Out-Of-Bounds Pitch. Cheats that flip the player's view upside down or sideways to hide the head hitbox, which is impossible in a normal unmodified game client.",
+  "profile_shadefall_legend_anti_aim": "Manipulates hitboxes by sending fake, rapidly changing angles to the server to prevent enemy players and aimbots from hitting them.",
+  "profile_shadefall_legend_fake_angles": "Spoofs the visual direction a player appears to look, while their actual hitbox and orientation are pointing elsewhere.",
+  "profile_shadefall_legend_angle_history": "Detects instant, unnatural angle snaps (such as silent aimbot tracking) that exceed normal human speed.",
+  "profile_shadefall_legend_aimbot": "Automated aiming assistance that automatically locks on and hits targets in range.",
+  "profile_shadefall_legend_stasis": "A report status meaning the case is archived or on hold due to old, inconclusive, or outdated proof.",
   "status_offline": "Offline",
   "status_online": "Online",
   "status_busy": "Busy",
@@ -929,5 +936,8 @@
   "supporter_linking_li1_1": "Going to your ",
   "supporter_linking_li1_2": "",
   "profile_history_reused_avatar_label": "Reused Avatar",
-  "profile_history_reused_avatar_tooltip": "This avatar has been reused {count} times"
+  "profile_history_reused_avatar_tooltip": "This avatar has been reused {count} times",
+  "announcement_title": "Announcements",
+  "notification_dock_announcements_tab": "Announcements",
+  "notification_dock_announcements_title": "Announcements"
 }
