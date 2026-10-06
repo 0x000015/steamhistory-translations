@@ -987,5 +987,13 @@
   "bowling_public_desc": "Yer real Steam profile name 'n avatar will be fully visible in the chat 'n on the active scoreboard t' everyone.",
   "bowling_privacy_important_note": "Impor'ant Note: Switchin' t' Anonymous Mode only masks future messages 'n actions. Any messages ye previously sent while in Public Mode will continue t' display yer SteamID 'n real profile name in the historical chat logs.",
   "supporter_linking_li1": "Going to your <a href='{base_url}/account#supporter-status' class='link link-primary'>account page</a>",
-  "faq_q3_p1": "You can become a supporter by using Ko-Fi and visiting our <a href='{base_url}/supporter' target='_blank' rel='noopener noreferrer' class='link link-primary'>Supporter page</a>. Supporters get access to exclusive features like profile customization."
+  "faq_q3_p1": "You can become a supporter by using Ko-Fi and visiting our <a href='{base_url}/supporter' target='_blank' rel='noopener noreferrer' class='link link-primary'>Supporter page</a>. Supporters get access to exclusive features like profile customization.",
+  "profile_history_friends_refriended_badge": "Re-recruited",
+  "profile_history_friends_refriended_tooltip": "This scallywag walked the plank afore and was invited back aboard ({count} voyages)",
+  "profile_history_friends_history_title": "Log o' Companionship ({count} voyages)",
+  "profile_history_friends_history_toggle": "{count} matey voyages",
+  "profile_history_friends_period_active": "Current voyage",
+  "profile_history_friends_period_past": "Past voyage",
+  "profile_history_friends_hide_history": "Stow the log",
+  "profile_history_friends_close": "Close hatch"
 }

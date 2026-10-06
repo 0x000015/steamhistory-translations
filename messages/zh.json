@@ -881,5 +881,13 @@
   "profile_shadefall_legend_fake_angles": "伪造玩家视角的视觉朝向，而其实际的碰撞箱和朝向则指向别处。",
   "profile_shadefall_legend_angle_history": "检测到瞬间、不自然的视角拉扯（如无声自瞄追踪），这些拉扯超出了正常的人类反应速度。",
   "profile_shadefall_legend_aimbot": "自动瞄准辅助，可自动锁定并击中范围内的目标。",
-  "profile_shadefall_legend_stasis": "一种举报状态，表示由于证据陈旧、不确定或过时，该案件已被存档或搁置。"
+  "profile_shadefall_legend_stasis": "一种举报状态，表示由于证据陈旧、不确定或过时，该案件已被存档或搁置。",
+  "profile_history_friends_refriended_badge": "重新加为好友",
+  "profile_history_friends_refriended_tooltip": "该用户之前已被解除好友关系并重新添加（共计 {count} 次好友关系）",
+  "profile_history_friends_history_title": "好友历史记录（共 {count} 段）",
+  "profile_history_friends_history_toggle": "{count} 段好友关系",
+  "profile_history_friends_period_active": "当前时期",
+  "profile_history_friends_period_past": "过去的时期",
+  "profile_history_friends_hide_history": "隐藏历史",
+  "profile_history_friends_close": "关闭"
 }

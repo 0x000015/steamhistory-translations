@@ -928,5 +928,13 @@
   "profile_shadefall_legend_aimbot": "Automatyczne wspomaganie celowania, które samoczynnie namierza i trafia cele w zasięgu.",
   "profile_shadefall_legend_stasis": "Status zgłoszenia oznaczający, że sprawa została zarchiwizowana lub wstrzymana z powodu starych, niejednoznacznych lub nieaktualnych dowodów.",
   "supporter_linking_li1": "Going to your <a href='{base_url}/account#supporter-status' class='link link-primary'>account page</a>",
-  "faq_q3_p1": "You can become a supporter by using Ko-Fi and visiting our <a href='{base_url}/supporter' target='_blank' rel='noopener noreferrer' class='link link-primary'>Supporter page</a>. Supporters get access to exclusive features like profile customization."
+  "faq_q3_p1": "You can become a supporter by using Ko-Fi and visiting our <a href='{base_url}/supporter' target='_blank' rel='noopener noreferrer' class='link link-primary'>Supporter page</a>. Supporters get access to exclusive features like profile customization.",
+  "profile_history_friends_refriended_badge": "Ponownie dodany",
+  "profile_history_friends_refriended_tooltip": "Ten użytkownik został wcześniej usunięty ze znajomych i dodany ponownie (łącznie {count} relacji)",
+  "profile_history_friends_history_title": "Historia znajomości ({count} okresów)",
+  "profile_history_friends_history_toggle": "{count} okresów znajomości",
+  "profile_history_friends_period_active": "Obecny okres",
+  "profile_history_friends_period_past": "Poprzedni okres",
+  "profile_history_friends_hide_history": "Ukryj historię",
+  "profile_history_friends_close": "Zamknij"
 }

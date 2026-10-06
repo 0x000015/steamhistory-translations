@@ -881,5 +881,13 @@
   "profile_shadefall_legend_fake_angles": "Täuscht die visuelle Richtung vor, in die ein Spieler zu schauen scheint, während seine tatsächliche Hitbox und Ausrichtung woanders hinzeigen.",
   "profile_shadefall_legend_angle_history": "Erkennt sofortige, unnatürliche Winkelschnappschüsse (wie das Verfolgen durch einen Silent-Aimbot), die die normale menschliche Geschwindigkeit überschreiten.",
   "profile_shadefall_legend_aimbot": "Automatische Zielhilfe, die Ziele in Reichweite automatisch erfasst und trifft.",
-  "profile_shadefall_legend_stasis": "Ein Berichtsstatus, der bedeutet, dass der Fall aufgrund alter, nicht schlüssiger oder veralteter Beweise archiviert oder zurückgestellt wurde."
+  "profile_shadefall_legend_stasis": "Ein Berichtsstatus, der bedeutet, dass der Fall aufgrund alter, nicht schlüssiger oder veralteter Beweise archiviert oder zurückgestellt wurde.",
+  "profile_history_friends_refriended_badge": "Wiederbefreundet",
+  "profile_history_friends_refriended_tooltip": "Dieser Benutzer war zuvor entfreundet und erneut hinzugefügt ({count} Freundschaften insgesamt)",
+  "profile_history_friends_history_title": "Freundschaftsverlauf ({count} Zeiträume)",
+  "profile_history_friends_history_toggle": "{count} Freundschaftszeiträume",
+  "profile_history_friends_period_active": "Aktueller Zeitraum",
+  "profile_history_friends_period_past": "Früherer Zeitraum",
+  "profile_history_friends_hide_history": "Verlauf ausblenden",
+  "profile_history_friends_close": "Schließen"
 }

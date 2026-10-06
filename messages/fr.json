@@ -881,5 +881,13 @@
   "profile_shadefall_legend_fake_angles": "Modifie la direction visuelle dans laquelle un joueur semble regarder, tandis que sa véritable hitbox et son orientation pointent ailleurs.",
   "profile_shadefall_legend_angle_history": "Détecte les mouvements d'angle instantanés et non naturels (tels que le suivi par aimbot silencieux) qui dépassent la vitesse humaine normale.",
   "profile_shadefall_legend_aimbot": "Assistance de visée automatisée qui verrouille et touche automatiquement les cibles à portée.",
-  "profile_shadefall_legend_stasis": "Un statut de signalement signifiant que le cas est archivé ou en attente en raison de preuves anciennes, non concluantes ou obsolètes."
+  "profile_shadefall_legend_stasis": "Un statut de signalement signifiant que le cas est archivé ou en attente en raison de preuves anciennes, non concluantes ou obsolètes.",
+  "profile_history_friends_refriended_badge": "Réajouté",
+  "profile_history_friends_refriended_tooltip": "Cet utilisateur a été retiré des amis puis réajouté ({count} amitiés au total)",
+  "profile_history_friends_history_title": "Historique d'amitié ({count} périodes)",
+  "profile_history_friends_history_toggle": "{count} périodes d'amitié",
+  "profile_history_friends_period_active": "Période actuelle",
+  "profile_history_friends_period_past": "Période passée",
+  "profile_history_friends_hide_history": "Masquer l'historique",
+  "profile_history_friends_close": "Fermer"
 }

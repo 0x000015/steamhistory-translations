@@ -928,5 +928,13 @@
   "profile_shadefall_legend_aimbot": "Автоматический помощник прицеливания, который автоматически захватывает и поражает цели в зоне досягаемости.",
   "profile_shadefall_legend_stasis": "Статус жалобы, означающий, что дело архивировано или отложено из-за старых, неубедительных или устаревших доказательств.",
   "supporter_linking_li1": "Going to your <a href='{base_url}/account#supporter-status' class='link link-primary'>account page</a>",
-  "faq_q3_p1": "You can become a supporter by using Ko-Fi and visiting our <a href='{base_url}/supporter' target='_blank' rel='noopener noreferrer' class='link link-primary'>Supporter page</a>. Supporters get access to exclusive features like profile customization."
+  "faq_q3_p1": "You can become a supporter by using Ko-Fi and visiting our <a href='{base_url}/supporter' target='_blank' rel='noopener noreferrer' class='link link-primary'>Supporter page</a>. Supporters get access to exclusive features like profile customization.",
+  "profile_history_friends_refriended_badge": "Добавлен повторно",
+  "profile_history_friends_refriended_tooltip": "Этот пользователь был удален из друзей и добавлен снова (всего интервалов: {count})",
+  "profile_history_friends_history_title": "История дружбы ({count} интервалов)",
+  "profile_history_friends_history_toggle": "{count} периодов дружбы",
+  "profile_history_friends_period_active": "Текущий период",
+  "profile_history_friends_period_past": "Прошлый период",
+  "profile_history_friends_hide_history": "Скрыть историю",
+  "profile_history_friends_close": "Закрыть"
 }

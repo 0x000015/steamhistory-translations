@@ -881,5 +881,13 @@
   "profile_shadefall_legend_fake_angles": "Bootst de visuele richting na waarin een speler lijkt te kijken, terwijl hun werkelijke hitbox en oriëntatie ergens anders naar wijzen.",
   "profile_shadefall_legend_angle_history": "Detecteert onmiddellijke, onnatuurlijke hoeksprongen (zoals silent aimbot-tracking) die de normale menselijke snelheid overschrijden.",
   "profile_shadefall_legend_aimbot": "Geautomatiseerde richtassistentie die automatisch doelen binnen bereik vergrendelt en raakt.",
-  "profile_shadefall_legend_stasis": "Een rapportstatus die betekent dat de zaak is gearchiveerd of in de wacht gezet vanwege oud, niet-sluitend of verouderd bewijs."
+  "profile_shadefall_legend_stasis": "Een rapportstatus die betekent dat de zaak is gearchiveerd of in de wacht gezet vanwege oud, niet-sluitend of verouderd bewijs.",
+  "profile_history_friends_refriended_badge": "Opnieuw bevriend",
+  "profile_history_friends_refriended_tooltip": "Deze gebruiker is eerder ontvriend en opnieuw toegevoegd ({count} vriendschappen in totaal)",
+  "profile_history_friends_history_title": "Vriendschapsgeschiedenis ({count} perioden)",
+  "profile_history_friends_history_toggle": "{count} vriendschapsperioden",
+  "profile_history_friends_period_active": "Huidige periode",
+  "profile_history_friends_period_past": "Eerdere periode",
+  "profile_history_friends_hide_history": "Geschiedenis verbergen",
+  "profile_history_friends_close": "Sluiten"
 }
